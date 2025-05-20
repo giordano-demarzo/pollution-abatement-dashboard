@@ -138,7 +138,7 @@ const PatentRankingBox = ({
       }
       
       // If no specific BREF score found, return base pollutant score as fallback
-      return patent.score || 0;
+      return 0;
     }
     
     // When only pollutant is selected, use pollutant score
