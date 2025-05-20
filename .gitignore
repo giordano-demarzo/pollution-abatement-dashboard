@@ -1,0 +1,19 @@
+# Environment files - never commit these
+.env
+.env.local
+.env.*
+
+# Build outputs
+assets/dashboard.bundle.js
+assets/dashboard.bundle.js.map
+
+# Node modules
+node_modules/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db

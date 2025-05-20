@@ -1,0 +1,72 @@
+// api/openai.js
+
+import OpenAI from 'openai';
+
+// Initialize the OpenAI client with your API key from environment variables
+// This should only run on the server side
+const openai = new OpenAI({
+  apiKey: process.env.OPENAI_API_KEY, // This is loaded by the server environment
+});
+
+/**
+ * API handler for OpenAI GPT-4o requests
+ * @param {Object} req - Express request object
+ * @param {Object} res - Express response object
+ */
+export default async function handler(req, res) {
+  // Only allow POST requests
+  if (req.method !== 'POST') {
+    return res.status(405).json({ error: 'Method not allowed' });
+  }
+  
+  try {
+    // Verify API key is available
+    if (!process.env.OPENAI_API_KEY) {
+      console.error('Missing OpenAI API key in environment variables');
+      return res.status(500).json({ error: 'Server configuration error. API key missing.' });
+    }
+    
+    const requestBody = req.body;
+    
+    // Validate required fields
+    if (!requestBody.input || !requestBody.model) {
+      return res.status(400).json({ error: 'Missing required fields: input and model' });
+    }
+    
+    // Call the OpenAI API using the Node.js client
+    const response = await openai.responses.create({
+      model: requestBody.model,
+      input: requestBody.input,
+      text: requestBody.text || { format: { type: "text" } },
+      reasoning: requestBody.reasoning || {},
+      tools: requestBody.tools || [],
+      temperature: requestBody.temperature || 0.7,
+      max_output_tokens: requestBody.max_output_tokens || 2048,
+      top_p: requestBody.top_p || 1,
+      store: requestBody.store || true
+    });
+    
+    // Return the API response
+    return res.status(200).json({
+      text: response.text,
+      id: response.id,
+      model: response.model,
+      // Include other response properties as needed
+      response: response
+    });
+  } catch (error) {
+    console.error('Error calling OpenAI API:', error);
+    
+    // Handle different types of errors
+    if (error.status === 429) {
+      return res.status(429).json({ error: 'Rate limit exceeded. Please try again later.' });
+    } else if (error.status === 401) {
+      return res.status(401).json({ error: 'Invalid API key. Please check your OpenAI API key.' });
+    }
+    
+    return res.status(500).json({ 
+      error: 'Error calling OpenAI API', 
+      message: error.message
+    });
+  }
+}

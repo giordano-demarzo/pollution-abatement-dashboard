@@ -1,0 +1,12 @@
+title: Pollution Abatement Dashboard
+description: Dashboard for analyzing pollution abatement technologies
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor

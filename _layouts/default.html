@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>
+    {% if page.title %}{{ page.title }} – {% endif %}
+    {{ site.title | default: "Pollution Abatement Dashboard" }}
+  </title>
+
+  <!-- ‼ Tailwind – choose ONE of the two lines below -------------- -->
+  <!-- Option A: CSS -->
+  <!-- Option B: JS injector -->
+  <script src="https://cdn.tailwindcss.com/3.4.4"></script>
+  <!-- -------------------------------------------------------------- -->
+</head>
+<body class="antialiased bg-gray-100">
+  {{ content }}
+</body>
+</html>
+
