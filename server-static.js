@@ -24,25 +24,60 @@ const openaiBaseUrl = 'https://api.openai.com/v1';
 app.use(cors());
 app.use(express.json({ limit: '10mb' }));
 
-// Serve static files - look for assets directory
-const staticPath = path.join(__dirname, 'assets');
-if (fs.existsSync(staticPath)) {
-  console.log(`Serving static files from: ${staticPath}`);
-  app.use('/assets', express.static(staticPath));
+// Serve assets directory
+const assetsPath = path.join(__dirname, 'assets');
+if (fs.existsSync(assetsPath)) {
+  console.log(`Serving assets files from: ${assetsPath}`);
+  app.use('/assets', express.static(assetsPath));
 } else {
-  console.error(`Static directory not found: ${staticPath}`);
+  console.error(`Assets directory not found: ${assetsPath}`);
 }
 
-// Health check endpoint
+// Serve optimized_data directory
+const optimizedDataPath = path.join(__dirname, 'optimized_data');
+if (fs.existsSync(optimizedDataPath)) {
+  console.log(`Serving optimized data files from: ${optimizedDataPath}`);
+  app.use('/optimized_data', express.static(optimizedDataPath));
+} else {
+  console.error(`Optimized data directory not found: ${optimizedDataPath}`);
+}
+
+// Serve processed_data directory
+const processedDataPath = path.join(__dirname, 'processed_data');
+if (fs.existsSync(processedDataPath)) {
+  console.log(`Serving processed data files from: ${processedDataPath}`);
+  app.use('/processed_data', express.static(processedDataPath));
+} else {
+  console.error(`Processed data directory not found: ${processedDataPath}`);
+}
+
+// Health check endpoint with debugging info
 app.get('/health', (req, res) => {
+  // List directories to help with debugging
+  const directoryMap = {};
+  const dirs = ['assets', 'optimized_data', 'processed_data', '.'];
+  
+  dirs.forEach(dir => {
+    const dirPath = path.join(__dirname, dir);
+    try {
+      if (fs.existsSync(dirPath)) {
+        directoryMap[dir] = fs.readdirSync(dirPath).slice(0, 10); // Show first 10 files
+      } else {
+        directoryMap[dir] = 'Directory not found';
+      }
+    } catch (error) {
+      directoryMap[dir] = `Error reading directory: ${error.message}`;
+    }
+  });
+  
   res.status(200).json({ 
     status: 'ok', 
     message: 'Server is running',
-    staticPath: staticPath,
-    staticExists: fs.existsSync(staticPath),
+    directories: directoryMap,
     env: {
       apiKeyExists: !!process.env.OPENAI_API_KEY,
-      nodeEnv: process.env.NODE_ENV
+      nodeEnv: process.env.NODE_ENV,
+      publicUrl: process.env.PUBLIC_URL || 'Not set'
     }
   });
 });
@@ -121,6 +156,44 @@ app.post('/api/openai', async (req, res) => {
     res.status(error.response ? error.response.status : 500).json({
       error: 'Error processing your request',
       details: error.response ? error.response.data : error.message
+    });
+  }
+});
+
+// Add file logging route for debugging
+app.get('/api/file-check', (req, res) => {
+  const filePath = req.query.path;
+  if (!filePath) {
+    return res.status(400).json({ error: 'No file path provided' });
+  }
+
+  const fullPath = path.join(__dirname, filePath);
+  
+  try {
+    if (fs.existsSync(fullPath)) {
+      if (fs.statSync(fullPath).isDirectory()) {
+        const files = fs.readdirSync(fullPath);
+        return res.json({ 
+          exists: true, 
+          isDirectory: true, 
+          files: files.slice(0, 20) // List up to 20 files
+        });
+      } else {
+        const fileContent = fs.readFileSync(fullPath, 'utf8');
+        return res.json({ 
+          exists: true, 
+          isDirectory: false, 
+          size: fs.statSync(fullPath).size,
+          preview: fileContent.slice(0, 1000) // First 1000 chars
+        });
+      }
+    } else {
+      return res.json({ exists: false });
+    }
+  } catch (error) {
+    return res.status(500).json({ 
+      error: 'Error checking file', 
+      message: error.message 
     });
   }
 });
@@ -270,4 +343,14 @@ app.get('*', (req, res) => {
 app.listen(PORT, function() {
   console.log('Server is running on port ' + PORT);
   console.log('OpenAI API endpoint: /api/openai');
+  
+  // Log available directories for debugging
+  ['assets', 'optimized_data', 'processed_data'].forEach(dir => {
+    const dirPath = path.join(__dirname, dir);
+    if (fs.existsSync(dirPath)) {
+      console.log(`${dir} directory exists`);
+    } else {
+      console.log(`${dir} directory does not exist`);
+    }
+  });
 });
