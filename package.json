@@ -5,12 +5,8 @@
   "scripts": {
     "dev": "node build-scripts/dev.js",
     "build": "node build-scripts/build.js",
-    "build:site": "npm run build && bundle exec jekyll build",
-    "serve": "bundle exec jekyll serve",
-    "server": "node server-axios.js",
-    "dev:server": "nodemon server-axios.js",
-    "start": "node server-axios.js",
-    "postinstall": "npm run build:site"
+    "server": "node server-static.js",
+    "start": "node server-static.js"
   },
   "dependencies": {
     "axios": "^0.21.4",
