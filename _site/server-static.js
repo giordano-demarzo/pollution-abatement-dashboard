@@ -6,6 +6,95 @@ const axios = require('axios');
 const path = require('path');
 const fs = require('fs');
 
+// Function to recursively copy directories
+const copyDirRecursively = (src, dest) => {
+  // Check if source exists
+  if (!fs.existsSync(src)) {
+    console.error(`Source directory does not exist: ${src}`);
+    return false;
+  }
+
+  // Create destination if it doesn't exist
+  if (!fs.existsSync(dest)) {
+    fs.mkdirSync(dest, { recursive: true });
+  }
+
+  // Read source directory
+  const entries = fs.readdirSync(src, { withFileTypes: true });
+
+  let successful = true;
+  
+  // Copy each entry
+  for (const entry of entries) {
+    const srcPath = path.join(src, entry.name);
+    const destPath = path.join(dest, entry.name);
+    
+    if (entry.isDirectory()) {
+      // Recursively copy directory
+      const subDirSuccess = copyDirRecursively(srcPath, destPath);
+      if (!subDirSuccess) {
+        successful = false;
+      }
+    } else {
+      // Copy file
+      try {
+        fs.copyFileSync(srcPath, destPath);
+        console.log(`Copied file: ${srcPath} to ${destPath}`);
+      } catch (error) {
+        console.error(`Error copying file ${srcPath} to ${destPath}: ${error.message}`);
+        successful = false;
+      }
+    }
+  }
+  
+  return successful;
+};
+
+// Function to ensure data files are available
+const ensureDataFilesExist = () => {
+  console.log('Checking for data files...');
+  
+  // Check if optimized_data directory exists and has files
+  const optimizedDataPath = path.join(__dirname, 'optimized_data');
+  let optimizedDataHasFiles = false;
+  
+  if (fs.existsSync(optimizedDataPath)) {
+    const files = fs.readdirSync(optimizedDataPath);
+    optimizedDataHasFiles = files.length > 0;
+    console.log(`optimized_data directory has ${files.length} files.`);
+  }
+  
+  if (!optimizedDataHasFiles) {
+    console.log('Optimized data directory missing or empty, will try to copy from other locations...');
+    
+    // Try to find data in different locations
+    const possibleSourceDirs = [
+      // Check if files are in the cloned Git repository
+      path.join(__dirname, '.git', 'optimized_data'),
+      path.join(__dirname, 'github', 'optimized_data'),
+      // Try parent directories
+      path.join(__dirname, '..', 'optimized_data'),
+      path.join(__dirname, '..', '..', 'optimized_data'),
+      // Try hidden directories where files might be cached
+      path.join(__dirname, '.cache', 'optimized_data'),
+      path.join(__dirname, '.render', 'optimized_data')
+    ];
+    
+    // Try to copy from each possible source location
+    for (const sourceDir of possibleSourceDirs) {
+      if (fs.existsSync(sourceDir)) {
+        console.log(`Found data files in ${sourceDir}, copying to ${optimizedDataPath}...`);
+        if (copyDirRecursively(sourceDir, optimizedDataPath)) {
+          console.log('Successfully copied data files!');
+          break;
+        }
+      }
+    }
+  } else {
+    console.log('Optimized data directory exists and has files.');
+  }
+};
+
 // Initialize Express app
 const app = express();
 const PORT = process.env.PORT || 10000;
@@ -24,6 +113,9 @@ const openaiBaseUrl = 'https://api.openai.com/v1';
 app.use(cors());
 app.use(express.json({ limit: '10mb' }));
 
+// Ensure data files exist
+ensureDataFilesExist();
+
 // Serve assets directory
 const assetsPath = path.join(__dirname, 'assets');
 if (fs.existsSync(assetsPath)) {
@@ -40,6 +132,21 @@ if (fs.existsSync(optimizedDataPath)) {
   app.use('/optimized_data', express.static(optimizedDataPath));
 } else {
   console.error(`Optimized data directory not found: ${optimizedDataPath}`);
+  
+  // Create the directory if it doesn't exist
+  try {
+    fs.mkdirSync(path.join(__dirname, 'optimized_data'), { recursive: true });
+    fs.mkdirSync(path.join(__dirname, 'optimized_data', 'pollutants'), { recursive: true });
+    fs.mkdirSync(path.join(__dirname, 'optimized_data', 'pollutant_bref_hierarchies'), { recursive: true });
+    fs.mkdirSync(path.join(__dirname, 'optimized_data', 'bref_relevance'), { recursive: true });
+    fs.mkdirSync(path.join(__dirname, 'optimized_data', 'sdgs'), { recursive: true });
+    console.log('Created optimized_data directories');
+  } catch (err) {
+    console.error('Error creating optimized_data directories:', err);
+  }
+  
+  // Serve the directory anyway
+  app.use('/optimized_data', express.static(optimizedDataPath));
 }
 
 // Serve processed_data directory
@@ -62,6 +169,19 @@ app.get('/health', (req, res) => {
     try {
       if (fs.existsSync(dirPath)) {
         directoryMap[dir] = fs.readdirSync(dirPath).slice(0, 10); // Show first 10 files
+        
+        // Also show subdirectories for optimized_data
+        if (dir === 'optimized_data') {
+          directoryMap[`${dir}_subdirs`] = {};
+          ['pollutants', 'pollutant_bref_hierarchies', 'bref_relevance', 'sdgs'].forEach(subdir => {
+            const subdirPath = path.join(dirPath, subdir);
+            if (fs.existsSync(subdirPath)) {
+              directoryMap[`${dir}_subdirs`][subdir] = fs.readdirSync(subdirPath).slice(0, 5);
+            } else {
+              directoryMap[`${dir}_subdirs`][subdir] = 'Directory not found';
+            }
+          });
+        }
       } else {
         directoryMap[dir] = 'Directory not found';
       }
@@ -80,6 +200,134 @@ app.get('/health', (req, res) => {
       publicUrl: process.env.PUBLIC_URL || 'Not set'
     }
   });
+});
+
+// File explorer endpoint for debugging data locations
+app.get('/api/explorer', (req, res) => {
+  const basePath = req.query.path || '.';
+  const fullPath = path.join(__dirname, basePath);
+  
+  try {
+    // Check if path exists
+    if (!fs.existsSync(fullPath)) {
+      return res.status(404).json({ error: 'Path not found', path: fullPath });
+    }
+    
+    // Get path stats
+    const stats = fs.statSync(fullPath);
+    
+    // Handle directory
+    if (stats.isDirectory()) {
+      const files = fs.readdirSync(fullPath);
+      const fileDetails = files.map(file => {
+        const filePath = path.join(fullPath, file);
+        try {
+          const fileStats = fs.statSync(filePath);
+          return {
+            name: file,
+            isDirectory: fileStats.isDirectory(),
+            size: fileStats.size,
+            modified: fileStats.mtime
+          };
+        } catch (error) {
+          return {
+            name: file,
+            error: error.message
+          };
+        }
+      });
+      
+      return res.json({
+        path: fullPath,
+        isDirectory: true,
+        files: fileDetails
+      });
+    }
+    
+    // Handle file
+    if (stats.isFile()) {
+      // For JSON files, return the content
+      if (fullPath.endsWith('.json')) {
+        try {
+          const content = fs.readFileSync(fullPath, 'utf8');
+          const jsonContent = JSON.parse(content);
+          return res.json({
+            path: fullPath,
+            isDirectory: false,
+            fileSize: stats.size,
+            modified: stats.mtime,
+            content: jsonContent
+          });
+        } catch (error) {
+          return res.json({
+            path: fullPath,
+            isDirectory: false,
+            fileSize: stats.size,
+            modified: stats.mtime,
+            error: `Error reading JSON: ${error.message}`
+          });
+        }
+      }
+      
+      // For other files, return basic info
+      return res.json({
+        path: fullPath,
+        isDirectory: false,
+        fileSize: stats.size,
+        modified: stats.mtime
+      });
+    }
+    
+    // Unknown file type
+    return res.json({
+      path: fullPath,
+      error: 'Unknown file type'
+    });
+  } catch (error) {
+    return res.status(500).json({
+      error: `Error exploring path: ${error.message}`,
+      path: fullPath
+    });
+  }
+});
+
+// File content endpoint for downloading files
+app.get('/api/file-content', (req, res) => {
+  const filePath = req.query.path;
+  if (!filePath) {
+    return res.status(400).json({ error: 'No file path provided' });
+  }
+
+  const fullPath = path.join(__dirname, filePath);
+  
+  try {
+    if (!fs.existsSync(fullPath)) {
+      return res.status(404).json({ error: 'File not found', path: fullPath });
+    }
+    
+    if (fs.statSync(fullPath).isDirectory()) {
+      return res.status(400).json({ error: 'Path is a directory, not a file', path: fullPath });
+    }
+    
+    // Read the file
+    const content = fs.readFileSync(fullPath, 'utf8');
+    
+    // If JSON, parse it
+    if (fullPath.endsWith('.json')) {
+      try {
+        const jsonContent = JSON.parse(content);
+        return res.json(jsonContent);
+      } catch (error) {
+        return res.status(500).json({ error: `Error parsing JSON: ${error.message}` });
+      }
+    }
+    
+    // Otherwise return as text
+    res.set('Content-Type', 'text/plain');
+    return res.send(content);
+  } catch (error) {
+    return res.status(500).json({ error: `Error reading file: ${error.message}` });
+  }
 });
 
 // OpenAI API endpoint
