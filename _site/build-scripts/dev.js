@@ -1,9 +1,29 @@
 // build-scripts/dev.js
 const { build } = require('esbuild');
+const fs = require('fs');
+const path = require('path');
 
-// Manually load any environment variables needed
-// Instead of using dotenv which causes issues with esbuild
-const PUBLIC_API_URL = process.env.PUBLIC_API_URL || '/api/openai';
+// Load environment variables from .env.local
+let envVars = {};
+try {
+  const envFile = fs.readFileSync(path.join(process.cwd(), '.env.local'), 'utf8');
+  envFile.split('\n').forEach(line => {
+    const match = line.match(/^([^=]+)=(.*)$/);
+    if (match) {
+      const key = match[1].trim();
+      const value = match[2].trim();
+      envVars[key] = value;
+    }
+  });
+  console.log('Loaded environment variables from .env.local');
+} catch (error) {
+  console.warn('Could not load .env.local file:', error.message);
+}
+
+// Manually set the API URL if not found in env file
+const PUBLIC_API_URL = envVars.PUBLIC_API_URL || process.env.PUBLIC_API_URL || 'http://localhost:5001/api/openai';
+
+console.log('Using PUBLIC_API_URL:', PUBLIC_API_URL);
 
 // Function to handle process.env variables safely
 const defineEnv = () => {
@@ -30,6 +50,7 @@ build({
   external: ['path', 'fs', 'os', 'crypto', 'dotenv'],
 }).then(() => {
   console.log('Build started in watch mode at', new Date().toLocaleTimeString());
+  console.log('Environment variables defined:', defineEnv());
   console.log('Waiting for changes...');
 }).catch((error) => {
   console.error('Build failed:', error);

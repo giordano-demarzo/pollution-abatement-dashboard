@@ -4,12 +4,22 @@
  * Service for handling communication with the OpenAI API
  */
 
-// Get API URL from environment or use default
-const API_URL = process.env.PUBLIC_API_URL || '/api/openai';
+// Determine API URL based on environment
+// In production (like Render), API requests go to the same host
+const isProduction = window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1';
+const API_URL = isProduction 
+  ? '/api/openai' // Same domain in production
+  : 'http://localhost:5001/api/openai'; // Local development server
+
+// Log the API URL for debugging
+console.log('Using API URL:', API_URL);
 
 // Function to call the OpenAI API
 export const callOpenAI = async (userMessage, systemPrompt, chatHistory = []) => {
   try {
+    console.log('Calling OpenAI API with system prompt and user message');
+    console.log('API URL being used:', API_URL);
+    
     // Create the request body for the OpenAI API
     const requestBody = {
       model: "gpt-4o",
@@ -66,6 +76,8 @@ export const callOpenAI = async (userMessage, systemPrompt, chatHistory = []) =>
       ]
     });
     
+    console.log('Making API request to backend at:', API_URL);
+    
     // Make the API call to our backend endpoint (not directly to OpenAI)
     const response = await fetch(API_URL, {
       method: 'POST',
@@ -76,10 +88,13 @@ export const callOpenAI = async (userMessage, systemPrompt, chatHistory = []) =>
     });
     
     if (!response.ok) {
-      throw new Error(`API request failed with status ${response.status}`);
+      const errorText = await response.text();
+      console.error('API request failed:', response.status, errorText);
+      throw new Error(`API request failed with status ${response.status}: ${errorText}`);
     }
     
     const data = await response.json();
+    console.log('Received response from API');
     
     // Extract the assistant's response
     const assistantResponse = data.text || 

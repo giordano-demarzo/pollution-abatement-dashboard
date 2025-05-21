@@ -2,6 +2,8 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import { MessageSquare, Trash2, Send, AlertCircle } from 'lucide-react';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import { callOpenAI } from '../utils/chatApiService';
 import {
   createSystemPrompt,
@@ -161,6 +163,54 @@ const ChatInterface = ({
     handleSendMessage(message);
   };
 
+  // Custom renderer for message content - uses markdown for assistant messages only
+  const MessageContent = ({ message }) => {
+    if (message.sender === 'assistant') {
+      return (
+        <div className="markdown-content">
+          <ReactMarkdown 
+            remarkPlugins={[remarkGfm]} 
+            components={{
+              h1: ({ node, ...props }) => <h1 className="text-xl font-bold mt-4 mb-2" {...props} />,
+              h2: ({ node, ...props }) => <h2 className="text-lg font-bold mt-3 mb-2" {...props} />,
+              h3: ({ node, ...props }) => <h3 className="text-md font-bold mt-2 mb-1" {...props} />,
+              h4: ({ node, ...props }) => <h4 className="font-bold mt-2 mb-1" {...props} />,
+              p: ({ node, ...props }) => <p className="mb-2" {...props} />,
+              ul: ({ node, ...props }) => <ul className="list-disc pl-5 mb-2" {...props} />,
+              ol: ({ node, ...props }) => <ol className="list-decimal pl-5 mb-2" {...props} />,
+              li: ({ node, ...props }) => <li className="mb-1" {...props} />,
+              a: ({ node, ...props }) => <a className="text-blue-600 hover:underline" {...props} />,
+              blockquote: ({ node, ...props }) => (
+                <blockquote className="border-l-4 border-gray-300 pl-3 italic my-2" {...props} />
+              ),
+              code: ({ node, inline, ...props }) => 
+                inline ? 
+                  <code className="bg-gray-100 px-1 rounded" {...props} /> : 
+                  <code className="block bg-gray-100 p-2 rounded my-2 whitespace-pre-wrap overflow-x-auto" {...props} />,
+              strong: ({ node, ...props }) => <strong className="font-bold" {...props} />,
+              em: ({ node, ...props }) => <em className="italic" {...props} />,
+              table: ({ node, ...props }) => (
+                <div className="overflow-x-auto my-2">
+                  <table className="min-w-full border border-gray-300" {...props} />
+                </div>
+              ),
+              thead: ({ node, ...props }) => <thead className="bg-gray-100" {...props} />,
+              tbody: ({ node, ...props }) => <tbody {...props} />,
+              tr: ({ node, ...props }) => <tr className="border-b border-gray-300" {...props} />,
+              th: ({ node, ...props }) => <th className="px-4 py-2 text-left font-bold" {...props} />,
+              td: ({ node, ...props }) => <td className="px-4 py-2" {...props} />
+            }}
+          >
+            {message.text}
+          </ReactMarkdown>
+        </div>
+      );
+    }
+    
+    // For non-assistant messages, just return the text
+    return <div>{message.text}</div>;
+  };
+
   return (
     <div className="flex flex-col h-full">
       <div className="bg-gradient-to-r from-blue-700 to-blue-600 text-white p-3 rounded-t-lg">
@@ -249,7 +299,7 @@ const ChatInterface = ({
                   : 'bg-green-50 mr-6 border-green-100'
             } p-3 rounded-lg border shadow-sm`}
           >
-            {msg.text}
+            <MessageContent message={msg} />
           </div>
         ))}
         

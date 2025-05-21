@@ -7,19 +7,29 @@
     "build": "node build-scripts/build.js",
     "build:site": "npm run build && bundle exec jekyll build",
     "serve": "bundle exec jekyll serve",
-    "test": "echo \"No tests yet\""
+    "server": "node server-axios.js",
+    "dev:server": "nodemon server-axios.js",
+    "start": "node server-axios.js",
+    "postinstall": "npm run build:site"
   },
   "dependencies": {
+    "axios": "^0.21.4",
+    "cors": "^2.8.5",
     "dotenv": "^16.5.0",
+    "express": "^4.18.2",
     "lucide-react": "^0.503.0",
-    "openai": "^4.28.0",
     "papaparse": "^5.4.1",
     "react": "^18.3.0",
     "react-dom": "^18.3.0",
-    "recharts": "^2.15.3"
+    "react-markdown": "^8.0.7",
+    "recharts": "^2.15.3",
+    "remark-gfm": "^3.0.1"
   },
   "devDependencies": {
-    "esbuild": "^0.25.3"
+    "esbuild": "^0.25.3",
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }
-
