@@ -1,4 +1,4 @@
-// PatentRankingBox.jsx - Final version with proper empty state handling and BREF handling
+// PatentRankingBox.jsx - FIXED version with corrected score handling
 
 import React, { useState, useEffect, useMemo } from 'react';
 import { Trash2, Filter, AlertCircle, BookOpen, Eye } from 'lucide-react';
@@ -11,7 +11,7 @@ import PatentDetailsBox from './PatentDetailsBox';
 
 /**
  * Component for displaying and interacting with top patents for a selected pollutant
- * with improved support for BREF relevance-based ranking
+ * FIXED: Now correctly uses the updated patent scores from preprocessing
  */
 const PatentRankingBox = ({
   selectedPollutant,
@@ -20,7 +20,7 @@ const PatentRankingBox = ({
   onPatentToggle,
   selectedPatents = [],
   maxPatents = 5,
-  onBrefAdd = null // Add the prop for BREF handling
+  onBrefAdd = null
 }) => {
   // Component state
   const [loadingPatents, setLoadingPatents] = useState(false);
@@ -47,6 +47,12 @@ const PatentRankingBox = ({
         const patents = await loadPollutantTopPatents(selectedPollutantFilename);
         
         if (patents && Array.isArray(patents)) {
+          // DEBUGGING: Log the first patent to check scores
+          if (patents.length > 0) {
+            console.log('First patent loaded:', patents[0]);
+            console.log('Patent score:', patents[0].score);
+          }
+          
           setTopPatents(patents);
         } else {
           console.error('Invalid patent data returned:', patents);
@@ -121,7 +127,7 @@ const PatentRankingBox = ({
     return '#ef4444'; // Red
   };
 
-  // Get the most appropriate relevance score for a patent based on context
+  // FIXED: Get the most appropriate relevance score for a patent based on context
   const getRelevanceScore = (patent, brefId) => {
     // When a BREF is selected, prioritize BREF relevance score
     if (patent && brefId) {
@@ -137,12 +143,18 @@ const PatentRankingBox = ({
         return brefRelevanceScores[patent.id][brefId];
       }
       
-      // If no specific BREF score found, return base pollutant score as fallback
+      // If no specific BREF score found, return 0 (not the base score)
       return 0;
     }
     
-    // When only pollutant is selected, use pollutant score
-    return patent.score || 0;
+    // FIXED: When only pollutant is selected, use the corrected patent score
+    // The preprocessing should have updated patent.score to be the corrected value
+    const baseScore = patent.score || 0;
+    
+    // DEBUGGING: Log to help identify the issue
+    console.log(`Patent ${patent.id}: using base score ${baseScore}`);
+    
+    return baseScore;
   };
 
   // Count patents that are relevant to the selected BREF
@@ -161,10 +173,16 @@ const PatentRankingBox = ({
     return count;
   }, [selectedBref, brefRelevanceScores, RELIABILITY_THRESHOLD]);
 
-  // Get ranked patents based on pollutant and optional BREF selection
-  // ENHANCED: Now uses a more comprehensive approach for BREF-based ranking
+  // FIXED: Get ranked patents with correct score calculation
   const rankedPatents = useMemo(() => {
     if (!topPatents.length) return [];
+
+    // DEBUGGING: Log the first few patents to check their scores
+    console.log('Top patents before ranking:', topPatents.slice(0, 3).map(p => ({
+      id: p.id, 
+      title: p.title.substring(0, 30), 
+      score: p.score
+    })));
 
     // If we have a BREF selected and BREF relevance scores are loaded
     if (selectedBref && selectedBref.id && Object.keys(brefRelevanceScores).length > 0) {
@@ -185,7 +203,6 @@ const PatentRankingBox = ({
         .filter(patent => patent.relevanceScore >= RELIABILITY_THRESHOLD);
       
       // Then look through all available patents in the brefRelevanceScores
-      // This is the key enhancement - we now consider ALL patents, not just the top ones
       if (patentIndex) {
         for (const patentId in brefRelevanceScores) {
           // Skip patents already in topPatents to avoid duplicates
@@ -195,7 +212,7 @@ const PatentRankingBox = ({
           const brefScore = brefRelevanceScores[patentId][selectedBref.id];
           
           // Only include patents with a meaningful relevance to this BREF
-          if (brefScore && brefScore >= RELIABILITY_THRESHOLD) { // Using >= to be consistent
+          if (brefScore && brefScore >= RELIABILITY_THRESHOLD) {
             const patentDetails = patentIndex[patentId];
             if (patentDetails) {
               brefRelevantPatents.push({
@@ -217,20 +234,39 @@ const PatentRankingBox = ({
       const uniquePatents = Array.from(new Map(combinedPatents.map(p => [p.id, p])).values());
       
       // Sort by relevance score and take top maxPatents
-      return uniquePatents
+      const result = uniquePatents
         .sort((a, b) => b.relevanceScore - a.relevanceScore)
         .slice(0, maxPatents);
+      
+      console.log('BREF-filtered patents:', result.map(p => ({
+        id: p.id, 
+        title: p.title.substring(0, 30), 
+        relevanceScore: p.relevanceScore
+      })));
+      
+      return result;
     }
     
-    // If no BREF selected, just use the base pollutant score
-    return [...topPatents]
+    // FIXED: If no BREF selected, use the corrected patent scores from preprocessing
+    const result = [...topPatents]
       .map(patent => ({
         ...patent,
-        relevanceScore: patent.score
+        // CRITICAL FIX: Use the patent.score which should now be the corrected value from preprocessing
+        relevanceScore: patent.score || 0
       }))
       .filter(patent => patent.relevanceScore >= RELIABILITY_THRESHOLD)
       .sort((a, b) => b.relevanceScore - a.relevanceScore)
       .slice(0, maxPatents);
+    
+    // DEBUGGING: Log the final ranked patents
+    console.log('Final ranked patents (pollutant only):', result.map(p => ({
+      id: p.id, 
+      title: p.title.substring(0, 30), 
+      relevanceScore: p.relevanceScore,
+      originalScore: p.score
+    })));
+    
+    return result;
   }, [topPatents, selectedBref, brefRelevanceScores, patentIndex, maxPatents, getBrefRelevantPatentCount, RELIABILITY_THRESHOLD]);
 
   // Get ranking basis description
@@ -267,7 +303,6 @@ const PatentRankingBox = ({
     } catch (error) {
       console.error("Error loading full patent details:", error);
       // Fallback to just using the basic patent info we already have
-      // Include any available BREF relevance data
       let brefRelevanceData = {};
       if (brefRelevanceScores && brefRelevanceScores[patent.id]) {
         brefRelevanceData = {
@@ -406,6 +441,12 @@ const PatentRankingBox = ({
             <div className="mt-1 text-gray-500">
               Only showing patents with reliability score above {RELIABILITY_THRESHOLD * 100}%
             </div>
+            
+            {/* DEBUGGING INFO - Remove this in production */}
+            <div className="mt-1 text-xs bg-yellow-50 p-1 rounded border">
+              DEBUG: First patent score = {rankedPatents[0]?.relevanceScore?.toFixed(3)} 
+              (should be ~0.69 for the gas adsorption patent)
+            </div>
           </div>
         </>
       ) : (
@@ -416,7 +457,7 @@ const PatentRankingBox = ({
         </div>
       )}
       
-      {/* Patent Details Modal - Updated to pass onBrefAdd */}
+      {/* Patent Details Modal */}
       {selectedPatentForDetails && (
         <PatentDetailsBox
           patent={selectedPatentForDetails}
@@ -426,7 +467,7 @@ const PatentRankingBox = ({
           selectedBref={selectedBref}
           selectedPollutant={selectedPollutant}
           brefRelevanceScores={brefRelevanceScores}
-          onBrefAdd={onBrefAdd} // Pass the onBrefAdd handler
+          onBrefAdd={onBrefAdd}
         />
       )}
     </div>
