@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid } from 'recharts';
-import { MessageSquare, Search, Trash2, Filter, Info } from 'lucide-react';
+import { MessageSquare, Search, Trash2, Filter, Info, HelpCircle } from 'lucide-react';
 
 import OptimizedPatentSpace from './OptimizedPatentSpace';
 import HierarchicalBrefSelector from './HierarchicalBrefSelector';
@@ -10,6 +10,7 @@ import BrefTextDisplay from './BrefTextDisplay';
 import PollutantInfoBox from './PollutantInfoBox';
 import PatentRankingBox from './PatentRankingBox';
 import ChatInterface from './ChatInterface'; // Import the new chat interface component
+import AppInfoBox from './AppInfoBox'; // Import the new info box component
 
 import {
   loadDashboardSummary,
@@ -59,6 +60,7 @@ const OptimizedPollutionAbatementDashboard = () => {
   const [selectedPatents, setSelectedPatents] = useState([]);
   const [selectedBrefs, setSelectedBrefs] = useState([]); // State for selected BREFs
   const [showPollutantInfo, setShowPollutantInfo] = useState(false);
+  const [showAppInfo, setShowAppInfo] = useState(false); // New state for app info box
   const [infoBoxPollutant, setInfoBoxPollutant] = useState(null);
   const [pollutantSdgData, setPollutantSdgData] = useState(null); // New state for individual pollutant SDG data
   
@@ -374,15 +376,31 @@ const OptimizedPollutionAbatementDashboard = () => {
         </div>
       )}
       
-      <header className="bg-gradient-to-r from-blue-700 to-blue-600 text-white p-4 shadow-md">
-        <h1 className="text-2xl font-bold">Pollution Abatement Technology Dashboard</h1>
-        {dashboardSummary && (
-          <div className="text-xs text-blue-100 mt-1">
-            Data version: {dashboardSummary.creation_date || 'Unknown'} | 
-            Total patents: {dashboardSummary.totalPatents || 'Unknown'} | 
-            Pollutants: {dashboardSummary.totalPollutants || 'Unknown'}
+      <header className="bg-gradient-to-r from-green-600 via-blue-700 to-blue-600 text-white p-4 shadow-md">
+        <div className="flex justify-between items-center">
+          <div>
+            <h1 className="text-2xl font-bold">Pollution Abatement Technology Dashboard for SDGs</h1>
+            <p className="text-sm text-blue-100 mt-1">
+              Connecting pollution reduction technologies with EU regulations and UN Sustainable Development Goals
+            </p>
+            {dashboardSummary && (
+              <div className="text-xs text-blue-100 mt-1">
+                Data version: {dashboardSummary.creation_date || 'Unknown'} | 
+                Total patents: {dashboardSummary.totalPatents || 'Unknown'} | 
+                Pollutants: {dashboardSummary.totalPollutants || 'Unknown'}
+              </div>
+            )}
           </div>
-        )}
+          
+          {/* Help button in top right */}
+          <button
+            onClick={() => setShowAppInfo(true)}
+            className="bg-white bg-opacity-20 hover:bg-opacity-30 text-white p-2 rounded-full transition-colors"
+            title="How to use this dashboard"
+          >
+            <HelpCircle size={24} />
+          </button>
+        </div>
       </header>
       
       <div className="flex flex-1 overflow-hidden p-2">
@@ -412,6 +430,25 @@ const OptimizedPollutionAbatementDashboard = () => {
                 )}
               </div>
             </div>
+
+            {/* SDG Connection Notice */}
+            <div className="mb-4 p-3 bg-gradient-to-r from-green-50 to-blue-50 rounded-lg border border-green-200">
+              <div className="flex items-center">
+                <div className="bg-green-500 text-white rounded-full p-1 mr-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+                    <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
+                  </svg>
+                </div>
+                <div className="flex-1">
+                  <p className="text-sm font-medium text-green-800">
+                    🎯 <strong>Discover SDG Connections!</strong>
+                  </p>
+                  <p className="text-xs text-green-700 mt-1">
+                    Click the info button (ℹ️) on any pollutant card to explore its impact on UN Sustainable Development Goals.
+                  </p>
+                </div>
+              </div>
+            </div>
             
             {/* Selected pollutant display */}
             {selectedPollutant && (
@@ -420,7 +457,7 @@ const OptimizedPollutionAbatementDashboard = () => {
                 <div className="text-gray-700">{selectedPollutant}</div>
                 <div className="text-xs text-gray-600 mt-1">
                   Patents: {pollutantPatentCounts[selectedPollutant] || 'Unknown'} | 
-                  The selected pollutant is a significant environmental concern addressed by various abatement technologies.
+                  This pollutant is addressed by various abatement technologies and impacts multiple SDGs.
                 </div>
               </div>
             )}
@@ -452,7 +489,7 @@ const OptimizedPollutionAbatementDashboard = () => {
                               e.stopPropagation();
                               handleOpenPollutantInfo(pollutantName);
                             }}
-                            title="View pollutant information"
+                            title="View pollutant SDG connections"
                           >
                             <Info size={14} className="text-white" />
                           </button>
@@ -582,12 +619,33 @@ const OptimizedPollutionAbatementDashboard = () => {
         </div>
       </div>
       
+      {/* Bottom contributor note */}
+      <footer className="bg-gray-50 border-t border-gray-200 p-3">
+        <div className="text-center">
+          <p className="text-xs text-gray-600 mb-1">
+            <strong>Research Contributors:</strong>
+          </p>
+          <p className="text-xs text-gray-500">
+            <strong>Frontend:</strong> Giordano De Marzo (University of Konstanz) • 
+            <strong> Data Analysis & LLM Fine-tuning:</strong> Segun Aroyehun (University of Konstanz), 
+            Giordano De Marzo (University of Konstanz), Enrico Fenoaltea (Centro Ricerche Enrico Fermi), 
+            Filippo Santoro (Centro Ricerche Enrico Fermi), Andrea Tacchella (Centro Ricerche Enrico Fermi)
+          </p>
+        </div>
+      </footer>
+      
       {/* Updated Pollutant Info Box with new SDG data */}
       <PollutantInfoBox
         pollutant={infoBoxPollutant}
         pollutantSdgData={pollutantSdgData} // Pass the new SDG data instead of the old format
         isOpen={showPollutantInfo}
         onClose={handleClosePollutantInfo}
+      />
+
+      {/* App Info Box */}
+      <AppInfoBox
+        isOpen={showAppInfo}
+        onClose={() => setShowAppInfo(false)}
       />
     </div>
   );
