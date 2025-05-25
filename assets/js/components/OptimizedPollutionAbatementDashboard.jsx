@@ -349,7 +349,7 @@ const OptimizedPollutionAbatementDashboard = () => {
   }, [pollutants, pollutantPatentCounts, searchTerm]);
 
   return (
-    <div className="flex flex-col h-screen bg-gray-100">
+    <div className="flex flex-col h-screen bg-gray-100 relative">
       {/* Loading overlay */}
       {loading && (
         <div className="fixed inset-0 bg-white bg-opacity-80 flex items-center justify-center z-50">
@@ -376,15 +376,15 @@ const OptimizedPollutionAbatementDashboard = () => {
         </div>
       )}
       
-      <header className="bg-gradient-to-r from-green-600 via-blue-700 to-blue-600 text-white p-4 shadow-md">
+      <header className="bg-gradient-to-r from-green-600 via-blue-700 to-blue-600 text-white p-3 shadow-md">
         <div className="flex justify-between items-center">
           <div>
-            <h1 className="text-2xl font-bold">Pollution Abatement Technology Dashboard for SDGs</h1>
-            <p className="text-sm text-blue-100 mt-1">
+            <h1 className="text-xl font-bold">Pollution Abatement Technology Dashboard for SDGs</h1>
+            <p className="text-xs text-blue-100 mt-0.5">
               Connecting pollution reduction technologies with EU regulations and UN Sustainable Development Goals
             </p>
             {dashboardSummary && (
-              <div className="text-xs text-blue-100 mt-1">
+              <div className="text-xs text-blue-100 mt-0.5 opacity-90">
                 Data version: {dashboardSummary.creation_date || 'Unknown'} | 
                 Total patents: {dashboardSummary.totalPatents || 'Unknown'} | 
                 Pollutants: {dashboardSummary.totalPollutants || 'Unknown'}
@@ -395,10 +395,11 @@ const OptimizedPollutionAbatementDashboard = () => {
           {/* Help button in top right */}
           <button
             onClick={() => setShowAppInfo(true)}
-            className="bg-white bg-opacity-20 hover:bg-opacity-30 text-white p-2 rounded-full transition-colors"
+            className="bg-white bg-opacity-20 hover:bg-opacity-30 text-white px-3 py-2 rounded-lg transition-colors flex items-center"
             title="How to use this dashboard"
           >
-            <HelpCircle size={24} />
+            <HelpCircle size={18} className="mr-2" />
+            <span className="text-sm font-medium">Help</span>
           </button>
         </div>
       </header>
@@ -619,20 +620,13 @@ const OptimizedPollutionAbatementDashboard = () => {
         </div>
       </div>
       
-      {/* Bottom contributor note */}
-      <footer className="bg-gray-50 border-t border-gray-200 p-3">
-        <div className="text-center">
-          <p className="text-xs text-gray-600 mb-1">
-            <strong>Research Contributors:</strong>
-          </p>
-          <p className="text-xs text-gray-500">
-            <strong>Frontend:</strong> Giordano De Marzo (University of Konstanz) • 
-            <strong> Data Analysis & LLM Fine-tuning:</strong> Segun Aroyehun (University of Konstanz), 
-            Giordano De Marzo (University of Konstanz), Enrico Fenoaltea (Centro Ricerche Enrico Fermi), 
-            Filippo Santoro (Centro Ricerche Enrico Fermi), Andrea Tacchella (Centro Ricerche Enrico Fermi)
-          </p>
-        </div>
-      </footer>
+      {/* Bottom contributor note - positioned at bottom of left panel */}
+      <div className="absolute bottom-0 left-0 right-1/3 bg-gray-50 bg-opacity-95 border-t border-gray-200 p-2 text-center">
+        <p className="text-xs text-gray-500">
+          <strong>Contributors:</strong> Frontend: G. De Marzo (Konstanz) • 
+          Data & ML: S. Aroyehun (Konstanz), G. De Marzo (Konstanz), E. Fenoaltea, F. Santoro, A. Tacchella (CREF)
+        </p>
+      </div>
       
       {/* Updated Pollutant Info Box with new SDG data */}
       <PollutantInfoBox
