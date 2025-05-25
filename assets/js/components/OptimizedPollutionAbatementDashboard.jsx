@@ -624,8 +624,9 @@ const OptimizedPollutionAbatementDashboard = () => {
       <div className="absolute bottom-0 left-0 right-1/3 bg-gray-50 bg-opacity-95 border-t border-gray-200 p-2 text-center">
         <p className="text-xs text-gray-500">
 	  <strong>Contributors:</strong> Frontend: G. De Marzo<sup>1</sup> • 
-	  Data & ML: S. Aroyehun<sup>1</sup>, G. De Marzo<sup>1</sup>, E. Fenoaltea<sup>2</sup>, F. Santoro<sup>2</sup>, A. Tacchella<sup>2</sup> &nbsp; 
-	  <span className="ml-2"><sup>1</sup> Konstanz University, <sup>2</sup> CREF</span>
+	  Data & ML: S. Aroyehun<sup>1</sup>, G. De Marzo<sup>1</sup>, E. Fenoaltea<sup>2</sup>, F. Santoro<sup>2</sup>, A. Tacchella<sup>2</sup> 
+	  <br />
+	  <sup>1</sup> Konstanz University, <sup>2</sup> Centro Ricerche Enrico Fermi
 	</p>
       </div>
       
