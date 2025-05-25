@@ -111,26 +111,24 @@ function updateCache(cacheKey, data) {
 // Helper function to normalize pollutant names for filename lookup
 function normalizePollutantName(pollutantName) {
   if (!pollutantName) return '';
-  
-  // Create a normalized version that matches the JSON filenames
-  // The JSON files seem to preserve spaces and special characters
-  return pollutantName.trim();
+
+  // Trim, and replace slashes with spaces to match stored filenames
+  return pollutantName
+    .trim()
+    .replace(/\//g, ' '); // Replace all '/' with ' '
 }
 
 // Helper function to convert between different pollutant name formats
 function getPollutantSdgFilename(pollutantName) {
-  // The SDG JSON files use the full pollutant name with spaces and special characters
-  // We need to map from the internal pollutant name to the filename
-  
-  // For now, try the direct name first, then with common variations
+  // Normalize the pollutant name for consistent filename lookup
   const normalizedName = normalizePollutantName(pollutantName);
-  
-  // Common filename patterns to try
+
+  // Try common filename patterns
   const variations = [
     normalizedName,
-    normalizedName.replace(/\s+/g, ' '), // normalize whitespace
+    normalizedName.replace(/\s+/g, ' '), // Normalize multiple spaces to a single space
   ];
-  
+
   return variations;
 }
 
