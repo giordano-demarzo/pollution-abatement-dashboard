@@ -441,12 +441,6 @@ const PatentRankingBox = ({
             <div className="mt-1 text-gray-500">
               Only showing patents with reliability score above {RELIABILITY_THRESHOLD * 100}%
             </div>
-            
-            {/* DEBUGGING INFO - Remove this in production */}
-            <div className="mt-1 text-xs bg-yellow-50 p-1 rounded border">
-              DEBUG: First patent score = {rankedPatents[0]?.relevanceScore?.toFixed(3)} 
-              (should be ~0.69 for the gas adsorption patent)
-            </div>
           </div>
         </>
       ) : (

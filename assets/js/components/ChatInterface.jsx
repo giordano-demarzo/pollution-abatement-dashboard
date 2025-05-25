@@ -214,84 +214,58 @@ const ChatInterface = ({
         </button>
       </div>
       
-      {/* Selected patents context area */}
-      {selectedPatents.length > 0 && (
-        <div className="bg-blue-50 p-3 border-b">
-          <h3 className="text-sm font-medium mb-2 flex items-center justify-between text-gray-700">
-            <span>Patents in Context:</span>
-            <button 
-              onClick={clearPatents}
-              className="text-xs text-red-600 hover:text-red-800 flex items-center"
-            >
-              <Trash2 size={12} className="mr-1" />
-              Clear All
-            </button>
-          </h3>
-          <div className="flex flex-wrap gap-2">
-            {selectedPatents.map(patent => (
-              <div 
-                key={`context-${patent.id}`} 
-                className="bg-white text-xs py-1 px-2 rounded border flex items-center shadow-sm"
-              >
-                <span className="mr-1">{patent.title}</span>
+      {/* Compact context summary */}
+      {(selectedPatents.length > 0 || selectedBrefs.length > 0) && (
+        <div className="bg-gray-50 p-2 border-b text-xs">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center space-x-4">
+              {selectedPatents.length > 0 && (
+                <span className="text-blue-700">
+                  📄 {selectedPatents.length} patent{selectedPatents.length !== 1 ? 's' : ''}
+                </span>
+              )}
+              {selectedBrefs.length > 0 && (
+                <span className="text-indigo-700">
+                  📋 {selectedBrefs.length} BREF{selectedBrefs.length !== 1 ? 's' : ''}
+                </span>
+              )}
+            </div>
+            <div className="flex items-center space-x-2">
+              {selectedPatents.length > 0 && (
                 <button 
-                  onClick={() => removePatent(patent.id)}
-                  className="text-gray-500 hover:text-red-600 ml-1"
-                  title="Remove from context"
+                  onClick={clearPatents}
+                  className="text-xs text-red-600 hover:text-red-800"
+                  title="Clear patents"
                 >
-                  ×
+                  Clear Patents
                 </button>
-              </div>
-            ))}
+              )}
+              {selectedBrefs.length > 0 && (
+                <button 
+                  onClick={clearBrefs}
+                  className="text-xs text-red-600 hover:text-red-800"
+                  title="Clear BREFs"
+                >
+                  Clear BREFs
+                </button>
+              )}
+            </div>
           </div>
         </div>
       )}
       
-      {/* Selected BREFs context area */}
-      {selectedBrefs.length > 0 && (
-        <div className="bg-indigo-50 p-3 border-b">
-          <h3 className="text-sm font-medium mb-2 flex items-center justify-between text-gray-700">
-            <span>BREF Sections in Context:</span>
-            <button 
-              onClick={clearBrefs}
-              className="text-xs text-red-600 hover:text-red-800 flex items-center"
-            >
-              <Trash2 size={12} className="mr-1" />
-              Clear All
-            </button>
-          </h3>
-          <div className="flex flex-wrap gap-2">
-            {selectedBrefs.map(bref => (
-              <div 
-                key={`bref-context-${bref.id}`} 
-                className="bg-white text-xs py-1 px-2 rounded border flex items-center shadow-sm"
-              >
-                <span className="mr-1">{bref.name || bref.id}</span>
-                <button 
-                  onClick={() => removeBref(bref.id)}
-                  className="text-gray-500 hover:text-red-600 ml-1"
-                  title="Remove from context"
-                >
-                  ×
-                </button>
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
-      
-      {/* Chat messages */}
-      <div className="flex-1 overflow-y-auto p-4 space-y-4">
+      {/* Chat messages - now gets priority space */}
+      <div className="flex-1 overflow-y-auto p-3 space-y-3 min-h-0">
         {messages.map((msg, idx) => (
           <div 
             key={idx} 
             className={`${
               msg.sender === 'user' 
-                ? 'bg-blue-50 ml-6 border-blue-100' 
+                ? 'bg-blue-50 ml-4 border-blue-100' 
                 : msg.sender === 'system' 
                   ? 'bg-gray-100 border-gray-200' 
-                  : 'bg-green-50 mr-6 border-green-100'
-            } p-3 rounded-lg border shadow-sm`}
+                  : 'bg-green-50 mr-4 border-green-100'
+            } p-2 rounded-lg border shadow-sm text-sm`}
           >
             <MessageContent message={msg} />
           </div>
@@ -299,7 +273,7 @@ const ChatInterface = ({
         
         {/* Loading indicator */}
         {isLoading && (
-          <div className="flex items-center justify-center p-4">
+          <div className="flex items-center justify-center p-3">
             <div className="animate-bounce h-2 w-2 rounded-full bg-blue-600 mr-1"></div>
             <div className="animate-bounce h-2 w-2 rounded-full bg-blue-600 mr-1 animation-delay-200"></div>
             <div className="animate-bounce h-2 w-2 rounded-full bg-blue-600 animation-delay-400"></div>
@@ -308,11 +282,11 @@ const ChatInterface = ({
         
         {/* Error message */}
         {error && (
-          <div className="bg-red-50 border border-red-200 text-red-700 p-3 rounded-lg flex items-start">
-            <AlertCircle size={18} className="mr-2 flex-shrink-0 mt-0.5" />
+          <div className="bg-red-50 border border-red-200 text-red-700 p-2 rounded-lg flex items-start text-sm">
+            <AlertCircle size={16} className="mr-2 flex-shrink-0 mt-0.5" />
             <div>
               <div className="font-medium">Error</div>
-              <div className="text-sm">{error}</div>
+              <div className="text-xs">{error}</div>
             </div>
           </div>
         )}
@@ -321,90 +295,92 @@ const ChatInterface = ({
         <div ref={messagesEndRef} />
       </div>
       
-      {/* Compact 2x2 Analysis Buttons Grid */}
-      <div className="p-3 border-t bg-gray-50">
-        <h3 className="text-sm font-medium mb-3 text-gray-700">Analysis Options:</h3>
-        
-        <div className="grid grid-cols-2 gap-2">
+      {/* Compact Analysis Buttons */}
+      <div className="p-2 border-t bg-gray-50">
+        <div className="grid grid-cols-2 gap-1.5">
           {/* BREF-Pollutant Connection */}
           <button
             onClick={handleBrefPollutantConnection}
-            className="p-2 text-xs bg-gradient-to-r from-blue-50 to-blue-100 text-blue-700 rounded-md border border-blue-200 hover:shadow-md transition-all disabled:opacity-60 disabled:pointer-events-none"
+            className="p-1.5 text-xs bg-gradient-to-r from-blue-50 to-blue-100 text-blue-700 rounded border border-blue-200 hover:shadow-sm transition-all disabled:opacity-60 disabled:pointer-events-none"
             disabled={selectedBrefs.length === 0 || !selectedPollutant || isLoading}
           >
-            <div className="flex items-center mb-1">
-              <div className="rounded-full bg-blue-600 text-white w-5 h-5 flex items-center justify-center mr-2 flex-shrink-0">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3" viewBox="0 0 20 20" fill="currentColor">
+            <div className="flex items-center">
+              <div className="rounded-full bg-blue-600 text-white w-4 h-4 flex items-center justify-center mr-1.5 flex-shrink-0">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-2.5 w-2.5" viewBox="0 0 20 20" fill="currentColor">
                   <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
-                  <path fillRule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z" clipRule="evenodd" />
+                  <path fillRule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5z" clipRule="evenodd" />
                 </svg>
               </div>
-              <div className="font-medium text-left">BREF-Pollutant</div>
+              <div>
+                <div className="font-medium text-left leading-tight">BREF-Pollutant</div>
+                <div className="text-xs text-blue-600 text-left leading-tight">Reduction methods</div>
+              </div>
             </div>
-            <div className="text-xs text-blue-600 text-left">How BREFs reduce pollutant</div>
           </button>
           
           {/* BREF-Patent Connection */}
           <button
             onClick={handleBrefPatentConnection}
-            className="p-2 text-xs bg-gradient-to-r from-green-50 to-green-100 text-green-700 rounded-md border border-green-200 hover:shadow-md transition-all disabled:opacity-60 disabled:pointer-events-none"
+            className="p-1.5 text-xs bg-gradient-to-r from-green-50 to-green-100 text-green-700 rounded border border-green-200 hover:shadow-sm transition-all disabled:opacity-60 disabled:pointer-events-none"
             disabled={selectedBrefs.length === 0 || selectedPatents.length === 0 || isLoading}
           >
-            <div className="flex items-center mb-1">
-              <div className="rounded-full bg-green-600 text-white w-5 h-5 flex items-center justify-center mr-2 flex-shrink-0">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3" viewBox="0 0 20 20" fill="currentColor">
-                  <path fillRule="evenodd" d="M5 2a1 1 0 011 1v1h1a1 1 0 010 2H6v1a1 1 0 01-2 0V6H3a1 1 0 010-2h1V3a1 1 0 011-1zm0 10a1 1 0 011 1v1h1a1 1 0 110 2H6v1a1 1 0 11-2 0v-1H3a1 1 0 110-2h1v-1a1 1 0 011-1z" clipRule="evenodd" />
+            <div className="flex items-center">
+              <div className="rounded-full bg-green-600 text-white w-4 h-4 flex items-center justify-center mr-1.5 flex-shrink-0">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-2.5 w-2.5" viewBox="0 0 20 20" fill="currentColor">
+                  <path fillRule="evenodd" d="M5 2a1 1 0 011 1v1h1a1 1 0 010 2H6v1a1 1 0 01-2 0V6H3a1 1 0 010-2h1V3a1 1 0 011-1z" clipRule="evenodd" />
                   <path d="M12 2a1 1 0 01.967.744L14.146 7.2 17.5 9.134a1 1 0 010 1.732l-3.354 1.935-1.18 4.455a1 1 0 01-1.933 0L9.854 12.8 6.5 10.866a1 1 0 010-1.732l3.354-1.935 1.18-4.455A1 1 0 0112 2z" />
                 </svg>
               </div>
-              <div className="font-medium text-left">BREF-Patent</div>
+              <div>
+                <div className="font-medium text-left leading-tight">BREF-Patent</div>
+                <div className="text-xs text-green-600 text-left leading-tight">Synergies</div>
+              </div>
             </div>
-            <div className="text-xs text-green-600 text-left">Technology synergies</div>
           </button>
           
           {/* Patent-Pollutant Connection */}
           <button
             onClick={handlePatentPollutantConnection}
-            className="p-2 text-xs bg-gradient-to-r from-purple-50 to-purple-100 text-purple-700 rounded-md border border-purple-200 hover:shadow-md transition-all disabled:opacity-60 disabled:pointer-events-none"
+            className="p-1.5 text-xs bg-gradient-to-r from-purple-50 to-purple-100 text-purple-700 rounded border border-purple-200 hover:shadow-sm transition-all disabled:opacity-60 disabled:pointer-events-none"
             disabled={selectedPatents.length === 0 || !selectedPollutant || isLoading}
           >
-            <div className="flex items-center mb-1">
-              <div className="rounded-full bg-purple-600 text-white w-5 h-5 flex items-center justify-center mr-2 flex-shrink-0">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3" viewBox="0 0 20 20" fill="currentColor">
-                  <path d="M8.433 7.418c.155-.103.346-.196.567-.267v1.698a2.305 2.305 0 01-.567-.267C8.07 8.34 8 8.114 8 8c0-.114.07-.34.433-.582zM11 12.849v-1.698c.22.071.412.164.567.267.364.243.433.468.433.582 0 .114-.07.34-.433.582a2.305 2.305 0 01-.567.267z" />
+            <div className="flex items-center">
+              <div className="rounded-full bg-purple-600 text-white w-4 h-4 flex items-center justify-center mr-1.5 flex-shrink-0">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-2.5 w-2.5" viewBox="0 0 20 20" fill="currentColor">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-13a1 1 0 10-2 0v.092a4.535 4.535 0 00-1.676.662C6.602 6.234 6 7.009 6 8c0 .99.602 1.765 1.324 2.246.48.32 1.054.545 1.676.662v1.941c-.391-.127-.68-.317-.843-.504a1 1 0 10-1.51 1.31c.562.649 1.413 1.076 2.353 1.253V15a1 1 0 102 0v-.092a4.535 4.535 0 001.676-.662C13.398 13.766 14 12.991 14 12c0-.99-.602-1.765-1.324-2.246A4.535 4.535 0 0011 9.092V7.151c.391.127.68.317.843.504a1 1 0 101.511-1.31c-.563-.649-1.413-1.076-2.354-1.253V5z" clipRule="evenodd" />
                 </svg>
               </div>
-              <div className="font-medium text-left">Patent-Pollutant</div>
+              <div>
+                <div className="font-medium text-left leading-tight">Patent-Pollutant</div>
+                <div className="text-xs text-purple-600 text-left leading-tight">Impact analysis</div>
+              </div>
             </div>
-            <div className="text-xs text-purple-600 text-left">Technology impact</div>
           </button>
           
           {/* SDG Report */}
           <button
             onClick={handleSDGReport}
-            className="p-2 text-xs bg-gradient-to-r from-indigo-50 to-indigo-100 text-indigo-700 rounded-md border border-indigo-200 hover:shadow-md transition-all disabled:opacity-60 disabled:pointer-events-none"
+            className="p-1.5 text-xs bg-gradient-to-r from-indigo-50 to-indigo-100 text-indigo-700 rounded border border-indigo-200 hover:shadow-sm transition-all disabled:opacity-60 disabled:pointer-events-none"
             disabled={!selectedPollutant || isLoading}
           >
-            <div className="flex items-center mb-1">
-              <div className="rounded-full bg-indigo-600 text-white w-5 h-5 flex items-center justify-center mr-2 flex-shrink-0">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3" viewBox="0 0 20 20" fill="currentColor">
-                  <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
+            <div className="flex items-center">
+              <div className="rounded-full bg-indigo-600 text-white w-4 h-4 flex items-center justify-center mr-1.5 flex-shrink-0">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-2.5 w-2.5" viewBox="0 0 20 20" fill="currentColor">
+                  <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4z" clipRule="evenodd" />
                 </svg>
               </div>
-              <div className="font-medium text-left">SDG Report</div>
+              <div>
+                <div className="font-medium text-left leading-tight">SDG Report</div>
+                <div className="text-xs text-indigo-600 text-left leading-tight">Sustainability</div>
+              </div>
             </div>
-            <div className="text-xs text-indigo-600 text-left">Sustainability impact</div>
           </button>
         </div>
         
-        {/* Status warning for missing context */}
+        {/* Minimal status warning */}
         {selectedPatents.length === 0 && selectedBrefs.length === 0 && (
-          <div className="text-xs text-amber-600 mt-3 flex items-center justify-center bg-amber-50 p-2 rounded border border-amber-200">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1" viewBox="0 0 20 20" fill="currentColor">
-              <path fillRule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clipRule="evenodd" />
-            </svg>
-            Please select patents or BREF sections before starting analysis
+          <div className="text-xs text-amber-600 mt-2 text-center bg-amber-50 p-1.5 rounded border border-amber-200">
+            Select patents or BREFs to enable analysis
           </div>
         )}
       </div>
