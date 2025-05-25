@@ -1,0 +1,43 @@
+{
+    "summary": {
+      "pollutant": "Tetrachloromethane (TCM)",
+      "description": "A clear, colourless, highly volatile liquid with a sweet smell that is non-flammable and doesn't mix with water. Previously used as dry-cleaning agent, degreasing agent, fire extinguishant and pesticide, but these uses are now banned",
+      "emission_sources": [
+        "Industrial spillages",
+        "Landfill sites containing TCM waste",
+        "Chemical manufacturing processes"
+      ],
+      "environmental_impact": [
+        "Rapidly evaporates into air and persists for 30-50 years in lower atmosphere",
+        "Breaks down in upper atmosphere to release chlorine that damages stratospheric ozone layer",
+        "Acts as greenhouse gas contributing to climate change",
+        "Higher exposure levels can damage liver, kidneys, lungs and central nervous system",
+        "Possible carcinogen",
+        "Very stable and long-lasting in atmospheric environment"
+      ]
+    },
+    "sdg_scores": {
+      "SDG1_No_Poverty": 2,
+      "SDG2_Zero_Hunger": 3,
+      "SDG3_Good_Health_and_Wellbeing": 7,
+      "SDG4_Quality_Education": 1,
+      "SDG5_Gender_Equality": 1,
+      "SDG6_Clean_Water_and_Sanitation": 3,
+      "SDG7_Affordable_and_Clean_Energy": 3,
+      "SDG8_Decent_Work_and_Economic_Growth": 4,
+      "SDG9_Industry_Innovation_and_Infrastructure": 5,
+      "SDG10_Reduced_Inequalities": 2,
+      "SDG11_Sustainable_Cities_and_Communities": 4,
+      "SDG12_Responsible_Consumption_and_Production": 6,
+      "SDG13_Climate_Action": 9,
+      "SDG14_Life_Below_Water": 5,
+      "SDG15_Life_on_Land": 6,
+      "SDG16_Peace_Justice_and_Strong_Institutions": 1,
+      "SDG17_Partnerships_for_the_Goals": 2
+    },
+    "top_sdg_impacts": {
+      "SDG13_Climate_Action": "Tetrachloromethane is a potent greenhouse gas that contributes directly to climate change. Its extreme persistence in the atmosphere (30-50 years in the lower atmosphere) means that even small releases have long-lasting climate impacts. Additionally, it damages the stratospheric ozone layer by releasing chlorine when it reaches the upper atmosphere, creating a dual threat to global climate systems.",
+      "SDG3_Good_Health_and_Wellbeing": "TCM poses significant health risks through exposure to higher concentrations, causing damage to vital organs including the liver, kidneys, lungs, and central nervous system. As a possible carcinogen, it presents long-term health threats. While normal environmental concentrations may not cause immediate harm, the pollutant's persistence and potential for accumulation create ongoing health concerns.",
+      "SDG15_Life_on_Land": "The ozone layer depletion caused by TCM indirectly affects terrestrial ecosystems by allowing increased harmful UV radiation to reach Earth's surface, potentially damaging plant life and disrupting terrestrial food chains. Its contribution to climate change also affects land-based ecosystems through altered weather patterns and environmental conditions that species depend on for survival."
+    }
+  }

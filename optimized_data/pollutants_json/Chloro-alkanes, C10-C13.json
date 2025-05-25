@@ -1,0 +1,40 @@
+{
+    "summary": {
+      "pollutant": "Chloro-alkanes, C10-C13",
+      "description": "Chloroalkanes are short-chain chlorinated paraffins consisting of carbon, hydrogen, and chlorine. They are typically yellowish oily liquids with a faint odour and are used mainly in industrial metalworking fluids for cutting, drilling, and machining metals.",
+      "emission_sources": [
+        "Manufacture of chloroalkanes",
+        "Use of chloroalkanes as metal cutting fluids"
+      ],
+      "environmental_impact": [
+        "Toxic to aquatic life and bio-accumulate in marine and freshwater species",
+        "Persistent in the environment due to lack of biodegradability",
+        "Potential carcinogenic effects and harmful impacts on kidneys, liver, and thyroid from high exposure"
+      ]
+    },
+    "sdg_scores": {
+      "SDG1_No_Poverty": 3,
+      "SDG2_Zero_Hunger": 3,
+      "SDG3_Good_Health_and_Wellbeing": 7,
+      "SDG4_Quality_Education": 1,
+      "SDG5_Gender_Equality": 1,
+      "SDG6_Clean_Water_and_Sanitation": 7,
+      "SDG7_Affordable_and_Clean_Energy": 1,
+      "SDG8_Decent_Work_and_Economic_Growth": 5,
+      "SDG9_Industry_Innovation_and_Infrastructure": 6,
+      "SDG10_Reduced_Inequalities": 2,
+      "SDG11_Sustainable_Cities_and_Communities": 3,
+      "SDG12_Responsible_Consumption_and_Production": 7,
+      "SDG13_Climate_Action": 2,
+      "SDG14_Life_Below_Water": 8,
+      "SDG15_Life_on_Land": 5,
+      "SDG16_Peace_Justice_and_Strong_Institutions": 1,
+      "SDG17_Partnerships_for_the_Goals": 2
+    },
+    "top_sdg_impacts": {
+      "SDG14_Life_Below_Water": "Chloroalkanes are highly toxic to aquatic organisms and bio-accumulate in marine and freshwater life, disrupting aquatic ecosystems and food chains.",
+      "SDG6_Clean_Water_and_Sanitation": "Persistence and bioaccumulation of chloroalkanes threaten freshwater quality, affecting access to safe and clean water.",
+      "SDG3_Good_Health_and_Wellbeing": "Potential carcinogenic effects and damage to liver, kidneys, and thyroid from high exposure pose risks to human health."
+    }
+  }
+  

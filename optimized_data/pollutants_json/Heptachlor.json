@@ -1,0 +1,40 @@
+{
+    "summary": {
+      "pollutant": "Heptachlor",
+      "description": "Heptachlor is a chlorinated pesticide, appearing as a white or tan powder with a camphor-like odor. It is highly stable and persistent in the environment.",
+      "emission_sources": [
+        "Leaks from landfills",
+        "Hazardous waste sites"
+      ],
+      "environmental_impact": [
+        "Heptachlor accumulates in soil, sediment, and body fat of animals and humans due to its lipophilic nature.",
+        "It persists in the environment for decades because of its chemical stability.",
+        "Toxic effects in animals include liver damage, increased excitability, infertility, and it is classified as a possible human carcinogen."
+      ]
+    },
+    "sdg_scores": {
+      "SDG1_No_Poverty": 4,
+      "SDG2_Zero_Hunger": 5,
+      "SDG3_Good_Health_and_Wellbeing": 9,
+      "SDG4_Quality_Education": 1,
+      "SDG5_Gender_Equality": 2,
+      "SDG6_Clean_Water_and_Sanitation": 7,
+      "SDG7_Affordable_and_Clean_Energy": 2,
+      "SDG8_Decent_Work_and_Economic_Growth": 5,
+      "SDG9_Industry_Innovation_and_Infrastructure": 4,
+      "SDG10_Reduced_Inequalities": 4,
+      "SDG11_Sustainable_Cities_and_Communities": 6,
+      "SDG12_Responsible_Consumption_and_Production": 8,
+      "SDG13_Climate_Action": 3,
+      "SDG14_Life_Below_Water": 7,
+      "SDG15_Life_on_Land": 8,
+      "SDG16_Peace_Justice_and_Strong_Institutions": 2,
+      "SDG17_Partnerships_for_the_Goals": 3
+    },
+    "top_sdg_impacts": {
+      "SDG3_Good_Health_and_Wellbeing": "Heptachlor is toxic and a possible human carcinogen, causing serious health risks including liver damage and reproductive harm.",
+      "SDG12_Responsible_Consumption_and_Production": "Its persistence and bioaccumulation highlight the need for responsible pesticide use and waste management to reduce environmental contamination.",
+      "SDG15_Life_on_Land": "Heptachlor contaminates soil and accumulates in terrestrial animals, causing toxic effects and threatening biodiversity."
+    }
+  }
+  

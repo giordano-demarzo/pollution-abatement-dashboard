@@ -1,0 +1,42 @@
+{
+    "summary": {
+      "pollutant": "Tetrachloroethylene (PER)",
+      "description": "Tetrachloroethylene is a colourless, highly volatile liquid with a distinctive sweet smell. It is primarily used as a dry-cleaning agent for textiles and fabrics, as well as for metal degreasing and in some consumer products.",
+      "emission_sources": [
+        "Use in dry-cleaning of textiles and fabrics",
+        "Use as a metal degreasing agent",
+        "Evaporation from consumer products"
+      ],
+      "environmental_impact": [
+        "Exposure to high levels may affect brain, eyes, kidneys, liver, skin, throat and may cause cancer",
+        "PER evaporates readily into the air from water and soil",
+        "In the air, it is broken down by sunlight or washed back to soil/water by rain",
+        "Slow biodegradation by microorganisms in soil and water"
+      ]
+    },
+    "sdg_scores": {
+      "SDG1_No_Poverty": 3,
+      "SDG2_Zero_Hunger": 3,
+      "SDG3_Good_Health_and_Wellbeing": 8,
+      "SDG4_Quality_Education": 2,
+      "SDG5_Gender_Equality": 2,
+      "SDG6_Clean_Water_and_Sanitation": 6,
+      "SDG7_Affordable_and_Clean_Energy": 2,
+      "SDG8_Decent_Work_and_Economic_Growth": 5,
+      "SDG9_Industry_Innovation_and_Infrastructure": 6,
+      "SDG10_Reduced_Inequalities": 3,
+      "SDG11_Sustainable_Cities_and_Communities": 6,
+      "SDG12_Responsible_Consumption_and_Production": 7,
+      "SDG13_Climate_Action": 3,
+      "SDG14_Life_Below_Water": 5,
+      "SDG15_Life_on_Land": 5,
+      "SDG16_Peace_Justice_and_Strong_Institutions": 2,
+      "SDG17_Partnerships_for_the_Goals": 3
+    },
+    "top_sdg_impacts": {
+      "SDG3_Good_Health_and_Wellbeing": "Tetrachloroethylene exposure at high levels can cause serious health effects including damage to vital organs and cancer risk, impacting human health significantly.",
+      "SDG12_Responsible_Consumption_and_Production": "The pollutant’s release primarily comes from industrial and consumer use, requiring improved management and sustainable practices to reduce emissions.",
+      "SDG6_Clean_Water_and_Sanitation": "PER can contaminate soil and water, with potential to pollute water resources before evaporating, affecting water quality and safety."
+    }
+  }
+  

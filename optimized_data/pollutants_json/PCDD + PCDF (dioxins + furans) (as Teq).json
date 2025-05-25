@@ -1,0 +1,42 @@
+{
+    "summary": {
+      "pollutant": "Polychlorinated-p-dioxins (PCDDs) and Polychlorinated dibenzofurans (PCDFs)",
+      "description": "Dioxins and furans are chlorine-containing crystalline solids that dissolve in oils, fats, and organic solvents but not readily in water. They are persistent environmental pollutants with many chemical variants.",
+      "emission_sources": [
+        "Combustion of fuels and wastes",
+        "Metal processing",
+        "Pulp and paper production",
+        "Natural sources such as forest fires and volcanoes"
+      ],
+      "environmental_impact": [
+        "May cause cancer and affect the heart, liver, immune system, skin, thyroid, and unborn children",
+        "Deposited on soil and water where they accumulate in livestock, wildlife, and fish",
+        "Persistent in environment and bioaccumulate through food chains"
+      ]
+    },
+    "sdg_scores": {
+      "SDG1_No_Poverty": 4,
+      "SDG2_Zero_Hunger": 5,
+      "SDG3_Good_Health_and_Wellbeing": 9,
+      "SDG4_Quality_Education": 2,
+      "SDG5_Gender_Equality": 2,
+      "SDG6_Clean_Water_and_Sanitation": 7,
+      "SDG7_Affordable_and_Clean_Energy": 2,
+      "SDG8_Decent_Work_and_Economic_Growth": 5,
+      "SDG9_Industry_Innovation_and_Infrastructure": 4,
+      "SDG10_Reduced_Inequalities": 3,
+      "SDG11_Sustainable_Cities_and_Communities": 6,
+      "SDG12_Responsible_Consumption_and_Production": 8,
+      "SDG13_Climate_Action": 3,
+      "SDG14_Life_Below_Water": 8,
+      "SDG15_Life_on_Land": 7,
+      "SDG16_Peace_Justice_and_Strong_Institutions": 2,
+      "SDG17_Partnerships_for_the_Goals": 3
+    },
+    "top_sdg_impacts": {
+      "SDG3_Good_Health_and_Wellbeing": "Dioxins and furans pose serious health risks including cancer, immune and hormonal disruption, and harm to unborn children, impacting human well-being.",
+      "SDG14_Life_Below_Water": "These compounds accumulate in aquatic sediments and bioaccumulate in fish, threatening marine ecosystems and biodiversity.",
+      "SDG12_Responsible_Consumption_and_Production": "The pollutant originates mainly from combustion and industrial processes, highlighting the need for sustainable production and waste management practices."
+    }
+  }
+  

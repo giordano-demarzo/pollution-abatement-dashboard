@@ -1,0 +1,41 @@
+{
+    "summary": {
+      "pollutant": "Total Organic Carbon (TOC)",
+      "description": "Total Organic Carbon (TOC) refers to any carbon-containing organic compound dissolved in water and is used as a general indicator of water quality. It includes a wide variety of compounds.",
+      "emission_sources": [
+        "Sewage treatment works",
+        "Leachate from landfills",
+        "Any man-made or natural process releasing organic compounds to water"
+      ],
+      "environmental_impact": [
+        "Elevated TOC levels reduce oxygen in water, fostering anaerobic bacteria growth",
+        "Disruption of aquatic ecosystems and natural water body functions",
+        "Potential indirect human health impacts depending on the specific chemicals involved"
+      ]
+    },
+    "sdg_scores": {
+      "SDG1_No_Poverty": 1,
+      "SDG2_Zero_Hunger": 2,
+      "SDG3_Good_Health_and_Wellbeing": 4,
+      "SDG4_Quality_Education": 1,
+      "SDG5_Gender_Equality": 1,
+      "SDG6_Clean_Water_and_Sanitation": 8,
+      "SDG7_Affordable_and_Clean_Energy": 1,
+      "SDG8_Decent_Work_and_Economic_Growth": 3,
+      "SDG9_Industry_Innovation_and_Infrastructure": 3,
+      "SDG10_Reduced_Inequalities": 1,
+      "SDG11_Sustainable_Cities_and_Communities": 4,
+      "SDG12_Responsible_Consumption_and_Production": 5,
+      "SDG13_Climate_Action": 2,
+      "SDG14_Life_Below_Water": 7,
+      "SDG15_Life_on_Land": 3,
+      "SDG16_Peace_Justice_and_Strong_Institutions": 1,
+      "SDG17_Partnerships_for_the_Goals": 1
+    },
+    "top_sdg_impacts": {
+      "SDG6_Clean_Water_and_Sanitation": "TOC is a key indicator of water quality. High levels can compromise safe and clean water, making it harder to ensure access to sustainable water management and sanitation.",
+      "SDG14_Life_Below_Water": "High TOC levels reduce oxygen in aquatic environments, promoting anaerobic conditions and threatening aquatic biodiversity and ecosystem stability.",
+      "SDG12_Responsible_Consumption_and_Production": "TOC pollution often stems from improper waste management and industrial discharges, highlighting the need for more sustainable production and disposal practices."
+    }
+  }
+  

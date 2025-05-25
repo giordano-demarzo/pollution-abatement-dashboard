@@ -1,0 +1,40 @@
+{
+    "summary": {
+      "pollutant": "DEHP (Di(2-ethylhexyl) phthalate)",
+      "description": "DEHP is a pale yellow oily liquid with a slight odour. It belongs to the phthalate group of chemicals and does not evaporate easily.",
+      "emission_sources": [
+        "Leaching or evaporation from consumer products containing DEHP",
+        "Release from disposed products in landfills"
+      ],
+      "environmental_impact": [
+        "Highly persistent in the environment",
+        "Bio-accumulative in living organisms",
+        "Acts as an endocrine disruptor, posing long-term threats to wildlife"
+      ]
+    },
+    "sdg_scores": {
+      "SDG1_No_Poverty": 2,
+      "SDG2_Zero_Hunger": 3,
+      "SDG3_Good_Health_and_Wellbeing": 8,
+      "SDG4_Quality_Education": 1,
+      "SDG5_Gender_Equality": 2,
+      "SDG6_Clean_Water_and_Sanitation": 7,
+      "SDG7_Affordable_and_Clean_Energy": 1,
+      "SDG8_Decent_Work_and_Economic_Growth": 4,
+      "SDG9_Industry_Innovation_and_Infrastructure": 3,
+      "SDG10_Reduced_Inequalities": 2,
+      "SDG11_Sustainable_Cities_and_Communities": 5,
+      "SDG12_Responsible_Consumption_and_Production": 9,
+      "SDG13_Climate_Action": 3,
+      "SDG14_Life_Below_Water": 7,
+      "SDG15_Life_on_Land": 8,
+      "SDG16_Peace_Justice_and_Strong_Institutions": 1,
+      "SDG17_Partnerships_for_the_Goals": 2
+    },
+    "top_sdg_impacts": {
+      "SDG12_Responsible_Consumption_and_Production": "DEHP is widely used in consumer products and can leach from them during use and disposal, indicating a need for safer product design and better end-of-life management.",
+      "SDG3_Good_Health_and_Wellbeing": "As an endocrine disruptor, DEHP poses potential long-term health risks, even though background exposure is currently not deemed harmful, highlighting the need for preventive action.",
+      "SDG15_Life_on_Land": "DEHP bioaccumulates and affects the endocrine systems of wildlife, potentially disrupting reproductive and developmental processes in terrestrial ecosystems."
+    }
+  }
+  

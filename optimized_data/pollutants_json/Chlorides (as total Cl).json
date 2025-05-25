@@ -1,0 +1,43 @@
+{
+    "summary": {
+      "pollutant": "Chlorides (as total Cl)",
+      "description": "Chlorine is a reactive gas that exists in the environment primarily as chloride salts, which are highly water-soluble compounds. These salts are naturally occurring but also released through various human activities.",
+      "emission_sources": [
+        "Industrial use",
+        "Road de-icing with salt",
+        "Agricultural run-off",
+        "Landfill leachate",
+        "Coal-ash waste",
+        "Natural sources (sea-water)"
+      ],
+      "environmental_impact": [
+        "Ecosystem imbalances in water bodies due to concentration changes",
+        "Disruption of aquatic ecosystems through altered salinity levels",
+        "Potential impacts on freshwater quality and availability"
+      ]
+    },
+    "sdg_scores": {
+      "SDG1_No_Poverty": 2,
+      "SDG2_Zero_Hunger": 4,
+      "SDG3_Good_Health_and_Wellbeing": 3,
+      "SDG4_Quality_Education": 1,
+      "SDG5_Gender_Equality": 1,
+      "SDG6_Clean_Water_and_Sanitation": 8,
+      "SDG7_Affordable_and_Clean_Energy": 2,
+      "SDG8_Decent_Work_and_Economic_Growth": 3,
+      "SDG9_Industry_Innovation_and_Infrastructure": 4,
+      "SDG10_Reduced_Inequalities": 2,
+      "SDG11_Sustainable_Cities_and_Communities": 5,
+      "SDG12_Responsible_Consumption_and_Production": 6,
+      "SDG13_Climate_Action": 2,
+      "SDG14_Life_Below_Water": 7,
+      "SDG15_Life_on_Land": 6,
+      "SDG16_Peace_Justice_and_Strong_Institutions": 1,
+      "SDG17_Partnerships_for_the_Goals": 1
+    },
+    "top_sdg_impacts": {
+      "SDG6_Clean_Water_and_Sanitation": "Chlorides directly affect water quality by altering the chemical composition of water bodies. High chloride concentrations can make water unsuitable for drinking, irrigation, and other uses, undermining access to clean water and proper sanitation systems.",
+      "SDG14_Life_Below_Water": "Chloride pollution causes significant ecosystem imbalances in aquatic environments by changing salinity levels and water chemistry. This disrupts marine and freshwater ecosystems, affecting fish populations, aquatic plants, and the overall biodiversity of water bodies.",
+      "SDG15_Life_on_Land": "Agricultural run-off containing chlorides can contaminate soil and groundwater, affecting terrestrial ecosystems. High chloride levels in soil can be toxic to plants and disrupt the natural balance of terrestrial habitats, impacting biodiversity and ecosystem health on land."
+    }
+  }

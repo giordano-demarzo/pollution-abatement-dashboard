@@ -1,0 +1,40 @@
+{
+    "summary": {
+      "pollutant": "Atrazine",
+      "description": "Atrazine is a white crystalline herbicide of the triazine class, used to control weed growth in agriculture. It is soluble in water and organic solvents.",
+      "emission_sources": [
+        "Application as a herbicide on crops",
+        "Runoff into soils and surface waters"
+      ],
+      "environmental_impact": [
+        "Highly toxic to aquatic organisms",
+        "Persistent in soils and can contaminate groundwaters",
+        "Causes skin irritation and sensitisation after prolonged dermal exposure"
+      ]
+    },
+    "sdg_scores": {
+      "SDG1_No_Poverty": 3,
+      "SDG2_Zero_Hunger": 7,
+      "SDG3_Good_Health_and_Wellbeing": 6,
+      "SDG4_Quality_Education": 2,
+      "SDG5_Gender_Equality": 2,
+      "SDG6_Clean_Water_and_Sanitation": 9,
+      "SDG7_Affordable_and_Clean_Energy": 1,
+      "SDG8_Decent_Work_and_Economic_Growth": 5,
+      "SDG9_Industry_Innovation_and_Infrastructure": 3,
+      "SDG10_Reduced_Inequalities": 2,
+      "SDG11_Sustainable_Cities_and_Communities": 6,
+      "SDG12_Responsible_Consumption_and_Production": 8,
+      "SDG13_Climate_Action": 3,
+      "SDG14_Life_Below_Water": 9,
+      "SDG15_Life_on_Land": 7,
+      "SDG16_Peace_Justice_and_Strong_Institutions": 1,
+      "SDG17_Partnerships_for_the_Goals": 2
+    },
+    "top_sdg_impacts": {
+      "SDG6_Clean_Water_and_Sanitation": "Atrazine is very persistent in soils and can contaminate groundwater, threatening the availability of safe drinking water.",
+      "SDG14_Life_Below_Water": "Atrazine is highly toxic to aquatic organisms, posing a serious threat to freshwater and marine ecosystems through runoff and water contamination.",
+      "SDG12_Responsible_Consumption_and_Production": "Its environmental toxicity and persistence highlight the need for careful regulation and sustainable agricultural practices to reduce pollution and protect ecosystems."
+    }
+  }
+  

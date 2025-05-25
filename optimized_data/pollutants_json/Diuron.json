@@ -1,0 +1,39 @@
+{
+    "summary": {
+      "pollutant": "Diuron",
+      "description": "Diuron is a white crystalline herbicide with no odour, used primarily on agricultural land. It breaks down quickly in hot water and light, but can persist in soil.",
+      "emission_sources": [
+        "Use as a herbicide on agricultural land"
+      ],
+      "environmental_impact": [
+        "Toxic to fish and aquatic invertebrates, with potential long-term aquatic effects",
+        "Binds strongly to soil and may persist for months or years",
+        "May cause harm to blood and possibly cancer in humans if overexposed"
+      ]
+    },
+    "sdg_scores": {
+      "SDG1_No_Poverty": 2,
+      "SDG2_Zero_Hunger": 6,
+      "SDG3_Good_Health_and_Wellbeing": 6,
+      "SDG4_Quality_Education": 1,
+      "SDG5_Gender_Equality": 1,
+      "SDG6_Clean_Water_and_Sanitation": 7,
+      "SDG7_Affordable_and_Clean_Energy": 1,
+      "SDG8_Decent_Work_and_Economic_Growth": 4,
+      "SDG9_Industry_Innovation_and_Infrastructure": 2,
+      "SDG10_Reduced_Inequalities": 1,
+      "SDG11_Sustainable_Cities_and_Communities": 4,
+      "SDG12_Responsible_Consumption_and_Production": 8,
+      "SDG13_Climate_Action": 2,
+      "SDG14_Life_Below_Water": 8,
+      "SDG15_Life_on_Land": 6,
+      "SDG16_Peace_Justice_and_Strong_Institutions": 1,
+      "SDG17_Partnerships_for_the_Goals": 2
+    },
+    "top_sdg_impacts": {
+      "SDG6_Clean_Water_and_Sanitation": "Diuron is toxic to aquatic organisms and can persist in water and soil, threatening the quality of freshwater resources.",
+      "SDG12_Responsible_Consumption_and_Production": "Its agricultural use and long persistence in soil call for better management practices to reduce environmental contamination.",
+      "SDG14_Life_Below_Water": "Diuron is highly toxic to fish and aquatic invertebrates and may cause long-term damage to aquatic ecosystems."
+    }
+  }
+  

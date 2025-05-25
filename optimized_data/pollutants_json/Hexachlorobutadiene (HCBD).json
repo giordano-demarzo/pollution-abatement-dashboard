@@ -1,0 +1,41 @@
+{
+    "summary": {
+      "pollutant": "Hexachlorobutadiene (HCBD)",
+      "description": "Hexachlorobutadiene is a colourless, oily, non-flammable liquid with a strong smell. It evaporates easily but is not water-soluble.",
+      "emission_sources": [
+        "Manufacture of HCBD",
+        "Disposal through waste incinerators",
+        "Landfill sites"
+      ],
+      "environmental_impact": [
+        "Toxic to aquatic organisms and plants",
+        "Accumulates in soils, sediments, water bodies, and organisms such as fish and shellfish",
+        "Concentrates in the food chain, potentially affecting ecosystem health"
+      ]
+    },
+    "sdg_scores": {
+      "SDG1_No_Poverty": 2,
+      "SDG2_Zero_Hunger": 4,
+      "SDG3_Good_Health_and_Wellbeing": 7,
+      "SDG4_Quality_Education": 1,
+      "SDG5_Gender_Equality": 1,
+      "SDG6_Clean_Water_and_Sanitation": 7,
+      "SDG7_Affordable_and_Clean_Energy": 2,
+      "SDG8_Decent_Work_and_Economic_Growth": 4,
+      "SDG9_Industry_Innovation_and_Infrastructure": 5,
+      "SDG10_Reduced_Inequalities": 2,
+      "SDG11_Sustainable_Cities_and_Communities": 5,
+      "SDG12_Responsible_Consumption_and_Production": 7,
+      "SDG13_Climate_Action": 3,
+      "SDG14_Life_Below_Water": 8,
+      "SDG15_Life_on_Land": 6,
+      "SDG16_Peace_Justice_and_Strong_Institutions": 2,
+      "SDG17_Partnerships_for_the_Goals": 3
+    },
+    "top_sdg_impacts": {
+      "SDG14_Life_Below_Water": "HCBD is toxic to aquatic life, bioaccumulates in fish and shellfish, and poses a significant threat to marine ecosystems.",
+      "SDG6_Clean_Water_and_Sanitation": "The pollutant contaminates water bodies and sediments, affecting water quality and safe water availability.",
+      "SDG3_Good_Health_and_Wellbeing": "Exposure to high levels of HCBD can cause liver and kidney damage and irritation, impacting human health especially in occupational settings."
+    }
+  }
+  

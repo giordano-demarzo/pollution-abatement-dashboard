@@ -1,0 +1,41 @@
+{
+    "summary": {
+      "pollutant": "Lindane",
+      "description": "Lindane is a slightly volatile, white solid with a slight musty odour, used as an insecticide for timber. Agricultural uses have been removed in the EU.",
+      "emission_sources": [
+        "Use as an insecticide for timber",
+        "Past agricultural applications (now phased out in the EU)"
+      ],
+      "environmental_impact": [
+        "Damages aquatic insects and fish upon release into water systems",
+        "Persists and bioaccumulates in fatty tissue of fish and the environment",
+        "Can travel long distances causing effects far from the point of release",
+        "Adverse human health effects mostly linked to occupational exposure"
+      ]
+    },
+    "sdg_scores": {
+      "SDG1_No_Poverty": 3,
+      "SDG2_Zero_Hunger": 4,
+      "SDG3_Good_Health_and_Wellbeing": 7,
+      "SDG4_Quality_Education": 2,
+      "SDG5_Gender_Equality": 2,
+      "SDG6_Clean_Water_and_Sanitation": 7,
+      "SDG7_Affordable_and_Clean_Energy": 2,
+      "SDG8_Decent_Work_and_Economic_Growth": 4,
+      "SDG9_Industry_Innovation_and_Infrastructure": 3,
+      "SDG10_Reduced_Inequalities": 3,
+      "SDG11_Sustainable_Cities_and_Communities": 5,
+      "SDG12_Responsible_Consumption_and_Production": 6,
+      "SDG13_Climate_Action": 3,
+      "SDG14_Life_Below_Water": 8,
+      "SDG15_Life_on_Land": 5,
+      "SDG16_Peace_Justice_and_Strong_Institutions": 3,
+      "SDG17_Partnerships_for_the_Goals": 3
+    },
+    "top_sdg_impacts": {
+      "SDG14_Life_Below_Water": "Lindane is highly toxic to aquatic insects and fish, persists in aquatic environments, bioaccumulates, and can cause damage far from the release site.",
+      "SDG6_Clean_Water_and_Sanitation": "Contamination of water bodies by lindane affects water quality and aquatic ecosystems, threatening clean water resources.",
+      "SDG3_Good_Health_and_Wellbeing": "Chronic occupational exposure to lindane has been linked to adverse human health effects, posing risks especially to agricultural workers."
+    }
+  }
+  

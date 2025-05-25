@@ -1,0 +1,41 @@
+{
+    "summary": {
+      "pollutant": "Polychlorinated biphenyls (PCBs)",
+      "description": "PCBs are colourless or yellow oily liquids or solids with no odour, mainly used as electrical insulating materials in capacitors and transformers and as flame retardants.",
+      "emission_sources": [
+        "Manufacture and use of PCBs",
+        "Leakage during disposal of PCB-containing equipment"
+      ],
+      "environmental_impact": [
+        "Toxic to humans causing damage to brain, eyes, heart, immune system, kidneys, liver, reproductive system, skin, and thyroid gland",
+        "May cause cancer and harm unborn children",
+        "Highly toxic to wildlife, especially aquatic organisms, causing reproductive and developmental problems",
+        "Persistent organic pollutant (POP) leading to long-term environmental contamination"
+      ]
+    },
+    "sdg_scores": {
+      "SDG1_No_Poverty": 3,
+      "SDG2_Zero_Hunger": 4,
+      "SDG3_Good_Health_and_Wellbeing": 9,
+      "SDG4_Quality_Education": 2,
+      "SDG5_Gender_Equality": 3,
+      "SDG6_Clean_Water_and_Sanitation": 8,
+      "SDG7_Affordable_and_Clean_Energy": 3,
+      "SDG8_Decent_Work_and_Economic_Growth": 5,
+      "SDG9_Industry_Innovation_and_Infrastructure": 6,
+      "SDG10_Reduced_Inequalities": 4,
+      "SDG11_Sustainable_Cities_and_Communities": 5,
+      "SDG12_Responsible_Consumption_and_Production": 8,
+      "SDG13_Climate_Action": 3,
+      "SDG14_Life_Below_Water": 9,
+      "SDG15_Life_on_Land": 7,
+      "SDG16_Peace_Justice_and_Strong_Institutions": 3,
+      "SDG17_Partnerships_for_the_Goals": 4
+    },
+    "top_sdg_impacts": {
+      "SDG3_Good_Health_and_Wellbeing": "PCBs have serious health impacts on humans, including cancer risk and damage to multiple organs and systems, threatening overall wellbeing.",
+      "SDG14_Life_Below_Water": "PCBs are highly toxic to aquatic life, causing reproductive and developmental harm, severely impacting marine biodiversity and ecosystem health.",
+      "SDG6_Clean_Water_and_Sanitation": "Due to their persistence and toxicity, PCBs contaminate water bodies, compromising clean water sources and sanitation."
+    }
+  }
+  

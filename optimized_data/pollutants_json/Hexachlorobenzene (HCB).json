@@ -1,0 +1,43 @@
+{
+    "summary": {
+      "pollutant": "Hexachlorobenzene (HCB)",
+      "description": "Hexachlorobenzene is a white crystalline solid, volatile and insoluble in water but dissolves in organic solvents, fats, and oils. It was historically used as a fungicide and in manufacturing chlorinated solvents.",
+      "emission_sources": [
+        "By-product of coal burning",
+        "Waste incineration",
+        "Certain metal processing activities",
+        "Past use as a fungicide on cereal seeds",
+        "Natural releases from fires and volcanoes"
+      ],
+      "environmental_impact": [
+        "Persistent in the environment and bio-accumulates in the food chain",
+        "Can damage liver, immune, and reproductive systems at high exposures",
+        "Induces birth defects and accumulates in fish, marine mammals, and some plants"
+      ]
+    },
+    "sdg_scores": {
+      "SDG1_No_Poverty": 3,
+      "SDG2_Zero_Hunger": 5,
+      "SDG3_Good_Health_and_Wellbeing": 9,
+      "SDG4_Quality_Education": 1,
+      "SDG5_Gender_Equality": 2,
+      "SDG6_Clean_Water_and_Sanitation": 6,
+      "SDG7_Affordable_and_Clean_Energy": 3,
+      "SDG8_Decent_Work_and_Economic_Growth": 4,
+      "SDG9_Industry_Innovation_and_Infrastructure": 5,
+      "SDG10_Reduced_Inequalities": 3,
+      "SDG11_Sustainable_Cities_and_Communities": 5,
+      "SDG12_Responsible_Consumption_and_Production": 7,
+      "SDG13_Climate_Action": 4,
+      "SDG14_Life_Below_Water": 8,
+      "SDG15_Life_on_Land": 6,
+      "SDG16_Peace_Justice_and_Strong_Institutions": 2,
+      "SDG17_Partnerships_for_the_Goals": 3
+    },
+    "top_sdg_impacts": {
+      "SDG3_Good_Health_and_Wellbeing": "HCB exposure at high levels causes liver damage, immune and reproductive system harm, and birth defects, posing significant risks to human health.",
+      "SDG14_Life_Below_Water": "HCB bio-accumulates in aquatic organisms including fish and marine mammals, threatening marine biodiversity and ecosystem health.",
+      "SDG12_Responsible_Consumption_and_Production": "Due to its persistence and toxicity, managing HCB as a by-product of industrial processes and past pesticide use is critical for sustainable consumption and production practices."
+    }
+  }
+  

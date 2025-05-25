@@ -1,0 +1,41 @@
+{
+    "summary": {
+      "pollutant": "Trichlorobenzenes (TCBs)",
+      "description": "Colourless, volatile liquids with a pleasant smell, slightly soluble in water. Used primarily in dye manufacturing and as industrial solvents and fluids.",
+      "emission_sources": [
+        "Chemical manufacturing processes",
+        "Transportation of TCBs",
+        "Industrial use in solvents, insulating and heat exchange fluids, and degreasing agents"
+      ],
+      "environmental_impact": [
+        "Toxic to aquatic life with potential for bioaccumulation",
+        "Can cause irritation and damage to skin, eyes, liver, lungs, and kidneys at high exposure levels",
+        "Contributes to ground-level ozone formation as a volatile organic compound (VOC), harming human health and vegetation"
+      ]
+    },
+    "sdg_scores": {
+      "SDG1_No_Poverty": 2,
+      "SDG2_Zero_Hunger": 3,
+      "SDG3_Good_Health_and_Wellbeing": 7,
+      "SDG4_Quality_Education": 2,
+      "SDG5_Gender_Equality": 1,
+      "SDG6_Clean_Water_and_Sanitation": 6,
+      "SDG7_Affordable_and_Clean_Energy": 2,
+      "SDG8_Decent_Work_and_Economic_Growth": 4,
+      "SDG9_Industry_Innovation_and_Infrastructure": 5,
+      "SDG10_Reduced_Inequalities": 2,
+      "SDG11_Sustainable_Cities_and_Communities": 6,
+      "SDG12_Responsible_Consumption_and_Production": 8,
+      "SDG13_Climate_Action": 5,
+      "SDG14_Life_Below_Water": 7,
+      "SDG15_Life_on_Land": 5,
+      "SDG16_Peace_Justice_and_Strong_Institutions": 1,
+      "SDG17_Partnerships_for_the_Goals": 2
+    },
+    "top_sdg_impacts": {
+      "SDG12_Responsible_Consumption_and_Production": "TCBs are used across various industrial processes and their emissions raise concerns over chemical safety and waste management, necessitating improved production and consumption practices.",
+      "SDG3_Good_Health_and_Wellbeing": "High exposure to TCBs can damage vital organs and contribute to ground-level ozone, which harms respiratory health.",
+      "SDG14_Life_Below_Water": "TCBs are highly toxic to aquatic life and can accumulate in the food chain, threatening marine biodiversity and ecosystems."
+    }
+  }
+  

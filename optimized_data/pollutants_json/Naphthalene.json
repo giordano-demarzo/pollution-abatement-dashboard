@@ -1,0 +1,41 @@
+{
+    "summary": {
+      "pollutant": "Naphthalene",
+      "description": "A white to brown flammable solid with a strong odour that evaporates easily.",
+      "emission_sources": [
+        "Burning of fossil fuels",
+        "Chemical industry use",
+        "Disposal of products containing naphthalene"
+      ],
+      "environmental_impact": [
+        "Carcinogenic to humans with harmful effects at elevated exposure levels",
+        "Toxic to wildlife and aquatic organisms at high concentrations",
+        "Breaks down easily in the environment, reducing long-term persistence"
+      ]
+    },
+    "sdg_scores": {
+      "SDG1_No_Poverty": 3,
+      "SDG2_Zero_Hunger": 3,
+      "SDG3_Good_Health_and_Wellbeing": 8,
+      "SDG4_Quality_Education": 2,
+      "SDG5_Gender_Equality": 2,
+      "SDG6_Clean_Water_and_Sanitation": 5,
+      "SDG7_Affordable_and_Clean_Energy": 3,
+      "SDG8_Decent_Work_and_Economic_Growth": 4,
+      "SDG9_Industry_Innovation_and_Infrastructure": 4,
+      "SDG10_Reduced_Inequalities": 3,
+      "SDG11_Sustainable_Cities_and_Communities": 6,
+      "SDG12_Responsible_Consumption_and_Production": 6,
+      "SDG13_Climate_Action": 4,
+      "SDG14_Life_Below_Water": 5,
+      "SDG15_Life_on_Land": 5,
+      "SDG16_Peace_Justice_and_Strong_Institutions": 2,
+      "SDG17_Partnerships_for_the_Goals": 3
+    },
+    "top_sdg_impacts": {
+      "SDG3_Good_Health_and_Wellbeing": "Naphthalene is carcinogenic and can cause severe health effects such as headaches, nausea, and coma at high exposure levels, posing risks to human health.",
+      "SDG11_Sustainable_Cities_and_Communities": "Releases from fossil fuel burning and chemical industry contribute to urban pollution, affecting air quality and livability in cities.",
+      "SDG12_Responsible_Consumption_and_Production": "Use in mothballs, insecticides, and dyes, along with improper disposal, contributes to environmental pollution and calls for improved production and consumption practices."
+    }
+  }
+  

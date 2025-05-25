@@ -1,0 +1,42 @@
+{
+    "summary": {
+      "pollutant": "Total Phosphorus",
+      "description": "Total phosphorus refers to the measurement of both organic and inorganic phosphorus compounds found in soil and water. These include compounds such as phosphoric acid and potassium phosphate, with data often referring to red phosphorus.",
+      "emission_sources": [
+        "Use of fertilizers in agriculture",
+        "Human sewage",
+        "Industrial use of detergents",
+        "Natural occurrence in all living organisms"
+      ],
+      "environmental_impact": [
+        "Unlikely to harm human health at typical environmental concentrations",
+        "Excessive phosphates in water bodies cause eutrophication",
+        "Phosphate pollution can persist in aquatic environments for long periods"
+      ]
+    },
+    "sdg_scores": {
+      "SDG1_No_Poverty": 2,
+      "SDG2_Zero_Hunger": 7,
+      "SDG3_Good_Health_and_Wellbeing": 4,
+      "SDG4_Quality_Education": 2,
+      "SDG5_Gender_Equality": 2,
+      "SDG6_Clean_Water_and_Sanitation": 9,
+      "SDG7_Affordable_and_Clean_Energy": 2,
+      "SDG8_Decent_Work_and_Economic_Growth": 5,
+      "SDG9_Industry_Innovation_and_Infrastructure": 4,
+      "SDG10_Reduced_Inequalities": 2,
+      "SDG11_Sustainable_Cities_and_Communities": 6,
+      "SDG12_Responsible_Consumption_and_Production": 8,
+      "SDG13_Climate_Action": 5,
+      "SDG14_Life_Below_Water": 9,
+      "SDG15_Life_on_Land": 7,
+      "SDG16_Peace_Justice_and_Strong_Institutions": 1,
+      "SDG17_Partnerships_for_the_Goals": 3
+    },
+    "top_sdg_impacts": {
+      "SDG6_Clean_Water_and_Sanitation": "Phosphorus from fertilizers, sewage, and detergents leads to water pollution and eutrophication, reducing water quality and affecting sanitation goals.",
+      "SDG14_Life_Below_Water": "Phosphate-driven eutrophication harms aquatic ecosystems by depleting oxygen and disrupting marine biodiversity.",
+      "SDG12_Responsible_Consumption_and_Production": "Phosphate overuse in agriculture and industry illustrates unsustainable production practices, necessitating more efficient and environmentally responsible approaches."
+    }
+  }
+  

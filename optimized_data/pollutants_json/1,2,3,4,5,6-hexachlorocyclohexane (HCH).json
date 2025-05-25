@@ -1,0 +1,39 @@
+{
+    "summary": {
+      "pollutant": "Hexachlorocyclohexane (HCH), especially gamma-HCH (lindane)",
+      "description": "HCH has eight isomers, with gamma-HCH (lindane) used as an insecticide mainly for timber. Pure lindane is a white solid with a slightly musty smell.",
+      "emission_sources": [
+        "Use of gamma-HCH (lindane) as an insecticide in agriculture and timber treatment"
+      ],
+      "environmental_impact": [
+        "Exposure to background levels is unlikely to cause health issues, but operational exposure (especially agricultural) has reported adverse effects.",
+        "Gamma-HCH released into aquatic systems harms insects and fish.",
+        "Gamma-HCH bioaccumulates in fatty tissues of fish and the environment, leading to long-range environmental transport and effects distant from the release site."
+      ]
+    },
+    "sdg_scores": {
+      "SDG1_No_Poverty": 2,
+      "SDG2_Zero_Hunger": 3,
+      "SDG3_Good_Health_and_Wellbeing": 7,
+      "SDG4_Quality_Education": 1,
+      "SDG5_Gender_Equality": 1,
+      "SDG6_Clean_Water_and_Sanitation": 6,
+      "SDG7_Affordable_and_Clean_Energy": 1,
+      "SDG8_Decent_Work_and_Economic_Growth": 4,
+      "SDG9_Industry_Innovation_and_Infrastructure": 3,
+      "SDG10_Reduced_Inequalities": 2,
+      "SDG11_Sustainable_Cities_and_Communities": 4,
+      "SDG12_Responsible_Consumption_and_Production": 7,
+      "SDG13_Climate_Action": 2,
+      "SDG14_Life_Below_Water": 8,
+      "SDG15_Life_on_Land": 6,
+      "SDG16_Peace_Justice_and_Strong_Institutions": 1,
+      "SDG17_Partnerships_for_the_Goals": 2
+    },
+    "top_sdg_impacts": {
+      "SDG14_Life_Below_Water": "Gamma-HCH accumulates in aquatic organisms, harming insects and fish, and spreads through water bodies causing long-distance ecological damage.",
+      "SDG3_Good_Health_and_Wellbeing": "Exposure to lindane in agricultural or operational settings can cause adverse health effects in humans.",
+      "SDG12_Responsible_Consumption_and_Production": "Continued use and release of gamma-HCH as an insecticide highlights the need for sustainable pesticide management and reduced harmful chemical production."
+    }
+  }
+  

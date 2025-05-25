@@ -1,0 +1,44 @@
+{
+    "summary": {
+      "pollutant": "Total nitrogen compounds",
+      "description": "A diverse group of organic and inorganic nitrogen compounds in soil and water, including substances like ammonium nitrate. While nitrogen gas itself makes up 80% of the atmosphere and is relatively non-reactive, various nitrogen compounds are highly reactive and problematic",
+      "emission_sources": [
+        "Fertilizers and manures",
+        "Combustion processes forming nitrogen oxides",
+        "Natural sources (thunderstorms, forest fires)"
+      ],
+      "environmental_impact": [
+        "Can be transported large distances due to solubility",
+        "Causes acidification in regions thousands of miles from release point",
+        "Causes eutrophication in distant water bodies",
+        "Increases algal growth rates in water bodies",
+        "Leads to oxygen depletion in aquatic systems",
+        "Blocks sunlight in water bodies",
+        "Alters ecosystem balances significantly"
+      ]
+    },
+    "sdg_scores": {
+      "SDG1_No_Poverty": 3,
+      "SDG2_Zero_Hunger": 8,
+      "SDG3_Good_Health_and_Wellbeing": 5,
+      "SDG4_Quality_Education": 1,
+      "SDG5_Gender_Equality": 1,
+      "SDG6_Clean_Water_and_Sanitation": 9,
+      "SDG7_Affordable_and_Clean_Energy": 3,
+      "SDG8_Decent_Work_and_Economic_Growth": 4,
+      "SDG9_Industry_Innovation_and_Infrastructure": 4,
+      "SDG10_Reduced_Inequalities": 3,
+      "SDG11_Sustainable_Cities_and_Communities": 5,
+      "SDG12_Responsible_Consumption_and_Production": 7,
+      "SDG13_Climate_Action": 4,
+      "SDG14_Life_Below_Water": 9,
+      "SDG15_Life_on_Land": 7,
+      "SDG16_Peace_Justice_and_Strong_Institutions": 1,
+      "SDG17_Partnerships_for_the_Goals": 2
+    },
+    "top_sdg_impacts": {
+      "SDG6_Clean_Water_and_Sanitation": "Nitrogen compounds severely impact water quality through eutrophication, causing excessive algal growth that depletes oxygen and blocks sunlight in water bodies. This fundamentally alters aquatic ecosystems and compromises clean water availability. The compounds' high solubility allows them to contaminate water sources far from their original release points, making water treatment and sanitation more challenging.",
+      "SDG14_Life_Below_Water": "Nitrogen pollution is one of the most significant threats to aquatic ecosystems, causing eutrophication that leads to oxygen depletion and algal blooms. These conditions create dead zones where aquatic life cannot survive, fundamentally disrupting marine food chains and biodiversity. The ability of nitrogen compounds to travel thousands of miles means that local agricultural or industrial activities can impact distant marine ecosystems.",
+      "SDG2_Zero_Hunger": "Nitrogen compounds present a complex challenge for food security - while nitrogen fertilizers are essential for modern agriculture and crop yields, their overuse and runoff create long-term sustainability problems. Excessive nitrogen pollution degrades soil and water resources that agriculture depends on, while eutrophication of water bodies can harm fisheries that provide protein for human consumption. Sustainable nitrogen management is crucial for long-term food security."
+    }
+  }

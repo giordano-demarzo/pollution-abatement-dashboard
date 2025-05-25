@@ -1,0 +1,39 @@
+{
+    "summary": {
+      "pollutant": "Trifluralin",
+      "description": "Trifluralin is an orange crystalline herbicide with no odour that evaporates easily and produces toxic fumes when heated.",
+      "emission_sources": [
+        "Use as a pesticide in agricultural practices"
+      ],
+      "environmental_impact": [
+        "Harmful to wildlife, especially aquatic organisms",
+        "Binds to soil but is broken down by plants and animals",
+        "Degrades quickly in air and water when exposed to sunlight"
+      ]
+    },
+    "sdg_scores": {
+      "SDG1_No_Poverty": 2,
+      "SDG2_Zero_Hunger": 6,
+      "SDG3_Good_Health_and_Wellbeing": 4,
+      "SDG4_Quality_Education": 1,
+      "SDG5_Gender_Equality": 1,
+      "SDG6_Clean_Water_and_Sanitation": 6,
+      "SDG7_Affordable_and_Clean_Energy": 1,
+      "SDG8_Decent_Work_and_Economic_Growth": 3,
+      "SDG9_Industry_Innovation_and_Infrastructure": 2,
+      "SDG10_Reduced_Inequalities": 1,
+      "SDG11_Sustainable_Cities_and_Communities": 3,
+      "SDG12_Responsible_Consumption_and_Production": 7,
+      "SDG13_Climate_Action": 2,
+      "SDG14_Life_Below_Water": 7,
+      "SDG15_Life_on_Land": 6,
+      "SDG16_Peace_Justice_and_Strong_Institutions": 1,
+      "SDG17_Partnerships_for_the_Goals": 2
+    },
+    "top_sdg_impacts": {
+      "SDG12_Responsible_Consumption_and_Production": "Trifluralin use in agriculture highlights the need for responsible management of chemical inputs to reduce environmental contamination.",
+      "SDG14_Life_Below_Water": "Trifluralin is toxic to aquatic life, particularly sensitive species, making it a threat to aquatic ecosystems.",
+      "SDG6_Clean_Water_and_Sanitation": "Due to runoff from agricultural fields, trifluralin can contaminate surface waters, affecting water quality and ecosystem health."
+    }
+  }
+  
