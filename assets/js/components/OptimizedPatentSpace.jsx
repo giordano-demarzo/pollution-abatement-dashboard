@@ -1,47 +1,76 @@
 import React, { useState, useEffect, useCallback, useMemo, useRef } from 'react';
-import { Search, ZoomIn, ZoomOut, Move } from 'lucide-react';
+import { Search, ZoomIn, ZoomOut, Move, Sliders } from 'lucide-react';
 import PatentDetailsBox from './PatentDetailsBox';
 
 import { loadVisiblePatents, loadPollutantScores, loadPatentDetails, loadBrefRelevanceScores } from '../utils/dataLoader';
 
 // Constants for patent space visualization
-const INITIAL_ZOOM = 0.9; // Slightly reduced to show more patents
-const MIN_ZOOM = 0.3;    // Lower minimum zoom to see more patents at once
+const INITIAL_ZOOM = 0.9;
+const MIN_ZOOM = 0.3;
 const MAX_ZOOM = 4;
-const ZOOM_STEP = 0.15;  // Smaller steps for smoother zooming
-const POINT_RADIUS = 6;
+const ZOOM_STEP = 0.15;
+const POINT_RADIUS = 5;
 const SELECTED_RADIUS = 8;
 const HOVER_RADIUS = 7;
 
-// Custom continuous gradient color based on score - using a more visually pleasing color scheme
+// Enhanced color scheme with better aesthetics
 const getPointColor = (score, opacity = 1) => {
-  // If score is below threshold, return gray with reduced opacity
-  if (score < 0.5) {
-    return `rgba(156, 163, 175, ${opacity * 0.5})`;  // Gray with reduced opacity
-  }
-  
-  // Normalize score between 0.5 and 1.0 to create a smooth transition
-  const normalizedScore = (score - 0.5) * 2; // Map 0.5-1.0 to 0-1
-  
-  // Use a scientifically proven appealing colormap (based on viridis/inferno)
+  // Enhanced color scheme using modern gradient
   let r, g, b;
   
-  // Start with blue for lower scores, transition to purple, then orange/yellow for high scores
-  if (normalizedScore < 0.5) {
-    // Blue to purple transition
-    const t = normalizedScore * 2;
-    r = Math.round(30 + 120 * t);
-    g = Math.round(60 + 70 * t);
-    b = Math.round(160 + 10 * t);
+  if (score < 0.3) {
+    // Very low scores: Cool gray-blue
+    r = 148;
+    g = 163;
+    b = 184;
+    opacity *= 0.4;
+  } else if (score < 0.5) {
+    // Low scores: Soft blue
+    const t = (score - 0.3) / 0.2;
+    r = Math.round(148 + (59 - 148) * t);   // 148 -> 59
+    g = Math.round(163 + (130 - 163) * t);  // 163 -> 130
+    b = Math.round(184 + (246 - 184) * t);  // 184 -> 246
+    opacity *= 0.6 + 0.3 * t;
+  } else if (score < 0.7) {
+    // Medium scores: Vibrant teal to purple
+    const t = (score - 0.5) / 0.2;
+    r = Math.round(59 + (147 - 59) * t);    // 59 -> 147
+    g = Math.round(130 + (51 - 130) * t);   // 130 -> 51
+    b = Math.round(246 + (234 - 246) * t);  // 246 -> 234
+  } else if (score < 0.85) {
+    // High scores: Purple to orange
+    const t = (score - 0.7) / 0.15;
+    r = Math.round(147 + (251 - 147) * t);  // 147 -> 251
+    g = Math.round(51 + (146 - 51) * t);    // 51 -> 146
+    b = Math.round(234 + (60 - 234) * t);   // 234 -> 60
   } else {
-    // Purple to yellow/orange transition
-    const t = (normalizedScore - 0.5) * 2;
-    r = Math.round(150 + 105 * t);
-    g = Math.round(130 + 125 * t);
-    b = Math.round(170 - 170 * t);
+    // Very high scores: Bright orange to red
+    const t = (score - 0.85) / 0.15;
+    r = Math.round(251 + (239 - 251) * t);  // 251 -> 239
+    g = Math.round(146 + (68 - 146) * t);   // 146 -> 68
+    b = Math.round(60 + (68 - 60) * t);     // 60 -> 68
   }
   
   return `rgba(${r}, ${g}, ${b}, ${opacity})`;
+};
+
+// Generate CSS gradient for the color bar
+const generateColorBarGradient = () => {
+  const stops = [];
+  for (let i = 0; i <= 100; i += 5) {
+    const score = i / 100;
+    const color = getPointColor(score, 1);
+    // Extract RGB values to convert to hex
+    const match = color.match(/rgba?\((\d+),\s*(\d+),\s*(\d+)/);
+    if (match) {
+      const r = parseInt(match[1]);
+      const g = parseInt(match[2]);
+      const b = parseInt(match[3]);
+      const hex = `#${r.toString(16).padStart(2, '0')}${g.toString(16).padStart(2, '0')}${b.toString(16).padStart(2, '0')}`;
+      stops.push(`${hex} ${i}%`);
+    }
+  }
+  return `linear-gradient(to right, ${stops.join(', ')})`;
 };
 
 const OptimizedPatentSpace = ({ 
@@ -86,7 +115,16 @@ const OptimizedPatentSpace = ({
   const [loadingBrefScores, setLoadingBrefScores] = useState(false);
   
   // Tool state
-  const [activeTool, setActiveTool] = useState('move'); // 'move', 'zoom-in', 'zoom-out'
+  const [activeTool, setActiveTool] = useState('move');
+  
+  // NEW: Score filtering state
+  const [scoreThreshold, setScoreThreshold] = useState(0.5);
+  const [showFilterPanel, setShowFilterPanel] = useState(false);
+  
+  // Filter patents based on score threshold
+  const filteredPatents = useMemo(() => {
+    return allPatents.filter(patent => (patent.score || 0) >= scoreThreshold);
+  }, [allPatents, scoreThreshold]);
   
   // Calculate view bounds with FIXED ASPECT RATIO
   const calculateViewBounds = useCallback(() => {
@@ -96,7 +134,6 @@ const OptimizedPatentSpace = ({
     const containerAspectRatio = width / height;
     
     // Fixed aspect ratio - always maintain a 1:1 data aspect ratio
-    // This prevents distortion when zooming or panning
     const dataAspectRatio = 1.0;
     
     // Calculate the view size based on zoom
@@ -146,7 +183,6 @@ const OptimizedPatentSpace = ({
       try {
         setLoadingBrefScores(true);
         
-        // Load BREF relevance scores for this pollutant
         const scores = await loadBrefRelevanceScores(selectedPollutantFilename);
         
         if (scores) {
@@ -175,10 +211,6 @@ const OptimizedPatentSpace = ({
     const loadAllPatentsForPollutant = async () => {
       setLoadingPatents(true);
       try {
-        // Load all patents for this pollutant
-        // Note: We'll need to expand the loadVisiblePatents to get all patents
-        // This might require a new API function, but we can use the existing one 
-        // with a full view for now
         const fullViewBounds = { xMin: 0, xMax: 1, yMin: 0, yMax: 1 };
         const patents = await loadVisiblePatents(fullViewBounds, selectedPollutantFilename);
         setAllPatents(patents || []);
@@ -202,17 +234,17 @@ const OptimizedPatentSpace = ({
     setVisiblePatents(visible);
   }, []);
   
-  // Update visible patents when view bounds or all patents change
+  // Update visible patents when view bounds or filtered patents change
   useEffect(() => {
     const bounds = calculateViewBounds();
     setViewBounds(bounds);
     
-    if (allPatents.length > 0) {
-      updateVisiblePatents(allPatents, bounds);
+    if (filteredPatents.length > 0) {
+      updateVisiblePatents(filteredPatents, bounds);
     }
-  }, [calculateViewBounds, updateVisiblePatents, allPatents, viewState.zoom, viewState.offsetX, viewState.offsetY]);
+  }, [calculateViewBounds, updateVisiblePatents, filteredPatents, viewState.zoom, viewState.offsetX, viewState.offsetY]);
   
-  // Draw the patent space
+  // Draw the patent space with enhanced aesthetics
   const drawPatentSpace = useCallback(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
@@ -220,30 +252,35 @@ const OptimizedPatentSpace = ({
     const ctx = canvas.getContext('2d');
     const { width, height } = canvas;
     
-    // Clear canvas
-    ctx.clearRect(0, 0, width, height);
+    // Clear canvas with a subtle background
+    ctx.fillStyle = '#fafafa';
+    ctx.fillRect(0, 0, width, height);
     
     // No patents to display
-    if (!allPatents.length) {
-      ctx.fillStyle = '#9ca3af';
+    if (!filteredPatents.length) {
+      ctx.fillStyle = '#6b7280';
       ctx.textAlign = 'center';
-      ctx.font = '14px sans-serif';
+      ctx.font = '14px Inter, system-ui, sans-serif';
       
       if (loadingPatents) {
         ctx.fillText('Loading patents...', width / 2, height / 2);
       } else if (!selectedPollutant) {
         ctx.fillText('Select a pollutant to view patents', width / 2, height / 2);
+      } else if (allPatents.length > 0 && filteredPatents.length === 0) {
+        ctx.fillText(`No patents with score ≥ ${Math.round(scoreThreshold * 100)}%`, width / 2, height / 2);
+        ctx.fillStyle = '#9ca3af';
+        ctx.font = '12px Inter, system-ui, sans-serif';
+        ctx.fillText('Adjust the score filter below', width / 2, height / 2 + 20);
       } else {
         ctx.fillText('No patents found for this pollutant', width / 2, height / 2);
       }
       return;
     }
     
-    // Draw coordinate system grid
+    // Draw enhanced grid
     ctx.strokeStyle = '#e5e7eb';
     ctx.lineWidth = 0.5;
     
-    // Draw grid lines
     const gridSize = 0.1;
     
     // Convert data coordinates to screen coordinates
@@ -257,7 +294,7 @@ const OptimizedPatentSpace = ({
       return height - ((y - yMin) / (yMax - yMin)) * height;
     };
     
-    // Draw grid lines
+    // Draw grid lines with subtle style
     ctx.beginPath();
     for (let x = 0; x <= 1; x += gridSize) {
       const screenX = dataToScreenX(x);
@@ -275,22 +312,17 @@ const OptimizedPatentSpace = ({
     }
     ctx.stroke();
     
-    // Sort patents so that more relevant ones are drawn on top
-    // and selected ones are drawn last (on top)
-    const sortedPatents = [...allPatents].sort((a, b) => {
-      // First compare selection state
+    // Sort patents for better rendering order
+    const sortedPatents = [...filteredPatents].sort((a, b) => {
       const aSelected = selectedPatents.some(p => p.id === a.id);
       const bSelected = selectedPatents.some(p => p.id === b.id);
       if (aSelected && !bSelected) return 1;
       if (!aSelected && bSelected) return -1;
-      
-      // Then compare score
       return a.score - b.score;
     });
     
-    // Draw all patents
+    // Draw patents with enhanced styling
     sortedPatents.forEach(patent => {
-      // Convert data coordinates to screen coordinates
       const x = dataToScreenX(patent.x);
       const y = dataToScreenY(patent.y);
       
@@ -298,74 +330,107 @@ const OptimizedPatentSpace = ({
       if (x < -20 || x > width + 20 || y < -20 || y > height + 20) return;
       
       const score = patent.score || 0;
-      
-      // Determine if patent is selected or hovered
       const isSelected = selectedPatents.some(p => p.id === patent.id);
       const isHovered = hoveredPatent && hoveredPatent.id === patent.id;
-      const isVisible = visiblePatents.some(p => p.id === patent.id);
-      const isRelevant = score >= 0.5;
       
-      // Set point size based on state
+      // Set point size and style
       let radius = POINT_RADIUS;
       if (isSelected) radius = SELECTED_RADIUS;
       else if (isHovered) radius = HOVER_RADIUS;
       
-      // Set opacity based on relevance and view
-      let opacity = 1.0;
-      if (!isRelevant) opacity = 0.3;
-      
-      // Draw point
+      // Enhanced point rendering with border
       ctx.beginPath();
       ctx.arc(x, y, radius, 0, Math.PI * 2);
-      ctx.fillStyle = getPointColor(score, opacity);
+      
+      // Fill with enhanced color
+      ctx.fillStyle = getPointColor(score, 0.9);
       ctx.fill();
       
-      // Draw border for selected/hovered patents
+      // Add attractive border
+      ctx.strokeStyle = isSelected ? '#1d4ed8' : 
+                       isHovered ? '#374151' : 
+                       'rgba(255, 255, 255, 0.8)';
+      ctx.lineWidth = isSelected ? 2.5 : isHovered ? 2 : 1.5;
+      ctx.stroke();
+      
+      // Add subtle shadow for depth
       if (isSelected || isHovered) {
-        ctx.strokeStyle = isSelected ? '#2563eb' : '#64748b';
-        ctx.lineWidth = 2;
+        ctx.beginPath();
+        ctx.arc(x + 1, y + 1, radius, 0, Math.PI * 2);
+        ctx.fillStyle = 'rgba(0, 0, 0, 0.1)';
+        ctx.fill();
+        
+        // Redraw the main point on top
+        ctx.beginPath();
+        ctx.arc(x, y, radius, 0, Math.PI * 2);
+        ctx.fillStyle = getPointColor(score, 0.95);
+        ctx.fill();
+        ctx.strokeStyle = isSelected ? '#1d4ed8' : '#374151';
+        ctx.lineWidth = isSelected ? 2.5 : 2;
         ctx.stroke();
       }
     });
     
-    // Draw patent tooltip if hovered
+    // Enhanced tooltip
     if (hoveredPatent) {
       const x = dataToScreenX(hoveredPatent.x);
       const y = dataToScreenY(hoveredPatent.y) - 15;
       
-      ctx.fillStyle = 'rgba(0, 0, 0, 0.8)';
-      ctx.textAlign = 'center';
-      ctx.font = '12px sans-serif';
-      
-      // Measure text width
       const text = hoveredPatent.title || `Patent ${hoveredPatent.id}`;
-      const textWidth = ctx.measureText(text).width;
-      const padding = 6;
+      const score = Math.round((hoveredPatent.score || 0) * 100);
+      const yearText = hoveredPatent.year ? ` (${hoveredPatent.year})` : '';
       
-      // Draw tooltip background
-      ctx.fillRect(
-        x - textWidth / 2 - padding,
-        y - 20 - padding,
-        textWidth + padding * 2,
-        20 + padding * 2
+      ctx.font = '12px Inter, system-ui, sans-serif';
+      const textWidth = Math.max(
+        ctx.measureText(text).width,
+        ctx.measureText(`${score}% relevance${yearText}`).width
       );
+      const padding = 8;
       
-      // Draw tooltip text
+      // Enhanced tooltip background with gradient
+      const gradient = ctx.createLinearGradient(0, y - 35, 0, y + 5);
+      gradient.addColorStop(0, 'rgba(17, 24, 39, 0.95)');
+      gradient.addColorStop(1, 'rgba(31, 41, 55, 0.95)');
+      
+      ctx.fillStyle = gradient;
+      ctx.strokeStyle = 'rgba(255, 255, 255, 0.2)';
+      ctx.lineWidth = 1;
+      
+      const tooltipX = Math.max(padding, Math.min(width - textWidth - padding * 2, x - textWidth / 2 - padding));
+      
+      // Rounded rectangle for tooltip
+      const rectX = tooltipX;
+      const rectY = y - 35 - padding;
+      const rectW = textWidth + padding * 2;
+      const rectH = 35 + padding * 2;
+      const radius = 6;
+      
+      ctx.beginPath();
+      ctx.moveTo(rectX + radius, rectY);
+      ctx.lineTo(rectX + rectW - radius, rectY);
+      ctx.quadraticCurveTo(rectX + rectW, rectY, rectX + rectW, rectY + radius);
+      ctx.lineTo(rectX + rectW, rectY + rectH - radius);
+      ctx.quadraticCurveTo(rectX + rectW, rectY + rectH, rectX + rectW - radius, rectY + rectH);
+      ctx.lineTo(rectX + radius, rectY + rectH);
+      ctx.quadraticCurveTo(rectX, rectY + rectH, rectX, rectY + rectH - radius);
+      ctx.lineTo(rectX, rectY + radius);
+      ctx.quadraticCurveTo(rectX, rectY, rectX + radius, rectY);
+      ctx.closePath();
+      
+      ctx.fill();
+      ctx.stroke();
+      
+      // Enhanced tooltip text
       ctx.fillStyle = 'white';
-      ctx.fillText(text, x, y);
+      ctx.textAlign = 'center';
+      ctx.font = 'bold 12px Inter, system-ui, sans-serif';
+      ctx.fillText(text, x, y - 15);
       
-      // Draw year and relevance if available
-      if (hoveredPatent.year || hoveredPatent.score) {
-        const yearText = hoveredPatent.year ? `(${hoveredPatent.year})` : '';
-        const scoreText = hoveredPatent.score ? ` - ${Math.round(hoveredPatent.score * 100)}% relevance` : '';
-        ctx.fillText(
-          `${yearText}${scoreText}`,
-          x,
-          y + 15
-        );
-      }
+      ctx.fillStyle = '#d1d5db';
+      ctx.font = '11px Inter, system-ui, sans-serif';
+      ctx.fillText(`${score}% relevance${yearText}`, x, y);
     }
-  }, [allPatents, visiblePatents, selectedPatents, hoveredPatent, viewBounds, selectedPollutant, loadingPatents]);
+  }, [filteredPatents, visiblePatents, selectedPatents, hoveredPatent, viewBounds, selectedPollutant, loadingPatents, allPatents.length, scoreThreshold]);
   
   // Set canvas dimensions when component mounts or container resizes
   useEffect(() => {
@@ -377,20 +442,16 @@ const OptimizedPatentSpace = ({
       canvasRef.current.width = width;
       canvasRef.current.height = height;
       
-      // Redraw after resize
       drawPatentSpace();
     };
     
-    // Update dimensions initially
     updateCanvasDimensions();
     
-    // Set up resize observer to handle container size changes
     const observer = new ResizeObserver(updateCanvasDimensions);
     if (containerRef.current) {
       observer.observe(containerRef.current);
     }
     
-    // Clean up observer on unmount
     return () => {
       if (containerRef.current) {
         observer.unobserve(containerRef.current);
@@ -403,10 +464,10 @@ const OptimizedPatentSpace = ({
     drawPatentSpace();
   }, [drawPatentSpace]);
   
-  // Handle mouse movement for hover effects and dragging with TRULY FIXED DIRECTION
+  // Handle mouse movement for hover effects and dragging
   const handleMouseMove = useCallback((e) => {
     const canvas = canvasRef.current;
-    if (!canvas || !allPatents.length) return;
+    if (!canvas || !filteredPatents.length) return;
     
     const rect = canvas.getBoundingClientRect();
     const mouseX = e.clientX - rect.left;
@@ -426,15 +487,14 @@ const OptimizedPatentSpace = ({
     const dataX = screenToDataX(mouseX);
     const dataY = screenToDataY(mouseY);
     
-    // Handle dragging for panning (FIXED DIRECTION - CORRECTED)
+    // Handle dragging for panning
     if (viewState.isDragging && activeTool === 'move') {
       const dx = e.clientX - viewState.dragStartX;
       const dy = e.clientY - viewState.dragStartY;
       
-      // TRULY FIXED: Moving in the correct direction by REVERSING the sign for offsetX
       setViewState(prev => ({
         ...prev,
-        offsetX: prev.currentOffsetX + dx, // REVERSED sign for natural left-right movement
+        offsetX: prev.currentOffsetX + dx,
         offsetY: prev.currentOffsetY - dy
       }));
       return;
@@ -445,8 +505,7 @@ const OptimizedPatentSpace = ({
     let nearestPatent = null;
     let nearestDistance = hoverThreshold;
     
-    // Only check patents that are reasonably near the cursor
-    allPatents.forEach(patent => {
+    filteredPatents.forEach(patent => {
       const distance = Math.sqrt(
         Math.pow(dataX - patent.x, 2) + Math.pow(dataY - patent.y, 2)
       );
@@ -477,17 +536,15 @@ const OptimizedPatentSpace = ({
           canvas.style.cursor = 'default';
       }
     }
-  }, [allPatents, viewState, viewBounds, activeTool]);
+  }, [filteredPatents, viewState, viewBounds, activeTool]);
   
   // Handle patent details display
   const handleShowPatentDetails = useCallback(async (patent) => {
     if (!patent) return;
     
     try {
-      // Load the complete patent details
       const fullPatentDetails = await loadPatentDetails(patent.id);
       
-      // Get BREF relevance data for this patent if available
       let brefRelevanceData = {};
       if (brefRelevanceScores && brefRelevanceScores[patent.id]) {
         brefRelevanceData = {
@@ -495,18 +552,15 @@ const OptimizedPatentSpace = ({
         };
       }
       
-      // Merge with current data and BREF relevance data
       const enhancedPatent = {
         ...patent,
         ...fullPatentDetails,
         ...brefRelevanceData
       };
       
-      // Open the details modal
       setSelectedPatentForDetails(enhancedPatent);
     } catch (error) {
       console.error('Error loading patent details:', error);
-      // Fallback to basic patent data with any available BREF relevance
       let brefRelevanceData = {};
       if (brefRelevanceScores && brefRelevanceScores[patent.id]) {
         brefRelevanceData = {
@@ -514,7 +568,6 @@ const OptimizedPatentSpace = ({
         };
       }
       
-      // Use what we have with BREF data
       setSelectedPatentForDetails({
         ...patent,
         ...brefRelevanceData
@@ -525,10 +578,7 @@ const OptimizedPatentSpace = ({
   // Handle viewing BREF section from the patent details box
   const handleBrefView = useCallback((bref) => {
     if (onBrefSelect) {
-      // If parent component provided a handler, use it to display BREF content
       onBrefSelect(bref);
-      
-      // Close the patent details modal after selecting a BREF
       setSelectedPatentForDetails(null);
     }
   }, [onBrefSelect]);
@@ -557,13 +607,11 @@ const OptimizedPatentSpace = ({
     const canvas = canvasRef.current;
     if (!canvas) return;
     
-    // Calculate distance moved during potential drag
     const dragDistance = Math.sqrt(
       Math.pow(e.clientX - viewState.dragStartX, 2) + 
       Math.pow(e.clientY - viewState.dragStartY, 2)
     );
     
-    // End dragging
     const wasDragging = viewState.isDragging;
     if (viewState.isDragging) {
       setViewState(prev => ({
@@ -572,20 +620,16 @@ const OptimizedPatentSpace = ({
       }));
     }
     
-    // If we moved more than a few pixels, it was a drag not a click
-    const isDragThreshold = 3; // pixels
+    const isDragThreshold = 3;
     if (wasDragging && dragDistance > isDragThreshold) {
-      return; // Don't treat as a click
+      return;
     }
     
-    // Handle click on patent - OPEN DETAILS BOX (for all tools)
     if (hoveredPatent) {
-      // Show patent details when clicked (primary action)
       handleShowPatentDetails(hoveredPatent);
       return;
     }
     
-    // Handle zoom tools when not clicking on a patent
     if (!hoveredPatent) {
       const rect = canvas.getBoundingClientRect();
       const mouseX = e.clientX - rect.left;
@@ -603,7 +647,6 @@ const OptimizedPatentSpace = ({
   const handleDoubleClick = useCallback((e) => {
     if (!hoveredPatent) return;
     
-    // Toggle selection on double-click
     setSelectedPatents(prev => {
       const isSelected = prev.some(p => p.id === hoveredPatent.id);
       
@@ -621,25 +664,18 @@ const OptimizedPatentSpace = ({
     if (!canvas) return;
     
     setViewState(prev => {
-      // Use multiplicative zoom for smoother scaling
       const zoomFactor = 1 + zoomDelta;
       const newZoom = Math.max(MIN_ZOOM, Math.min(MAX_ZOOM, prev.zoom * zoomFactor));
       
-      // No change if hitting zoom limits
       if (newZoom === prev.zoom) return prev;
       
-      // Calculate how much the offset should change
-      // This ensures we zoom centered on the cursor position
       const zoomRatio = newZoom / prev.zoom;
       
-      // Convert screen coordinates to be relative to center
       const centerX = canvas.width / 2;
       const centerY = canvas.height / 2;
       const relativeX = x - centerX;
       const relativeY = y - centerY;
       
-      // Calculate new offset - ensuring we maintain aspect ratio
-      // by applying the same zoom factor to both dimensions
       const newOffsetX = prev.offsetX + relativeX * (zoomRatio - 1);
       const newOffsetY = prev.offsetY + relativeY * (zoomRatio - 1);
       
@@ -656,15 +692,12 @@ const OptimizedPatentSpace = ({
   const handleWheel = useCallback((e) => {
     e.preventDefault();
     
-    // Determine zoom direction and amount (smoother zoom)
     const delta = Math.sign(e.deltaY) * -ZOOM_STEP * 0.7;
     
-    // Get mouse position
     const rect = canvasRef.current.getBoundingClientRect();
     const mouseX = e.clientX - rect.left;
     const mouseY = e.clientY - rect.top;
     
-    // Zoom centered on mouse position, maintaining aspect ratio
     zoomAt(mouseX, mouseY, delta);
   }, [zoomAt]);
   
@@ -673,7 +706,6 @@ const OptimizedPatentSpace = ({
     const canvas = canvasRef.current;
     if (!canvas) return;
     
-    // Zoom centered on canvas
     zoomAt(canvas.width / 2, canvas.height / 2, ZOOM_STEP);
   }, [zoomAt]);
   
@@ -681,14 +713,12 @@ const OptimizedPatentSpace = ({
     const canvas = canvasRef.current;
     if (!canvas) return;
     
-    // Zoom centered on canvas
     zoomAt(canvas.width / 2, canvas.height / 2, -ZOOM_STEP);
   }, [zoomAt]);
   
-  // Handle reset view - improved to correctly fit all patents
+  // Handle reset view
   const handleResetView = useCallback(() => {
-    if (allPatents.length === 0) {
-      // Default reset if no patents
+    if (filteredPatents.length === 0) {
       setViewState({
         zoom: INITIAL_ZOOM,
         offsetX: 0,
@@ -702,17 +732,15 @@ const OptimizedPatentSpace = ({
       return;
     }
     
-    // Find min/max coordinates of all patents to create a bounding box
     let minX = 1, minY = 1, maxX = 0, maxY = 0;
     
-    allPatents.forEach(patent => {
+    filteredPatents.forEach(patent => {
       minX = Math.min(minX, patent.x);
       minY = Math.min(minY, patent.y);
       maxX = Math.max(maxX, patent.x);
       maxY = Math.max(maxY, patent.y);
     });
     
-    // Add more padding for better visibility
     const padding = 0.1;
     minX = Math.max(0, minX - padding);
     minY = Math.max(0, minY - padding);
@@ -728,34 +756,25 @@ const OptimizedPatentSpace = ({
     const dataHeight = maxY - minY;
     const dataAspectRatio = dataWidth / dataHeight;
     
-    // Calculate zoom required for each dimension
     let zoom;
     let offsetX = 0;
     let offsetY = 0;
     
-    // Calculate padding in data coordinates
     const dataXCenter = (minX + maxX) / 2;
     const dataYCenter = (minY + maxY) / 2;
     
-    // Determine if we're constrained by width or height
     if (dataAspectRatio > aspectRatio) {
-      // Width constrained (wider data than canvas aspect)
       zoom = 0.8 / dataWidth;
-      // Center vertically
       const visibleHeight = 1 / (zoom * aspectRatio);
       offsetY = (dataYCenter - 0.5) * height * zoom;
     } else {
-      // Height constrained (taller data than canvas aspect)
       zoom = 0.8 / (dataHeight * aspectRatio);
-      // Center horizontally
       const visibleWidth = aspectRatio / zoom;
       offsetX = (dataXCenter - 0.5) * width * zoom;
     }
     
-    // Ensure zoom is within bounds
     zoom = Math.min(MAX_ZOOM, Math.max(MIN_ZOOM, zoom));
     
-    // Set the new view state
     setViewState({
       zoom,
       offsetX,
@@ -766,17 +785,12 @@ const OptimizedPatentSpace = ({
       currentOffsetX: 0,
       currentOffsetY: 0
     });
-    
-    console.log("Reset view to show all patents", {
-      minX, maxX, minY, maxY, zoom, offsetX, offsetY
-    });
-  }, [allPatents]);
+  }, [filteredPatents]);
   
   // Handle clicking on a tool button
   const handleToolClick = useCallback((tool) => {
     setActiveTool(tool);
     
-    // Reset dragging state when changing tools
     setViewState(prev => ({
       ...prev,
       isDragging: false
@@ -818,17 +832,15 @@ const OptimizedPatentSpace = ({
     };
   }, [handleMouseMove, handleMouseDown, handleMouseUp, handleWheel, handleDoubleClick]);
   
-  // Call reset view once when all patents are loaded with improved timing
+  // Call reset view once when filtered patents are loaded
   useEffect(() => {
-    // Only reset view when patents first load or when pollutant changes
-    if (allPatents.length > 0 && !loadingPatents) {
-      // Short delay to ensure patents are fully processed
+    if (filteredPatents.length > 0 && !loadingPatents) {
       const timer = setTimeout(() => {
         handleResetView();
       }, 100);
       return () => clearTimeout(timer);
     }
-  }, [allPatents.length, loadingPatents, selectedPollutantFilename]);
+  }, [filteredPatents.length, loadingPatents, selectedPollutantFilename]);
   
   return (
     <div className="bg-white p-4 rounded-lg shadow-md">
@@ -839,6 +851,13 @@ const OptimizedPatentSpace = ({
         
         {/* Tool controls */}
         <div className="flex space-x-2">
+          <button
+            className={`p-2 rounded transition-colors ${showFilterPanel ? 'bg-indigo-100 text-indigo-700' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'}`}
+            onClick={() => setShowFilterPanel(!showFilterPanel)}
+            title="Show/hide score filter"
+          >
+            <Sliders size={16} />
+          </button>
           <button
             className={`p-2 rounded transition-colors ${activeTool === 'move' ? 'bg-blue-100 text-blue-700' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'}`}
             onClick={() => handleToolClick('move')}
@@ -872,12 +891,51 @@ const OptimizedPatentSpace = ({
         </div>
       </div>
       
+      {/* Filter Panel */}
+      {showFilterPanel && (
+        <div className="mb-4 p-3 bg-gradient-to-r from-indigo-50 to-purple-50 rounded-lg border border-indigo-200">
+          <div className="flex items-center justify-between mb-2">
+            <h3 className="text-sm font-medium text-indigo-900">Score Filter</h3>
+            <span className="text-xs text-indigo-700">
+              {filteredPatents.length} of {allPatents.length} patents shown
+            </span>
+          </div>
+          <div className="flex items-center space-x-3">
+            <span className="text-xs text-gray-600 min-w-max">Min Score:</span>
+            <div className="flex-1 relative">
+              <input
+                type="range"
+                min="0"
+                max="1"
+                step="0.05"
+                value={scoreThreshold}
+                onChange={(e) => setScoreThreshold(parseFloat(e.target.value))}
+                className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer slider"
+                style={{
+                  background: `linear-gradient(to right, #6366f1 0%, #6366f1 ${scoreThreshold * 100}%, #e5e7eb ${scoreThreshold * 100}%, #e5e7eb 100%)`
+                }}
+              />
+              <div className="flex justify-between text-xs text-gray-500 mt-1">
+                <span>0%</span>
+                <span>25%</span>
+                <span>50%</span>
+                <span>75%</span>
+                <span>100%</span>
+              </div>
+            </div>
+            <span className="text-sm font-medium text-indigo-900 min-w-max">
+              {Math.round(scoreThreshold * 100)}%
+            </span>
+          </div>
+        </div>
+      )}
+      
       {/* Information bar */}
       <div className="flex justify-between items-center mb-2 text-xs text-gray-500">
         <div>
           {loadingPatents ? 'Loading patents...' : 
             allPatents.length ? 
-              `${allPatents.length} total patents | ${visiblePatents.length} in current view` : 
+              `${filteredPatents.length} patents displayed | ${visiblePatents.length} in current view` : 
               'No patents available'
           }
           {selectedPatents.length > 0 && ` | ${selectedPatents.length} selected`}
@@ -890,10 +948,10 @@ const OptimizedPatentSpace = ({
         </div>
       </div>
       
-      {/* Canvas container - INCREASED HEIGHT FOR MORE SQUARE PROPORTIONS */}
+      {/* Canvas container */}
       <div 
         ref={containerRef}
-        className="w-full h-96 border rounded bg-white overflow-hidden relative"
+        className="w-full h-96 border-2 border-gray-200 rounded-lg bg-white overflow-hidden relative shadow-inner"
       >
         <canvas
           ref={canvasRef}
@@ -918,39 +976,53 @@ const OptimizedPatentSpace = ({
         )}
       </div>
       
-      {/* Legend with continuous gradient */}
-      <div className="mt-3 border-t pt-3">
-        <div className="text-xs font-medium text-gray-500 mb-2">Relevance score:</div>
-        <div className="flex flex-col items-center">
-          {/* Continuous gradient bar with better colors */}
-          <div className="w-full h-6 rounded-md mb-2 relative" 
-               style={{
-                 background: 'linear-gradient(to right, rgba(30,60,160,1) 0%, rgba(150,130,170,1) 50%, rgba(255,230,0,1) 100%)'
-               }}>
-            {/* Tick marks */}
-            <div className="absolute inset-y-0 left-0 flex items-center">
-              <span className="text-xs ml-1">50%</span>
-            </div>
-            <div className="absolute inset-y-0 left-1/4 flex items-center">
-              <span className="text-xs">62.5%</span>
-            </div>
-            <div className="absolute inset-y-0 left-1/2 flex items-center">
-              <span className="text-xs">75%</span>
-            </div>
-            <div className="absolute inset-y-0 left-3/4 flex items-center">
-              <span className="text-xs">87.5%</span>
-            </div>
-            <div className="absolute inset-y-0 right-0 flex items-center">
-              <span className="text-xs mr-1">100%</span>
+      {/* Enhanced Interactive Color Bar */}
+      <div className="mt-4 border-t pt-4">
+        <div className="flex items-center justify-between mb-3">
+          <div className="text-sm font-medium text-gray-700">Relevance Score Legend</div>
+          <button
+            onClick={() => setScoreThreshold(0.5)}
+            className="text-xs text-indigo-600 hover:text-indigo-800 transition-colors"
+          >
+            Reset Filter
+          </button>
+        </div>
+        
+        <div className="relative">
+          {/* Interactive gradient bar */}
+          <div 
+            className="w-full h-8 rounded-lg cursor-pointer shadow-inner border border-gray-200 relative"
+            style={{ background: generateColorBarGradient() }}
+            onClick={(e) => {
+              const rect = e.currentTarget.getBoundingClientRect();
+              const x = e.clientX - rect.left;
+              const percentage = x / rect.width;
+              setScoreThreshold(Math.max(0, Math.min(1, percentage)));
+            }}
+          >
+            {/* Threshold indicator */}
+            <div
+              className="absolute top-0 bottom-0 w-1 bg-white shadow-lg border border-gray-400 rounded"
+              style={{ left: `${scoreThreshold * 100}%`, transform: 'translateX(-50%)' }}
+            />
+            
+            {/* Score labels */}
+            <div className="absolute inset-0 flex items-center justify-between px-2 text-xs font-medium text-white drop-shadow">
+              <span>0%</span>
+              <span>25%</span>
+              <span>50%</span>
+              <span>75%</span>
+              <span>100%</span>
             </div>
           </div>
-          <div className="text-xs text-gray-500 mt-1">
-            Patents with relevance below 50% are shown in gray with reduced opacity
+          
+          <div className="text-xs text-gray-600 mt-2 text-center">
+            Click on the bar to set minimum score threshold • Current: {Math.round(scoreThreshold * 100)}%
           </div>
         </div>
       </div>
       
-      {/* Patent Details Modal - Updated to pass handlers for BREF viewing and adding */}
+      {/* Patent Details Modal */}
       {selectedPatentForDetails && (
         <PatentDetailsBox
           patent={selectedPatentForDetails}
