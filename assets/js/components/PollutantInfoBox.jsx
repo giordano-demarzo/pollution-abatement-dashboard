@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell } from 'recharts';
-import { X, ExternalLink, Info, Droplet } from 'lucide-react';
+import { X, ExternalLink, Info, Droplet, AlertTriangle, Building2, TreePine } from 'lucide-react';
 
 // SDG colors for the chart
 const sdgColors = {
@@ -46,22 +46,42 @@ const sdgDescriptions = {
   'SDG 17': 'Strengthen the means of implementation and revitalize the global partnership for sustainable development'
 };
 
-const PollutantInfoBox = ({ pollutant, sdgImpactData, isOpen, onClose }) => {
+// Helper function to convert SDG format from "SDG1_No_Poverty" to "SDG 1"
+const convertSdgFormat = (sdgKey) => {
+  const match = sdgKey.match(/SDG(\d+)_/);
+  return match ? `SDG ${match[1]}` : sdgKey;
+};
+
+// Helper function to get SDG title from the key
+const getSdgTitle = (sdgKey) => {
+  const parts = sdgKey.split('_');
+  if (parts.length > 1) {
+    return parts.slice(1).join(' ').replace(/_/g, ' ');
+  }
+  return sdgKey;
+};
+
+const PollutantInfoBox = ({ pollutant, pollutantSdgData, isOpen, onClose }) => {
   if (!isOpen || !pollutant) return null;
   
-  // Format the SDG impact data for the chart
-  const chartData = Object.entries(sdgImpactData || {})
-    .map(([sdgId, impacts]) => {
-      // Find the impact for the current pollutant
-      const impact = impacts.find(imp => imp.pollutant === pollutant);
-      
+  // Extract data from the new structure
+  const summary = pollutantSdgData?.summary || {};
+  const sdgScores = pollutantSdgData?.sdg_scores || {};
+  const topSdgImpacts = pollutantSdgData?.top_sdg_impacts || {};
+  
+  // Format the SDG data for the chart
+  const chartData = Object.entries(sdgScores)
+    .map(([sdgKey, score]) => {
+      const standardSdgKey = convertSdgFormat(sdgKey);
       return {
-        sdg: sdgId,
-        impact: impact ? impact.impact : 0,
-        color: sdgColors[sdgId] || '#cccccc'
+        sdg: standardSdgKey,
+        originalKey: sdgKey,
+        impact: score,
+        color: sdgColors[standardSdgKey] || '#cccccc',
+        title: getSdgTitle(sdgKey)
       };
     })
-    // Filter out SDGs with no impact
+    // Filter out SDGs with no impact (score = 0)
     .filter(item => item.impact > 0)
     // Sort by impact (descending)
     .sort((a, b) => b.impact - a.impact);
@@ -70,19 +90,23 @@ const PollutantInfoBox = ({ pollutant, sdgImpactData, isOpen, onClose }) => {
     if (active && payload && payload.length) {
       const data = payload[0].payload;
       return (
-        <div className="p-2 bg-white border rounded shadow-lg">
+        <div className="p-3 bg-white border rounded shadow-lg max-w-xs">
           <p className="font-medium text-sm">{data.sdg}</p>
-          <p className="text-xs text-gray-600">{sdgDescriptions[data.sdg]}</p>
-          <p className="text-sm font-bold">{`Impact: ${data.impact}%`}</p>
+          <p className="text-xs text-gray-600 mt-1">{data.title}</p>
+          <p className="text-xs text-gray-500 mt-1">{sdgDescriptions[data.sdg]}</p>
+          <p className="text-sm font-bold mt-2 text-blue-600">{`Impact Score: ${data.impact}/10`}</p>
         </div>
       );
     }
     return null;
   };
   
+  // Get the top 3 SDGs for detailed explanations
+  const topSdgs = chartData.slice(0, 3);
+  
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
-      <div className="relative bg-white rounded-lg shadow-xl w-full max-w-3xl max-h-[90vh] overflow-y-auto">
+      <div className="relative bg-white rounded-lg shadow-xl w-full max-w-4xl max-h-[90vh] overflow-y-auto">
         {/* Header with pollutant name and close button */}
         <div className="sticky top-0 bg-gradient-to-r from-blue-600 to-blue-500 px-6 py-4 rounded-t-lg flex justify-between items-center">
           <h2 className="text-xl font-bold text-white flex items-center">
@@ -106,22 +130,60 @@ const PollutantInfoBox = ({ pollutant, sdgImpactData, isOpen, onClose }) => {
               About this Pollutant
             </h3>
             <div className="bg-gray-50 p-4 rounded-lg border border-gray-200">
-              <p className="text-gray-700">
-                This is a description of {pollutant} and its environmental impacts. This text would include information about 
-                the pollutant's sources, its effects on ecosystems and human health, and common mitigation measures.
-              </p>
-              <p className="text-gray-700 mt-3">
-                Additional information about regulations, historical trends, and industrial sectors most commonly 
-                associated with {pollutant} emissions would be included here.
-              </p>
-              <div className="mt-3 text-sm text-gray-500 flex items-center">
-                <ExternalLink size={14} className="mr-1" />
-                <a href="#" className="text-blue-600 hover:underline">
-                  Learn more about {pollutant}
-                </a>
-              </div>
+              {summary.description ? (
+                <p className="text-gray-700 leading-relaxed">
+                  {summary.description}
+                </p>
+              ) : (
+                <p className="text-gray-500 italic">
+                  No description available for this pollutant.
+                </p>
+              )}
             </div>
           </section>
+          
+          {/* Emission Sources and Environmental Impact */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+            {/* Emission Sources */}
+            {summary.emission_sources && summary.emission_sources.length > 0 && (
+              <section>
+                <h3 className="text-lg font-semibold text-gray-800 mb-3 flex items-center">
+                  <Building2 className="mr-2" size={18} />
+                  Emission Sources
+                </h3>
+                <div className="bg-orange-50 p-4 rounded-lg border border-orange-200">
+                  <ul className="space-y-2">
+                    {summary.emission_sources.map((source, index) => (
+                      <li key={index} className="text-gray-700 flex items-start">
+                        <span className="w-2 h-2 bg-orange-400 rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                        {source}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </section>
+            )}
+            
+            {/* Environmental Impact */}
+            {summary.environmental_impact && summary.environmental_impact.length > 0 && (
+              <section>
+                <h3 className="text-lg font-semibold text-gray-800 mb-3 flex items-center">
+                  <TreePine className="mr-2" size={18} />
+                  Environmental Impact
+                </h3>
+                <div className="bg-red-50 p-4 rounded-lg border border-red-200">
+                  <ul className="space-y-2">
+                    {summary.environmental_impact.map((impact, index) => (
+                      <li key={index} className="text-gray-700 flex items-start">
+                        <AlertTriangle className="w-4 h-4 text-red-500 mt-0.5 mr-2 flex-shrink-0" />
+                        <span className="text-sm">{impact}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </section>
+            )}
+          </div>
           
           {/* SDG Impact Visualization */}
           <section className="mb-6">
@@ -135,9 +197,9 @@ const PollutantInfoBox = ({ pollutant, sdgImpactData, isOpen, onClose }) => {
                     <BarChart
                       data={chartData}
                       layout="vertical"
-                      margin={{ top: 20, right: 30, left: 40, bottom: 5 }}
+                      margin={{ top: 20, right: 30, left: 60, bottom: 5 }}
                     >
-                      <XAxis type="number" domain={[0, 100]} />
+                      <XAxis type="number" domain={[0, 10]} />
                       <YAxis 
                         dataKey="sdg" 
                         type="category" 
@@ -158,66 +220,106 @@ const PollutantInfoBox = ({ pollutant, sdgImpactData, isOpen, onClose }) => {
                   No SDG impact data available for this pollutant.
                 </div>
               )}
-              <div className="mt-3 text-sm text-gray-600">
-                Hover over bars to see detailed information about each SDG.
-              </div>
-            </div>
-          </section>
-          
-          {/* SDG Impact Explanation */}
-          <section>
-            <h3 className="text-lg font-semibold text-gray-800 mb-3">
-              How {pollutant} Affects Sustainable Development
-            </h3>
-            <div className="bg-gray-50 p-4 rounded-lg border border-gray-200">
-              <p className="text-gray-700">
-                {pollutant} has significant impacts on multiple Sustainable Development Goals (SDGs). 
-                The primary effects are on water quality (SDG 6), ecosystem health (SDG 14 and 15), 
-                and human health (SDG 3).
-              </p>
-              
-              {chartData.slice(0, 3).map((sdgData, index) => (
-                <div key={index} className="mt-4">
-                  <h4 className="font-medium text-gray-800 flex items-center">
-                    <span 
-                      className="w-3 h-3 rounded-full mr-2" 
-                      style={{ backgroundColor: sdgData.color }}
-                    ></span>
-                    {sdgData.sdg} ({sdgDescriptions[sdgData.sdg]})
-                  </h4>
-                  <p className="text-gray-700 ml-5 mt-1">
-                    This is a placeholder explanation of how {pollutant} specifically impacts {sdgData.sdg}. 
-                    The text would detail causal relationships, relevant research findings, and potential 
-                    mitigation strategies.
-                  </p>
+              {chartData.length > 0 && (
+                <div className="mt-3 text-sm text-gray-600">
+                  Hover over bars to see detailed information about each SDG. Scores range from 1-10.
                 </div>
-              ))}
-              
-              {chartData.length > 3 && (
-                <p className="text-gray-600 mt-4 italic">
-                  {pollutant} also has lesser impacts on {chartData.length - 3} other SDGs, as shown in the chart above.
-                </p>
               )}
             </div>
           </section>
           
+          {/* Detailed SDG Impact Explanations */}
+          {Object.keys(topSdgImpacts).length > 0 && (
+            <section className="mb-6">
+              <h3 className="text-lg font-semibold text-gray-800 mb-3">
+                How {pollutant} Affects Sustainable Development
+              </h3>
+              <div className="space-y-4">
+                {Object.entries(topSdgImpacts).map(([sdgKey, explanation], index) => {
+                  const standardSdgKey = convertSdgFormat(sdgKey);
+                  const sdgTitle = getSdgTitle(sdgKey);
+                  const sdgColor = sdgColors[standardSdgKey] || '#cccccc';
+                  const sdgScore = sdgScores[sdgKey] || 0;
+                  
+                  return (
+                    <div key={index} className="bg-gray-50 p-4 rounded-lg border border-gray-200">
+                      <div className="flex items-center mb-2">
+                        <span 
+                          className="w-4 h-4 rounded-full mr-3" 
+                          style={{ backgroundColor: sdgColor }}
+                        ></span>
+                        <h4 className="font-medium text-gray-800">
+                          {standardSdgKey}: {sdgTitle}
+                        </h4>
+                        <span className="ml-auto bg-blue-100 text-blue-800 text-xs font-medium px-2 py-1 rounded">
+                          Score: {sdgScore}/10
+                        </span>
+                      </div>
+                      <p className="text-gray-700 ml-7 leading-relaxed">
+                        {explanation}
+                      </p>
+                    </div>
+                  );
+                })}
+              </div>
+            </section>
+          )}
+          
+          {/* Summary statistics */}
+          {chartData.length > 0 && (
+            <section className="mb-6">
+              <div className="bg-blue-50 p-4 rounded-lg border border-blue-200">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                  <div>
+                    <div className="text-2xl font-bold text-blue-600">{chartData.length}</div>
+                    <div className="text-sm text-gray-600">SDGs Impacted</div>
+                  </div>
+                  <div>
+                    <div className="text-2xl font-bold text-blue-600">
+                      {Math.round(chartData.reduce((sum, item) => sum + item.impact, 0) / chartData.length * 10) / 10}
+                    </div>
+                    <div className="text-sm text-gray-600">Average Impact</div>
+                  </div>
+                  <div>
+                    <div className="text-2xl font-bold text-blue-600">
+                      {Math.max(...chartData.map(item => item.impact))}
+                    </div>
+                    <div className="text-sm text-gray-600">Highest Impact</div>
+                  </div>
+                  <div>
+                    <div className="text-2xl font-bold text-blue-600">
+                      {chartData.filter(item => item.impact >= 7).length}
+                    </div>
+                    <div className="text-sm text-gray-600">High Priority SDGs</div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          )}
+          
           {/* Action buttons */}
-          <div className="mt-6 flex justify-end space-x-3">
-            <button
-              onClick={onClose}
-              className="px-4 py-2 bg-gray-100 text-gray-700 rounded hover:bg-gray-200 transition-colors"
-            >
-              Close
-            </button>
-            <button
-              className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors"
-              onClick={() => {
-                // This could link to a more detailed report
-                onClose();
-              }}
-            >
-              Explore Technologies
-            </button>
+          <div className="flex justify-between items-center">
+            <div className="text-sm text-gray-500">
+              Data based on environmental impact analysis and SDG framework alignment
+            </div>
+            <div className="flex space-x-3">
+              <button
+                onClick={onClose}
+                className="px-4 py-2 bg-gray-100 text-gray-700 rounded hover:bg-gray-200 transition-colors"
+              >
+                Close
+              </button>
+              <button
+                className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors flex items-center"
+                onClick={() => {
+                  // This could link to a more detailed report
+                  onClose();
+                }}
+              >
+                <ExternalLink size={16} className="mr-2" />
+                Explore Technologies
+              </button>
+            </div>
           </div>
         </div>
       </div>

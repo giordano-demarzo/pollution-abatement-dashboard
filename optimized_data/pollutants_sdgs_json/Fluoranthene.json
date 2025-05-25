@@ -1,0 +1,41 @@
+{
+    "summary": {
+      "pollutant": "Fluoranthene",
+      "description": "Fluoranthene is a polycyclic aromatic hydrocarbon (PAH), appearing as a yellow to green solid, practically insoluble in water. It is used in the production of fluorescent dyes, pharmaceuticals, and agrochemicals.",
+      "emission_sources": [
+        "Incomplete combustion of wood, coal, oil, propane, gasoline, and diesel",
+        "Cigarette smoke",
+        "Natural emissions from forest fires"
+      ],
+      "environmental_impact": [
+        "Carcinogenic to humans as part of PAHs",
+        "Persistent in the environment",
+        "Potential to accumulate in soil and sediments, affecting terrestrial and aquatic ecosystems"
+      ]
+    },
+    "sdg_scores": {
+      "SDG1_No_Poverty": 2,
+      "SDG2_Zero_Hunger": 3,
+      "SDG3_Good_Health_and_Wellbeing": 8,
+      "SDG4_Quality_Education": 1,
+      "SDG5_Gender_Equality": 1,
+      "SDG6_Clean_Water_and_Sanitation": 6,
+      "SDG7_Affordable_and_Clean_Energy": 4,
+      "SDG8_Decent_Work_and_Economic_Growth": 5,
+      "SDG9_Industry_Innovation_and_Infrastructure": 4,
+      "SDG10_Reduced_Inequalities": 2,
+      "SDG11_Sustainable_Cities_and_Communities": 7,
+      "SDG12_Responsible_Consumption_and_Production": 7,
+      "SDG13_Climate_Action": 3,
+      "SDG14_Life_Below_Water": 6,
+      "SDG15_Life_on_Land": 6,
+      "SDG16_Peace_Justice_and_Strong_Institutions": 1,
+      "SDG17_Partnerships_for_the_Goals": 2
+    },
+    "top_sdg_impacts": {
+      "SDG3_Good_Health_and_Wellbeing": "Fluoranthene is carcinogenic and exposure through air pollution poses serious long-term health risks to humans.",
+      "SDG11_Sustainable_Cities_and_Communities": "Fluoranthene is a common pollutant in urban areas due to vehicle emissions and residential combustion, threatening air quality and urban health.",
+      "SDG12_Responsible_Consumption_and_Production": "The release of fluoranthene from industrial and combustion processes highlights the need for safer, cleaner production and waste management practices."
+    }
+  }
+  

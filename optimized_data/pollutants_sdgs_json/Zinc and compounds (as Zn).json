@@ -1,0 +1,44 @@
+{
+    "summary": {
+      "pollutant": "Zinc",
+      "description": "A blue/white shiny metal that is brittle and conducts electricity reasonably well. Its compounds are often highly coloured and it is used extensively in industrial applications including batteries, alloys, coatings, paints, plastics, and cosmetics",
+      "emission_sources": [
+        "Metal production processes",
+        "Coal combustion in power stations",
+        "Waste incineration",
+        "Vehicle tyre wear",
+        "Industrial releases"
+      ],
+      "environmental_impact": [
+        "Can build up in fish and aquatic organisms",
+        "Poisons animals that consume contaminated aquatic life",
+        "Contamination of water supplies through zinc pipes or industrial releases",
+        "Causes nausea and stomach cramps in humans at harmful levels",
+        "Emissions rarely large enough to cause widespread damaging levels"
+      ]
+    },
+    "sdg_scores": {
+      "SDG1_No_Poverty": 2,
+      "SDG2_Zero_Hunger": 4,
+      "SDG3_Good_Health_and_Wellbeing": 6,
+      "SDG4_Quality_Education": 1,
+      "SDG5_Gender_Equality": 1,
+      "SDG6_Clean_Water_and_Sanitation": 7,
+      "SDG7_Affordable_and_Clean_Energy": 3,
+      "SDG8_Decent_Work_and_Economic_Growth": 5,
+      "SDG9_Industry_Innovation_and_Infrastructure": 6,
+      "SDG10_Reduced_Inequalities": 2,
+      "SDG11_Sustainable_Cities_and_Communities": 5,
+      "SDG12_Responsible_Consumption_and_Production": 6,
+      "SDG13_Climate_Action": 2,
+      "SDG14_Life_Below_Water": 7,
+      "SDG15_Life_on_Land": 4,
+      "SDG16_Peace_Justice_and_Strong_Institutions": 1,
+      "SDG17_Partnerships_for_the_Goals": 1
+    },
+    "top_sdg_impacts": {
+      "SDG6_Clean_Water_and_Sanitation": "Zinc contamination of water supplies occurs through zinc water pipes and accidental industrial releases, directly threatening clean water access. While zinc is an essential nutrient, exposure to harmful levels through contaminated drinking water causes health problems including nausea and stomach cramps, compromising safe water and sanitation systems.",
+      "SDG14_Life_Below_Water": "Zinc accumulates in fish and other aquatic organisms, creating bioaccumulation effects that poison animals higher up the food chain. This bioaccumulation disrupts aquatic ecosystems and food webs, threatening marine biodiversity and the health of aquatic environments, even though emissions are rarely large enough to cause widespread damage.",
+      "SDG3_Good_Health_and_Wellbeing": "While zinc is an essential dietary nutrient, exposure to excessive levels through contaminated water or industrial releases can cause harmful health effects including nausea and stomach cramps. The dual nature of zinc as both essential and potentially harmful requires careful management to protect human health while maintaining its beneficial uses in industry and nutrition."
+    }
+  }

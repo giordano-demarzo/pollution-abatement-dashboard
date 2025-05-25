@@ -1,0 +1,41 @@
+{
+    "summary": {
+      "pollutant": "DDT (Dichlorodiphenyltrichloroethane)",
+      "description": "DDT is a crystalline solid with a slight odour, usually presented as powder or crystals. It is very stable, dissolves in fats, and is practically insoluble in water.",
+      "emission_sources": [
+        "Historical use as a pesticide for crop protection",
+        "Ongoing use in some developing countries for malaria control",
+        "Losses during manufacture, transportation, and storage"
+      ],
+      "environmental_impact": [
+        "Highly toxic to wildlife, especially birds and fish",
+        "Bioaccumulates in fatty tissue and magnifies through the food chain",
+        "Extremely persistent in the environment; classified as a Persistent Organic Pollutant (POP)"
+      ]
+    },
+    "sdg_scores": {
+      "SDG1_No_Poverty": 4,
+      "SDG2_Zero_Hunger": 6,
+      "SDG3_Good_Health_and_Wellbeing": 7,
+      "SDG4_Quality_Education": 1,
+      "SDG5_Gender_Equality": 1,
+      "SDG6_Clean_Water_and_Sanitation": 6,
+      "SDG7_Affordable_and_Clean_Energy": 1,
+      "SDG8_Decent_Work_and_Economic_Growth": 4,
+      "SDG9_Industry_Innovation_and_Infrastructure": 3,
+      "SDG10_Reduced_Inequalities": 2,
+      "SDG11_Sustainable_Cities_and_Communities": 5,
+      "SDG12_Responsible_Consumption_and_Production": 9,
+      "SDG13_Climate_Action": 3,
+      "SDG14_Life_Below_Water": 8,
+      "SDG15_Life_on_Land": 9,
+      "SDG16_Peace_Justice_and_Strong_Institutions": 1,
+      "SDG17_Partnerships_for_the_Goals": 3
+    },
+    "top_sdg_impacts": {
+      "SDG12_Responsible_Consumption_and_Production": "DDT exemplifies the long-term consequences of poor chemical management. Its ban in many regions underlines the need for sustainable production and responsible disposal practices.",
+      "SDG15_Life_on_Land": "DDT is highly toxic to terrestrial wildlife, particularly birds, where it interferes with reproduction and bioaccumulates through the food chain, leading to ecosystem imbalances.",
+      "SDG14_Life_Below_Water": "Due to its persistence and bioaccumulation in aquatic systems, DDT poses a major threat to fish and marine biodiversity, disrupting aquatic ecosystems."
+    }
+  }
+  

@@ -1,0 +1,41 @@
+{
+    "summary": {
+      "pollutant": "Cadmium and compounds (as Cd)",
+      "description": "Cadmium is a soft silvery metal naturally found in minerals and commonly used in batteries, coatings, pigments, plastics, and low-melting alloys.",
+      "emission_sources": [
+        "Metal processing (e.g. zinc, aluminium, iron and steel)",
+        "Recycling of batteries",
+        "Combustion of fossil fuels in power stations"
+      ],
+      "environmental_impact": [
+        "Bioaccumulation in organisms such as micro-organisms and molluscs",
+        "Biomagnification through the food chain",
+        "Toxic effects on plant and animal growth and reproduction after prolonged exposure"
+      ]
+    },
+    "sdg_scores": {
+      "SDG1_No_Poverty": 2,
+      "SDG2_Zero_Hunger": 5,
+      "SDG3_Good_Health_and_Wellbeing": 9,
+      "SDG4_Quality_Education": 2,
+      "SDG5_Gender_Equality": 2,
+      "SDG6_Clean_Water_and_Sanitation": 8,
+      "SDG7_Affordable_and_Clean_Energy": 4,
+      "SDG8_Decent_Work_and_Economic_Growth": 5,
+      "SDG9_Industry_Innovation_and_Infrastructure": 5,
+      "SDG10_Reduced_Inequalities": 3,
+      "SDG11_Sustainable_Cities_and_Communities": 6,
+      "SDG12_Responsible_Consumption_and_Production": 9,
+      "SDG13_Climate_Action": 5,
+      "SDG14_Life_Below_Water": 9,
+      "SDG15_Life_on_Land": 8,
+      "SDG16_Peace_Justice_and_Strong_Institutions": 2,
+      "SDG17_Partnerships_for_the_Goals": 3
+    },
+    "top_sdg_impacts": {
+      "SDG3_Good_Health_and_Wellbeing": "Cadmium is toxic to humans, particularly with long-term exposure, leading to health issues through contaminated food and water sources.",
+      "SDG14_Life_Below_Water": "Cadmium bioaccumulates in aquatic organisms and disrupts marine ecosystems, particularly affecting reproduction and survival of species like molluscs.",
+      "SDG12_Responsible_Consumption_and_Production": "Cadmium pollution results from inadequate waste management, especially in battery recycling and metal production, requiring improved production and disposal practices."
+    }
+  }
+  

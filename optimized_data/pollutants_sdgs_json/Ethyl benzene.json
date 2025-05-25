@@ -1,0 +1,42 @@
+{
+    "summary": {
+      "pollutant": "Ethyl benzene",
+      "description": "A sweet-smelling, colourless, liquid chemical that evaporates easily and is used in the production of chemicals, rubber, and plastics",
+      "emission_sources": [
+        "Chemical industry",
+        "Petroleum industry",
+        "Combustion processes",
+        "Cigarette smoke"
+      ],
+      "environmental_impact": [
+        "Reacts with other pollutants to form harmful ground-level ozone",
+        "Ground-level ozone causes damage to human health and plants",
+        "Long-term high concentration exposure is toxic to humans",
+        "Normal concentrations do not cause significant bioaccumulation in animals or plants"
+      ]
+    },
+    "sdg_scores": {
+      "SDG1_No_Poverty": 2,
+      "SDG2_Zero_Hunger": 3,
+      "SDG3_Good_Health_and_Wellbeing": 8,
+      "SDG4_Quality_Education": 1,
+      "SDG5_Gender_Equality": 1,
+      "SDG6_Clean_Water_and_Sanitation": 2,
+      "SDG7_Affordable_and_Clean_Energy": 3,
+      "SDG8_Decent_Work_and_Economic_Growth": 4,
+      "SDG9_Industry_Innovation_and_Infrastructure": 6,
+      "SDG10_Reduced_Inequalities": 3,
+      "SDG11_Sustainable_Cities_and_Communities": 7,
+      "SDG12_Responsible_Consumption_and_Production": 6,
+      "SDG13_Climate_Action": 4,
+      "SDG14_Life_Below_Water": 2,
+      "SDG15_Life_on_Land": 5,
+      "SDG16_Peace_Justice_and_Strong_Institutions": 1,
+      "SDG17_Partnerships_for_the_Goals": 1
+    },
+    "top_sdg_impacts": {
+      "SDG3_Good_Health_and_Wellbeing": "Ethyl benzene poses significant health risks through long-term exposure at high concentrations, which is considered toxic. Additionally, it contributes to ground-level ozone formation, which damages human health and respiratory systems.",
+      "SDG11_Sustainable_Cities_and_Communities": "As ethyl benzene is released from industrial processes and combustion activities commonly found in urban areas, it contributes to air pollution and ground-level ozone formation, making cities less sustainable and affecting community health and environmental quality.",
+      "SDG9_Industry_Innovation_and_Infrastructure": "The pollutant is directly linked to industrial activities in chemical and petroleum sectors. Managing ethyl benzene emissions requires industrial innovation and infrastructure improvements to reduce environmental impact while maintaining economic productivity."
+    }
+  }

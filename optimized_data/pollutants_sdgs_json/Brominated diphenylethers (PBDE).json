@@ -1,0 +1,41 @@
+{
+    "summary": {
+      "pollutant": "Brominated diphenyl ethers (PBDEs)",
+      "description": "PBDEs are thick liquids or solids used as flame retardants. They are non-flammable, non-volatile, and insoluble in water. PBDEs are known for their persistence in the environment and their tendency to bioaccumulate.",
+      "emission_sources": [
+        "Manufacture of PBDEs",
+        "Disposal of PBDE-containing products in landfills or incinerators",
+        "Slow release from consumer products containing PBDEs"
+      ],
+      "environmental_impact": [
+        "Toxic to aquatic animals and long-term effects on aquatic environments",
+        "Bioaccumulative and persistent in ecosystems",
+        "High levels of exposure may affect the brain and liver in humans"
+      ]
+    },
+    "sdg_scores": {
+      "SDG1_No_Poverty": 2,
+      "SDG2_Zero_Hunger": 4,
+      "SDG3_Good_Health_and_Wellbeing": 8,
+      "SDG4_Quality_Education": 2,
+      "SDG5_Gender_Equality": 2,
+      "SDG6_Clean_Water_and_Sanitation": 7,
+      "SDG7_Affordable_and_Clean_Energy": 3,
+      "SDG8_Decent_Work_and_Economic_Growth": 4,
+      "SDG9_Industry_Innovation_and_Infrastructure": 5,
+      "SDG10_Reduced_Inequalities": 3,
+      "SDG11_Sustainable_Cities_and_Communities": 7,
+      "SDG12_Responsible_Consumption_and_Production": 9,
+      "SDG13_Climate_Action": 4,
+      "SDG14_Life_Below_Water": 8,
+      "SDG15_Life_on_Land": 7,
+      "SDG16_Peace_Justice_and_Strong_Institutions": 2,
+      "SDG17_Partnerships_for_the_Goals": 3
+    },
+    "top_sdg_impacts": {
+      "SDG12_Responsible_Consumption_and_Production": "PBDEs are released from poorly managed waste streams and consumer products, highlighting the need for safer chemical use and improved end-of-life disposal practices.",
+      "SDG14_Life_Below_Water": "PBDEs are toxic to aquatic life, accumulate in the food chain, and cause long-term harm to marine ecosystems.",
+      "SDG3_Good_Health_and_Wellbeing": "High exposure to PBDEs can damage human organs such as the brain and liver, raising concerns about their health effects, especially from long-term or occupational exposure."
+    }
+  }
+  

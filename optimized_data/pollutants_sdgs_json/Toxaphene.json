@@ -1,0 +1,41 @@
+{
+    "summary": {
+      "pollutant": "Toxaphene",
+      "description": "Toxaphene is a yellow to amber waxy solid or gas with a turpentine-like odour, formerly used as an insecticide. It is now banned in the EU due to its environmental persistence and toxicity.",
+      "emission_sources": [
+        "Past use as an insecticide",
+        "Hazardous waste sites",
+        "Airborne release through evaporation"
+      ],
+      "environmental_impact": [
+        "Can harm lungs, nervous system, and kidneys when ingested or inhaled in large amounts",
+        "Degrades slowly and persists in the environment",
+        "Bioaccumulates in fish and wildlife and can be transported long distances through the atmosphere"
+      ]
+    },
+    "sdg_scores": {
+      "SDG1_No_Poverty": 2,
+      "SDG2_Zero_Hunger": 6,
+      "SDG3_Good_Health_and_Wellbeing": 9,
+      "SDG4_Quality_Education": 2,
+      "SDG5_Gender_Equality": 2,
+      "SDG6_Clean_Water_and_Sanitation": 7,
+      "SDG7_Affordable_and_Clean_Energy": 1,
+      "SDG8_Decent_Work_and_Economic_Growth": 5,
+      "SDG9_Industry_Innovation_and_Infrastructure": 4,
+      "SDG10_Reduced_Inequalities": 3,
+      "SDG11_Sustainable_Cities_and_Communities": 6,
+      "SDG12_Responsible_Consumption_and_Production": 8,
+      "SDG13_Climate_Action": 6,
+      "SDG14_Life_Below_Water": 8,
+      "SDG15_Life_on_Land": 8,
+      "SDG16_Peace_Justice_and_Strong_Institutions": 2,
+      "SDG17_Partnerships_for_the_Goals": 3
+    },
+    "top_sdg_impacts": {
+      "SDG3_Good_Health_and_Wellbeing": "Toxaphene exposure can affect key human organs including the lungs, nervous system, and kidneys, posing serious health risks especially in contaminated areas.",
+      "SDG14_Life_Below_Water": "Toxaphene bioaccumulates in aquatic life, leading to toxic effects on fish and ecosystems, which disrupts marine biodiversity and food chains.",
+      "SDG15_Life_on_Land": "Due to its persistence and bioaccumulation, toxaphene poses long-term threats to terrestrial wildlife and ecosystems, undermining biodiversity conservation efforts."
+    }
+  }
+  

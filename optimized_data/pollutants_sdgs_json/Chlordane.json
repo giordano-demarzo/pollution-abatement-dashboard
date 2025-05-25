@@ -1,0 +1,42 @@
+{
+    "summary": {
+      "pollutant": "Chlordane",
+      "description": "Chlordane is a viscous amber liquid with a chlorine-like odour, formerly used as a contact insecticide on agricultural crops and now banned in the EU.",
+      "emission_sources": [
+        "Use as a pesticide on crops",
+        "Manufacture",
+        "Transportation and storage"
+      ],
+      "environmental_impact": [
+        "Exposure mainly through contaminated food such as meat, eggs, and milk",
+        "Toxic effects on humans including neurological symptoms, possible liver and kidney damage, and potential carcinogenicity",
+        "Highly toxic to aquatic organisms, endocrine disruption and neurotoxicity in fish and rodents",
+        "Persistent in the environment, binds strongly to sediments and bioaccumulates"
+      ]
+    },
+    "sdg_scores": {
+      "SDG1_No_Poverty": 3,
+      "SDG2_Zero_Hunger": 6,
+      "SDG3_Good_Health_and_Wellbeing": 9,
+      "SDG4_Quality_Education": 2,
+      "SDG5_Gender_Equality": 2,
+      "SDG6_Clean_Water_and_Sanitation": 7,
+      "SDG7_Affordable_and_Clean_Energy": 2,
+      "SDG8_Decent_Work_and_Economic_Growth": 4,
+      "SDG9_Industry_Innovation_and_Infrastructure": 3,
+      "SDG10_Reduced_Inequalities": 3,
+      "SDG11_Sustainable_Cities_and_Communities": 5,
+      "SDG12_Responsible_Consumption_and_Production": 8,
+      "SDG13_Climate_Action": 3,
+      "SDG14_Life_Below_Water": 9,
+      "SDG15_Life_on_Land": 8,
+      "SDG16_Peace_Justice_and_Strong_Institutions": 3,
+      "SDG17_Partnerships_for_the_Goals": 3
+    },
+    "top_sdg_impacts": {
+      "SDG3_Good_Health_and_Wellbeing": "Chlordane exposure affects human neurological health, liver and kidney functions, and is a potential carcinogen, posing serious risks to public health.",
+      "SDG14_Life_Below_Water": "Chlordane is highly toxic to aquatic life, disrupts endocrine systems and neurofunctions of fish and aquatic organisms, and bioaccumulates in aquatic sediments.",
+      "SDG12_Responsible_Consumption_and_Production": "The pollutant originates from pesticide use and production processes; its persistence and bioaccumulation highlight the need for responsible chemical management and sustainable production."
+    }
+  }
+  

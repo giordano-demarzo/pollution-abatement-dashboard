@@ -1,0 +1,42 @@
+{
+    "summary": {
+      "pollutant": "Chlorpyrifos",
+      "description": "Chlorpyrifos is an organophosphorus pesticide that appears as white crystals with a strong odor. It is miscible in organic solvents but not very soluble in water. Previously used for both domestic and commercial purposes, it has been voluntarily removed from domestic use but is still used by farmers mixed with oily liquids to control parasites and pests among crops and cattle.",
+      "emission_sources": [
+        "Agricultural application as insecticide on crops",
+        "Veterinary use for parasite control on cattle",
+        "Commercial pesticide application"
+      ],
+      "environmental_impact": [
+        "Toxic to wildlife and very toxic to aquatic organisms",
+        "Causes nervous system effects in humans including headaches, blurred vision, dizziness, confusion, and muscle weakness",
+        "Binds strongly to soil and does not migrate far from application areas",
+        "Breaks down through sunlight, bacterial action, and chemical decomposition",
+        "Limited global environmental impact due to localized nature and degradation processes"
+      ]
+    },
+    "sdg_scores": {
+      "SDG1_No_Poverty": 3,
+      "SDG2_Zero_Hunger": 6,
+      "SDG3_Good_Health_and_Wellbeing": 8,
+      "SDG4_Quality_Education": 2,
+      "SDG5_Gender_Equality": 2,
+      "SDG6_Clean_Water_and_Sanitation": 5,
+      "SDG7_Affordable_and_Clean_Energy": 1,
+      "SDG8_Decent_Work_and_Economic_Growth": 4,
+      "SDG9_Industry_Innovation_and_Infrastructure": 2,
+      "SDG10_Reduced_Inequalities": 3,
+      "SDG11_Sustainable_Cities_and_Communities": 3,
+      "SDG12_Responsible_Consumption_and_Production": 7,
+      "SDG13_Climate_Action": 2,
+      "SDG14_Life_Below_Water": 7,
+      "SDG15_Life_on_Land": 8,
+      "SDG16_Peace_Justice_and_Strong_Institutions": 2,
+      "SDG17_Partnerships_for_the_Goals": 2
+    },
+    "top_sdg_impacts": {
+      "SDG3_Good_Health_and_Wellbeing": "Chlorpyrifos directly affects human health through nervous system impacts, causing symptoms like headaches, blurred vision, dizziness, confusion, and muscle weakness when exposure occurs through inhalation or contaminated food consumption.",
+      "SDG15_Life_on_Land": "The pesticide is toxic to wildlife and terrestrial ecosystems, though its strong binding to soil limits migration. It affects biodiversity and ecosystem health in agricultural areas where it is applied, impacting the goal of protecting terrestrial life.",
+      "SDG12_Responsible_Consumption_and_Production": "Chlorpyrifos represents unsustainable agricultural practices and chemical consumption patterns. Its continued use despite known health and environmental risks challenges the goal of ensuring sustainable consumption and production patterns in agriculture."
+    }
+  }

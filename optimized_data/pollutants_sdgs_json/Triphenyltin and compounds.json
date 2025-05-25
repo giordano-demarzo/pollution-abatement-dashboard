@@ -1,0 +1,41 @@
+{
+    "summary": {
+      "pollutant": "Triphenyltin compounds",
+      "description": "Triphenyltin compounds are colourless/white solids or liquids that are practically insoluble and primarily used as pesticides or biocides.",
+      "emission_sources": [
+        "Use in marine antifouling paints",
+        "Use as fungicides in wood preservatives and crop protection",
+        "Manufacture, transport, and storage"
+      ],
+      "environmental_impact": [
+        "Toxic to wildlife, especially aquatic organisms",
+        "Bioaccumulates in living tissues",
+        "Binds to soil and persists in the environment"
+      ]
+    },
+    "sdg_scores": {
+      "SDG1_No_Poverty": 2,
+      "SDG2_Zero_Hunger": 4,
+      "SDG3_Good_Health_and_Wellbeing": 4,
+      "SDG4_Quality_Education": 1,
+      "SDG5_Gender_Equality": 1,
+      "SDG6_Clean_Water_and_Sanitation": 7,
+      "SDG7_Affordable_and_Clean_Energy": 1,
+      "SDG8_Decent_Work_and_Economic_Growth": 3,
+      "SDG9_Industry_Innovation_and_Infrastructure": 3,
+      "SDG10_Reduced_Inequalities": 1,
+      "SDG11_Sustainable_Cities_and_Communities": 4,
+      "SDG12_Responsible_Consumption_and_Production": 8,
+      "SDG13_Climate_Action": 3,
+      "SDG14_Life_Below_Water": 9,
+      "SDG15_Life_on_Land": 6,
+      "SDG16_Peace_Justice_and_Strong_Institutions": 1,
+      "SDG17_Partnerships_for_the_Goals": 2
+    },
+    "top_sdg_impacts": {
+      "SDG14_Life_Below_Water": "Triphenyltin compounds are toxic to marine organisms and used in antifouling paints, making them particularly hazardous to aquatic ecosystems.",
+      "SDG12_Responsible_Consumption_and_Production": "The persistence and bioaccumulation of triphenyltin compounds in the environment highlight the need for sustainable chemical management and production practices.",
+      "SDG6_Clean_Water_and_Sanitation": "Triphenyltin compounds can contaminate aquatic environments and persist in sediments, threatening clean water access and ecosystem health."
+    }
+  }
+  

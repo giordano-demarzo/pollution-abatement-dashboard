@@ -1,0 +1,40 @@
+{
+    "summary": {
+      "pollutant": "Trichloromethane (Chloroform)",
+      "description": "A colourless, highly volatile liquid with a distinctive smell, classified as a volatile organic compound (VOC).",
+      "emission_sources": [
+        "Use as a solvent",
+        "Use as a chemical intermediate in pesticide production"
+      ],
+      "environmental_impact": [
+        "High exposure can damage skin, liver, kidneys, and nervous system",
+        "Reacts in the air with other pollutants to form harmful ground-level ozone",
+        "Persists in water bodies but does not bioaccumulate in soils or sediments"
+      ]
+    },
+    "sdg_scores": {
+      "SDG1_No_Poverty": 2,
+      "SDG2_Zero_Hunger": 2,
+      "SDG3_Good_Health_and_Wellbeing": 7,
+      "SDG4_Quality_Education": 1,
+      "SDG5_Gender_Equality": 1,
+      "SDG6_Clean_Water_and_Sanitation": 5,
+      "SDG7_Affordable_and_Clean_Energy": 2,
+      "SDG8_Decent_Work_and_Economic_Growth": 4,
+      "SDG9_Industry_Innovation_and_Infrastructure": 4,
+      "SDG10_Reduced_Inequalities": 2,
+      "SDG11_Sustainable_Cities_and_Communities": 6,
+      "SDG12_Responsible_Consumption_and_Production": 7,
+      "SDG13_Climate_Action": 4,
+      "SDG14_Life_Below_Water": 3,
+      "SDG15_Life_on_Land": 3,
+      "SDG16_Peace_Justice_and_Strong_Institutions": 1,
+      "SDG17_Partnerships_for_the_Goals": 2
+    },
+    "top_sdg_impacts": {
+      "SDG3_Good_Health_and_Wellbeing": "High levels of chloroform exposure can harm multiple organs and contribute to harmful ozone formation, which negatively affects respiratory health.",
+      "SDG12_Responsible_Consumption_and_Production": "Chloroform emissions primarily result from industrial and chemical use, emphasizing the need for improved handling and sustainable production practices.",
+      "SDG11_Sustainable_Cities_and_Communities": "As a VOC contributing to urban air pollution and ground-level ozone, chloroform affects air quality in cities and the health of urban populations."
+    }
+  }
+  

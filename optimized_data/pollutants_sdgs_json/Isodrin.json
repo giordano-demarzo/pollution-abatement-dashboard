@@ -1,0 +1,39 @@
+{
+    "summary": {
+      "pollutant": "Isodrin",
+      "description": "Isodrin is a white crystalline solid with a chemical-like odour, formerly used as an insecticide.",
+      "emission_sources": [
+        "Use as a pesticide in agriculture where still applied"
+      ],
+      "environmental_impact": [
+        "Highly persistent in the environment and does not degrade easily",
+        "Highly toxic to wildlife with long-term damage to sensitive species",
+        "Fat soluble and bioaccumulates through the food chain, leading to widespread environmental contamination"
+      ]
+    },
+    "sdg_scores": {
+      "SDG1_No_Poverty": 3,
+      "SDG2_Zero_Hunger": 4,
+      "SDG3_Good_Health_and_Wellbeing": 8,
+      "SDG4_Quality_Education": 1,
+      "SDG5_Gender_Equality": 1,
+      "SDG6_Clean_Water_and_Sanitation": 6,
+      "SDG7_Affordable_and_Clean_Energy": 1,
+      "SDG8_Decent_Work_and_Economic_Growth": 4,
+      "SDG9_Industry_Innovation_and_Infrastructure": 3,
+      "SDG10_Reduced_Inequalities": 2,
+      "SDG11_Sustainable_Cities_and_Communities": 5,
+      "SDG12_Responsible_Consumption_and_Production": 7,
+      "SDG13_Climate_Action": 3,
+      "SDG14_Life_Below_Water": 7,
+      "SDG15_Life_on_Land": 8,
+      "SDG16_Peace_Justice_and_Strong_Institutions": 1,
+      "SDG17_Partnerships_for_the_Goals": 2
+    },
+    "top_sdg_impacts": {
+      "SDG15_Life_on_Land": "Isodrin is highly toxic to terrestrial wildlife and persistent in the environment, causing long-term harm to ecosystems and sensitive species.",
+      "SDG3_Good_Health_and_Wellbeing": "Exposure to isodrin can affect human health indirectly through bioaccumulation in the food chain and environmental contamination.",
+      "SDG14_Life_Below_Water": "Due to its persistence and bioaccumulation, isodrin contaminates aquatic environments, posing risks to marine life and ecosystems."
+    }
+  }
+  

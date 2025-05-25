@@ -1,0 +1,39 @@
+{
+    "summary": {
+      "pollutant": "Alachlor",
+      "description": "Alachlor is an odourless, colourless to white crystalline herbicide belonging to the chloroacetanilide chemical family. It was used to control grass growth but has been banned in the EU since 2006.",
+      "emission_sources": [
+        "Agricultural use as a herbicide"
+      ],
+      "environmental_impact": [
+        "Can leach into groundwater due to low adsorption to soil",
+        "Breaks down rapidly in surface environments due to sunlight and bacteria",
+        "Does not bioaccumulate in aquatic organisms, plants, or animals"
+      ]
+    },
+    "sdg_scores": {
+      "SDG1_No_Poverty": 1,
+      "SDG2_Zero_Hunger": 4,
+      "SDG3_Good_Health_and_Wellbeing": 5,
+      "SDG4_Quality_Education": 1,
+      "SDG5_Gender_Equality": 1,
+      "SDG6_Clean_Water_and_Sanitation": 7,
+      "SDG7_Affordable_and_Clean_Energy": 1,
+      "SDG8_Decent_Work_and_Economic_Growth": 3,
+      "SDG9_Industry_Innovation_and_Infrastructure": 2,
+      "SDG10_Reduced_Inequalities": 1,
+      "SDG11_Sustainable_Cities_and_Communities": 3,
+      "SDG12_Responsible_Consumption_and_Production": 6,
+      "SDG13_Climate_Action": 2,
+      "SDG14_Life_Below_Water": 4,
+      "SDG15_Life_on_Land": 3,
+      "SDG16_Peace_Justice_and_Strong_Institutions": 1,
+      "SDG17_Partnerships_for_the_Goals": 1
+    },
+    "top_sdg_impacts": {
+      "SDG6_Clean_Water_and_Sanitation": "Alachlor can leach into groundwater due to low soil adsorption and degrade slowly once there, posing a risk to water quality and access to clean drinking water.",
+      "SDG12_Responsible_Consumption_and_Production": "As a banned pesticide, alachlor underscores the importance of regulating hazardous substances and promoting sustainable agricultural practices.",
+      "SDG3_Good_Health_and_Wellbeing": "While low background levels pose little risk, prolonged or high-level exposure through contaminated water can pose health risks, particularly before its ban."
+    }
+  }
+  

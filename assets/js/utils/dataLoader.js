@@ -20,6 +20,7 @@ const DATA_CONFIG = {
   brefTextsPath: formatPath('/processed_data/brefs_texts_final.csv'),
   pollutantBrefHierarchiesPath: formatPath('/optimized_data/pollutant_bref_hierarchies'),
   pollutantBrefLookup: formatPath('/optimized_data/pollutant_bref_lookup.json'),
+  pollutantSdgsPath: formatPath('/optimized_data/pollutants_sdgs_json'), // New path for SDG JSON files
 };
 
 // Log the environment and paths for debugging
@@ -48,6 +49,7 @@ const dataCache = {
   brefTextsData: null,
   pollutantBrefHierarchies: {},
   pollutantBrefLookup: { data: null, timestamp: 0 },
+  pollutantSdgs: {}, // New cache for individual pollutant SDG data
 };
 
 // Cache expiration time in milliseconds (5 minutes)
@@ -104,6 +106,32 @@ function updateCache(cacheKey, data) {
     timestamp: Date.now()
   };
   return data;
+}
+
+// Helper function to normalize pollutant names for filename lookup
+function normalizePollutantName(pollutantName) {
+  if (!pollutantName) return '';
+  
+  // Create a normalized version that matches the JSON filenames
+  // The JSON files seem to preserve spaces and special characters
+  return pollutantName.trim();
+}
+
+// Helper function to convert between different pollutant name formats
+function getPollutantSdgFilename(pollutantName) {
+  // The SDG JSON files use the full pollutant name with spaces and special characters
+  // We need to map from the internal pollutant name to the filename
+  
+  // For now, try the direct name first, then with common variations
+  const normalizedName = normalizePollutantName(pollutantName);
+  
+  // Common filename patterns to try
+  const variations = [
+    normalizedName,
+    normalizedName.replace(/\s+/g, ' '), // normalize whitespace
+  ];
+  
+  return variations;
 }
 
 // Load the dashboard summary data
@@ -164,6 +192,61 @@ export async function loadSdgData() {
       'SDG 14': { title: 'Life Below Water', pollutants: [] }
     };
   }
+}
+
+/**
+ * Load SDG data for a specific pollutant from the new JSON files
+ * @param {string} pollutantName - The name of the pollutant
+ * @returns {Promise<Object>} The pollutant's SDG data
+ */
+export async function loadPollutantSdgData(pollutantName) {
+  if (!pollutantName) {
+    console.error('No pollutant name provided to loadPollutantSdgData');
+    return null;
+  }
+  
+  const cacheKey = pollutantName;
+  
+  // Check cache first
+  if (dataCache.pollutantSdgs[cacheKey] && 
+      dataCache.pollutantSdgs[cacheKey].data && 
+      Date.now() - dataCache.pollutantSdgs[cacheKey].timestamp < CACHE_EXPIRATION) {
+    return dataCache.pollutantSdgs[cacheKey].data;
+  }
+  
+  // Try different filename variations
+  const filenameVariations = getPollutantSdgFilename(pollutantName);
+  
+  for (const filename of filenameVariations) {
+    try {
+      console.log(`Attempting to load SDG data for pollutant: ${filename}`);
+      const response = await enhancedFetch(`${DATA_CONFIG.pollutantSdgsPath}/${filename}.json`);
+      const data = await response.json();
+      
+      // Cache the successful result
+      dataCache.pollutantSdgs[cacheKey] = {
+        data,
+        timestamp: Date.now()
+      };
+      
+      console.log(`Successfully loaded SDG data for ${pollutantName}`);
+      return data;
+    } catch (error) {
+      console.log(`Failed to load ${filename}.json, trying next variation...`);
+      continue;
+    }
+  }
+  
+  // If all variations failed, try a more aggressive search
+  console.warn(`Could not find SDG data file for pollutant: ${pollutantName}`);
+  
+  // Fallback to expired cache if available
+  if (dataCache.pollutantSdgs[cacheKey] && dataCache.pollutantSdgs[cacheKey].data) {
+    console.log(`Using expired cache for ${pollutantName} SDG data`);
+    return dataCache.pollutantSdgs[cacheKey].data;
+  }
+  
+  return null;
 }
 
 // Load combined dashboard data with optimized data structure handling
@@ -927,7 +1010,7 @@ export function getCacheStatus() {
           expiresIn,
           isExpired: timeSinceUpdate > CACHE_EXPIRATION
         };
-      } else if (key === 'patentChunks' || key === 'pollutants' || key === 'pollutantScores' || key === 'pollutantBrefHierarchies') {
+      } else if (key === 'patentChunks' || key === 'pollutants' || key === 'pollutantScores' || key === 'pollutantBrefHierarchies' || key === 'pollutantSdgs') {
         const entries = Object.keys(dataCache[key]).length;
         status[key] = {
           isCached: entries > 0,
@@ -964,5 +1047,6 @@ export default {
   clearCache,
   getCacheStatus,
   loadBrefRelevanceScores,
-  loadPatentDetails
+  loadPatentDetails,
+  loadPollutantSdgData // New function for loading individual pollutant SDG data
 };

@@ -1,0 +1,40 @@
+{
+    "summary": {
+      "pollutant": "Chlorfenvinphos",
+      "description": "A colourless liquid organophosphorous pesticide with mild odour, miscible in organic solvents but only partly soluble in water",
+      "emission_sources": [
+        "Agricultural use on vegetables and cereals",
+        "Seed treatment applications",
+        "Vector control for malarial mosquitoes"
+      ],
+      "environmental_impact": [
+        "Toxic to wildlife populations",
+        "Potential contamination of soil and water systems",
+        "Decomposes naturally to harmless products over time"
+      ]
+    },
+    "sdg_scores": {
+      "SDG1_No_Poverty": 3,
+      "SDG2_Zero_Hunger": 6,
+      "SDG3_Good_Health_and_Wellbeing": 8,
+      "SDG4_Quality_Education": 2,
+      "SDG5_Gender_Equality": 2,
+      "SDG6_Clean_Water_and_Sanitation": 7,
+      "SDG7_Affordable_and_Clean_Energy": 1,
+      "SDG8_Decent_Work_and_Economic_Growth": 4,
+      "SDG9_Industry_Innovation_and_Infrastructure": 3,
+      "SDG10_Reduced_Inequalities": 3,
+      "SDG11_Sustainable_Cities_and_Communities": 4,
+      "SDG12_Responsible_Consumption_and_Production": 6,
+      "SDG13_Climate_Action": 2,
+      "SDG14_Life_Below_Water": 6,
+      "SDG15_Life_on_Land": 8,
+      "SDG16_Peace_Justice_and_Strong_Institutions": 2,
+      "SDG17_Partnerships_for_the_Goals": 2
+    },
+    "top_sdg_impacts": {
+      "SDG3_Good_Health_and_Wellbeing": "As an organophosphorous pesticide, chlorfenvinphos poses direct health risks through exposure, particularly affecting nervous system function. While low-level long-term exposure may be relatively safe for humans, acute exposure or occupational contact can cause serious health effects including neurological symptoms.",
+      "SDG15_Life_on_Land": "Chlorfenvinphos is specifically noted as being toxic to wildlife, directly threatening terrestrial ecosystems and biodiversity. Its use as a pesticide means it is deliberately released into environments where it can harm non-target species, affecting the delicate balance of terrestrial food chains and ecosystem health.",
+      "SDG6_Clean_Water_and_Sanitation": "Despite being only partly water-soluble, chlorfenvinphos can contaminate water sources through agricultural runoff and improper application. This contamination threatens both drinking water quality and aquatic ecosystems, requiring additional water treatment measures and monitoring to ensure safe water access."
+    }
+  }

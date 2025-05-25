@@ -20,7 +20,8 @@ import {
   loadPollutantPatentCounts,
   loadPollutantBrefHierarchy,
   loadBrefRelevanceScores,
-  loadSdgData // Assume this function exists to load SDG data
+  loadSdgData, // Keep for legacy compatibility
+  loadPollutantSdgData // New function for individual pollutant SDG data
 } from '../utils/dataLoader';
 
 import {
@@ -51,7 +52,7 @@ const OptimizedPollutionAbatementDashboard = () => {
   const [loadingBrefHierarchy, setLoadingBrefHierarchy] = useState(false); 
   const [error, setError] = useState(null);
   const [searchTerm, setSearchTerm] = useState('');
-  const [sdgData, setSDGData] = useState(null); // New state for SDG data
+  const [sdgData, setSDGData] = useState(null); // Legacy SDG data
   
 
   // UI interaction state
@@ -59,6 +60,7 @@ const OptimizedPollutionAbatementDashboard = () => {
   const [selectedBrefs, setSelectedBrefs] = useState([]); // State for selected BREFs
   const [showPollutantInfo, setShowPollutantInfo] = useState(false);
   const [infoBoxPollutant, setInfoBoxPollutant] = useState(null);
+  const [pollutantSdgData, setPollutantSdgData] = useState(null); // New state for individual pollutant SDG data
   
   // BREF selection state with optimized loading
   const [selectedBref, setSelectedBref] = useState(null);
@@ -138,12 +140,12 @@ const OptimizedPollutionAbatementDashboard = () => {
           const patents = await loadPollutantTopPatents(selectedPollutantFilename);
           setTopPollutantPatents(patents || []);
           
-          // Load SDG data for the selected pollutant
+          // Load legacy SDG data for the selected pollutant (keeping for compatibility)
           try {
-            const sdgs = await loadSDGData(selectedPollutantFilename);
+            const sdgs = await loadSdgData();
             setSDGData(sdgs || {});
           } catch (sdgErr) {
-            console.error('Error loading SDG data:', sdgErr);
+            console.error('Error loading legacy SDG data:', sdgErr);
             setSDGData({});
           }
         } catch (err) {
@@ -234,15 +236,30 @@ const OptimizedPollutionAbatementDashboard = () => {
     });
   }, []);
 
-  // Handle opening the pollutant info box
-  const handleOpenPollutantInfo = useCallback((pollutantName) => {
+  // Handle opening the pollutant info box with NEW SDG data loading
+  const handleOpenPollutantInfo = useCallback(async (pollutantName) => {
     setInfoBoxPollutant(pollutantName);
     setShowPollutantInfo(true);
+    
+    // Load the specific SDG data for this pollutant
+    try {
+      console.log(`Loading SDG data for pollutant: ${pollutantName}`);
+      const sdgData = await loadPollutantSdgData(pollutantName);
+      setPollutantSdgData(sdgData);
+      
+      if (!sdgData) {
+        console.warn(`No SDG data found for pollutant: ${pollutantName}`);
+      }
+    } catch (error) {
+      console.error(`Error loading SDG data for pollutant ${pollutantName}:`, error);
+      setPollutantSdgData(null);
+    }
   }, []);
   
   // Handle closing the pollutant info box
   const handleClosePollutantInfo = useCallback(() => {
     setShowPollutantInfo(false);
+    setPollutantSdgData(null); // Clear the SDG data when closing
   }, []);
 
   // Handle pollutant selection - ENHANCED with BREF considerations
@@ -565,10 +582,10 @@ const OptimizedPollutionAbatementDashboard = () => {
         </div>
       </div>
       
-      {/* Pollutant Info Box */}
+      {/* Updated Pollutant Info Box with new SDG data */}
       <PollutantInfoBox
         pollutant={infoBoxPollutant}
-        sdgImpactData={dashboardData?.sdgImpact}
+        pollutantSdgData={pollutantSdgData} // Pass the new SDG data instead of the old format
         isOpen={showPollutantInfo}
         onClose={handleClosePollutantInfo}
       />

@@ -1,0 +1,43 @@
+{
+    "summary": {
+      "pollutant": "Fluorine (Fluorides)",
+      "description": "Fluorine is a reactive gas that usually forms salts called fluorides, which are white solids soluble in water. Fluorides have widespread industrial and consumer uses, including in the manufacture of glass, ceramics, aluminum fluoride, fluorocarbons, toothpaste, and drinking water additives.",
+      "emission_sources": [
+        "Industrial activities such as coal combustion",
+        "Metal production",
+        "Phosphate ore processing and fertiliser production",
+        "Glass, brick, and ceramic manufacturing",
+        "Natural sources like earth's crust and sea spray"
+      ],
+      "environmental_impact": [
+        "Local emissions can cause abnormal fluoride concentrations harmful to health and wildlife",
+        "Fluorides bioaccumulate in terrestrial vertebrates, especially in bone tissue",
+        "Aquatic organisms accumulate fluorides from water and food, potentially harming ecosystems"
+      ]
+    },
+    "sdg_scores": {
+      "SDG1_No_Poverty": 3,
+      "SDG2_Zero_Hunger": 3,
+      "SDG3_Good_Health_and_Wellbeing": 8,
+      "SDG4_Quality_Education": 1,
+      "SDG5_Gender_Equality": 1,
+      "SDG6_Clean_Water_and_Sanitation": 7,
+      "SDG7_Affordable_and_Clean_Energy": 3,
+      "SDG8_Decent_Work_and_Economic_Growth": 5,
+      "SDG9_Industry_Innovation_and_Infrastructure": 6,
+      "SDG10_Reduced_Inequalities": 3,
+      "SDG11_Sustainable_Cities_and_Communities": 6,
+      "SDG12_Responsible_Consumption_and_Production": 7,
+      "SDG13_Climate_Action": 2,
+      "SDG14_Life_Below_Water": 7,
+      "SDG15_Life_on_Land": 7,
+      "SDG16_Peace_Justice_and_Strong_Institutions": 1,
+      "SDG17_Partnerships_for_the_Goals": 2
+    },
+    "top_sdg_impacts": {
+      "SDG3_Good_Health_and_Wellbeing": "Local fluoride emissions can cause toxic effects to humans and wildlife, including bioaccumulation in bones and potential health risks.",
+      "SDG6_Clean_Water_and_Sanitation": "Fluoride contamination from industrial discharge affects water quality and aquatic life, posing challenges to clean water supply and sanitation.",
+      "SDG12_Responsible_Consumption_and_Production": "Industrial processes releasing fluorides highlight the need for cleaner, more responsible production practices to reduce environmental and health risks."
+    }
+  }
+  
