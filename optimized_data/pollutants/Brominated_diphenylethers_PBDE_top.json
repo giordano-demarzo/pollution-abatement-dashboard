@@ -1,1 +1,3156 @@
-[{"id": "4202299_abstract", "title": "METHOD AND DEVICE FOR INCINERATION OF HAZARDOUS SOLID WASTE AND OBTAINED COMBUSTION PRODUCTS", "score": 0.7070848038420081, "x": 0.67920506, "y": 0.28402635, "abstract": "Patent ID 4202299_abstract from year 2023", "year": 2023, "bref_relevance": {"REF:::4.7.3": 0.6798064354807138, "TXT:::4.1.8.2": 0.7070848038420081, "OFC:::4.3.5.7": 0.8790055364370346, "SF:::4.5.2.2": 0.5938246054574847, "SA:::4.3.8.19": 0.9339732378721236, "LCP:::9.3.3": 0.7035981304943562, "WI:::4.2.3.2": 0.9339380487799644, "WI:::4.3.8": 0.5938605014234781, "WT:::5.5.3.1": 0.7774739926680923, "WT:::5.2.3.4": 0.7540687546133995, "CLM:::1.4.3.3": 0.8516448037698865}}, {"id": "2883815_abstract", "title": "WASTE COLLECTION SYSTEM AND METHOD FOR OPERATING", "score": 0.593798054382205, "x": 0.6725916, "y": 0.57613283, "abstract": "Patent ID 2883815_abstract from year 2015", "year": 2015, "bref_relevance": {"PP:::3.3.26": 0.8518429528921843, "TXT:::4.1.8.1": 0.8165220087394118, "TXT:::4.1.8.2": 0.593798054382205, "WT:::4.5.1.2": 0.6524672843515873}}, {"id": "3138819_abstract", "title": "PROCESS AND CONTAINER FOR SOLIDIFICATION OF LIQUID WASTE", "score": 0.5937792614568025, "x": 0.58245295, "y": 0.28524113, "abstract": "Patent ID 3138819_abstract from year 2017", "year": 2017, "bref_relevance": {"REF:::4.25.6": 0.7070721094496548, "TXT:::4.1.8.1": 0.5000547710806131, "TXT:::4.1.8.2": 0.5937792614568025, "CWW:::3.4.1": 0.7071253899484873}}, {"id": "3323757_abstract", "title": "WASTE MANAGING ASSEMBLY", "score": 0.5625454252585769, "x": 0.6723775, "y": 0.5727658, "abstract": "Patent ID 3323757_abstract from year 2018", "year": 2018, "bref_relevance": {"PP:::3.3.26": 0.8166777435690165, "REF:::4.5.12": 0.6212121639400721, "REF:::4.25.7": 0.594042893499136, "TXT:::4.1.8.1": 0.8165536811575294, "TXT:::4.1.8.2": 0.5625454252585769, "OFC:::4.3.1.1": 0.5938330832868814, "GLS:::4.7": 0.6524104680866003, "CWW:::3.4.1": 0.796975364908576}}, {"id": "3501678_abstract", "title": "METHOD FOR REDUCTION OF CHLORIDE LEACHING RATE FROM MINERAL MIXTURES COMPRISING WASTE WITH HIGH CONC", "score": 0.5625292276963592, "x": 0.5592696, "y": 0.2758485, "abstract": "Patent ID 3501678_abstract from year 2019", "year": 2019, "bref_relevance": {"REF:::4.25.6": 0.8672593147493899, "REF:::4.25.1": 0.7773663743864745, "TXT:::4.1.8.1": 0.6211276799440384, "TXT:::4.1.8.2": 0.5625292276963592, "CER:::4.4.5.2": 0.6797161181457341, "OFC:::4.3.7.4": 0.6523987734690309, "OFC:::4.3.2.8": 0.5000308281742036, "OFC:::4.3.2.4": 0.5000573936849833, "STM:::4.16.2": 0.5625332118943334, "STM:::4.17.3": 0.6797140107955784, "GLS:::4.7": 0.5937994150444865, "CAK:::4.4.4.1": 0.7071035197004676, "SA:::4.2.7.1": 0.5937791131436825, "LCP:::9.3.5": 0.5000674203038216, "CWW:::3.4.1": 0.7773895263671875, "WT:::4.5.1.2": 0.5000225743278861, "WT:::5.1.4.1": 0.7071650512516499, "CLM:::1.4.3.3": 0.5937914904206991}}]
+[
+  {
+    "id": "3826434_abstract_abstract",
+    "title": "PLASMA DEVICE",
+    "score": 0.9995508790016174,
+    "x": 0.598909318447113,
+    "y": 0.6906445622444153,
+    "abstract": "Patent ID 3826434_abstract_abstract from year 2021",
+    "year": 2021,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.9995508790016174
+    }
+  },
+  {
+    "id": "3156232_abstract_abstract",
+    "title": "A ZERO ALCOHOL OFFSET PRINTING SYSTEM",
+    "score": 0.999550759792328,
+    "x": 0.5255259275436401,
+    "y": 0.6562203764915466,
+    "abstract": "Patent ID 3156232_abstract_abstract from year 2017",
+    "year": 2017,
+    "bref_relevance": {
+      "STS:::11.4.2.2": 0.999550759792328
+    }
+  },
+  {
+    "id": "3940140_abstract_abstract",
+    "title": "DYEING PROCESS TO MINIMISE WASTE WATER PRODUCTION",
+    "score": 0.9995499849319458,
+    "x": 0.6428459882736206,
+    "y": 0.5839369893074036,
+    "abstract": "Patent ID 3940140_abstract_abstract from year 2022",
+    "year": 2022,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.9995499849319458
+    }
+  },
+  {
+    "id": "3722500_abstract_abstract",
+    "title": "PLASMA TREATMENTS FOR COLORATION OF TEXTILES",
+    "score": 0.9995498657226562,
+    "x": 0.5685135126113892,
+    "y": 0.7070202231407166,
+    "abstract": "Patent ID 3722500_abstract_abstract from year 2020",
+    "year": 2020,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.9995498657226562
+    }
+  },
+  {
+    "id": "2457670_abstract_abstract",
+    "title": "Method and apparatus for plasma induced coating at low pressure",
+    "score": 0.9995484352111816,
+    "x": 0.568185567855835,
+    "y": 0.7029943466186523,
+    "abstract": "Patent ID 2457670_abstract_abstract from year 2012",
+    "year": 2012,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.9995484352111816
+    }
+  },
+  {
+    "id": "2287394_abstract_abstract",
+    "title": "Method for working polymeric and inorganic materials with plasma",
+    "score": 0.999545156955719,
+    "x": 0.5901575088500977,
+    "y": 0.6961801052093506,
+    "abstract": "Patent ID 2287394_abstract_abstract from year 2011",
+    "year": 2011,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.999545156955719
+    }
+  },
+  {
+    "id": "2708641_abstract_abstract",
+    "title": "METHOD FOR COLORING MATERIALS WITH NATURAL COLORANTS AND ITS ARTICLES",
+    "score": 0.9995444416999816,
+    "x": 0.6519172191619873,
+    "y": 0.5830328464508057,
+    "abstract": "Patent ID 2708641_abstract_abstract from year 2014",
+    "year": 2014,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.9995444416999816
+    }
+  },
+  {
+    "id": "3670737_abstract_abstract",
+    "title": "A METHOD FOR PROCESSING WOOL GARMENTS FOR INHIBITING THEIR SUBSEQUENT FELTING AND SHRINKAGE",
+    "score": 0.9995440244674684,
+    "x": 0.6306549906730652,
+    "y": 0.5681870579719543,
+    "abstract": "Patent ID 3670737_abstract_abstract from year 2020",
+    "year": 2020,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.9995440244674684
+    }
+  },
+  {
+    "id": "2784391_abstract_abstract",
+    "title": "Method and apparatus for burning hydrocarbons and other liquids and gases",
+    "score": 0.9995426535606384,
+    "x": 0.28171247243881226,
+    "y": 0.09195127338171005,
+    "abstract": "Patent ID 2784391_abstract_abstract from year 2014",
+    "year": 2014,
+    "bref_relevance": {
+      "NFM:::2.12.5.2.1": 0.9995426535606384
+    }
+  },
+  {
+    "id": "2843127_abstract_abstract",
+    "title": "Method of waterless processing of textile materials using supercritical fluid",
+    "score": 0.9995417594909668,
+    "x": 0.6438329219818115,
+    "y": 0.5816234350204468,
+    "abstract": "Patent ID 2843127_abstract_abstract from year 2015",
+    "year": 2015,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.9995417594909668
+    }
+  },
+  {
+    "id": "2578659_abstract_abstract",
+    "title": "WATER-AND-OIL REPELLENT AGENT, AND WATER-AND-OIL REPELLENT AGENT COMPOSITION",
+    "score": 0.9995415806770324,
+    "x": 0.5800707936286926,
+    "y": 0.8930427432060242,
+    "abstract": "Patent ID 2578659_abstract_abstract from year 2013",
+    "year": 2013,
+    "bref_relevance": {
+      "TAN:::4.2.2.3": 0.9995415806770324
+    }
+  },
+  {
+    "id": "4092060_abstract_abstract",
+    "title": "POLYMERIZABLE FLAME RETARDANT",
+    "score": 0.9995409846305848,
+    "x": 0.605279803276062,
+    "y": 0.9832764267921448,
+    "abstract": "Patent ID 4092060_abstract_abstract from year 2022",
+    "year": 2022,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.9995409846305848,
+      "TAN:::4.2.2.4": 0.9995392560958862,
+      "TAN:::4.2.2.3": 0.993188202381134,
+      "TAN:::4.2.2.2": 0.9633966684341432
+    }
+  },
+  {
+    "id": "4194607_abstract_abstract",
+    "title": "DAMAGE PROCESSING METHOD AND PRODUCTION METHOD FOR TEXTILE PRODUCT",
+    "score": 0.9995399117469788,
+    "x": 0.64166259765625,
+    "y": 0.5775301456451416,
+    "abstract": "Patent ID 4194607_abstract_abstract from year 2023",
+    "year": 2023,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.9995399117469788
+    }
+  },
+  {
+    "id": "4215664_abstract_abstract",
+    "title": "A SYSTEM AND A METHOD FOR PROCESSING TEXTILES",
+    "score": 0.999539315700531,
+    "x": 0.43899664282798767,
+    "y": 0.19560277462005615,
+    "abstract": "Patent ID 4215664_abstract_abstract from year 2023",
+    "year": 2023,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.999539315700531
+    }
+  },
+  {
+    "id": "3196352_abstract_abstract",
+    "title": "METHOD FOR HIGH FASTNESS DYEING OF FIBROUS YARN EMPLOYING UV CURING",
+    "score": 0.9995392560958862,
+    "x": 0.6412796378135681,
+    "y": 0.5823054909706116,
+    "abstract": "Patent ID 3196352_abstract_abstract from year 2017",
+    "year": 2017,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.9995392560958862
+    }
+  },
+  {
+    "id": "2364835_abstract_abstract",
+    "title": "Surface treatment method",
+    "score": 0.9995367527008056,
+    "x": 0.5714227557182312,
+    "y": 0.7019222378730774,
+    "abstract": "Patent ID 2364835_abstract_abstract from year 2011",
+    "year": 2011,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.9995367527008056
+    }
+  },
+  {
+    "id": "3680029_abstract_abstract",
+    "title": "A PLASMA POLYMERISATION METHOD FOR COATING A SUBSTRATE WITH A POLYMER",
+    "score": 0.9995356202125548,
+    "x": 0.5724759697914124,
+    "y": 0.7008097767829895,
+    "abstract": "Patent ID 3680029_abstract_abstract from year 2020",
+    "year": 2020,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.9995356202125548
+    }
+  },
+  {
+    "id": "4234106_abstract_abstract",
+    "title": "A PLASMA POLYMERISATION METHOD FOR COATING A SUBSTRATE WITH A POLYMER",
+    "score": 0.9995356202125548,
+    "x": 0.5706446170806885,
+    "y": 0.7013604044914246,
+    "abstract": "Patent ID 4234106_abstract_abstract from year 2023",
+    "year": 2023,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.9995356202125548
+    }
+  },
+  {
+    "id": "3757155_abstract_abstract",
+    "title": "METHOD OF INCREASING THE HYDROPHILICITY OF A SURFACE OF AN OBJECT OF POLYMER CONTAINING FLUORINE ATO",
+    "score": 0.9995352029800416,
+    "x": 0.5624757409095764,
+    "y": 0.7153770327568054,
+    "abstract": "Patent ID 3757155_abstract_abstract from year 2020",
+    "year": 2020,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.9995352029800416
+    }
+  },
+  {
+    "id": "4249802_abstract_abstract",
+    "title": "REGENERATIVE THERMAL OXIDIZER, SYSTEM COMPRISING A REGENERATIVE THERMAL OXIDIZER AND METHOD OF OPERA",
+    "score": 0.9995349645614624,
+    "x": 0.35659462213516235,
+    "y": 0.08331407606601715,
+    "abstract": "Patent ID 4249802_abstract_abstract from year 2023",
+    "year": 2023,
+    "bref_relevance": {
+      "WBP:::4.2.4.6": 0.9995349645614624,
+      "NFM:::2.12.5.2.1": 0.979025423526764
+    }
+  },
+  {
+    "id": "4249803_abstract_abstract",
+    "title": "REGENERATIVE THERMAL OXIDIZER, SYSTEM COMPRISING A REGENERATIVE THERMAL OXIDIZER AND METHOD OF OPERA",
+    "score": 0.9995339512825012,
+    "x": 0.34573009610176086,
+    "y": 0.09474886208772659,
+    "abstract": "Patent ID 4249803_abstract_abstract from year 2023",
+    "year": 2023,
+    "bref_relevance": {
+      "WBP:::4.2.4.6": 0.9995339512825012,
+      "NFM:::2.12.5.2.1": 0.9677947759628296
+    }
+  },
+  {
+    "id": "3072669_abstract_abstract",
+    "title": "APPLICATION OF ATMOSPHERIC PRESSURE PLASMA FOR IMPROVING ADHESION CAPACITY OF DISPOSABLE ABSORBENT A",
+    "score": 0.9995328783988952,
+    "x": 0.41742822527885437,
+    "y": 0.9283647537231445,
+    "abstract": "Patent ID 3072669_abstract_abstract from year 2016",
+    "year": 2016,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.9995328783988952
+    }
+  },
+  {
+    "id": "3488912_abstract_abstract",
+    "title": "GASEOUS STREAM TREATMENT APPARATUS AND PLANT FOR THE PRODUCTION OF BITUMINOUS MACADAMS COMPRISING SA",
+    "score": 0.9995324611663818,
+    "x": 0.13540296256542206,
+    "y": 0.2616867125034332,
+    "abstract": "Patent ID 3488912_abstract_abstract from year 2019",
+    "year": 2019,
+    "bref_relevance": {
+      "STS:::7.4.3.2": 0.9995324611663818
+    }
+  },
+  {
+    "id": "3290098_abstract_abstract",
+    "title": "METHOD FOR OPERERATING AN ADSORBER ARRANGEMENT AND ADSORBER ARRANGEMENT",
+    "score": 0.9995309114456176,
+    "x": 0.1350957304239273,
+    "y": 0.2601839005947113,
+    "abstract": "Patent ID 3290098_abstract_abstract from year 2018",
+    "year": 2018,
+    "bref_relevance": {
+      "STS:::7.4.3.2": 0.9995309114456176
+    }
+  },
+  {
+    "id": "4183471_abstract_abstract",
+    "title": "ORGANIC SOLVENT RECOVERY SYSTEM",
+    "score": 0.9995294809341432,
+    "x": 0.11868838965892792,
+    "y": 0.27175381779670715,
+    "abstract": "Patent ID 4183471_abstract_abstract from year 2023",
+    "year": 2023,
+    "bref_relevance": {
+      "STS:::7.4.3.2": 0.9995294809341432
+    }
+  },
+  {
+    "id": "4183470_abstract_abstract",
+    "title": "ORGANIC SOLVENT RECOVERY SYSTEM",
+    "score": 0.99952894449234,
+    "x": 0.14505311846733093,
+    "y": 0.2624469995498657,
+    "abstract": "Patent ID 4183470_abstract_abstract from year 2023",
+    "year": 2023,
+    "bref_relevance": {
+      "STS:::7.4.3.2": 0.99952894449234
+    }
+  },
+  {
+    "id": "3843122_abstract_abstract",
+    "title": "PLASMA TREATMENT APPARATUS",
+    "score": 0.999071717262268,
+    "x": 0.5427490472793579,
+    "y": 0.6837907433509827,
+    "abstract": "Patent ID 3843122_abstract_abstract from year 2021",
+    "year": 2021,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.999071717262268
+    }
+  },
+  {
+    "id": "2899222_abstract_abstract",
+    "title": "Intumescent, halogen-free, silicon-phosphorus-nitrogen based polymeric flame retardant",
+    "score": 0.9990573525428772,
+    "x": 0.6064832806587219,
+    "y": 0.9818633198738098,
+    "abstract": "Patent ID 2899222_abstract_abstract from year 2015",
+    "year": 2015,
+    "bref_relevance": {
+      "TAN:::4.2.2.4": 0.9990573525428772
+    }
+  },
+  {
+    "id": "3564299_abstract_abstract",
+    "title": "FLAME RETARDANT POLYOLEFIN ARTICLES",
+    "score": 0.9990566968917848,
+    "x": 0.6022165417671204,
+    "y": 0.9824391007423401,
+    "abstract": "Patent ID 3564299_abstract_abstract from year 2019",
+    "year": 2019,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.9990566968917848,
+      "TAN:::4.2.2.4": 0.9956341981887816
+    }
+  },
+  {
+    "id": "4273270_abstract_abstract",
+    "title": "STATION FOR PLASMA PRE-TREATMENT OF LEATHER, AS WELL AS SYSTEM FOR PROCESSING LEATHER COMPRISING SUC",
+    "score": 0.9990551471710204,
+    "x": 0.5027095675468445,
+    "y": 0.6598691940307617,
+    "abstract": "Patent ID 4273270_abstract_abstract from year 2023",
+    "year": 2023,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.9990551471710204
+    }
+  },
+  {
+    "id": "4141144_abstract_abstract",
+    "title": "ALUMINUM SLURRY COATINGS AND METHODS OF THEIR FORMATION AND USE",
+    "score": 0.9990504384040833,
+    "x": 0.2513860762119293,
+    "y": 0.5785243511199951,
+    "abstract": "Patent ID 4141144_abstract_abstract from year 2023",
+    "year": 2023,
+    "bref_relevance": {
+      "FMP:::8.9.4": 0.9990504384040833
+    }
+  },
+  {
+    "id": "2781868_abstract_abstract",
+    "title": "Plume-reducing cooling tower",
+    "score": 0.9990504384040833,
+    "x": 0.49017539620399475,
+    "y": 0.14788246154785156,
+    "abstract": "Patent ID 2781868_abstract_abstract from year 2014",
+    "year": 2014,
+    "bref_relevance": {
+      "ICS:::4.7.2": 0.9990504384040833
+    }
+  },
+  {
+    "id": "3533511_abstract_abstract",
+    "title": "AN EXHAUST GAS TREATMENT METHOD AND SYSTEM ARRANGED FOR TREATING EXHAUST GASES COLLECTED FROM AT LEA",
+    "score": 0.999049961566925,
+    "x": 0.12101449072360992,
+    "y": 0.1332613229751587,
+    "abstract": "Patent ID 3533511_abstract_abstract from year 2019",
+    "year": 2019,
+    "bref_relevance": {
+      "NFM:::2.12.5.2.1": 0.999049961566925
+    }
+  },
+  {
+    "id": "3722499_abstract_abstract",
+    "title": "SUPERCRITICAL FLUID MATERIAL FINISHING",
+    "score": 0.99904865026474,
+    "x": 0.30769360065460205,
+    "y": 0.2751195430755615,
+    "abstract": "Patent ID 3722499_abstract_abstract from year 2020",
+    "year": 2020,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.99904865026474
+    }
+  },
+  {
+    "id": "3189968_abstract_abstract",
+    "title": "SET OF DEVICES FOR IMPROVING THE OFFSET PRINTING SYSTEM",
+    "score": 0.9990463256835938,
+    "x": 0.5208253264427185,
+    "y": 0.7701839804649353,
+    "abstract": "Patent ID 3189968_abstract_abstract from year 2017",
+    "year": 2017,
+    "bref_relevance": {
+      "STS:::11.4.2.2": 0.9990463256835938
+    }
+  },
+  {
+    "id": "2559871_abstract_abstract",
+    "title": "COMBUSTION/TEMPERATURE INCREASE CONTROL METHOD AND DEVICE FOR AFTER-TREATMENT BURNER SYSTEM",
+    "score": 0.9990450143814088,
+    "x": 0.10311757773160934,
+    "y": 0.10871418565511703,
+    "abstract": "Patent ID 2559871_abstract_abstract from year 2013",
+    "year": 2013,
+    "bref_relevance": {
+      "NFM:::2.12.5.2.1": 0.9990450143814088
+    }
+  },
+  {
+    "id": "4235750_abstract_abstract",
+    "title": "METHOD OF SELECTIVELY VARYING THE WETTING CHARACTERISTICS OF A SURFACE",
+    "score": 0.9990444183349608,
+    "x": 0.5574063062667847,
+    "y": 0.7934530973434448,
+    "abstract": "Patent ID 4235750_abstract_abstract from year 2023",
+    "year": 2023,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.9990444183349608
+    }
+  },
+  {
+    "id": "3888785_abstract_abstract",
+    "title": "SYSTEMS AND METHODS FOR GAS TREATMENT",
+    "score": 0.9990438222885132,
+    "x": 0.15440517663955688,
+    "y": 0.29321107268333435,
+    "abstract": "Patent ID 3888785_abstract_abstract from year 2021",
+    "year": 2021,
+    "bref_relevance": {
+      "STS:::7.4.3.2": 0.9990438222885132
+    }
+  },
+  {
+    "id": "3246627_abstract_abstract",
+    "title": "FLAMELESS THERMAL OXIDIZER AND CORRESPONDING METHOD FOR OXIDIZING GASEOUS EFFLUENT STREAMS CONTAININ",
+    "score": 0.999043583869934,
+    "x": 0.3718327283859253,
+    "y": 0.06415767222642899,
+    "abstract": "Patent ID 3246627_abstract_abstract from year 2017",
+    "year": 2017,
+    "bref_relevance": {
+      "WBP:::4.2.4.6": 0.999043583869934
+    }
+  },
+  {
+    "id": "3900823_abstract_abstract",
+    "title": "METHOD OF REGENERATION OF CARBONACEOUS ADSORBENT",
+    "score": 0.9990419149398804,
+    "x": 0.2699299156665802,
+    "y": 0.1754479855298996,
+    "abstract": "Patent ID 3900823_abstract_abstract from year 2021",
+    "year": 2021,
+    "bref_relevance": {
+      "STS:::7.4.3.2": 0.9990419149398804
+    }
+  },
+  {
+    "id": "3267103_abstract_abstract",
+    "title": "FLAMELESS THERMAL OXIDIZER AND CORRESPONDING METHOD",
+    "score": 0.9990370869636536,
+    "x": 0.3947416841983795,
+    "y": 0.06593074649572372,
+    "abstract": "Patent ID 3267103_abstract_abstract from year 2018",
+    "year": 2018,
+    "bref_relevance": {
+      "WBP:::4.2.4.6": 0.9990370869636536
+    }
+  },
+  {
+    "id": "2987844_abstract_abstract",
+    "title": "FLAME-RETARDANT AGENT COMPOSITION AND FLAME-RETARDANT RESIN COMPOSITION CONTAINING SAME, AND MOLDED ",
+    "score": 0.9985899329185486,
+    "x": 0.5790087580680847,
+    "y": 0.9282878041267395,
+    "abstract": "Patent ID 2987844_abstract_abstract from year 2016",
+    "year": 2016,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.9985899329185486
+    }
+  },
+  {
+    "id": "2927261_abstract_abstract",
+    "title": "Fluoropolyether-containing polymer",
+    "score": 0.99857896566391,
+    "x": 0.6006832122802734,
+    "y": 0.9024282097816467,
+    "abstract": "Patent ID 2927261_abstract_abstract from year 2015",
+    "year": 2015,
+    "bref_relevance": {
+      "TAN:::4.2.2.3": 0.99857896566391
+    }
+  },
+  {
+    "id": "3241864_abstract_abstract",
+    "title": "FLAME RETARDANT, COMPOSITE FLAME RETARDANT, FLAME RETARDANT ANTISTATIC COMPOSITION AND FLAME RESISTA",
+    "score": 0.9985723495483398,
+    "x": 0.6086047887802124,
+    "y": 0.9826077222824097,
+    "abstract": "Patent ID 3241864_abstract_abstract from year 2017",
+    "year": 2017,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.9985723495483398
+    }
+  },
+  {
+    "id": "3301129_abstract_abstract",
+    "title": "FLAME RETARDANT RESIN COMPOSITION AND METHOD FOR PRODUCING THE SAME",
+    "score": 0.9985710382461548,
+    "x": 0.6077678203582764,
+    "y": 0.9816928505897522,
+    "abstract": "Patent ID 3301129_abstract_abstract from year 2018",
+    "year": 2018,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.990266978740692,
+      "TAN:::4.2.2.4": 0.9985710382461548
+    }
+  },
+  {
+    "id": "2345535_abstract_abstract",
+    "title": "Fire protection system for expanded polymers",
+    "score": 0.998570442199707,
+    "x": 0.6147214770317078,
+    "y": 0.9765431880950928,
+    "abstract": "Patent ID 2345535_abstract_abstract from year 2011",
+    "year": 2011,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.998570442199707
+    }
+  },
+  {
+    "id": "3653785_abstract_abstract",
+    "title": "FUNCTIONAL BIOMATERIAL COATINGS FOR TEXTILES AND OTHER SUBSTRATES",
+    "score": 0.99856835603714,
+    "x": 0.5537687540054321,
+    "y": 0.720852792263031,
+    "abstract": "Patent ID 3653785_abstract_abstract from year 2020",
+    "year": 2020,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.99856835603714
+    }
+  },
+  {
+    "id": "3514161_abstract_abstract",
+    "title": "ORGANOPHOSPHORUS COMPOUND, FLAME RETARDANT, AND FLAME-RETARDANT PRODUCT INCLUDING SAME",
+    "score": 0.9985673427581788,
+    "x": 0.5555506348609924,
+    "y": 0.9483292102813721,
+    "abstract": "Patent ID 3514161_abstract_abstract from year 2019",
+    "year": 2019,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.9985673427581788,
+      "TAN:::4.2.2.4": 0.9853814840316772
+    }
+  },
+  {
+    "id": "2770023_abstract_abstract",
+    "title": "Non-halogen flame retardant styrene resin composition",
+    "score": 0.9985660314559937,
+    "x": 0.6048108339309692,
+    "y": 0.9802833199501038,
+    "abstract": "Patent ID 2770023_abstract_abstract from year 2014",
+    "year": 2014,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.9985660314559937,
+      "TAN:::4.2.2.4": 0.9966040849685668
+    }
+  },
+  {
+    "id": "3246290_abstract_abstract",
+    "title": "CHROMIUM-CONTAINING WATER TREATMENT METHOD",
+    "score": 0.9985643029212952,
+    "x": 0.24906514585018158,
+    "y": 0.5586531162261963,
+    "abstract": "Patent ID 3246290_abstract_abstract from year 2017",
+    "year": 2017,
+    "bref_relevance": {
+      "FMP:::8.9.4": 0.9985643029212952
+    }
+  },
+  {
+    "id": "3581209_abstract_abstract",
+    "title": "REACTIVE GAS GENERATION SYSTEM AND METHOD OF TREATMENT USING REACTIVE GAS",
+    "score": 0.9985616207122804,
+    "x": 0.5899984240531921,
+    "y": 0.6936101317405701,
+    "abstract": "Patent ID 3581209_abstract_abstract from year 2019",
+    "year": 2019,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.9985616207122804
+    }
+  },
+  {
+    "id": "3412726_abstract_abstract",
+    "title": "NON-HALOGEN FLAME-RETARDANT RESIN COMPOSITION",
+    "score": 0.9985606074333192,
+    "x": 0.608668327331543,
+    "y": 0.978715717792511,
+    "abstract": "Patent ID 3412726_abstract_abstract from year 2018",
+    "year": 2018,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.9912356734275818,
+      "TAN:::4.2.2.4": 0.9985606074333192
+    }
+  },
+  {
+    "id": "2361952_abstract_abstract",
+    "title": "FLAME-RETARDANT POLYAMIDE COMPOSITION",
+    "score": 0.9985588192939758,
+    "x": 0.6030115485191345,
+    "y": 0.984034538269043,
+    "abstract": "Patent ID 2361952_abstract_abstract from year 2011",
+    "year": 2011,
+    "bref_relevance": {
+      "TAN:::4.2.2.4": 0.9985588192939758
+    }
+  },
+  {
+    "id": "3971233_abstract_abstract",
+    "title": "PLASMA TREATMENT OF AN ELASTOMERIC MATERIAL FOR ADHESION",
+    "score": 0.998558759689331,
+    "x": 0.5732295513153076,
+    "y": 0.7026206254959106,
+    "abstract": "Patent ID 3971233_abstract_abstract from year 2022",
+    "year": 2022,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.998558759689331
+    }
+  },
+  {
+    "id": "4043515_abstract_abstract",
+    "title": "ORGANIC/INORGANIC COMPOSITE SYNTHETIC RESIN USING HIGHLY FLAME-RETARDANT ORGANICALLY MODIFIED SILICA",
+    "score": 0.9985570907592772,
+    "x": 0.6043038368225098,
+    "y": 0.984963595867157,
+    "abstract": "Patent ID 4043515_abstract_abstract from year 2022",
+    "year": 2022,
+    "bref_relevance": {
+      "TAN:::4.2.2.4": 0.9985570907592772
+    }
+  },
+  {
+    "id": "2332637_abstract_abstract",
+    "title": "Hollow fibers with selective, plasma induced modification of lumen surface and continuous process fo",
+    "score": 0.9985568523406982,
+    "x": 0.3501138985157013,
+    "y": 0.4339372217655182,
+    "abstract": "Patent ID 2332637_abstract_abstract from year 2011",
+    "year": 2011,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.9985568523406982
+    }
+  },
+  {
+    "id": "2851318_abstract_abstract",
+    "title": "System for handling dry waste",
+    "score": 0.9985541701316832,
+    "x": 0.7335100769996643,
+    "y": 0.2850183844566345,
+    "abstract": "Patent ID 2851318_abstract_abstract from year 2015",
+    "year": 2015,
+    "bref_relevance": {
+      "TXT:::4.1.8.2": 0.9985541701316832
+    }
+  },
+  {
+    "id": "2546788_abstract_abstract",
+    "title": "Integrated system and method for environmental sustainability management",
+    "score": 0.9985527396202089,
+    "x": 0.6464084982872009,
+    "y": 0.3524368703365326,
+    "abstract": "Patent ID 2546788_abstract_abstract from year 2013",
+    "year": 2013,
+    "bref_relevance": {
+      "TXT:::4.1.5.1": 0.9985527396202089
+    }
+  },
+  {
+    "id": "3178987_abstract_abstract",
+    "title": "FLAME RETARDANT COMPOSITIONS WITH LOW FORMALDEHYDE CONTENT",
+    "score": 0.998094081878662,
+    "x": 0.6052476763725281,
+    "y": 0.9799091219902039,
+    "abstract": "Patent ID 3178987_abstract_abstract from year 2017",
+    "year": 2017,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.998094081878662,
+      "TAN:::4.2.2.4": 0.9922322034835817
+    }
+  },
+  {
+    "id": "3101170_abstract_abstract",
+    "title": "SURFACE COATINGS",
+    "score": 0.9980859756469728,
+    "x": 0.5641480684280396,
+    "y": 0.8816727995872498,
+    "abstract": "Patent ID 3101170_abstract_abstract from year 2016",
+    "year": 2016,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.9980859756469728
+    }
+  },
+  {
+    "id": "3950885_abstract_abstract",
+    "title": "FLAME-RETARDANT COMPOSITION AND FLAME-RETARDANT SYNTHETIC RESIN COMPOSITION",
+    "score": 0.9980785846710204,
+    "x": 0.597175657749176,
+    "y": 0.9793621301651001,
+    "abstract": "Patent ID 3950885_abstract_abstract from year 2022",
+    "year": 2022,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.9980785846710204,
+      "TAN:::4.2.2.4": 0.9614530205726624
+    }
+  },
+  {
+    "id": "4202297_abstract_abstract",
+    "title": "COMBUSTION PROCESS",
+    "score": 0.9980785250663756,
+    "x": 0.34748274087905884,
+    "y": 0.05223500728607178,
+    "abstract": "Patent ID 4202297_abstract_abstract from year 2023",
+    "year": 2023,
+    "bref_relevance": {
+      "NFM:::2.12.5.2.1": 0.9980785250663756
+    }
+  },
+  {
+    "id": "3831997_abstract_abstract",
+    "title": "SYSTEM AND METHOD FOR TREATING TEXTILE MATERIAL WITH OZONE",
+    "score": 0.9980776906013488,
+    "x": 0.5671367049217224,
+    "y": 0.1892842948436737,
+    "abstract": "Patent ID 3831997_abstract_abstract from year 2021",
+    "year": 2021,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.9980776906013488
+    }
+  },
+  {
+    "id": "2275473_abstract_abstract",
+    "title": "Branched Polyphosphonates",
+    "score": 0.9980770945549012,
+    "x": 0.5999021530151367,
+    "y": 0.9793647527694702,
+    "abstract": "Patent ID 2275473_abstract_abstract from year 2011",
+    "year": 2011,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.9980770945549012
+    }
+  },
+  {
+    "id": "2377870_abstract_abstract",
+    "title": "NOVEL PHOSPHONATE COMPOUNDS AND FLAME RETARDANT STYRENE RESIN COMPOSITIONS CONTAINING THE SAME",
+    "score": 0.9980738162994384,
+    "x": 0.6025969982147217,
+    "y": 0.9841067790985107,
+    "abstract": "Patent ID 2377870_abstract_abstract from year 2011",
+    "year": 2011,
+    "bref_relevance": {
+      "TAN:::4.2.2.4": 0.9980738162994384
+    }
+  },
+  {
+    "id": "2716734_abstract_abstract",
+    "title": "FLAME-RETARDANT AGENT AND FLAME-RETARDANT RESIN COMPOSITION",
+    "score": 0.998072624206543,
+    "x": 0.5921532511711121,
+    "y": 0.997765064239502,
+    "abstract": "Patent ID 2716734_abstract_abstract from year 2014",
+    "year": 2014,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.998072624206543
+    }
+  },
+  {
+    "id": "3216900_abstract_abstract",
+    "title": "LOW TEMPERATURE FIBER SPINNING AND TEXTILE FINISHING METHOD",
+    "score": 0.9980714917182922,
+    "x": 0.6404697299003601,
+    "y": 0.5774643421173096,
+    "abstract": "Patent ID 3216900_abstract_abstract from year 2017",
+    "year": 2017,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.9980714917182922
+    }
+  },
+  {
+    "id": "3243890_abstract_abstract",
+    "title": "FLAME RETARDANT AGENT COMPOSITION AND FLAME-RETARDANT SYNTHETIC RESIN COMPOSITION",
+    "score": 0.9980692267417908,
+    "x": 0.5909386277198792,
+    "y": 0.9982231855392456,
+    "abstract": "Patent ID 3243890_abstract_abstract from year 2017",
+    "year": 2017,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.9980692267417908,
+      "TAN:::4.2.2.4": 0.9741432070732116
+    }
+  },
+  {
+    "id": "3530895_abstract_abstract",
+    "title": "EXHAUST GAS POST-PROCESSING SYSTEM",
+    "score": 0.9980679750442504,
+    "x": 0.37981507182121277,
+    "y": 0.07401093095541,
+    "abstract": "Patent ID 3530895_abstract_abstract from year 2019",
+    "year": 2019,
+    "bref_relevance": {
+      "NFM:::2.12.5.2.1": 0.9980679750442504
+    }
+  },
+  {
+    "id": "3536718_abstract_abstract",
+    "title": "FLUORINATED POLYMER AND SURFACE TREATING AGENT COMPOSITION",
+    "score": 0.998066782951355,
+    "x": 0.6098531484603882,
+    "y": 0.9071550369262695,
+    "abstract": "Patent ID 3536718_abstract_abstract from year 2019",
+    "year": 2019,
+    "bref_relevance": {
+      "TAN:::4.2.2.3": 0.998066782951355
+    }
+  },
+  {
+    "id": "2361668_abstract_abstract",
+    "title": "Apparatus for purifying industrial exhaust gas",
+    "score": 0.9980664849281312,
+    "x": 0.2788439095020294,
+    "y": 0.13609763979911804,
+    "abstract": "Patent ID 2361668_abstract_abstract from year 2011",
+    "year": 2011,
+    "bref_relevance": {
+      "NFM:::2.12.5.2.1": 0.9980664849281312
+    }
+  },
+  {
+    "id": "3594396_abstract_abstract",
+    "title": "PROCESS FOR PRODUCING MICRO- AND NANO-STRUCTURED FIBER-BASED SUBSTRATES",
+    "score": 0.9975974559783936,
+    "x": 0.5606814622879028,
+    "y": 0.8793526291847229,
+    "abstract": "Patent ID 3594396_abstract_abstract from year 2020",
+    "year": 2020,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.9975974559783936
+    }
+  },
+  {
+    "id": "2921498_abstract_abstract",
+    "title": "Dopo-based hybrid flame retardants",
+    "score": 0.9975937008857728,
+    "x": 0.5786553621292114,
+    "y": 0.9275040030479431,
+    "abstract": "Patent ID 2921498_abstract_abstract from year 2015",
+    "year": 2015,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.9975937008857728
+    }
+  },
+  {
+    "id": "2481602_abstract_abstract",
+    "title": "Process for printing on surfaces of appliances",
+    "score": 0.9975916147232056,
+    "x": 0.5109444260597229,
+    "y": 0.7724311947822571,
+    "abstract": "Patent ID 2481602_abstract_abstract from year 2012",
+    "year": 2012,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.9975916147232056
+    }
+  },
+  {
+    "id": "2325384_abstract_abstract",
+    "title": "Permanently hydrophilic nonwoven",
+    "score": 0.9975910782814026,
+    "x": 0.6177757382392883,
+    "y": 0.6965309977531433,
+    "abstract": "Patent ID 2325384_abstract_abstract from year 2011",
+    "year": 2011,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.9975910782814026
+    }
+  },
+  {
+    "id": "2500323_abstract_abstract",
+    "title": "Method for the degradation of industrial wastewater and apparatus for performing the method",
+    "score": 0.9975863695144652,
+    "x": 0.513435959815979,
+    "y": 0.4712103009223938,
+    "abstract": "Patent ID 2500323_abstract_abstract from year 2012",
+    "year": 2012,
+    "bref_relevance": {
+      "FMP:::8.9.4": 0.9975863695144652
+    }
+  },
+  {
+    "id": "3540000_abstract_abstract",
+    "title": "FLAME RETARDANT POLYAMIDE 6 MASTER BATCH AND FIBERS MADE THEREOF",
+    "score": 0.9975860714912416,
+    "x": 0.6027832627296448,
+    "y": 0.9840995073318481,
+    "abstract": "Patent ID 3540000_abstract_abstract from year 2019",
+    "year": 2019,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.9975860714912416
+    }
+  },
+  {
+    "id": "3112422_abstract_abstract",
+    "title": "HALOGEN-FREE FLAME RETARDANT TYPE RESIN COMPOSITION",
+    "score": 0.9975858926773072,
+    "x": 0.5969066619873047,
+    "y": 0.9902991652488708,
+    "abstract": "Patent ID 3112422_abstract_abstract from year 2017",
+    "year": 2017,
+    "bref_relevance": {
+      "TAN:::4.2.2.4": 0.9975858926773072
+    }
+  },
+  {
+    "id": "2927293_abstract_abstract",
+    "title": "Fluorochemical Coating Composition and Article Treated Therewith",
+    "score": 0.997584581375122,
+    "x": 0.5871689915657043,
+    "y": 0.8946322798728943,
+    "abstract": "Patent ID 2927293_abstract_abstract from year 2015",
+    "year": 2015,
+    "bref_relevance": {
+      "TAN:::4.2.2.3": 0.997584581375122
+    }
+  },
+  {
+    "id": "2921307_abstract_abstract",
+    "title": "TREATED OBJECT MODIFYING APPARATUS, PRINTING APPARATUS, PRINTING SYSTEM, AND METHOD FOR MANUFACTURIN",
+    "score": 0.9975839257240297,
+    "x": 0.6086704730987549,
+    "y": 0.6827178597450256,
+    "abstract": "Patent ID 2921307_abstract_abstract from year 2015",
+    "year": 2015,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.9975839257240297
+    }
+  },
+  {
+    "id": "4023735_abstract_abstract",
+    "title": "FLAME RETARDANT COMPOSITION",
+    "score": 0.9975814819335938,
+    "x": 0.3287687599658966,
+    "y": 0.7885833382606506,
+    "abstract": "Patent ID 4023735_abstract_abstract from year 2022",
+    "year": 2022,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.9975814819335938
+    }
+  },
+  {
+    "id": "2982842_abstract_abstract",
+    "title": "SYSTEM FOR REDUCING HARMFUL EMISSIONS OF AN INTERNAL COMBUSTION ENGINE",
+    "score": 0.99758118391037,
+    "x": 0.08709657937288284,
+    "y": 0.11662930995225906,
+    "abstract": "Patent ID 2982842_abstract_abstract from year 2016",
+    "year": 2016,
+    "bref_relevance": {
+      "NFM:::2.12.5.2.1": 0.99758118391037
+    }
+  },
+  {
+    "id": "3354873_abstract_abstract",
+    "title": "SYSTEM FOR REDUCING HARMFUL EMISSIONS OF AN INTERNAL COMBUSTION ENGINE",
+    "score": 0.9975807666778564,
+    "x": 0.08559808880090714,
+    "y": 0.11614634841680527,
+    "abstract": "Patent ID 3354873_abstract_abstract from year 2018",
+    "year": 2018,
+    "bref_relevance": {
+      "NFM:::2.12.5.2.1": 0.9975807666778564
+    }
+  },
+  {
+    "id": "3868789_abstract_abstract",
+    "title": "METHOD FOR PREPARING WATER REPELLENT TEXTILE SUBSTRATES AND PRODUCTS THEREOF",
+    "score": 0.9975798726081848,
+    "x": 0.5609156489372253,
+    "y": 0.8810526132583618,
+    "abstract": "Patent ID 3868789_abstract_abstract from year 2021",
+    "year": 2021,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.9975798726081848,
+      "TAN:::4.2.2.3": 0.996602177619934
+    }
+  },
+  {
+    "id": "3267102_abstract_abstract",
+    "title": "FLAMELESS THERMAL OXIDIZER AND CORRESPONDING METHOD",
+    "score": 0.9975743293762208,
+    "x": 0.39933472871780396,
+    "y": 0.06558936089277267,
+    "abstract": "Patent ID 3267102_abstract_abstract from year 2018",
+    "year": 2018,
+    "bref_relevance": {
+      "WBP:::4.2.4.6": 0.9975743293762208
+    }
+  },
+  {
+    "id": "2514788_abstract_abstract",
+    "title": "Phosphorus-sulfur flame retardant additives and polymer systems containing same",
+    "score": 0.9971203804016112,
+    "x": 0.5829764604568481,
+    "y": 0.9300410747528076,
+    "abstract": "Patent ID 2514788_abstract_abstract from year 2012",
+    "year": 2012,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.9966216683387756,
+      "TAN:::4.2.2.4": 0.9971203804016112
+    }
+  },
+  {
+    "id": "2397514_abstract_abstract",
+    "title": "Firestop composition comprising thermoplastic, intumescent, and flame retardants",
+    "score": 0.9971165060997008,
+    "x": 0.6028590202331543,
+    "y": 0.985171377658844,
+    "abstract": "Patent ID 2397514_abstract_abstract from year 2011",
+    "year": 2011,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.9971165060997008
+    }
+  },
+  {
+    "id": "3127910_abstract_abstract",
+    "title": "FLUORINE-CONTAINING SILANE COMPOUND",
+    "score": 0.9971048831939696,
+    "x": 0.6060875654220581,
+    "y": 0.9047225117683411,
+    "abstract": "Patent ID 3127910_abstract_abstract from year 2017",
+    "year": 2017,
+    "bref_relevance": {
+      "TAN:::4.2.2.3": 0.9971048831939696
+    }
+  },
+  {
+    "id": "2468778_abstract_abstract",
+    "title": "FLUOROALKYL GROUP-CONTAINING N-SUBSTITUTED (METH)ACRYLAMIDE COMPOUND, POLYMER THEREOF, AND USE THERE",
+    "score": 0.9971023201942444,
+    "x": 0.6046936511993408,
+    "y": 0.9087449908256531,
+    "abstract": "Patent ID 2468778_abstract_abstract from year 2012",
+    "year": 2012,
+    "bref_relevance": {
+      "TAN:::4.2.2.3": 0.9971023201942444
+    }
+  },
+  {
+    "id": "2586757_abstract_abstract",
+    "title": "Liquid chromium reducer for highly oxidative cement grinding environments",
+    "score": 0.9971014857292176,
+    "x": 0.2843053638935089,
+    "y": 0.6862823367118835,
+    "abstract": "Patent ID 2586757_abstract_abstract from year 2013",
+    "year": 2013,
+    "bref_relevance": {
+      "FMP:::8.9.4": 0.9971014857292176
+    }
+  },
+  {
+    "id": "4215575_abstract_abstract",
+    "title": "HALOGEN-FREE FLAME-RETARDANT COMPOUNDED SYSTEM HAVING RESISTANCE TO HIGH HEAT AND HIGH SHEAR AND HIG",
+    "score": 0.997098982334137,
+    "x": 0.5906652808189392,
+    "y": 0.9984614849090576,
+    "abstract": "Patent ID 4215575_abstract_abstract from year 2023",
+    "year": 2023,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.997098982334137
+    }
+  },
+  {
+    "id": "4116203_abstract_abstract",
+    "title": "METHOD, CONTAINER AND INSTALLATION FOR THE TREATMENT, STORAGE AND INTEGRAL WASTE MANAGEMENT",
+    "score": 0.9970988035202026,
+    "x": 0.7283626794815063,
+    "y": 0.3610136806964874,
+    "abstract": "Patent ID 4116203_abstract_abstract from year 2023",
+    "year": 2023,
+    "bref_relevance": {
+      "TXT:::4.1.8.2": 0.9970988035202026
+    }
+  },
+  {
+    "id": "3252063_abstract_abstract",
+    "title": "AMINO TERMINATED PHOSPHONAMIDE OLIGOMERS AND FLAME RETARDANT COMPOSITIONS THEREFROM",
+    "score": 0.9970974922180176,
+    "x": 0.6075469851493835,
+    "y": 0.978929877281189,
+    "abstract": "Patent ID 3252063_abstract_abstract from year 2017",
+    "year": 2017,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.9970974922180176,
+      "TAN:::4.2.2.4": 0.9927036762237548
+    }
+  },
+  {
+    "id": "3098259_abstract_abstract",
+    "title": "FORMALDEHYDE-FREE FLAME RETARDANT COMPOSITIONS AND THEIR USE FOR MANUFACTURING DURABLE FORMALDEHYDE-",
+    "score": 0.9970954060554504,
+    "x": 0.6138667464256287,
+    "y": 0.9743804335594177,
+    "abstract": "Patent ID 3098259_abstract_abstract from year 2016",
+    "year": 2016,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.9970954060554504,
+      "TAN:::4.2.2.4": 0.973168134689331
+    }
+  },
+  {
+    "id": "3792553_abstract_abstract",
+    "title": "CATALYTIC OXIDIZER",
+    "score": 0.9970908164978028,
+    "x": 0.3803287148475647,
+    "y": 0.1126938983798027,
+    "abstract": "Patent ID 3792553_abstract_abstract from year 2021",
+    "year": 2021,
+    "bref_relevance": {
+      "WBP:::4.2.4.6": 0.9970908164978028,
+      "NFM:::2.12.5.2.1": 0.9516878128051758
+    }
+  },
+  {
+    "id": "2447219_abstract_abstract",
+    "title": "Method for purifying waste water from a stainless steel slag treatment process",
+    "score": 0.9970905780792236,
+    "x": 0.24689534306526184,
+    "y": 0.5576368570327759,
+    "abstract": "Patent ID 2447219_abstract_abstract from year 2012",
+    "year": 2012,
+    "bref_relevance": {
+      "FMP:::8.9.4": 0.9970905780792236
+    }
+  },
+  {
+    "id": "2746657_abstract_abstract",
+    "title": "Method for combusting fuel and burner therefor",
+    "score": 0.9970887303352356,
+    "x": 0.4333251714706421,
+    "y": 0.059482768177986145,
+    "abstract": "Patent ID 2746657_abstract_abstract from year 2014",
+    "year": 2014,
+    "bref_relevance": {
+      "NFM:::2.12.5.2.1": 0.9970887303352356
+    }
+  },
+  {
+    "id": "3900809_abstract_abstract",
+    "title": "PROCESS AND APPARATUS FOR REMOVING UNWANTED COMPONENTS FROM A GAS MIXTURE",
+    "score": 0.9970873594284058,
+    "x": 0.1315893679857254,
+    "y": 0.2582070231437683,
+    "abstract": "Patent ID 3900809_abstract_abstract from year 2021",
+    "year": 2021,
+    "bref_relevance": {
+      "STS:::7.4.3.2": 0.9970873594284058
+    }
+  },
+  {
+    "id": "3015461_abstract_abstract",
+    "title": "Preparation process of a flame redardant composition made from brominated bismuth and/or antimony co",
+    "score": 0.9966161847114564,
+    "x": 0.5893699526786804,
+    "y": 0.9996252059936523,
+    "abstract": "Patent ID 3015461_abstract_abstract from year 2016",
+    "year": 2016,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.9966161847114564
+    }
+  },
+  {
+    "id": "2492395_abstract_abstract",
+    "title": "Oil and grease resistant treatment compositions",
+    "score": 0.9966147541999816,
+    "x": 0.660263180732727,
+    "y": 0.5359396934509277,
+    "abstract": "Patent ID 2492395_abstract_abstract from year 2012",
+    "year": 2012,
+    "bref_relevance": {
+      "TAN:::4.2.2.3": 0.9966147541999816
+    }
+  },
+  {
+    "id": "3585136_abstract_abstract",
+    "title": "A METHOD AND DEVICE FOR GENERATING LOW-TEMPERATURE ELECTRICAL WATER-BASED PLASMA AT NEAR-ATMOSPHERIC",
+    "score": 0.996613383293152,
+    "x": 0.6098529100418091,
+    "y": 0.6851750612258911,
+    "abstract": "Patent ID 3585136_abstract_abstract from year 2019",
+    "year": 2019,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.996613383293152
+    }
+  },
+  {
+    "id": "3845703_abstract_abstract",
+    "title": "PROCESS FOR APPLICATION OF CHEMICALS ON TEXTILE MATERIALS DURING REJUVENATION",
+    "score": 0.9966124892234802,
+    "x": 0.6332113742828369,
+    "y": 0.5696246027946472,
+    "abstract": "Patent ID 3845703_abstract_abstract from year 2021",
+    "year": 2021,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.9966124892234802
+    }
+  },
+  {
+    "id": "3954733_abstract_abstract",
+    "title": "POLYESTER RESIN FOR FLAME RETARDANT FIBER, FLAME RETARDANT FIBER HAVING EXCELLENT DYEABILITY, AND PR",
+    "score": 0.9966109991073608,
+    "x": 0.6136257648468018,
+    "y": 0.9739119410514832,
+    "abstract": "Patent ID 3954733_abstract_abstract from year 2022",
+    "year": 2022,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.9966109991073608
+    }
+  },
+  {
+    "id": "2322577_abstract_abstract",
+    "title": "FLAME-RETARDANT POLYBUTYLENE TEREPHTHALATE-BASED RESIN COMPOSITION",
+    "score": 0.996610462665558,
+    "x": 0.579802930355072,
+    "y": 0.9707851409912109,
+    "abstract": "Patent ID 2322577_abstract_abstract from year 2011",
+    "year": 2011,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.996610462665558
+    }
+  },
+  {
+    "id": "2287886_abstract_abstract",
+    "title": "Plasma treatment system",
+    "score": 0.9966097474098206,
+    "x": 0.5932589769363403,
+    "y": 0.6886962652206421,
+    "abstract": "Patent ID 2287886_abstract_abstract from year 2011",
+    "year": 2011,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.9966097474098206
+    }
+  },
+  {
+    "id": "2818431_abstract_abstract",
+    "title": "System of differentiated waste collection by means of coded collection bags.",
+    "score": 0.9966052770614624,
+    "x": 0.7289609909057617,
+    "y": 0.2852918207645416,
+    "abstract": "Patent ID 2818431_abstract_abstract from year 2014",
+    "year": 2014,
+    "bref_relevance": {
+      "TXT:::4.1.8.2": 0.9966052770614624
+    }
+  },
+  {
+    "id": "2364766_abstract_abstract",
+    "title": "\"Method for the removal of moist in a gas stream\"",
+    "score": 0.9966030716896056,
+    "x": 0.30873680114746094,
+    "y": 0.24383363127708435,
+    "abstract": "Patent ID 2364766_abstract_abstract from year 2011",
+    "year": 2011,
+    "bref_relevance": {
+      "STS:::7.4.3.2": 0.9966030716896056
+    }
+  },
+  {
+    "id": "3518154_abstract_abstract",
+    "title": "GREEN PRODUCT MANAGEMENT SYSTEM AND METHOD",
+    "score": 0.9966027736663818,
+    "x": 0.20929646492004395,
+    "y": 0.17696677148342133,
+    "abstract": "Patent ID 3518154_abstract_abstract from year 2019",
+    "year": 2019,
+    "bref_relevance": {
+      "TXT:::4.1.5.1": 0.9966027736663818
+    }
+  },
+  {
+    "id": "2927292_abstract_abstract",
+    "title": "Fluoropolyether-containing polymer-modified silane, surface treating agent, and article",
+    "score": 0.996133029460907,
+    "x": 0.5896793007850647,
+    "y": 0.9009320735931396,
+    "abstract": "Patent ID 2927292_abstract_abstract from year 2015",
+    "year": 2015,
+    "bref_relevance": {
+      "TAN:::4.2.2.3": 0.996133029460907
+    }
+  },
+  {
+    "id": "2871208_abstract_abstract",
+    "title": "Sulfenamides, sulfinamides and sulfonamides as flame retardants",
+    "score": 0.9961270689964294,
+    "x": 0.6080435514450073,
+    "y": 0.9788600206375122,
+    "abstract": "Patent ID 2871208_abstract_abstract from year 2015",
+    "year": 2015,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.9961270689964294,
+      "TAN:::4.2.2.4": 0.986841082572937
+    }
+  },
+  {
+    "id": "2497788_abstract_abstract",
+    "title": "FLUORINE-CONTAINING COMPOUND, FLUORINE-CONTAINING POLYMER AND FLUORINE-CONTAINING COPOLYMER",
+    "score": 0.9961262941360474,
+    "x": 0.6063311100006104,
+    "y": 0.9054490923881531,
+    "abstract": "Patent ID 2497788_abstract_abstract from year 2012",
+    "year": 2012,
+    "bref_relevance": {
+      "TAN:::4.2.2.3": 0.9961262941360474
+    }
+  },
+  {
+    "id": "4130149_abstract_abstract",
+    "title": "FIRE RESISTANT THERMOPLASTIC-BASED RESIN FOR FIBER-REINFORCED COMPOSITES",
+    "score": 0.9961210489273072,
+    "x": 0.6028021574020386,
+    "y": 0.9830774664878845,
+    "abstract": "Patent ID 4130149_abstract_abstract from year 2023",
+    "year": 2023,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.9961210489273072
+    }
+  },
+  {
+    "id": "3401298_abstract_abstract",
+    "title": "NOVEL FLUORINE-CONTAINING COMPOUND HAVING UNSATURATED BOND, AND SURFACE MODIFIER USING SAME",
+    "score": 0.9961177110671996,
+    "x": 0.6048974990844727,
+    "y": 0.9047926068305969,
+    "abstract": "Patent ID 3401298_abstract_abstract from year 2018",
+    "year": 2018,
+    "bref_relevance": {
+      "TAN:::4.2.2.3": 0.9961177110671996
+    }
+  },
+  {
+    "id": "4170080_abstract_abstract",
+    "title": "ADSORPTION ELEMENT BLOCK, ADSORPTION UNIT, ADSORPTION ROTOR, ADSORPTION TREATMENT DEVICE, AND TREATM",
+    "score": 0.99611634016037,
+    "x": 0.08836865425109863,
+    "y": 0.2865530252456665,
+    "abstract": "Patent ID 4170080_abstract_abstract from year 2023",
+    "year": 2023,
+    "bref_relevance": {
+      "STS:::7.4.3.2": 0.99611634016037
+    }
+  },
+  {
+    "id": "3932959_abstract_abstract",
+    "title": "FLUORINE-CONTAINING COPOLYMER, METHOD FOR PRODUCING SAME, WATER REPELLENT OIL REPELLENT AGENT COMPOS",
+    "score": 0.9956356883049012,
+    "x": 0.6053532361984253,
+    "y": 0.9035310745239258,
+    "abstract": "Patent ID 3932959_abstract_abstract from year 2022",
+    "year": 2022,
+    "bref_relevance": {
+      "TAN:::4.2.2.3": 0.9956356883049012
+    }
+  },
+  {
+    "id": "3431550_abstract_abstract",
+    "title": "FLAME RETARDANT THERMOPLASTIC POLYURETHANE RESIN COMPOSITION",
+    "score": 0.9956352710723876,
+    "x": 0.5918030738830566,
+    "y": 0.9979280829429626,
+    "abstract": "Patent ID 3431550_abstract_abstract from year 2019",
+    "year": 2019,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.9956352710723876
+    }
+  },
+  {
+    "id": "2333016_abstract_abstract",
+    "title": "Flame-retardant resin composition, process for producing the same, method of molding the same",
+    "score": 0.9956335425376892,
+    "x": 0.6033147573471069,
+    "y": 0.9820744395256042,
+    "abstract": "Patent ID 2333016_abstract_abstract from year 2011",
+    "year": 2011,
+    "bref_relevance": {
+      "TAN:::4.2.2.4": 0.9956335425376892
+    }
+  },
+  {
+    "id": "2937387_abstract_abstract",
+    "title": "Flame retardant thermoplastic polyurethane compositions",
+    "score": 0.995631754398346,
+    "x": 0.6074542999267578,
+    "y": 0.9798075556755066,
+    "abstract": "Patent ID 2937387_abstract_abstract from year 2015",
+    "year": 2015,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.995631754398346
+    }
+  },
+  {
+    "id": "2287242_abstract_abstract",
+    "title": "Flame retardant polyurethane resin composition and making method",
+    "score": 0.9956306219100952,
+    "x": 0.6021503210067749,
+    "y": 0.9791415333747864,
+    "abstract": "Patent ID 2287242_abstract_abstract from year 2011",
+    "year": 2011,
+    "bref_relevance": {
+      "TAN:::4.2.2.4": 0.9956306219100952
+    }
+  },
+  {
+    "id": "2987548_abstract_abstract",
+    "title": "Combustion and flue gas treatment system",
+    "score": 0.9956294298171996,
+    "x": 0.2509375810623169,
+    "y": 0.11648757755756378,
+    "abstract": "Patent ID 2987548_abstract_abstract from year 2016",
+    "year": 2016,
+    "bref_relevance": {
+      "NFM:::2.12.5.2.1": 0.9956294298171996
+    }
+  },
+  {
+    "id": "3915668_abstract_abstract",
+    "title": "CATALYTIC OXIDATION AND REMOVAL OF NOX/SOX FROM FLUE GASES",
+    "score": 0.9956285953521729,
+    "x": 0.12906447052955627,
+    "y": 0.13872797787189484,
+    "abstract": "Patent ID 3915668_abstract_abstract from year 2021",
+    "year": 2021,
+    "bref_relevance": {
+      "NFM:::2.12.5.2.1": 0.9956285953521729
+    }
+  },
+  {
+    "id": "3449996_abstract_abstract",
+    "title": "A TEMPERATURE-SWING ADSORPTION PROCESS",
+    "score": 0.995622217655182,
+    "x": 0.13230852782726288,
+    "y": 0.2596454620361328,
+    "abstract": "Patent ID 3449996_abstract_abstract from year 2019",
+    "year": 2019,
+    "bref_relevance": {
+      "STS:::7.4.3.2": 0.995622217655182
+    }
+  },
+  {
+    "id": "2481744_abstract_abstract",
+    "title": "Aromatic bis-phosphoramidate additives as flame retardants for polymers",
+    "score": 0.9951610565185548,
+    "x": 0.5918506383895874,
+    "y": 0.9977338314056396,
+    "abstract": "Patent ID 2481744_abstract_abstract from year 2012",
+    "year": 2012,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.9951610565185548
+    }
+  },
+  {
+    "id": "3181740_abstract_abstract",
+    "title": "BAST-FIBER MATERIAL PROCESSING METHOD",
+    "score": 0.9951550364494324,
+    "x": 0.6445612907409668,
+    "y": 0.5262730717658997,
+    "abstract": "Patent ID 3181740_abstract_abstract from year 2017",
+    "year": 2017,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.9951550364494324
+    }
+  },
+  {
+    "id": "2816048_abstract_abstract",
+    "title": "Oligomeric Phosphonates And Compositions Including The Same",
+    "score": 0.9951496124267578,
+    "x": 0.5830015540122986,
+    "y": 0.9662929177284241,
+    "abstract": "Patent ID 2816048_abstract_abstract from year 2014",
+    "year": 2014,
+    "bref_relevance": {
+      "TAN:::4.2.2.4": 0.9951496124267578
+    }
+  },
+  {
+    "id": "3786238_abstract_abstract",
+    "title": "GLOSS RETENTIVE FLUOROCOPOLYMERS FOR COATING APPLICATIONS",
+    "score": 0.9951478242874146,
+    "x": 0.6081870794296265,
+    "y": 0.9054744243621826,
+    "abstract": "Patent ID 3786238_abstract_abstract from year 2021",
+    "year": 2021,
+    "bref_relevance": {
+      "TAN:::4.2.2.3": 0.9951478242874146
+    }
+  },
+  {
+    "id": "3239229_abstract_abstract",
+    "title": "FLAME RETARDANT COMPOSITION AND PROCESS FOR PREPARATION THEREOF",
+    "score": 0.9951419234275818,
+    "x": 0.6169431209564209,
+    "y": 0.9752901196479797,
+    "abstract": "Patent ID 3239229_abstract_abstract from year 2017",
+    "year": 2017,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.9951419234275818
+    }
+  },
+  {
+    "id": "3000849_abstract_abstract",
+    "title": "GRAPHITE NANOPLATELETS, COMPOSITES COMPRISING THEM, PREPARATION AND USES THEREOF",
+    "score": 0.9951382875442504,
+    "x": 0.5850734114646912,
+    "y": 0.6969248652458191,
+    "abstract": "Patent ID 3000849_abstract_abstract from year 2016",
+    "year": 2016,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.9951382875442504
+    }
+  },
+  {
+    "id": "2420614_abstract_abstract",
+    "title": "Method for multifunctional finishing of textiles of cellulose or synthetic fibres and blends thereof",
+    "score": 0.9946800470352172,
+    "x": 0.5551183223724365,
+    "y": 0.8012767434120178,
+    "abstract": "Patent ID 2420614_abstract_abstract from year 2012",
+    "year": 2012,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.9946800470352172
+    }
+  },
+  {
+    "id": "3395881_abstract_abstract",
+    "title": "HALOGEN- AND PHOSPHORUS-FREE FLAME-RETARDANT RESIN COMPOSITION, AND ELECTRIC WIRE AND CABLE USING TH",
+    "score": 0.9946616291999816,
+    "x": 0.5814267992973328,
+    "y": 0.987320065498352,
+    "abstract": "Patent ID 3395881_abstract_abstract from year 2018",
+    "year": 2018,
+    "bref_relevance": {
+      "TAN:::4.2.2.4": 0.9946616291999816
+    }
+  },
+  {
+    "id": "2708293_abstract_abstract",
+    "title": "Method, installation and composition for the storage of contaminated material",
+    "score": 0.994655966758728,
+    "x": 0.4547409415245056,
+    "y": 0.5034146904945374,
+    "abstract": "Patent ID 2708293_abstract_abstract from year 2014",
+    "year": 2014,
+    "bref_relevance": {
+      "TXT:::4.1.8.2": 0.994655966758728
+    }
+  },
+  {
+    "id": "4122985_abstract_abstract",
+    "title": "NON-FLUORINATED COPOLYMER COMPOSITION AND OIL-RESISTANT AGENT FOR PAPER",
+    "score": 0.9946557879447936,
+    "x": 0.6052451133728027,
+    "y": 0.903316855430603,
+    "abstract": "Patent ID 4122985_abstract_abstract from year 2023",
+    "year": 2023,
+    "bref_relevance": {
+      "TAN:::4.2.2.3": 0.9946557879447936
+    }
+  },
+  {
+    "id": "3748065_abstract_abstract",
+    "title": "PROCESS FOR FABRIC BLEACHING, PRODUCTS AND USES THEREOF",
+    "score": 0.9946538805961608,
+    "x": 0.6424497365951538,
+    "y": 0.5759511590003967,
+    "abstract": "Patent ID 3748065_abstract_abstract from year 2020",
+    "year": 2020,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.9946538805961608,
+      "TXT:::4.1.5.1": 0.985869526863098
+    }
+  },
+  {
+    "id": "3760020_abstract_abstract",
+    "title": "METHODS AND APPARATUSES FOR TREATING AGRICULTURAL MATTER",
+    "score": 0.9946535229682922,
+    "x": 0.5921215415000916,
+    "y": 0.6901727914810181,
+    "abstract": "Patent ID 3760020_abstract_abstract from year 2021",
+    "year": 2021,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.9946535229682922
+    }
+  },
+  {
+    "id": "3078613_abstract_abstract",
+    "title": "EQUIPMENT FOR THE COLLECTION AND DISCHARGE OF WASTE",
+    "score": 0.994651198387146,
+    "x": 0.7297327518463135,
+    "y": 0.2843843698501587,
+    "abstract": "Patent ID 3078613_abstract_abstract from year 2016",
+    "year": 2016,
+    "bref_relevance": {
+      "TXT:::4.1.8.2": 0.994651198387146
+    }
+  },
+  {
+    "id": "3015480_abstract_abstract",
+    "title": "SURFACE TREATMENT AGENT",
+    "score": 0.9941863417625428,
+    "x": 0.6047722101211548,
+    "y": 0.9040040969848633,
+    "abstract": "Patent ID 3015480_abstract_abstract from year 2016",
+    "year": 2016,
+    "bref_relevance": {
+      "TAN:::4.2.2.3": 0.9941863417625428
+    }
+  },
+  {
+    "id": "2497762_abstract_abstract",
+    "title": "FLUORINATED COMPOUND AND FLUORINATED POLYMER",
+    "score": 0.9941840171813964,
+    "x": 0.6041792631149292,
+    "y": 0.9036521911621094,
+    "abstract": "Patent ID 2497762_abstract_abstract from year 2012",
+    "year": 2012,
+    "bref_relevance": {
+      "TAN:::4.2.2.3": 0.9941840171813964
+    }
+  },
+  {
+    "id": "4067564_abstract_abstract",
+    "title": "METHOD OF DECOLORIZING FABRICS",
+    "score": 0.9941784739494324,
+    "x": 0.6452986598014832,
+    "y": 0.5792394280433655,
+    "abstract": "Patent ID 4067564_abstract_abstract from year 2022",
+    "year": 2022,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.9941784739494324
+    }
+  },
+  {
+    "id": "3006447_abstract_abstract",
+    "title": "FLUOROCHEMICAL SURFACE TREATING AGENT AND ARTICLE TREATED THEREWITH",
+    "score": 0.9941748380661012,
+    "x": 0.5786503553390503,
+    "y": 0.8909411430358887,
+    "abstract": "Patent ID 3006447_abstract_abstract from year 2016",
+    "year": 2016,
+    "bref_relevance": {
+      "TAN:::4.2.2.3": 0.9941748380661012
+    }
+  },
+  {
+    "id": "4085976_abstract_abstract",
+    "title": "MIXTURE OF NON-POLYMER ORGANIC COMPONENTS WITH FIRE RETARDANCY, PREPARATION METHOD AND USE",
+    "score": 0.9941723942756652,
+    "x": 0.6104984879493713,
+    "y": 0.9794427752494812,
+    "abstract": "Patent ID 4085976_abstract_abstract from year 2022",
+    "year": 2022,
+    "bref_relevance": {
+      "TAN:::4.2.2.4": 0.9941723942756652
+    }
+  },
+  {
+    "id": "4242258_abstract_abstract",
+    "title": "FLAME-RETARDANT POLYBUTYLENE TEREPHTHALATE RESIN COMPOSITION, AND RESIN MOLDED PRODUCT",
+    "score": 0.9941676259040833,
+    "x": 0.5897941589355469,
+    "y": 0.9940630793571472,
+    "abstract": "Patent ID 4242258_abstract_abstract from year 2023",
+    "year": 2023,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.9941676259040833
+    }
+  },
+  {
+    "id": "4039755_abstract_abstract",
+    "title": "COATING AGENT COMPOSITION, SURFACE TREATMENT METHOD AND ARTICLE",
+    "score": 0.9941669702529908,
+    "x": 0.5838713049888611,
+    "y": 0.8961949348449707,
+    "abstract": "Patent ID 4039755_abstract_abstract from year 2022",
+    "year": 2022,
+    "bref_relevance": {
+      "TAN:::4.2.2.3": 0.9941669702529908
+    }
+  },
+  {
+    "id": "2808272_abstract_abstract",
+    "title": "Disposal system",
+    "score": 0.9941660165786744,
+    "x": 0.7278448343276978,
+    "y": 0.28230246901512146,
+    "abstract": "Patent ID 2808272_abstract_abstract from year 2014",
+    "year": 2014,
+    "bref_relevance": {
+      "TXT:::4.1.8.2": 0.9941660165786744
+    }
+  },
+  {
+    "id": "2314366_abstract_abstract",
+    "title": "Pressure swing adsorption system with multiple-vessel beds",
+    "score": 0.9941644668579102,
+    "x": 0.4771344065666199,
+    "y": 0.1602315753698349,
+    "abstract": "Patent ID 2314366_abstract_abstract from year 2011",
+    "year": 2011,
+    "bref_relevance": {
+      "STS:::7.4.3.2": 0.9941644668579102
+    }
+  },
+  {
+    "id": "2889316_abstract_abstract",
+    "title": "FLUORINE-CONTAINING COPOLYMER, METHOD FOR PRODUCING SAME, WATER REPELLENT COMPOSITION, AND ARTICLE",
+    "score": 0.9941614270210266,
+    "x": 0.6038463115692139,
+    "y": 0.9032760262489319,
+    "abstract": "Patent ID 2889316_abstract_abstract from year 2015",
+    "year": 2015,
+    "bref_relevance": {
+      "TAN:::4.2.2.3": 0.9941614270210266
+    }
+  },
+  {
+    "id": "2767180_abstract_abstract",
+    "title": "Flame protective fabric structure",
+    "score": 0.9936899542808532,
+    "x": 0.6141873598098755,
+    "y": 0.9754656553268433,
+    "abstract": "Patent ID 2767180_abstract_abstract from year 2014",
+    "year": 2014,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.9936899542808532
+    }
+  },
+  {
+    "id": "4011936_abstract_abstract",
+    "title": "FLUOROPOLYETHER-GROUP-CONTAINING POLYMER, SURFACE TREATMENT AGENT, AND ARTICLE",
+    "score": 0.9936831593513488,
+    "x": 0.5851988196372986,
+    "y": 0.9012573957443237,
+    "abstract": "Patent ID 4011936_abstract_abstract from year 2022",
+    "year": 2022,
+    "bref_relevance": {
+      "TAN:::4.2.2.3": 0.9936831593513488
+    }
+  },
+  {
+    "id": "3228937_abstract_abstract",
+    "title": "METHOD FOR COMBUSTING A FUEL, AND COMBUSTION DEVICE",
+    "score": 0.9936798810958862,
+    "x": 0.35391849279403687,
+    "y": 0.09850582480430603,
+    "abstract": "Patent ID 3228937_abstract_abstract from year 2017",
+    "year": 2017,
+    "bref_relevance": {
+      "NFM:::2.12.5.2.1": 0.9936798810958862
+    }
+  },
+  {
+    "id": "3779169_abstract_abstract",
+    "title": "METHOD AND SYSTEM FOR REDUCING CONCENTRATION OF POLLUTANTS IN SMOKE GENERATED BY COMBUSTION",
+    "score": 0.9936734437942504,
+    "x": 0.2987383008003235,
+    "y": 0.08605599403381348,
+    "abstract": "Patent ID 3779169_abstract_abstract from year 2021",
+    "year": 2021,
+    "bref_relevance": {
+      "NFM:::2.12.5.2.1": 0.9936734437942504
+    }
+  },
+  {
+    "id": "4159701_abstract_abstract",
+    "title": "MIXTURE FOR REDUCING CR(VI) CONTAINED IN CEMENT TO CR(III)",
+    "score": 0.9931951761245728,
+    "x": 0.20213235914707184,
+    "y": 0.5284644961357117,
+    "abstract": "Patent ID 4159701_abstract_abstract from year 2023",
+    "year": 2023,
+    "bref_relevance": {
+      "FMP:::8.9.4": 0.9931951761245728
+    }
+  },
+  {
+    "id": "3263488_abstract_abstract",
+    "title": "SEPARATE WASTE COLLECTION SET, TRAY AND SEPARATE WASTE COLLECTION CONTAINER",
+    "score": 0.9931946992874146,
+    "x": 0.7284701466560364,
+    "y": 0.2833554744720459,
+    "abstract": "Patent ID 3263488_abstract_abstract from year 2018",
+    "year": 2018,
+    "bref_relevance": {
+      "TXT:::4.1.8.2": 0.9931946992874146
+    }
+  },
+  {
+    "id": "2546310_abstract_abstract",
+    "title": "New sustainable range of sulfur dyes for textile and paper dyeing",
+    "score": 0.9927192330360411,
+    "x": 0.6485388278961182,
+    "y": 0.5831424593925476,
+    "abstract": "Patent ID 2546310_abstract_abstract from year 2013",
+    "year": 2013,
+    "bref_relevance": {
+      "TXT:::4.1.5.1": 0.9927192330360411
+    }
+  },
+  {
+    "id": "4272862_abstract_abstract",
+    "title": "ADSORBENT FOR REMOVING CONTAMINANTS FROM PYROLYSIS OIL",
+    "score": 0.9926978945732116,
+    "x": 0.29063037037849426,
+    "y": 0.43561339378356934,
+    "abstract": "Patent ID 4272862_abstract_abstract from year 2023",
+    "year": 2023,
+    "bref_relevance": {
+      "STS:::7.4.3.2": 0.9926978945732116
+    }
+  },
+  {
+    "id": "2275499_abstract_abstract",
+    "title": "Polymer-based fire-retarding formulations",
+    "score": 0.992231786251068,
+    "x": 0.6160377860069275,
+    "y": 0.9743422865867615,
+    "abstract": "Patent ID 2275499_abstract_abstract from year 2011",
+    "year": 2011,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.992231786251068
+    }
+  },
+  {
+    "id": "4223842_abstract_abstract",
+    "title": "HALOGEN-FREE FLAME-RETARDANT POLYAMIDE COMPOSITE MATERIAL AND PREPARATION METHOD THEREFOR",
+    "score": 0.9922199249267578,
+    "x": 0.6053992509841919,
+    "y": 0.9823821187019348,
+    "abstract": "Patent ID 4223842_abstract_abstract from year 2023",
+    "year": 2023,
+    "bref_relevance": {
+      "TAN:::4.2.2.4": 0.9922199249267578
+    }
+  },
+  {
+    "id": "3865524_abstract_abstract",
+    "title": "FLUORINE-CONTAINING POLYMER AND SURFACE TREATMENT AGENT",
+    "score": 0.992216944694519,
+    "x": 0.6028709411621094,
+    "y": 0.9044050574302673,
+    "abstract": "Patent ID 3865524_abstract_abstract from year 2021",
+    "year": 2021,
+    "bref_relevance": {
+      "TAN:::4.2.2.3": 0.992216944694519
+    }
+  },
+  {
+    "id": "3513885_abstract_abstract",
+    "title": "FACILITY AND PROCEDURE FOR TREATMENT OF A SOLIDIFICATE",
+    "score": 0.9922105073928832,
+    "x": 0.31782862544059753,
+    "y": 0.17424529790878296,
+    "abstract": "Patent ID 3513885_abstract_abstract from year 2019",
+    "year": 2019,
+    "bref_relevance": {
+      "TXT:::4.1.8.2": 0.9922105073928832
+    }
+  },
+  {
+    "id": "2541144_abstract_abstract",
+    "title": "Incinerator, particularly for waste-to-energy plants",
+    "score": 0.9922098517417908,
+    "x": 0.3407483994960785,
+    "y": 0.12142707407474518,
+    "abstract": "Patent ID 2541144_abstract_abstract from year 2013",
+    "year": 2013,
+    "bref_relevance": {
+      "NFM:::2.12.5.2.1": 0.9922098517417908
+    }
+  },
+  {
+    "id": "2762504_abstract_abstract",
+    "title": "WATER-REPELLENT AND OIL-REPELLENT COMPOSITION",
+    "score": 0.9917343854904176,
+    "x": 0.5946498513221741,
+    "y": 0.8975611329078674,
+    "abstract": "Patent ID 2762504_abstract_abstract from year 2014",
+    "year": 2014,
+    "bref_relevance": {
+      "TAN:::4.2.2.3": 0.9917343854904176
+    }
+  },
+  {
+    "id": "3090833_abstract_abstract",
+    "title": "UNITIZED CONTAINER BASED ABRASIVE BLASTING MATERIAL SEPARATION SYSTEM",
+    "score": 0.9917305111885072,
+    "x": 0.5397118330001831,
+    "y": 0.18462257087230682,
+    "abstract": "Patent ID 3090833_abstract_abstract from year 2016",
+    "year": 2016,
+    "bref_relevance": {
+      "TXT:::4.1.8.2": 0.9917305111885072
+    }
+  },
+  {
+    "id": "2927290_abstract_abstract",
+    "title": "Fluorochemical coating composition and article treated therewith",
+    "score": 0.9917238354682922,
+    "x": 0.5882364511489868,
+    "y": 0.8974056243896484,
+    "abstract": "Patent ID 2927290_abstract_abstract from year 2015",
+    "year": 2015,
+    "bref_relevance": {
+      "TAN:::4.2.2.3": 0.9917238354682922
+    }
+  },
+  {
+    "id": "2527407_abstract_abstract",
+    "title": "New sustainable range of dyestuffs for textile and paper dyeing",
+    "score": 0.9912551045417786,
+    "x": 0.6519594192504883,
+    "y": 0.584669291973114,
+    "abstract": "Patent ID 2527407_abstract_abstract from year 2012",
+    "year": 2012,
+    "bref_relevance": {
+      "TXT:::4.1.5.1": 0.9912551045417786
+    }
+  },
+  {
+    "id": "3144373_abstract_abstract",
+    "title": "NEUTRAL AQUEOUS CLEANING COMPOSITION",
+    "score": 0.9912490844726562,
+    "x": 0.5370610356330872,
+    "y": 0.9070674180984497,
+    "abstract": "Patent ID 3144373_abstract_abstract from year 2017",
+    "year": 2017,
+    "bref_relevance": {
+      "TAN:::4.2.1": 0.9912490844726562
+    }
+  },
+  {
+    "id": "3882328_abstract_abstract",
+    "title": "MODIFIED WOOD, MODIFICATION SOLUTION, METHOD OF MODIFICATION AND USE THEREOF",
+    "score": 0.9907607436180116,
+    "x": 0.6095319390296936,
+    "y": 0.9798064231872559,
+    "abstract": "Patent ID 3882328_abstract_abstract from year 2021",
+    "year": 2021,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.9893062114715576,
+      "TAN:::4.2.2.4": 0.9907607436180116
+    }
+  },
+  {
+    "id": "2960182_abstract_abstract",
+    "title": "APPARATUS FOR WASTE COLLECTION",
+    "score": 0.9907487034797668,
+    "x": 0.7108805775642395,
+    "y": 0.26342546939849854,
+    "abstract": "Patent ID 2960182_abstract_abstract from year 2015",
+    "year": 2015,
+    "bref_relevance": {
+      "TXT:::4.1.8.2": 0.9907487034797668
+    }
+  },
+  {
+    "id": "4230949_abstract_abstract",
+    "title": "CIRCULATING COOLING WATER TREATMENT METHOD AND COOLING PERFORMANCE IMPROVEMENT METHOD",
+    "score": 0.990746796131134,
+    "x": 0.39154359698295593,
+    "y": 0.23502099514007568,
+    "abstract": "Patent ID 4230949_abstract_abstract from year 2023",
+    "year": 2023,
+    "bref_relevance": {
+      "ICS:::4.7.2": 0.990746796131134
+    }
+  },
+  {
+    "id": "2789351_abstract_abstract",
+    "title": "System adapted to handle chemotherapeutic drugs and waste deriving from the use thereof",
+    "score": 0.9907442331314088,
+    "x": 0.6134171485900879,
+    "y": 0.21467502415180206,
+    "abstract": "Patent ID 2789351_abstract_abstract from year 2014",
+    "year": 2014,
+    "bref_relevance": {
+      "TXT:::4.1.8.2": 0.9907442331314088
+    }
+  },
+  {
+    "id": "4056625_abstract_abstract",
+    "title": "METHODS FOR REMOVING AMINE CONTAMINANTS FROM  EQUIPMENT USED IN THE PRODUCTION OF POLYETHER POLYOLS",
+    "score": 0.9907361268997192,
+    "x": 0.37190449237823486,
+    "y": 0.5077847242355347,
+    "abstract": "Patent ID 4056625_abstract_abstract from year 2022",
+    "year": 2022,
+    "bref_relevance": {
+      "TXT:::4.1.5.1": 0.9907361268997192
+    }
+  },
+  {
+    "id": "3335779_abstract_abstract",
+    "title": "FILTER MEDIUM AND METHOD OF MAKING IT",
+    "score": 0.9902701377868652,
+    "x": 0.5198118090629578,
+    "y": 0.19460786879062653,
+    "abstract": "Patent ID 3335779_abstract_abstract from year 2018",
+    "year": 2018,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.9902701377868652
+    }
+  },
+  {
+    "id": "2543746_abstract_abstract",
+    "title": "HYDROMETALLURGICAL METHOD FOR THE RECOVERY OF ZINC IN A SULPHUR MEDIUM FROM SULPHURED ZINC CONCENTRA",
+    "score": 0.9897847175598145,
+    "x": 0.20462101697921753,
+    "y": 0.5534098148345947,
+    "abstract": "Patent ID 2543746_abstract_abstract from year 2013",
+    "year": 2013,
+    "bref_relevance": {
+      "FMP:::8.9.4": 0.9897847175598145
+    }
+  },
+  {
+    "id": "3505595_abstract_abstract",
+    "title": "FLAME RETARDANT COMPOSITION AND FLAME RETARDANT SYNTHETIC RESIN COMPOSITION",
+    "score": 0.9897761344909668,
+    "x": 0.5896199941635132,
+    "y": 0.9995311498641968,
+    "abstract": "Patent ID 3505595_abstract_abstract from year 2019",
+    "year": 2019,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.9736685752868652,
+      "TAN:::4.2.2.4": 0.9897761344909668
+    }
+  },
+  {
+    "id": "2362008_abstract_abstract",
+    "title": "Control technique for multistep washing process using a plurality of chemicals",
+    "score": 0.9897688031196594,
+    "x": 0.49884918332099915,
+    "y": 0.4976186454296112,
+    "abstract": "Patent ID 2362008_abstract_abstract from year 2011",
+    "year": 2011,
+    "bref_relevance": {
+      "TXT:::4.1.5.1": 0.9897688031196594
+    }
+  },
+  {
+    "id": "3954736_abstract_abstract",
+    "title": "FLAME-RESISTANT RESIN COMPOSITION, METHOD FOR MANUFACTURING SAME, AND HYDROGENATED PETROLEUM RESIN",
+    "score": 0.9892915487289428,
+    "x": 0.5529223680496216,
+    "y": 0.9478075504302979,
+    "abstract": "Patent ID 3954736_abstract_abstract from year 2022",
+    "year": 2022,
+    "bref_relevance": {
+      "TAN:::4.2.2.4": 0.9892915487289428
+    }
+  },
+  {
+    "id": "4095189_abstract_abstract",
+    "title": "FLAME RETARDANT AGENT COMPOSITION, FLAME-RETARDANT RESIN COMPOSITION, AND MOLDED BODY",
+    "score": 0.98879474401474,
+    "x": 0.590508759021759,
+    "y": 0.9994684457778931,
+    "abstract": "Patent ID 4095189_abstract_abstract from year 2022",
+    "year": 2022,
+    "bref_relevance": {
+      "TAN:::4.2.2.4": 0.98879474401474
+    }
+  },
+  {
+    "id": "2375155_abstract_abstract",
+    "title": "Oxy-fuel combustion oxidant heater internal arrangement",
+    "score": 0.98879474401474,
+    "x": 0.30956894159317017,
+    "y": 0.09281814098358154,
+    "abstract": "Patent ID 2375155_abstract_abstract from year 2011",
+    "year": 2011,
+    "bref_relevance": {
+      "NFM:::2.12.5.2.1": 0.98879474401474
+    }
+  },
+  {
+    "id": "4116376_abstract_abstract",
+    "title": "RESIN COMPOSITION AND MOLDED PRODUCT",
+    "score": 0.9887936115264891,
+    "x": 0.5893951058387756,
+    "y": 0.9979779124259949,
+    "abstract": "Patent ID 4116376_abstract_abstract from year 2023",
+    "year": 2023,
+    "bref_relevance": {
+      "TAN:::4.2.2.4": 0.9887936115264891
+    }
+  },
+  {
+    "id": "4141167_abstract_abstract",
+    "title": "FLEXIBLE, FLAME-RETARDANT COMPOSITE MATERIAL",
+    "score": 0.988310933113098,
+    "x": 0.6015922427177429,
+    "y": 0.986752450466156,
+    "abstract": "Patent ID 4141167_abstract_abstract from year 2023",
+    "year": 2023,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.988310933113098
+    }
+  },
+  {
+    "id": "3696619_abstract_abstract",
+    "title": "DETERMINING OPERATING CONDITIONS IN CHEMICAL PRODUCTION PLANTS",
+    "score": 0.987817108631134,
+    "x": 0.663129448890686,
+    "y": 0.36631953716278076,
+    "abstract": "Patent ID 3696619_abstract_abstract from year 2020",
+    "year": 2020,
+    "bref_relevance": {
+      "TXT:::4.1.5.1": 0.987817108631134
+    }
+  },
+  {
+    "id": "3040473_abstract_abstract",
+    "title": "DENIM FABRIC HAVING FIREPROOF PROPERTIES AND METHOD FOR DYEING THE WARP USING INDIGO BLUE DYE",
+    "score": 0.987350046634674,
+    "x": 0.6145297884941101,
+    "y": 0.9721583127975464,
+    "abstract": "Patent ID 3040473_abstract_abstract from year 2016",
+    "year": 2016,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.987350046634674
+    }
+  },
+  {
+    "id": "2657943_abstract_abstract",
+    "title": "A method for removing the 137 Cs from polluted EAF dusts",
+    "score": 0.9868472218513488,
+    "x": 0.2629339396953583,
+    "y": 0.46887505054473877,
+    "abstract": "Patent ID 2657943_abstract_abstract from year 2013",
+    "year": 2013,
+    "bref_relevance": {
+      "FMP:::8.9.4": 0.9868472218513488
+    }
+  },
+  {
+    "id": "3363918_abstract_abstract",
+    "title": "METHOD FOR EXTRACTING METALS FROM CONCENTRATED SULPHURATED MINERALS CONTAINING METALS BY DIRECT REDU",
+    "score": 0.9868428111076356,
+    "x": 0.13608402013778687,
+    "y": 0.5169822573661804,
+    "abstract": "Patent ID 3363918_abstract_abstract from year 2018",
+    "year": 2018,
+    "bref_relevance": {
+      "FMP:::8.9.4": 0.9868428111076356
+    }
+  },
+  {
+    "id": "2881369_abstract_abstract",
+    "title": "Tannery process with effluent recycling",
+    "score": 0.9868398904800416,
+    "x": 0.6412934064865112,
+    "y": 0.5760533809661865,
+    "abstract": "Patent ID 2881369_abstract_abstract from year 2015",
+    "year": 2015,
+    "bref_relevance": {
+      "TXT:::4.1.5.1": 0.9868398904800416
+    }
+  },
+  {
+    "id": "2402488_abstract_abstract",
+    "title": "FIREPROOF FABRIC AND FIREPROOF CLOTHING INCLUDING SAME",
+    "score": 0.9863637089729308,
+    "x": 0.6149561405181885,
+    "y": 0.9747006297111511,
+    "abstract": "Patent ID 2402488_abstract_abstract from year 2012",
+    "year": 2012,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.9863637089729308
+    }
+  },
+  {
+    "id": "2497763_abstract_abstract",
+    "title": "FLUORINATED COMPOUND AND FLUORINATED POLYMER",
+    "score": 0.985880732536316,
+    "x": 0.6046068072319031,
+    "y": 0.9062170386314392,
+    "abstract": "Patent ID 2497763_abstract_abstract from year 2012",
+    "year": 2012,
+    "bref_relevance": {
+      "TAN:::4.2.2.3": 0.985880732536316
+    }
+  },
+  {
+    "id": "3670485_abstract_abstract",
+    "title": "NOVEL ETHOXYLATES FROM RENEWABLE SOURCES",
+    "score": 0.9858625531196594,
+    "x": 0.5656439661979675,
+    "y": 0.9149655699729919,
+    "abstract": "Patent ID 3670485_abstract_abstract from year 2020",
+    "year": 2020,
+    "bref_relevance": {
+      "TAN:::4.2.1": 0.9858625531196594
+    }
+  },
+  {
+    "id": "2390012_abstract_abstract",
+    "title": "Plasma Deposition Apparatus",
+    "score": 0.9853852987289428,
+    "x": 0.575484573841095,
+    "y": 0.6934958696365356,
+    "abstract": "Patent ID 2390012_abstract_abstract from year 2011",
+    "year": 2011,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.9853852987289428
+    }
+  },
+  {
+    "id": "2415726_abstract_abstract",
+    "title": "COMPOSITION FOR REDUCING CR (VI) INTO CEMENT",
+    "score": 0.9844219088554382,
+    "x": 0.140523761510849,
+    "y": 0.5040559768676758,
+    "abstract": "Patent ID 2415726_abstract_abstract from year 2012",
+    "year": 2012,
+    "bref_relevance": {
+      "FMP:::8.9.4": 0.9844219088554382
+    }
+  },
+  {
+    "id": "4183367_abstract_abstract",
+    "title": "PLASMA TREATMENT APPARATUS",
+    "score": 0.984408438205719,
+    "x": 0.5808352828025818,
+    "y": 0.6848753690719604,
+    "abstract": "Patent ID 4183367_abstract_abstract from year 2023",
+    "year": 2023,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.984408438205719
+    }
+  },
+  {
+    "id": "3181636_abstract_abstract",
+    "title": "HALOGEN-FREE FLAME RETARDANT POLYMER COMPOSITION COMPRISING NOVEL POLAR ETHYLENE COPOLYMER",
+    "score": 0.9844036102294922,
+    "x": 0.600923478603363,
+    "y": 0.9837691783905029,
+    "abstract": "Patent ID 3181636_abstract_abstract from year 2017",
+    "year": 2017,
+    "bref_relevance": {
+      "TAN:::4.2.2.4": 0.9844036102294922
+    }
+  },
+  {
+    "id": "2295501_abstract_abstract",
+    "title": "NON-HALOGEN FLAME-RETARDANT SYNTHETIC RESIN COMPOSITION",
+    "score": 0.9839465022087096,
+    "x": 0.5779138803482056,
+    "y": 0.9275252819061279,
+    "abstract": "Patent ID 2295501_abstract_abstract from year 2011",
+    "year": 2011,
+    "bref_relevance": {
+      "TAN:::4.2.2.4": 0.9839465022087096
+    }
+  },
+  {
+    "id": "3415598_abstract_abstract",
+    "title": "PROCESS FOR TREATING AT LEAST ONE GARMENT",
+    "score": 0.983430802822113,
+    "x": 0.6392531991004944,
+    "y": 0.573534369468689,
+    "abstract": "Patent ID 3415598_abstract_abstract from year 2018",
+    "year": 2018,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.983430802822113
+    }
+  },
+  {
+    "id": "3415599_abstract_abstract",
+    "title": "PROCESS FOR TREATING AT LEAST ONE GARMENT",
+    "score": 0.983430802822113,
+    "x": 0.6394797563552856,
+    "y": 0.5743380784988403,
+    "abstract": "Patent ID 3415599_abstract_abstract from year 2018",
+    "year": 2018,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.983430802822113
+    }
+  },
+  {
+    "id": "4116342_abstract_abstract",
+    "title": "DISPERSION",
+    "score": 0.9834265112876892,
+    "x": 0.6063326001167297,
+    "y": 0.9050352573394775,
+    "abstract": "Patent ID 4116342_abstract_abstract from year 2023",
+    "year": 2023,
+    "bref_relevance": {
+      "TAN:::4.2.2.3": 0.9834265112876892
+    }
+  },
+  {
+    "id": "2609995_abstract_abstract",
+    "title": "Method and system for reducing the plume created at the outlet of an industrial process",
+    "score": 0.9824461936950684,
+    "x": 0.4321383833885193,
+    "y": 0.197236105799675,
+    "abstract": "Patent ID 2609995_abstract_abstract from year 2013",
+    "year": 2013,
+    "bref_relevance": {
+      "ICS:::4.7.2": 0.9824461936950684
+    }
+  },
+  {
+    "id": "3409741_abstract_abstract",
+    "title": "HEXAVALENT CHROMIUM TREATMENT AGENT, AND LEATHER OR LEATHER PRODUCT USING SAME",
+    "score": 0.9824459552764891,
+    "x": 0.2926061153411865,
+    "y": 0.6916407942771912,
+    "abstract": "Patent ID 3409741_abstract_abstract from year 2018",
+    "year": 2018,
+    "bref_relevance": {
+      "FMP:::8.9.4": 0.9824459552764891
+    }
+  },
+  {
+    "id": "3594304_abstract_abstract",
+    "title": "POWDERY COMPOSITION FOR HEXAVALENT CHROMIUM TREATMENT, TABLET, AND METHOD FOR PRODUCING LEATHER",
+    "score": 0.9819823503494264,
+    "x": 0.29000332951545715,
+    "y": 0.6883572936058044,
+    "abstract": "Patent ID 3594304_abstract_abstract from year 2020",
+    "year": 2020,
+    "bref_relevance": {
+      "FMP:::8.9.4": 0.9819823503494264
+    }
+  },
+  {
+    "id": "3037502_abstract_abstract",
+    "title": "FLAME-RETARDANT COMPOSITION AND FLAME-RETARDANT SYNTHETIC RESIN COMPOSITION",
+    "score": 0.9819633960723876,
+    "x": 0.5896371006965637,
+    "y": 0.9999505281448364,
+    "abstract": "Patent ID 3037502_abstract_abstract from year 2016",
+    "year": 2016,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.9819633960723876
+    }
+  },
+  {
+    "id": "3716288_abstract_abstract",
+    "title": "WASTE PACKING SYSTEM AND WASTE DRUM CARRIER FOR SAID SYSTEM",
+    "score": 0.9819564819335938,
+    "x": 0.7301678657531738,
+    "y": 0.2838703393936157,
+    "abstract": "Patent ID 3716288_abstract_abstract from year 2020",
+    "year": 2020,
+    "bref_relevance": {
+      "TXT:::4.1.8.2": 0.9819564819335938
+    }
+  },
+  {
+    "id": "3835367_abstract_abstract",
+    "title": "ADDITIVE COMPOSITION, FLAME-RETARDANT SYNTHETIC RESIN COMPOSITION CONTAINING SAME, AND MOLDED ARTICL",
+    "score": 0.9819563031196594,
+    "x": 0.5769933462142944,
+    "y": 0.946503758430481,
+    "abstract": "Patent ID 3835367_abstract_abstract from year 2021",
+    "year": 2021,
+    "bref_relevance": {
+      "TAN:::4.2.2.4": 0.9819563031196594
+    }
+  },
+  {
+    "id": "2679109_abstract_abstract",
+    "title": "Burn protective materials comprising expandable graphite",
+    "score": 0.9814752340316772,
+    "x": 0.6145466566085815,
+    "y": 0.9738954305648804,
+    "abstract": "Patent ID 2679109_abstract_abstract from year 2014",
+    "year": 2014,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.9814752340316772
+    }
+  },
+  {
+    "id": "3664122_abstract_abstract",
+    "title": "A METHOD TO CONTROL A COLD PLASMA TREATMENT PROCESS FOR CLEANING, DISINFECTION AND STERILIZATION PUR",
+    "score": 0.9809975028038024,
+    "x": 0.5971333980560303,
+    "y": 0.6874851584434509,
+    "abstract": "Patent ID 3664122_abstract_abstract from year 2020",
+    "year": 2020,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.9809975028038024
+    }
+  },
+  {
+    "id": "2554556_abstract_abstract",
+    "title": "FLUORINE-CONTAINING COMPOUND AND FLUORINE-CONTAINING POLYMER",
+    "score": 0.9795268774032592,
+    "x": 0.607017993927002,
+    "y": 0.9054141044616699,
+    "abstract": "Patent ID 2554556_abstract_abstract from year 2013",
+    "year": 2013,
+    "bref_relevance": {
+      "TAN:::4.2.2.3": 0.9795268774032592
+    }
+  },
+  {
+    "id": "3151640_abstract_abstract",
+    "title": "PLASMA IRRADIATION METHOD AND PLASMA IRRADIATION DEVICE",
+    "score": 0.9795262813568116,
+    "x": 0.6226295232772827,
+    "y": 0.6779786944389343,
+    "abstract": "Patent ID 3151640_abstract_abstract from year 2017",
+    "year": 2017,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.9795262813568116
+    }
+  },
+  {
+    "id": "2336232_abstract_abstract",
+    "title": "Non-halogen flameproof polycarbonate resin composition",
+    "score": 0.9790500402450562,
+    "x": 0.5893532037734985,
+    "y": 0.9874447584152222,
+    "abstract": "Patent ID 2336232_abstract_abstract from year 2011",
+    "year": 2011,
+    "bref_relevance": {
+      "TAN:::4.2.2.4": 0.9790500402450562
+    }
+  },
+  {
+    "id": "3904069_abstract_abstract",
+    "title": "THERMOPLASTIC FIRE-RETARDANT COMPOSITES",
+    "score": 0.979036033153534,
+    "x": 0.617751955986023,
+    "y": 0.9716132283210754,
+    "abstract": "Patent ID 3904069_abstract_abstract from year 2021",
+    "year": 2021,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.979036033153534
+    }
+  },
+  {
+    "id": "4086302_abstract_abstract",
+    "title": "FLAME RETARDANT-STABILIZER COMBINATION FOR THERMOPLASTIC POLYMERS",
+    "score": 0.97903573513031,
+    "x": 0.5891086459159851,
+    "y": 1.0,
+    "abstract": "Patent ID 4086302_abstract_abstract from year 2022",
+    "year": 2022,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.97903573513031
+    }
+  },
+  {
+    "id": "2644642_abstract_abstract",
+    "title": "Polycarbonate and polysiloxane block copolymer and flame retardant resin composition",
+    "score": 0.9790289998054504,
+    "x": 0.5865949988365173,
+    "y": 0.9695621728897095,
+    "abstract": "Patent ID 2644642_abstract_abstract from year 2013",
+    "year": 2013,
+    "bref_relevance": {
+      "TAN:::4.2.2.4": 0.9790289998054504
+    }
+  },
+  {
+    "id": "3479913_abstract_abstract",
+    "title": "APPARATUS FOR THE EMPTYING OF DRUMS IN STRICT CONTAINMENT CONDITIONS AND CORRESPONDING PROCESS",
+    "score": 0.9780566692352296,
+    "x": 0.6800848245620728,
+    "y": 0.25109922885894775,
+    "abstract": "Patent ID 3479913_abstract_abstract from year 2019",
+    "year": 2019,
+    "bref_relevance": {
+      "TXT:::4.1.8.2": 0.9780566692352296
+    }
+  },
+  {
+    "id": "3650517_abstract_abstract",
+    "title": "FLAME RETARDANT COMPOSITION AND FLAME-RETARDANT RESIN COMPOSITION CONTAINING SAME",
+    "score": 0.9780516028404236,
+    "x": 0.5660053491592407,
+    "y": 0.9335795044898987,
+    "abstract": "Patent ID 3650517_abstract_abstract from year 2020",
+    "year": 2020,
+    "bref_relevance": {
+      "TAN:::4.2.2.4": 0.9780516028404236
+    }
+  },
+  {
+    "id": "4059589_abstract_abstract",
+    "title": "AN EXHAUST GAS TREATMENT METHOD ARRANGED FOR TREATING EXHAUST GASES COLLECTED FROM AT LEAST ONE FOUN",
+    "score": 0.9770749807357788,
+    "x": 0.11347559839487076,
+    "y": 0.13107669353485107,
+    "abstract": "Patent ID 4059589_abstract_abstract from year 2022",
+    "year": 2022,
+    "bref_relevance": {
+      "NFM:::2.12.5.2.1": 0.9770749807357788
+    }
+  },
+  {
+    "id": "4266225_abstract_abstract",
+    "title": "INFORMATION MANAGEMENT SYSTEM AND INFORMATION MANAGEMENT METHOD",
+    "score": 0.976094126701355,
+    "x": 0.6463196277618408,
+    "y": 0.35767102241516113,
+    "abstract": "Patent ID 4266225_abstract_abstract from year 2023",
+    "year": 2023,
+    "bref_relevance": {
+      "TXT:::4.1.5.1": 0.976094126701355
+    }
+  },
+  {
+    "id": "3156117_abstract_abstract",
+    "title": "METHOD FOR PROTECTION OF SCR CATALYST AND CONTROL OF MULTIPLE EMISSIONS",
+    "score": 0.9756057858467102,
+    "x": 0.2010282278060913,
+    "y": 0.11758673936128616,
+    "abstract": "Patent ID 3156117_abstract_abstract from year 2017",
+    "year": 2017,
+    "bref_relevance": {
+      "TXT:::4.1.5.1": 0.9756057858467102
+    }
+  },
+  {
+    "id": "2505626_abstract_abstract",
+    "title": "An oil-repellent coating material composition",
+    "score": 0.975153148174286,
+    "x": 0.5929248929023743,
+    "y": 0.9131981134414673,
+    "abstract": "Patent ID 2505626_abstract_abstract from year 2012",
+    "year": 2012,
+    "bref_relevance": {
+      "TAN:::4.2.2.3": 0.975153148174286
+    }
+  },
+  {
+    "id": "2426165_abstract_abstract",
+    "title": "FLAME-RETARDANT EXPANDABLE STYRENE RESIN COMPOSITION",
+    "score": 0.9751362204551696,
+    "x": 0.5983033776283264,
+    "y": 0.9826878309249878,
+    "abstract": "Patent ID 2426165_abstract_abstract from year 2012",
+    "year": 2012,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.9751362204551696
+    }
+  },
+  {
+    "id": "4275574_abstract_abstract",
+    "title": "A CHEMICAL DOSING SYSTEM",
+    "score": 0.9751238822937012,
+    "x": 0.5623112916946411,
+    "y": 0.3388387858867645,
+    "abstract": "Patent ID 4275574_abstract_abstract from year 2023",
+    "year": 2023,
+    "bref_relevance": {
+      "TXT:::4.1.5.1": 0.9751238822937012
+    }
+  },
+  {
+    "id": "2808074_abstract_abstract",
+    "title": "Hydrogen chloride removal process contact with ferrous compounds",
+    "score": 0.9751205444335938,
+    "x": 0.24744150042533875,
+    "y": 0.6077035069465637,
+    "abstract": "Patent ID 2808074_abstract_abstract from year 2014",
+    "year": 2014,
+    "bref_relevance": {
+      "FMP:::8.9.4": 0.9751205444335938
+    }
+  },
+  {
+    "id": "4151706_abstract_abstract",
+    "title": "A METHOD AND A DEVICE TO PRODUCE LOW-TAR- AND LOW-DUST PRODUCT GAS",
+    "score": 0.975119173526764,
+    "x": 0.3423135578632355,
+    "y": 0.10882411897182465,
+    "abstract": "Patent ID 4151706_abstract_abstract from year 2023",
+    "year": 2023,
+    "bref_relevance": {
+      "WBP:::4.2.4.6": 0.975119173526764
+    }
+  },
+  {
+    "id": "2868693_abstract_abstract",
+    "title": "FLAME RETARDING AGENT, FLAME-RETARDANT AQUEOUS RESIN COMPOSITION AND FLAME-RETARDANT URETHANE RESIN ",
+    "score": 0.9746378660202026,
+    "x": 0.5784668922424316,
+    "y": 0.9277589917182922,
+    "abstract": "Patent ID 2868693_abstract_abstract from year 2015",
+    "year": 2015,
+    "bref_relevance": {
+      "TAN:::4.2.2.4": 0.9746378660202026
+    }
+  },
+  {
+    "id": "3258009_abstract_abstract",
+    "title": "PROCESS AND DEVICE FOR CHLORINE-FREE SHRINKPROOF TREATMENT OF WOOL RAW MATERIAL AND ARTICLE THEREOF",
+    "score": 0.9741552472114564,
+    "x": 0.6432463526725769,
+    "y": 0.5693328976631165,
+    "abstract": "Patent ID 3258009_abstract_abstract from year 2017",
+    "year": 2017,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.9741552472114564
+    }
+  },
+  {
+    "id": "3231828_abstract_abstract",
+    "title": "METHOD FOR PREPARING NON-FLUORINATED URETHANE BASED COATINGS",
+    "score": 0.9741519689559937,
+    "x": 0.47894158959388733,
+    "y": 0.8726362586021423,
+    "abstract": "Patent ID 3231828_abstract_abstract from year 2017",
+    "year": 2017,
+    "bref_relevance": {
+      "TAN:::4.2.2.3": 0.9741519689559937
+    }
+  },
+  {
+    "id": "4015703_abstract_abstract",
+    "title": "PROCESS FOR SCOURING AND BLEACHING OF TEXTILE FIBERS USING NATURAL POLYGLYCEROL ESTERS",
+    "score": 0.9736658930778505,
+    "x": 0.6437302231788635,
+    "y": 0.5768764019012451,
+    "abstract": "Patent ID 4015703_abstract_abstract from year 2022",
+    "year": 2022,
+    "bref_relevance": {
+      "TAN:::4.2.1": 0.9736658930778505
+    }
+  },
+  {
+    "id": "3255121_abstract_abstract",
+    "title": "FLAME-RETARDANT COMPOSITION AND FLAME-RETARDANT SYNTHETIC RESIN COMPOSITION",
+    "score": 0.973655879497528,
+    "x": 0.5889397859573364,
+    "y": 0.9987161755561829,
+    "abstract": "Patent ID 3255121_abstract_abstract from year 2017",
+    "year": 2017,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.973655879497528
+    }
+  },
+  {
+    "id": "3705169_abstract_abstract",
+    "title": "ADSORPTIVE GAS SEPARATION PROCESS",
+    "score": 0.973648965358734,
+    "x": 0.17799746990203857,
+    "y": 0.2574963867664337,
+    "abstract": "Patent ID 3705169_abstract_abstract from year 2020",
+    "year": 2020,
+    "bref_relevance": {
+      "STS:::7.4.3.2": 0.973648965358734
+    }
+  },
+  {
+    "id": "2377991_abstract_abstract",
+    "title": "Ultraviolet-resistant fabrics and methods for making them",
+    "score": 0.9731810092926024,
+    "x": 0.6163938045501709,
+    "y": 0.9691529870033264,
+    "abstract": "Patent ID 2377991_abstract_abstract from year 2011",
+    "year": 2011,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.9731810092926024
+    }
+  },
+  {
+    "id": "2366740_abstract_abstract",
+    "title": "Flame resistant polymer blends",
+    "score": 0.9731796383857728,
+    "x": 0.6071015000343323,
+    "y": 0.9776325225830078,
+    "abstract": "Patent ID 2366740_abstract_abstract from year 2011",
+    "year": 2011,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.9731796383857728
+    }
+  },
+  {
+    "id": "3492557_abstract_abstract",
+    "title": "FLAME-RETARDANT COMPOSITION AND FLAME-RETARDANT SYNTHETIC-RESIN COMPOSITION",
+    "score": 0.973175585269928,
+    "x": 0.5899178981781006,
+    "y": 0.99900221824646,
+    "abstract": "Patent ID 3492557_abstract_abstract from year 2019",
+    "year": 2019,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.973175585269928
+    }
+  },
+  {
+    "id": "2489630_abstract_abstract",
+    "title": "HYDROGEN GAS RECOVERY SYSTEM AND HYDROGEN GAS SEPARATION AND RECOVERY METHOD",
+    "score": 0.973170518875122,
+    "x": 0.17681287229061127,
+    "y": 0.2819460928440094,
+    "abstract": "Patent ID 2489630_abstract_abstract from year 2012",
+    "year": 2012,
+    "bref_relevance": {
+      "STS:::7.4.3.2": 0.973170518875122
+    }
+  },
+  {
+    "id": "2400075_abstract_abstract",
+    "title": "Protection impregnated thermal insulation and process for its manufacture",
+    "score": 0.9717191457748412,
+    "x": 0.6116028428077698,
+    "y": 0.9739286303520203,
+    "abstract": "Patent ID 2400075_abstract_abstract from year 2011",
+    "year": 2011,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.9717191457748412
+    }
+  },
+  {
+    "id": "2295526_abstract_abstract",
+    "title": "Hybrid pyrolysis and gasification process and system for converting waste",
+    "score": 0.9712226390838624,
+    "x": 0.3039676547050476,
+    "y": 0.1641545444726944,
+    "abstract": "Patent ID 2295526_abstract_abstract from year 2011",
+    "year": 2011,
+    "bref_relevance": {
+      "NFM:::2.12.5.2.1": 0.9712226390838624
+    }
+  },
+  {
+    "id": "2832924_abstract_abstract",
+    "title": "FLAMEPROOFING AGENT FOR FIBERS",
+    "score": 0.9702578783035278,
+    "x": 0.5752500891685486,
+    "y": 0.9584017992019653,
+    "abstract": "Patent ID 2832924_abstract_abstract from year 2015",
+    "year": 2015,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.9702578783035278
+    }
+  },
+  {
+    "id": "3792328_abstract_abstract",
+    "title": "WATER AND OIL REPELLENT AND TEXTILE PRODUCT",
+    "score": 0.9702560901641846,
+    "x": 0.6043332815170288,
+    "y": 0.9053424000740051,
+    "abstract": "Patent ID 3792328_abstract_abstract from year 2021",
+    "year": 2021,
+    "bref_relevance": {
+      "TAN:::4.2.2.3": 0.9702560901641846
+    }
+  },
+  {
+    "id": "4187003_abstract_abstract",
+    "title": "FLAME-RETARDANT POLYESTER FIBER WITH EXCELLENT DYEABILITY AND MANUFACTURING METHOD THEREFOR",
+    "score": 0.9702417850494384,
+    "x": 0.614575207233429,
+    "y": 0.9730095863342285,
+    "abstract": "Patent ID 4187003_abstract_abstract from year 2023",
+    "year": 2023,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.9702417850494384
+    }
+  },
+  {
+    "id": "3536671_abstract_abstract",
+    "title": "METHOD FOR TREATING WATER WITH HIGH VOLTAGE DISCHARGE",
+    "score": 0.9702414870262146,
+    "x": 0.5678431391716003,
+    "y": 0.6001328229904175,
+    "abstract": "Patent ID 3536671_abstract_abstract from year 2019",
+    "year": 2019,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.9702414870262146
+    }
+  },
+  {
+    "id": "3127952_abstract_abstract",
+    "title": "ADDITION-CURABLE SILICONE RUBBER COMPOSITION",
+    "score": 0.9682937264442444,
+    "x": 0.5913548469543457,
+    "y": 0.972392201423645,
+    "abstract": "Patent ID 3127952_abstract_abstract from year 2017",
+    "year": 2017,
+    "bref_relevance": {
+      "TAN:::4.2.2.4": 0.9682937264442444
+    }
+  },
+  {
+    "id": "2889359_abstract_abstract",
+    "title": "Fire-resistant composite materials and process for preparing thereof",
+    "score": 0.967811107635498,
+    "x": 0.5879314541816711,
+    "y": 0.966631293296814,
+    "abstract": "Patent ID 2889359_abstract_abstract from year 2015",
+    "year": 2015,
+    "bref_relevance": {
+      "TAN:::4.2.2.4": 0.967811107635498
+    }
+  },
+  {
+    "id": "3744692_abstract_abstract",
+    "title": "REMOVAL OF HEAVY METALS FROM AQUEOUS SOLUTIONS",
+    "score": 0.9668247699737548,
+    "x": 0.28772813081741333,
+    "y": 0.5275269746780396,
+    "abstract": "Patent ID 3744692_abstract_abstract from year 2020",
+    "year": 2020,
+    "bref_relevance": {
+      "FMP:::8.9.4": 0.9668247699737548
+    }
+  },
+  {
+    "id": "2311904_abstract_abstract",
+    "title": "Compositions containing fluorine substituted olefins",
+    "score": 0.9663483500480652,
+    "x": 0.6109099984169006,
+    "y": 0.9079993367195129,
+    "abstract": "Patent ID 2311904_abstract_abstract from year 2011",
+    "year": 2011,
+    "bref_relevance": {
+      "TAN:::4.2.2.3": 0.9663483500480652
+    }
+  },
+  {
+    "id": "2345538_abstract_abstract",
+    "title": "Method for fire protection and modification of properties of expanded polyesters",
+    "score": 0.9663369059562684,
+    "x": 0.615066409111023,
+    "y": 0.9744947552680969,
+    "abstract": "Patent ID 2345538_abstract_abstract from year 2011",
+    "year": 2011,
+    "bref_relevance": {
+      "TAN:::4.2.2.4": 0.9663369059562684
+    }
+  },
+  {
+    "id": "3045548_abstract_abstract",
+    "title": "CHROMIUM TANNING PROCESS WITH REDUCED WASTE DISCHARGE",
+    "score": 0.9663320779800416,
+    "x": 0.6328690648078918,
+    "y": 0.5692981481552124,
+    "abstract": "Patent ID 3045548_abstract_abstract from year 2016",
+    "year": 2016,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.9663320779800416
+    }
+  },
+  {
+    "id": "2284233_abstract_abstract",
+    "title": "Non-fluting heatset ink composition",
+    "score": 0.9653560519218444,
+    "x": 0.5228821039199829,
+    "y": 0.7848124504089355,
+    "abstract": "Patent ID 2284233_abstract_abstract from year 2011",
+    "year": 2011,
+    "bref_relevance": {
+      "STS:::11.4.2.2": 0.9653560519218444
+    }
+  },
+  {
+    "id": "3782712_abstract_abstract",
+    "title": "REDUCING FLUCTUATIONS IN TAIL GAS FLOW AND FUEL PROPERTY FROM AN ADSORPTION UNIT",
+    "score": 0.962917685508728,
+    "x": 0.3561044931411743,
+    "y": 0.02301214449107647,
+    "abstract": "Patent ID 3782712_abstract_abstract from year 2021",
+    "year": 2021,
+    "bref_relevance": {
+      "STS:::7.4.3.2": 0.962917685508728
+    }
+  },
+  {
+    "id": "2843306_abstract_abstract",
+    "title": "BURNER FOR EXHAUST GAS PURIFICATION DEVICES",
+    "score": 0.962427258491516,
+    "x": 0.4638247787952423,
+    "y": 0.08667454123497009,
+    "abstract": "Patent ID 2843306_abstract_abstract from year 2015",
+    "year": 2015,
+    "bref_relevance": {
+      "NFM:::2.12.5.2.1": 0.962427258491516
+    }
+  },
+  {
+    "id": "3919161_abstract_abstract",
+    "title": "SCRUBBER APPARATUS FOR CARBON DIOXIDE REMOVAL BY TEMPERATURE SWING ADSORPTION AND CONTROLLED ATMOSPH",
+    "score": 0.961938738822937,
+    "x": 0.13773198425769806,
+    "y": 0.26085424423217773,
+    "abstract": "Patent ID 3919161_abstract_abstract from year 2021",
+    "year": 2021,
+    "bref_relevance": {
+      "STS:::7.4.3.2": 0.961938738822937
+    }
+  },
+  {
+    "id": "3293238_abstract_abstract",
+    "title": "INK WITH IMPROVED TRANSFER EFFICIENCY AT LOW TEMPERATURE FOR DIGITAL OFFSET PRINTING APPLICATIONS",
+    "score": 0.9609727263450624,
+    "x": 0.5204736590385437,
+    "y": 0.7840027809143066,
+    "abstract": "Patent ID 3293238_abstract_abstract from year 2018",
+    "year": 2018,
+    "bref_relevance": {
+      "STS:::11.4.2.2": 0.9609727263450624
+    }
+  },
+  {
+    "id": "3604464_abstract_abstract",
+    "title": "SURFACE TREATMENT AGENT AND METHOD FOR PRODUCING SAME",
+    "score": 0.9604867696762084,
+    "x": 0.6083493828773499,
+    "y": 0.9068544507026672,
+    "abstract": "Patent ID 3604464_abstract_abstract from year 2020",
+    "year": 2020,
+    "bref_relevance": {
+      "TAN:::4.2.2.3": 0.9604867696762084
+    }
+  },
+  {
+    "id": "3266510_abstract_abstract",
+    "title": "PROCESS ENGINEERING ARRANGEMENT AND METHOD FOR OPERATING A PROCESS ENGINEERING ARRANGEMENT",
+    "score": 0.9599806666374208,
+    "x": 0.13321034610271454,
+    "y": 0.2592647969722748,
+    "abstract": "Patent ID 3266510_abstract_abstract from year 2018",
+    "year": 2018,
+    "bref_relevance": {
+      "STS:::7.4.3.2": 0.9599806666374208
+    }
+  },
+  {
+    "id": "2628533_abstract_abstract",
+    "title": "Method and installation for the regeneration of spent carbonaceous adsorbent",
+    "score": 0.9594933986663818,
+    "x": 0.29054954648017883,
+    "y": 0.18330395221710205,
+    "abstract": "Patent ID 2628533_abstract_abstract from year 2013",
+    "year": 2013,
+    "bref_relevance": {
+      "WBP:::4.2.4.6": 0.9594933986663818
+    }
+  },
+  {
+    "id": "2743308_abstract_abstract",
+    "title": "FLAME RETARDANT AND FLAME RETARDANT COMPOSITION FOR STYRENE RESINS",
+    "score": 0.9590077996253968,
+    "x": 0.6011526584625244,
+    "y": 0.9857776165008545,
+    "abstract": "Patent ID 2743308_abstract_abstract from year 2014",
+    "year": 2014,
+    "bref_relevance": {
+      "TAN:::4.2.2.4": 0.9590077996253968
+    }
+  },
+  {
+    "id": "2479210_abstract_abstract",
+    "title": "Branched and star-branched styrene polymers, telomers, and adducts, their synthesis, their brominati",
+    "score": 0.9575558304786682,
+    "x": 0.6038963794708252,
+    "y": 0.9785115122795105,
+    "abstract": "Patent ID 2479210_abstract_abstract from year 2012",
+    "year": 2012,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.9575558304786682
+    }
+  },
+  {
+    "id": "3933087_abstract_abstract",
+    "title": "METHOD AND APPARATUS FOR TREATING A TEXTILE FABRIC",
+    "score": 0.9575493931770324,
+    "x": 0.632072389125824,
+    "y": 0.5715379118919373,
+    "abstract": "Patent ID 3933087_abstract_abstract from year 2022",
+    "year": 2022,
+    "bref_relevance": {
+      "TXT:::4.1.3.2.3": 0.9575493931770324
+    }
+  },
+  {
+    "id": "2789653_abstract_abstract",
+    "title": "FLAME RETARDANT POLYOLEFIN RESIN COMPOSITION",
+    "score": 0.9575477838516236,
+    "x": 0.6009106040000916,
+    "y": 0.9860385656356812,
+    "abstract": "Patent ID 2789653_abstract_abstract from year 2014",
+    "year": 2014,
+    "bref_relevance": {
+      "TAN:::4.2.2.4": 0.9575477838516236
+    }
+  },
+  {
+    "id": "3508513_abstract_abstract",
+    "title": "PROCESSES FOR PRODUCING FLUOROETHER COMPOUNDS",
+    "score": 0.9560864567756652,
+    "x": 0.6082179546356201,
+    "y": 0.9075038433074951,
+    "abstract": "Patent ID 3508513_abstract_abstract from year 2019",
+    "year": 2019,
+    "bref_relevance": {
+      "TAN:::4.2.2.3": 0.9560864567756652
+    }
+  },
+  {
+    "id": "2444142_abstract_abstract",
+    "title": "System and method for protection of scr catalyst and control of multiple emissions",
+    "score": 0.9560781121253968,
+    "x": 0.19860434532165527,
+    "y": 0.11893733590841293,
+    "abstract": "Patent ID 2444142_abstract_abstract from year 2012",
+    "year": 2012,
+    "bref_relevance": {
+      "TXT:::4.1.5.1": 0.9560781121253968
+    }
+  },
+  {
+    "id": "3425639_abstract_abstract",
+    "title": "FILLING DEVICES, SYSTEMS AND METHODS FOR TRANSFERRING HAZARDOUS WASTE MATERIAL INTO A SEALABLE CONTA",
+    "score": 0.9546113014221193,
+    "x": 0.6908742785453796,
+    "y": 0.25217464566230774,
+    "abstract": "Patent ID 3425639_abstract_abstract from year 2019",
+    "year": 2019,
+    "bref_relevance": {
+      "TXT:::4.1.8.2": 0.9546113014221193
+    }
+  },
+  {
+    "id": "3653536_abstract_abstract",
+    "title": "APPARATUS AND METHOD FOR THE COLLECTION OF DIFFERENTIATED SOLID URBAN WASTE",
+    "score": 0.953148066997528,
+    "x": 0.731893002986908,
+    "y": 0.2835456132888794,
+    "abstract": "Patent ID 3653536_abstract_abstract from year 2020",
+    "year": 2020,
+    "bref_relevance": {
+      "TXT:::4.1.8.2": 0.953148066997528
+    }
+  },
+  {
+    "id": "3199476_abstract_abstract",
+    "title": "APPARATUS FOR THE COLLECTION AND COMPACTION OF WASTE",
+    "score": 0.9531458020210266,
+    "x": 0.7377456426620483,
+    "y": 0.29025232791900635,
+    "abstract": "Patent ID 3199476_abstract_abstract from year 2017",
+    "year": 2017,
+    "bref_relevance": {
+      "TXT:::4.1.8.2": 0.9531458020210266
+    }
+  },
+  {
+    "id": "3269541_abstract_abstract",
+    "title": "PROCESS FOR MANUFACTURING FIREPROOF RIGID PRODUCTS",
+    "score": 0.952184796333313,
+    "x": 0.614173948764801,
+    "y": 0.972163736820221,
+    "abstract": "Patent ID 3269541_abstract_abstract from year 2018",
+    "year": 2018,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.952184796333313
+    }
+  },
+  {
+    "id": "3467162_abstract_abstract",
+    "title": "FLAME RETARDANT LYOCELL FILAMENT",
+    "score": 0.951687514781952,
+    "x": 0.6142290830612183,
+    "y": 0.9735046625137329,
+    "abstract": "Patent ID 3467162_abstract_abstract from year 2019",
+    "year": 2019,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.951687514781952
+    }
+  },
+  {
+    "id": "2505803_abstract_abstract",
+    "title": "Compression ignition engine system with diesel particulate filter coated with nox reduction catalyst",
+    "score": 0.9516847133636476,
+    "x": 0.05516533926129341,
+    "y": 0.12589344382286072,
+    "abstract": "Patent ID 2505803_abstract_abstract from year 2012",
+    "year": 2012,
+    "bref_relevance": {
+      "NFM:::2.12.5.2.1": 0.9516847133636476
+    }
+  },
+  {
+    "id": "3865272_abstract_abstract",
+    "title": "METHOD FOR PRODUCING A FIRE-RESISTANT AND HEAT-RESISTANT PREIMPREGNATED FIBRE MATERIAL",
+    "score": 0.9512231945991516,
+    "x": 0.6147711873054504,
+    "y": 0.9744341373443604,
+    "abstract": "Patent ID 3865272_abstract_abstract from year 2021",
+    "year": 2021,
+    "bref_relevance": {
+      "TXT:::4.7.4.1": 0.9512231945991516
+    }
+  },
+  {
+    "id": "3671676_abstract_abstract",
+    "title": "STATION FOR THE SEPARATE COLLECTION OF WASTE",
+    "score": 0.9507096409797668,
+    "x": 0.7252106070518494,
+    "y": 0.28055301308631897,
+    "abstract": "Patent ID 3671676_abstract_abstract from year 2020",
+    "year": 2020,
+    "bref_relevance": {
+      "TXT:::4.1.8.2": 0.9507096409797668
+    }
+  }
+]
