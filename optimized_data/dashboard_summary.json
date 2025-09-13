@@ -1,8 +1,8 @@
 {
-  "totalPatents": 8407,
+  "totalPatents": 10770,
   "totalPollutants": 74,
-  "relevanceThreshold": 0.95,
-  "creation_date": "2025-09-11 16:40:32",
+  "relevanceThreshold": 0.8,
+  "creation_date": "2025-09-13 12:35:58",
   "pollutants": [
     {
       "name": "1,2-dichloroethane (DCE-1,2)",
@@ -47,6 +47,10 @@
     {
       "name": "Trichloroethylene (TRI)",
       "filename": "Trichloroethylene_TRI"
+    },
+    {
+      "name": "Ethylene oxide",
+      "filename": "Ethylene_oxide"
     },
     {
       "name": "1,1,2,2-tetrachloroethane (TETRACHLOROETHANE-1,1,2,2)",
@@ -115,10 +119,6 @@
     {
       "name": "Ethyl benzene",
       "filename": "Ethyl_benzene"
-    },
-    {
-      "name": "Ethylene oxide",
-      "filename": "Ethylene_oxide"
     },
     {
       "name": "Heptachlor",
@@ -197,16 +197,36 @@
       "filename": "Brominated_diphenylethers_PBDE"
     },
     {
+      "name": "Anthracene",
+      "filename": "Anthracene"
+    },
+    {
       "name": "Cyanides (as total CN)",
       "filename": "Cyanides_as_total_CN"
+    },
+    {
+      "name": "Endosulphan",
+      "filename": "Endosulphan"
+    },
+    {
+      "name": "Nonylphenol and Nonylphenol ethoxylates",
+      "filename": "Nonylphenol_and_Nonylphenol_ethoxylates"
+    },
+    {
+      "name": "Pentachlorobenzene",
+      "filename": "Pentachlorobenzene"
+    },
+    {
+      "name": "Tributyltin and compounds",
+      "filename": "Tributyltin_and_compounds"
     },
     {
       "name": "Triphenyltin and compounds",
       "filename": "Triphenyltin_and_compounds"
     },
     {
-      "name": "Endosulphan",
-      "filename": "Endosulphan"
+      "name": "DDT (DDT)",
+      "filename": "DDT_DDT"
     },
     {
       "name": "Fluorides (as total F)",
@@ -215,10 +235,6 @@
     {
       "name": "Organotin compounds (as total Sn)",
       "filename": "Organotin_compounds_as_total_Sn"
-    },
-    {
-      "name": "Tributyltin and compounds",
-      "filename": "Tributyltin_and_compounds"
     },
     {
       "name": "Total phosphorus",
@@ -241,20 +257,8 @@
       "filename": "Lindane"
     },
     {
-      "name": "DDT (DDT)",
-      "filename": "DDT_DDT"
-    },
-    {
-      "name": "Anthracene",
-      "filename": "Anthracene"
-    },
-    {
-      "name": "Nonylphenol and Nonylphenol ethoxylates",
-      "filename": "Nonylphenol_and_Nonylphenol_ethoxylates"
-    },
-    {
-      "name": "Pentachlorobenzene",
-      "filename": "Pentachlorobenzene"
+      "name": "Octylphenols and Octylphenol ethoxylates",
+      "filename": "Octylphenols_and_Octylphenol_ethoxylates"
     },
     {
       "name": "Atrazine",
@@ -263,10 +267,6 @@
     {
       "name": "Hexabromobiphenyl",
       "filename": "Hexabromobiphenyl"
-    },
-    {
-      "name": "Octylphenols and Octylphenol ethoxylates",
-      "filename": "Octylphenols_and_Octylphenol_ethoxylates"
     },
     {
       "name": "Diuron",
@@ -301,5 +301,5 @@
       "filename": "Asbestos"
     }
   ],
-  "totalChunks": 85814
+  "totalChunks": 116888
 }

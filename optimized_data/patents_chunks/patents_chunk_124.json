@@ -1,0 +1,2305 @@
+[
+  {
+    "id": "2592341_abstract_abstract",
+    "title": "Pulverized fuel burner",
+    "score": 0.9980704188346864,
+    "x": 1.0,
+    "y": 0.39927077559837754,
+    "abstract": "Patent ID 2592341_abstract_abstract from year 2013",
+    "year": 2013,
+    "pollutant": "Total nitrogen",
+    "bref_relevance": {
+      "CLM:::1.4.5.1.2": 0.9980704188346864
+    }
+  },
+  {
+    "id": "3819540_abstract_abstract",
+    "title": "BURNER ASSEMBLY, METHOD FOR SAID BURNER ASSEMBLY AND PLANT COMPRISING SAID BURNER ASSEMBLY",
+    "score": 0.949249505996704,
+    "x": 1.0,
+    "y": 0.4474508833771022,
+    "abstract": "Patent ID 3819540_abstract_abstract from year 2021",
+    "year": 2021,
+    "pollutant": "Total nitrogen",
+    "bref_relevance": {
+      "CLM:::1.4.5.1.2": 0.949249505996704
+    }
+  },
+  {
+    "id": "2821699_abstract_abstract",
+    "title": "Mixing of recycle gas with fuel gas to a burner",
+    "score": 0.9292256236076356,
+    "x": 1.0,
+    "y": 0.4914481444042308,
+    "abstract": "Patent ID 2821699_abstract_abstract from year 2015",
+    "year": 2015,
+    "pollutant": "Total nitrogen",
+    "bref_relevance": {
+      "CLM:::1.4.5.1.2": 0.9292256236076356
+    }
+  },
+  {
+    "id": "3339731_abstract_abstract",
+    "title": "GAS BURNER AND HOB COMPRISING A GAS BURNER",
+    "score": 0.8525583148002625,
+    "x": 1.0,
+    "y": 0.41653137364305165,
+    "abstract": "Patent ID 3339731_abstract_abstract from year 2018",
+    "year": 2018,
+    "pollutant": "Total nitrogen",
+    "bref_relevance": {
+      "CLM:::1.4.5.1.2": 0.8525583148002625
+    }
+  },
+  {
+    "id": "3819539_abstract_abstract",
+    "title": "BURNER ASSEMBLY, METHOD FOR OPERATING SAID BURNER ASSEMBLY AND PLANT COMPRISING SAID BURNER ASSEMBLY",
+    "score": 0.9228799343109132,
+    "x": 1.0,
+    "y": 0.49899021930754506,
+    "abstract": "Patent ID 3819539_abstract_abstract from year 2021",
+    "year": 2021,
+    "pollutant": "Total nitrogen",
+    "bref_relevance": {
+      "CLM:::1.4.5.1.2": 0.9228799343109132
+    }
+  },
+  {
+    "id": "2522911_abstract_abstract",
+    "title": "Lobed swirler",
+    "score": 0.977556049823761,
+    "x": 1.0,
+    "y": 0.4569087431589749,
+    "abstract": "Patent ID 2522911_abstract_abstract from year 2012",
+    "year": 2012,
+    "pollutant": "Total nitrogen",
+    "bref_relevance": {
+      "CLM:::1.4.5.1.2": 0.933615505695343,
+      "CLM:::2.4.6.1.3": 0.977556049823761
+    }
+  },
+  {
+    "id": "3819541_abstract_abstract",
+    "title": "BURNER ASSEMBLY, METHOD FOR OPERATING SAID BURNER ASSEMBLY AND PLANT COMPRISING SAID BURNER ASSEMBLY",
+    "score": 0.9980752468109132,
+    "x": 1.0,
+    "y": 0.39152314264709637,
+    "abstract": "Patent ID 3819541_abstract_abstract from year 2021",
+    "year": 2021,
+    "pollutant": "Total nitrogen",
+    "bref_relevance": {
+      "CLM:::1.4.5.1.2": 0.9980752468109132
+    }
+  },
+  {
+    "id": "4283197_abstract_abstract",
+    "title": "COMBUSTOR",
+    "score": 0.998073399066925,
+    "x": 1.0,
+    "y": 0.4410354391971019,
+    "abstract": "Patent ID 4283197_abstract_abstract from year 2023",
+    "year": 2023,
+    "pollutant": "Total nitrogen",
+    "bref_relevance": {
+      "CLM:::1.4.5.1.2": 0.998073399066925
+    }
+  },
+  {
+    "id": "2835580_abstract_abstract",
+    "title": "Inner swirling flame gas burner",
+    "score": 0.9975774884223938,
+    "x": 1.0,
+    "y": 0.4618343120975123,
+    "abstract": "Patent ID 2835580_abstract_abstract from year 2015",
+    "year": 2015,
+    "pollutant": "Total nitrogen",
+    "bref_relevance": {
+      "CLM:::1.4.5.1.2": 0.9975774884223938
+    }
+  },
+  {
+    "id": "3812034_abstract_abstract",
+    "title": "DURABLE COPPER-SCR CATALYST",
+    "score": 0.8838101625442505,
+    "x": 1.0,
+    "y": 0.364451600305254,
+    "abstract": "Patent ID 3812034_abstract_abstract from year 2021",
+    "year": 2021,
+    "pollutant": "Total nitrogen",
+    "bref_relevance": {
+      "CLM:::2.4.6.1.5": 0.8838101625442505
+    }
+  },
+  {
+    "id": "3912962_abstract_abstract",
+    "title": "COPPER-LOADED ZEOLITES WITH HIGH ACTIVITY FOR NH3-SCR",
+    "score": 0.9907404780387878,
+    "x": 1.0,
+    "y": 0.4578509658651239,
+    "abstract": "Patent ID 3912962_abstract_abstract from year 2021",
+    "year": 2021,
+    "pollutant": "Total nitrogen",
+    "bref_relevance": {
+      "CLM:::2.4.6.1.5": 0.9907404780387878
+    }
+  },
+  {
+    "id": "3797866_abstract_abstract",
+    "title": "ZEOLITE HAVING IMPROVED HEAT RESISTANCE AND CATALYST COMPOSITE USING SAME",
+    "score": 0.9975755214691162,
+    "x": 1.0,
+    "y": 0.4750007472510633,
+    "abstract": "Patent ID 3797866_abstract_abstract from year 2021",
+    "year": 2021,
+    "pollutant": "Total nitrogen",
+    "bref_relevance": {
+      "CLM:::2.4.6.1.5": 0.9975755214691162
+    }
+  },
+  {
+    "id": "2965812_abstract_abstract",
+    "title": "LOW-TEMPERATURE SCR CATALYST FOR DENITRATING DIESEL VEHICLE EXHAUST, AND PREPARATION METHOD THEREOF",
+    "score": 0.933125376701355,
+    "x": 1.0,
+    "y": 0.4530871696838802,
+    "abstract": "Patent ID 2965812_abstract_abstract from year 2016",
+    "year": 2016,
+    "pollutant": "Total nitrogen",
+    "bref_relevance": {
+      "CLM:::2.4.6.1.5": 0.933125376701355
+    }
+  },
+  {
+    "id": "2659974_abstract_abstract",
+    "title": "SELECTIVE REDUCTION CATALYST, AND EXHAUST GAS PURIFICATION DEVICE AND EXHAUST GAS PURIFICATION METHO",
+    "score": 0.95558363199234,
+    "x": 1.0,
+    "y": 0.4405718336288279,
+    "abstract": "Patent ID 2659974_abstract_abstract from year 2013",
+    "year": 2013,
+    "pollutant": "Total nitrogen",
+    "bref_relevance": {
+      "CLM:::2.4.6.1.5": 0.95558363199234
+    }
+  },
+  {
+    "id": "3246091_abstract_abstract",
+    "title": "COPPER OR IRON-EXCHANGED UZM-35 ZEOLITE CATALYSTS AND THEIR PREPARATION",
+    "score": 0.9941633939743042,
+    "x": 1.0,
+    "y": 0.4385383428437599,
+    "abstract": "Patent ID 3246091_abstract_abstract from year 2017",
+    "year": 2017,
+    "pollutant": "Total nitrogen",
+    "bref_relevance": {
+      "CLM:::2.4.6.1.5": 0.9941633939743042
+    }
+  },
+  {
+    "id": "2631222_abstract_abstract",
+    "title": "WASTE-PROCESSING APPARATUS",
+    "score": 0.8413325548171997,
+    "x": 1.0,
+    "y": 0.43808946379091374,
+    "abstract": "Patent ID 2631222_abstract_abstract from year 2013",
+    "year": 2013,
+    "pollutant": "Chlorine and inorganic compounds (as HCl)",
+    "bref_relevance": {
+      "CLM:::1.4.3.3": 0.8413325548171997
+    }
+  },
+  {
+    "id": "3738939_abstract_abstract",
+    "title": "METHOD FOR CALCINING RAW MEAL FOR CEMENT CLINKER MANUFACTURING",
+    "score": 0.987820565700531,
+    "x": 1.0,
+    "y": 0.4110530522066406,
+    "abstract": "Patent ID 3738939_abstract_abstract from year 2020",
+    "year": 2020,
+    "pollutant": "Chlorine and inorganic compounds (as HCl)",
+    "bref_relevance": {
+      "CLM:::1.4.3.3": 0.8803950548171997,
+      "CLM:::1.4.5.5": 0.931169092655182,
+      "CLM:::1.4.3.2": 0.987820565700531
+    }
+  },
+  {
+    "id": "3738939_abstract_abstract",
+    "title": "METHOD FOR CALCINING RAW MEAL FOR CEMENT CLINKER MANUFACTURING",
+    "score": 0.987820565700531,
+    "x": 1.0,
+    "y": 0.4110530522066406,
+    "abstract": "Patent ID 3738939_abstract_abstract from year 2020",
+    "year": 2020,
+    "pollutant": "Chlorides (as total Cl)",
+    "bref_relevance": {
+      "CLM:::1.4.5.5": 0.931169092655182,
+      "CLM:::1.4.3.2": 0.987820565700531
+    }
+  },
+  {
+    "id": "3738939_abstract_abstract",
+    "title": "METHOD FOR CALCINING RAW MEAL FOR CEMENT CLINKER MANUFACTURING",
+    "score": 0.9756064414978028,
+    "x": 1.0,
+    "y": 0.4110530522066406,
+    "abstract": "Patent ID 3738939_abstract_abstract from year 2020",
+    "year": 2020,
+    "pollutant": "PCDD + PCDF (dioxins + furans) (as Teq)",
+    "bref_relevance": {
+      "CLM:::1.4.6": 0.9756064414978028
+    }
+  },
+  {
+    "id": "3738939_abstract_abstract",
+    "title": "METHOD FOR CALCINING RAW MEAL FOR CEMENT CLINKER MANUFACTURING",
+    "score": 0.987820565700531,
+    "x": 1.0,
+    "y": 0.4110530522066406,
+    "abstract": "Patent ID 3738939_abstract_abstract from year 2020",
+    "year": 2020,
+    "pollutant": "Copper and compounds (as Cu)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.987820565700531
+    }
+  },
+  {
+    "id": "3738939_abstract_abstract",
+    "title": "METHOD FOR CALCINING RAW MEAL FOR CEMENT CLINKER MANUFACTURING",
+    "score": 0.987820565700531,
+    "x": 1.0,
+    "y": 0.4110530522066406,
+    "abstract": "Patent ID 3738939_abstract_abstract from year 2020",
+    "year": 2020,
+    "pollutant": "Fluorides (as total F)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.987820565700531
+    }
+  },
+  {
+    "id": "3738939_abstract_abstract",
+    "title": "METHOD FOR CALCINING RAW MEAL FOR CEMENT CLINKER MANUFACTURING",
+    "score": 0.987820565700531,
+    "x": 1.0,
+    "y": 0.4110530522066406,
+    "abstract": "Patent ID 3738939_abstract_abstract from year 2020",
+    "year": 2020,
+    "pollutant": "Halogenated organic compounds (as AOX)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.987820565700531
+    }
+  },
+  {
+    "id": "3738939_abstract_abstract",
+    "title": "METHOD FOR CALCINING RAW MEAL FOR CEMENT CLINKER MANUFACTURING",
+    "score": 0.987820565700531,
+    "x": 1.0,
+    "y": 0.4110530522066406,
+    "abstract": "Patent ID 3738939_abstract_abstract from year 2020",
+    "year": 2020,
+    "pollutant": "Mercury and compounds (as Hg)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.987820565700531
+    }
+  },
+  {
+    "id": "3738939_abstract_abstract",
+    "title": "METHOD FOR CALCINING RAW MEAL FOR CEMENT CLINKER MANUFACTURING",
+    "score": 0.987820565700531,
+    "x": 1.0,
+    "y": 0.4110530522066406,
+    "abstract": "Patent ID 3738939_abstract_abstract from year 2020",
+    "year": 2020,
+    "pollutant": "Nickel and compounds (as Ni)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.987820565700531
+    }
+  },
+  {
+    "id": "3738939_abstract_abstract",
+    "title": "METHOD FOR CALCINING RAW MEAL FOR CEMENT CLINKER MANUFACTURING",
+    "score": 0.987820565700531,
+    "x": 1.0,
+    "y": 0.4110530522066406,
+    "abstract": "Patent ID 3738939_abstract_abstract from year 2020",
+    "year": 2020,
+    "pollutant": "Total nitrogen",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.987820565700531
+    }
+  },
+  {
+    "id": "3738939_abstract_abstract",
+    "title": "METHOD FOR CALCINING RAW MEAL FOR CEMENT CLINKER MANUFACTURING",
+    "score": 0.987820565700531,
+    "x": 1.0,
+    "y": 0.4110530522066406,
+    "abstract": "Patent ID 3738939_abstract_abstract from year 2020",
+    "year": 2020,
+    "pollutant": "Total organic carbon(as total C or COD/3) (TOC)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.987820565700531
+    }
+  },
+  {
+    "id": "3738939_abstract_abstract",
+    "title": "METHOD FOR CALCINING RAW MEAL FOR CEMENT CLINKER MANUFACTURING",
+    "score": 0.987820565700531,
+    "x": 1.0,
+    "y": 0.4110530522066406,
+    "abstract": "Patent ID 3738939_abstract_abstract from year 2020",
+    "year": 2020,
+    "pollutant": "Vinyl chloride",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.987820565700531
+    }
+  },
+  {
+    "id": "3738939_abstract_abstract",
+    "title": "METHOD FOR CALCINING RAW MEAL FOR CEMENT CLINKER MANUFACTURING",
+    "score": 0.987820565700531,
+    "x": 1.0,
+    "y": 0.4110530522066406,
+    "abstract": "Patent ID 3738939_abstract_abstract from year 2020",
+    "year": 2020,
+    "pollutant": "Zinc and compounds (as Zn)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.987820565700531
+    }
+  },
+  {
+    "id": "2821702_abstract_abstract",
+    "title": "WASTE GASIFICATION AND MELTING FURNACE",
+    "score": 0.9726722240447998,
+    "x": 1.0,
+    "y": 0.4270103599760829,
+    "abstract": "Patent ID 2821702_abstract_abstract from year 2015",
+    "year": 2015,
+    "pollutant": "Chlorine and inorganic compounds (as HCl)",
+    "bref_relevance": {
+      "CLM:::1.4.3.3": 0.9726722240447998
+    }
+  },
+  {
+    "id": "4047074_abstract_abstract",
+    "title": "SOLID FUEL COMPOSITION FROM MIXED SOLID WASTE",
+    "score": 0.9111526012420654,
+    "x": 1.0,
+    "y": 0.43644219459698613,
+    "abstract": "Patent ID 4047074_abstract_abstract from year 2022",
+    "year": 2022,
+    "pollutant": "Chlorine and inorganic compounds (as HCl)",
+    "bref_relevance": {
+      "CLM:::1.4.3.3": 0.9111526012420654
+    }
+  },
+  {
+    "id": "4249449_abstract_abstract",
+    "title": "PROCESS FOR PREPARING COLD FUSION CONCRETE AND CEMENT COMPOSITIONS FROM METAL MINING AND PRODUCTION ",
+    "score": 0.9824468493461608,
+    "x": 1.0,
+    "y": 0.453649096309239,
+    "abstract": "Patent ID 4249449_abstract_abstract from year 2023",
+    "year": 2023,
+    "pollutant": "Chlorine and inorganic compounds (as HCl)",
+    "bref_relevance": {
+      "CLM:::1.4.3.3": 0.9824468493461608,
+      "CLM:::1.4.3.2": 0.962929368019104
+    }
+  },
+  {
+    "id": "4249449_abstract_abstract",
+    "title": "PROCESS FOR PREPARING COLD FUSION CONCRETE AND CEMENT COMPOSITIONS FROM METAL MINING AND PRODUCTION ",
+    "score": 0.962929368019104,
+    "x": 1.0,
+    "y": 0.453649096309239,
+    "abstract": "Patent ID 4249449_abstract_abstract from year 2023",
+    "year": 2023,
+    "pollutant": "Chlorides (as total Cl)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.962929368019104
+    }
+  },
+  {
+    "id": "4249449_abstract_abstract",
+    "title": "PROCESS FOR PREPARING COLD FUSION CONCRETE AND CEMENT COMPOSITIONS FROM METAL MINING AND PRODUCTION ",
+    "score": 0.962929368019104,
+    "x": 1.0,
+    "y": 0.453649096309239,
+    "abstract": "Patent ID 4249449_abstract_abstract from year 2023",
+    "year": 2023,
+    "pollutant": "Copper and compounds (as Cu)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.962929368019104
+    }
+  },
+  {
+    "id": "4249449_abstract_abstract",
+    "title": "PROCESS FOR PREPARING COLD FUSION CONCRETE AND CEMENT COMPOSITIONS FROM METAL MINING AND PRODUCTION ",
+    "score": 0.962929368019104,
+    "x": 1.0,
+    "y": 0.453649096309239,
+    "abstract": "Patent ID 4249449_abstract_abstract from year 2023",
+    "year": 2023,
+    "pollutant": "Fluorides (as total F)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.962929368019104
+    }
+  },
+  {
+    "id": "4249449_abstract_abstract",
+    "title": "PROCESS FOR PREPARING COLD FUSION CONCRETE AND CEMENT COMPOSITIONS FROM METAL MINING AND PRODUCTION ",
+    "score": 0.962929368019104,
+    "x": 1.0,
+    "y": 0.453649096309239,
+    "abstract": "Patent ID 4249449_abstract_abstract from year 2023",
+    "year": 2023,
+    "pollutant": "Halogenated organic compounds (as AOX)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.962929368019104
+    }
+  },
+  {
+    "id": "4249449_abstract_abstract",
+    "title": "PROCESS FOR PREPARING COLD FUSION CONCRETE AND CEMENT COMPOSITIONS FROM METAL MINING AND PRODUCTION ",
+    "score": 0.962929368019104,
+    "x": 1.0,
+    "y": 0.453649096309239,
+    "abstract": "Patent ID 4249449_abstract_abstract from year 2023",
+    "year": 2023,
+    "pollutant": "Mercury and compounds (as Hg)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.962929368019104
+    }
+  },
+  {
+    "id": "4249449_abstract_abstract",
+    "title": "PROCESS FOR PREPARING COLD FUSION CONCRETE AND CEMENT COMPOSITIONS FROM METAL MINING AND PRODUCTION ",
+    "score": 0.962929368019104,
+    "x": 1.0,
+    "y": 0.453649096309239,
+    "abstract": "Patent ID 4249449_abstract_abstract from year 2023",
+    "year": 2023,
+    "pollutant": "Nickel and compounds (as Ni)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.962929368019104
+    }
+  },
+  {
+    "id": "4249449_abstract_abstract",
+    "title": "PROCESS FOR PREPARING COLD FUSION CONCRETE AND CEMENT COMPOSITIONS FROM METAL MINING AND PRODUCTION ",
+    "score": 0.962929368019104,
+    "x": 1.0,
+    "y": 0.453649096309239,
+    "abstract": "Patent ID 4249449_abstract_abstract from year 2023",
+    "year": 2023,
+    "pollutant": "Total nitrogen",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.962929368019104
+    }
+  },
+  {
+    "id": "4249449_abstract_abstract",
+    "title": "PROCESS FOR PREPARING COLD FUSION CONCRETE AND CEMENT COMPOSITIONS FROM METAL MINING AND PRODUCTION ",
+    "score": 0.962929368019104,
+    "x": 1.0,
+    "y": 0.453649096309239,
+    "abstract": "Patent ID 4249449_abstract_abstract from year 2023",
+    "year": 2023,
+    "pollutant": "Total organic carbon(as total C or COD/3) (TOC)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.962929368019104
+    }
+  },
+  {
+    "id": "4249449_abstract_abstract",
+    "title": "PROCESS FOR PREPARING COLD FUSION CONCRETE AND CEMENT COMPOSITIONS FROM METAL MINING AND PRODUCTION ",
+    "score": 0.962929368019104,
+    "x": 1.0,
+    "y": 0.453649096309239,
+    "abstract": "Patent ID 4249449_abstract_abstract from year 2023",
+    "year": 2023,
+    "pollutant": "Vinyl chloride",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.962929368019104
+    }
+  },
+  {
+    "id": "4249449_abstract_abstract",
+    "title": "PROCESS FOR PREPARING COLD FUSION CONCRETE AND CEMENT COMPOSITIONS FROM METAL MINING AND PRODUCTION ",
+    "score": 0.962929368019104,
+    "x": 1.0,
+    "y": 0.453649096309239,
+    "abstract": "Patent ID 4249449_abstract_abstract from year 2023",
+    "year": 2023,
+    "pollutant": "Zinc and compounds (as Zn)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.962929368019104
+    }
+  },
+  {
+    "id": "3835393_abstract_abstract",
+    "title": "BROWN COAL PELLETS",
+    "score": 0.9941619634628296,
+    "x": 1.0,
+    "y": 0.43484437857281744,
+    "abstract": "Patent ID 3835393_abstract_abstract from year 2021",
+    "year": 2021,
+    "pollutant": "Chlorine and inorganic compounds (as HCl)",
+    "bref_relevance": {
+      "CLM:::1.4.3.3": 0.9941619634628296
+    }
+  },
+  {
+    "id": "2730329_abstract_abstract",
+    "title": "VALUABLE SUBSTANCE RECOVERY DEVICE AND RECOVERY METHOD",
+    "score": 0.8989427089691162,
+    "x": 1.0,
+    "y": 0.42677980133207716,
+    "abstract": "Patent ID 2730329_abstract_abstract from year 2014",
+    "year": 2014,
+    "pollutant": "Chlorine and inorganic compounds (as HCl)",
+    "bref_relevance": {
+      "CLM:::1.4.3.3": 0.8989427089691162
+    }
+  },
+  {
+    "id": "3081889_abstract_abstract",
+    "title": "MIXING CALCINER",
+    "score": 0.9028514623641968,
+    "x": 1.0,
+    "y": 0.4769519601086879,
+    "abstract": "Patent ID 3081889_abstract_abstract from year 2016",
+    "year": 2016,
+    "pollutant": "Chlorine and inorganic compounds (as HCl)",
+    "bref_relevance": {
+      "CLM:::1.4.3.3": 0.9028514623641968,
+      "CLM:::1.4.5.5": 0.8310689926147461,
+      "CLM:::1.4.3.2": 0.875032365322113
+    }
+  },
+  {
+    "id": "3081889_abstract_abstract",
+    "title": "MIXING CALCINER",
+    "score": 0.875032365322113,
+    "x": 1.0,
+    "y": 0.4769519601086879,
+    "abstract": "Patent ID 3081889_abstract_abstract from year 2016",
+    "year": 2016,
+    "pollutant": "Chlorides (as total Cl)",
+    "bref_relevance": {
+      "CLM:::1.4.5.5": 0.8310689926147461,
+      "CLM:::1.4.3.2": 0.875032365322113
+    }
+  },
+  {
+    "id": "3081889_abstract_abstract",
+    "title": "MIXING CALCINER",
+    "score": 0.875032365322113,
+    "x": 1.0,
+    "y": 0.4769519601086879,
+    "abstract": "Patent ID 3081889_abstract_abstract from year 2016",
+    "year": 2016,
+    "pollutant": "Copper and compounds (as Cu)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.875032365322113
+    }
+  },
+  {
+    "id": "3081889_abstract_abstract",
+    "title": "MIXING CALCINER",
+    "score": 0.875032365322113,
+    "x": 1.0,
+    "y": 0.4769519601086879,
+    "abstract": "Patent ID 3081889_abstract_abstract from year 2016",
+    "year": 2016,
+    "pollutant": "Fluorides (as total F)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.875032365322113
+    }
+  },
+  {
+    "id": "3081889_abstract_abstract",
+    "title": "MIXING CALCINER",
+    "score": 0.875032365322113,
+    "x": 1.0,
+    "y": 0.4769519601086879,
+    "abstract": "Patent ID 3081889_abstract_abstract from year 2016",
+    "year": 2016,
+    "pollutant": "Halogenated organic compounds (as AOX)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.875032365322113
+    }
+  },
+  {
+    "id": "3081889_abstract_abstract",
+    "title": "MIXING CALCINER",
+    "score": 0.875032365322113,
+    "x": 1.0,
+    "y": 0.4769519601086879,
+    "abstract": "Patent ID 3081889_abstract_abstract from year 2016",
+    "year": 2016,
+    "pollutant": "Mercury and compounds (as Hg)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.875032365322113
+    }
+  },
+  {
+    "id": "3081889_abstract_abstract",
+    "title": "MIXING CALCINER",
+    "score": 0.875032365322113,
+    "x": 1.0,
+    "y": 0.4769519601086879,
+    "abstract": "Patent ID 3081889_abstract_abstract from year 2016",
+    "year": 2016,
+    "pollutant": "Nickel and compounds (as Ni)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.875032365322113
+    }
+  },
+  {
+    "id": "3081889_abstract_abstract",
+    "title": "MIXING CALCINER",
+    "score": 0.875032365322113,
+    "x": 1.0,
+    "y": 0.4769519601086879,
+    "abstract": "Patent ID 3081889_abstract_abstract from year 2016",
+    "year": 2016,
+    "pollutant": "Total nitrogen",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.875032365322113
+    }
+  },
+  {
+    "id": "3081889_abstract_abstract",
+    "title": "MIXING CALCINER",
+    "score": 0.875032365322113,
+    "x": 1.0,
+    "y": 0.4769519601086879,
+    "abstract": "Patent ID 3081889_abstract_abstract from year 2016",
+    "year": 2016,
+    "pollutant": "Total organic carbon(as total C or COD/3) (TOC)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.875032365322113
+    }
+  },
+  {
+    "id": "3081889_abstract_abstract",
+    "title": "MIXING CALCINER",
+    "score": 0.875032365322113,
+    "x": 1.0,
+    "y": 0.4769519601086879,
+    "abstract": "Patent ID 3081889_abstract_abstract from year 2016",
+    "year": 2016,
+    "pollutant": "Vinyl chloride",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.875032365322113
+    }
+  },
+  {
+    "id": "3081889_abstract_abstract",
+    "title": "MIXING CALCINER",
+    "score": 0.875032365322113,
+    "x": 1.0,
+    "y": 0.4769519601086879,
+    "abstract": "Patent ID 3081889_abstract_abstract from year 2016",
+    "year": 2016,
+    "pollutant": "Zinc and compounds (as Zn)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.875032365322113
+    }
+  },
+  {
+    "id": "3889503_abstract_abstract",
+    "title": "INCINERATION PLANT FOR SOLID MATERIAL",
+    "score": 0.9438679218292236,
+    "x": 1.0,
+    "y": 0.46658270414239156,
+    "abstract": "Patent ID 3889503_abstract_abstract from year 2021",
+    "year": 2021,
+    "pollutant": "Chlorine and inorganic compounds (as HCl)",
+    "bref_relevance": {
+      "CLM:::1.4.3.3": 0.9438679218292236
+    }
+  },
+  {
+    "id": "3701932_abstract_abstract",
+    "title": "ODOUR REDUCING COMPOSITIONS",
+    "score": 0.91018545627594,
+    "x": 1.0,
+    "y": 0.4405931409469234,
+    "abstract": "Patent ID 3701932_abstract_abstract from year 2020",
+    "year": 2020,
+    "pollutant": "Polycyclic aromatic hydrocarbons (PAHs)",
+    "bref_relevance": {
+      "CLM:::1.4.11": 0.91018545627594
+    }
+  },
+  {
+    "id": "3701932_abstract_abstract",
+    "title": "ODOUR REDUCING COMPOSITIONS",
+    "score": 0.91018545627594,
+    "x": 1.0,
+    "y": 0.4405931409469234,
+    "abstract": "Patent ID 3701932_abstract_abstract from year 2020",
+    "year": 2020,
+    "pollutant": "Toluene",
+    "bref_relevance": {
+      "CLM:::1.4.11": 0.91018545627594
+    }
+  },
+  {
+    "id": "3251653_abstract_abstract",
+    "title": "MALODOR COUNTERACTING COMPOSITIONS AND METHOD FOR THEIR USE TO COUNTERACT SWEAT MALODOR",
+    "score": 0.8569501638412476,
+    "x": 1.0,
+    "y": 0.47326441117473317,
+    "abstract": "Patent ID 3251653_abstract_abstract from year 2017",
+    "year": 2017,
+    "pollutant": "Polycyclic aromatic hydrocarbons (PAHs)",
+    "bref_relevance": {
+      "CLM:::1.4.11": 0.8569501638412476
+    }
+  },
+  {
+    "id": "3251653_abstract_abstract",
+    "title": "MALODOR COUNTERACTING COMPOSITIONS AND METHOD FOR THEIR USE TO COUNTERACT SWEAT MALODOR",
+    "score": 0.8569501638412476,
+    "x": 1.0,
+    "y": 0.47326441117473317,
+    "abstract": "Patent ID 3251653_abstract_abstract from year 2017",
+    "year": 2017,
+    "pollutant": "Toluene",
+    "bref_relevance": {
+      "CLM:::1.4.11": 0.8569501638412476
+    }
+  },
+  {
+    "id": "2813248_abstract_abstract",
+    "title": "Masked activated carbon substrates",
+    "score": 0.9028504490852356,
+    "x": 1.0,
+    "y": 0.44578763460584286,
+    "abstract": "Patent ID 2813248_abstract_abstract from year 2014",
+    "year": 2014,
+    "pollutant": "Polycyclic aromatic hydrocarbons (PAHs)",
+    "bref_relevance": {
+      "CLM:::1.4.11": 0.9028504490852356
+    }
+  },
+  {
+    "id": "2813248_abstract_abstract",
+    "title": "Masked activated carbon substrates",
+    "score": 0.9028504490852356,
+    "x": 1.0,
+    "y": 0.44578763460584286,
+    "abstract": "Patent ID 2813248_abstract_abstract from year 2014",
+    "year": 2014,
+    "pollutant": "Toluene",
+    "bref_relevance": {
+      "CLM:::1.4.11": 0.9028504490852356
+    }
+  },
+  {
+    "id": "3275984_abstract_abstract",
+    "title": "USE OF COMPOSITIONS COMPRISING TANNINS",
+    "score": 0.9716951251029968,
+    "x": 1.0,
+    "y": 0.46258091758696235,
+    "abstract": "Patent ID 3275984_abstract_abstract from year 2018",
+    "year": 2018,
+    "pollutant": "Polycyclic aromatic hydrocarbons (PAHs)",
+    "bref_relevance": {
+      "CLM:::1.4.11": 0.9716951251029968
+    }
+  },
+  {
+    "id": "3275984_abstract_abstract",
+    "title": "USE OF COMPOSITIONS COMPRISING TANNINS",
+    "score": 0.9716951251029968,
+    "x": 1.0,
+    "y": 0.46258091758696235,
+    "abstract": "Patent ID 3275984_abstract_abstract from year 2018",
+    "year": 2018,
+    "pollutant": "Toluene",
+    "bref_relevance": {
+      "CLM:::1.4.11": 0.9716951251029968
+    }
+  },
+  {
+    "id": "3772524_abstract_abstract",
+    "title": "PRECIPITATED CALCIUM CARBONATE FOR ODOUR REDUCTION",
+    "score": 0.9956249594688416,
+    "x": 1.0,
+    "y": 0.49124716102101657,
+    "abstract": "Patent ID 3772524_abstract_abstract from year 2021",
+    "year": 2021,
+    "pollutant": "Polycyclic aromatic hydrocarbons (PAHs)",
+    "bref_relevance": {
+      "CLM:::1.4.11": 0.9956249594688416
+    }
+  },
+  {
+    "id": "3772524_abstract_abstract",
+    "title": "PRECIPITATED CALCIUM CARBONATE FOR ODOUR REDUCTION",
+    "score": 0.9956249594688416,
+    "x": 1.0,
+    "y": 0.49124716102101657,
+    "abstract": "Patent ID 3772524_abstract_abstract from year 2021",
+    "year": 2021,
+    "pollutant": "Toluene",
+    "bref_relevance": {
+      "CLM:::1.4.11": 0.9956249594688416
+    }
+  },
+  {
+    "id": "4015218_abstract_abstract",
+    "title": "THIN FILM FOR WASTE PACKING CASSETTES",
+    "score": 0.9975863099098206,
+    "x": 1.0,
+    "y": 0.44519075314280143,
+    "abstract": "Patent ID 4015218_abstract_abstract from year 2022",
+    "year": 2022,
+    "pollutant": "Polycyclic aromatic hydrocarbons (PAHs)",
+    "bref_relevance": {
+      "CLM:::1.4.11": 0.9975863099098206
+    }
+  },
+  {
+    "id": "4015218_abstract_abstract",
+    "title": "THIN FILM FOR WASTE PACKING CASSETTES",
+    "score": 0.9975863099098206,
+    "x": 1.0,
+    "y": 0.44519075314280143,
+    "abstract": "Patent ID 4015218_abstract_abstract from year 2022",
+    "year": 2022,
+    "pollutant": "Toluene",
+    "bref_relevance": {
+      "CLM:::1.4.11": 0.9975863099098206
+    }
+  },
+  {
+    "id": "2332723_abstract_abstract",
+    "title": "Thin film for waste packing cassettes",
+    "score": 0.9922124743461608,
+    "x": 1.0,
+    "y": 0.4294380546318036,
+    "abstract": "Patent ID 2332723_abstract_abstract from year 2011",
+    "year": 2011,
+    "pollutant": "Polycyclic aromatic hydrocarbons (PAHs)",
+    "bref_relevance": {
+      "CLM:::1.4.11": 0.9922124743461608
+    }
+  },
+  {
+    "id": "2332723_abstract_abstract",
+    "title": "Thin film for waste packing cassettes",
+    "score": 0.9922124743461608,
+    "x": 1.0,
+    "y": 0.4294380546318036,
+    "abstract": "Patent ID 2332723_abstract_abstract from year 2011",
+    "year": 2011,
+    "pollutant": "Toluene",
+    "bref_relevance": {
+      "CLM:::1.4.11": 0.9922124743461608
+    }
+  },
+  {
+    "id": "4180222_abstract_abstract",
+    "title": "THIN FILM FOR WASTE PACKING CASSETTES",
+    "score": 0.997092604637146,
+    "x": 1.0,
+    "y": 0.4615640491637115,
+    "abstract": "Patent ID 4180222_abstract_abstract from year 2023",
+    "year": 2023,
+    "pollutant": "Polycyclic aromatic hydrocarbons (PAHs)",
+    "bref_relevance": {
+      "CLM:::1.4.11": 0.997092604637146
+    }
+  },
+  {
+    "id": "4180222_abstract_abstract",
+    "title": "THIN FILM FOR WASTE PACKING CASSETTES",
+    "score": 0.997092604637146,
+    "x": 1.0,
+    "y": 0.4615640491637115,
+    "abstract": "Patent ID 4180222_abstract_abstract from year 2023",
+    "year": 2023,
+    "pollutant": "Toluene",
+    "bref_relevance": {
+      "CLM:::1.4.11": 0.997092604637146
+    }
+  },
+  {
+    "id": "3985632_abstract_abstract",
+    "title": "MODULAR ASPIRATED SMOKE, GAS, OR AIR QUALITY MONITORING SYSTEMS AND DEVICES",
+    "score": 0.990253448486328,
+    "x": 1.0,
+    "y": 0.42632208330158106,
+    "abstract": "Patent ID 3985632_abstract_abstract from year 2022",
+    "year": 2022,
+    "pollutant": "Polycyclic aromatic hydrocarbons (PAHs)",
+    "bref_relevance": {
+      "CLM:::1.4.11": 0.990253448486328
+    }
+  },
+  {
+    "id": "3985632_abstract_abstract",
+    "title": "MODULAR ASPIRATED SMOKE, GAS, OR AIR QUALITY MONITORING SYSTEMS AND DEVICES",
+    "score": 0.990253448486328,
+    "x": 1.0,
+    "y": 0.42632208330158106,
+    "abstract": "Patent ID 3985632_abstract_abstract from year 2022",
+    "year": 2022,
+    "pollutant": "Toluene",
+    "bref_relevance": {
+      "CLM:::1.4.11": 0.990253448486328
+    }
+  },
+  {
+    "id": "4122580_abstract_abstract",
+    "title": "AN AIR FILTER UNIT COMPRISING AN ODORANT DISPERSING SYSTEM",
+    "score": 0.9927001595497132,
+    "x": 1.0,
+    "y": 0.4602107854702536,
+    "abstract": "Patent ID 4122580_abstract_abstract from year 2023",
+    "year": 2023,
+    "pollutant": "Polycyclic aromatic hydrocarbons (PAHs)",
+    "bref_relevance": {
+      "CLM:::1.4.11": 0.9927001595497132
+    }
+  },
+  {
+    "id": "4122580_abstract_abstract",
+    "title": "AN AIR FILTER UNIT COMPRISING AN ODORANT DISPERSING SYSTEM",
+    "score": 0.9927001595497132,
+    "x": 1.0,
+    "y": 0.4602107854702536,
+    "abstract": "Patent ID 4122580_abstract_abstract from year 2023",
+    "year": 2023,
+    "pollutant": "Toluene",
+    "bref_relevance": {
+      "CLM:::1.4.11": 0.9927001595497132
+    }
+  },
+  {
+    "id": "2738146_abstract_abstract",
+    "title": "CEMENT PLANT",
+    "score": 0.9907382130622864,
+    "x": 1.0,
+    "y": 0.4614235796502751,
+    "abstract": "Patent ID 2738146_abstract_abstract from year 2014",
+    "year": 2014,
+    "pollutant": "Chlorides (as total Cl)",
+    "bref_relevance": {
+      "CLM:::1.4.5.5": 0.9907382130622864
+    }
+  },
+  {
+    "id": "2738146_abstract_abstract",
+    "title": "CEMENT PLANT",
+    "score": 0.9907382130622864,
+    "x": 1.0,
+    "y": 0.4614235796502751,
+    "abstract": "Patent ID 2738146_abstract_abstract from year 2014",
+    "year": 2014,
+    "pollutant": "Chlorine and inorganic compounds (as HCl)",
+    "bref_relevance": {
+      "CLM:::1.4.5.5": 0.9907382130622864
+    }
+  },
+  {
+    "id": "2738146_abstract_abstract",
+    "title": "CEMENT PLANT",
+    "score": 0.8872273564338684,
+    "x": 1.0,
+    "y": 0.4614235796502751,
+    "abstract": "Patent ID 2738146_abstract_abstract from year 2014",
+    "year": 2014,
+    "pollutant": "PCDD + PCDF (dioxins + furans) (as Teq)",
+    "bref_relevance": {
+      "CLM:::1.4.6": 0.8872273564338684
+    }
+  },
+  {
+    "id": "4265581_abstract_abstract",
+    "title": "METHOD OF PROCESSING EXHAUST GAS FROM A CEMENT PLANT",
+    "score": 0.8437762260437012,
+    "x": 1.0,
+    "y": 0.39724089638993704,
+    "abstract": "Patent ID 4265581_abstract_abstract from year 2023",
+    "year": 2023,
+    "pollutant": "Chlorides (as total Cl)",
+    "bref_relevance": {
+      "CLM:::1.4.5.5": 0.8437762260437012
+    }
+  },
+  {
+    "id": "4265581_abstract_abstract",
+    "title": "METHOD OF PROCESSING EXHAUST GAS FROM A CEMENT PLANT",
+    "score": 0.9775601029396056,
+    "x": 1.0,
+    "y": 0.39724089638993704,
+    "abstract": "Patent ID 4265581_abstract_abstract from year 2023",
+    "year": 2023,
+    "pollutant": "Chlorine and inorganic compounds (as HCl)",
+    "bref_relevance": {
+      "CLM:::1.4.5.5": 0.8437762260437012,
+      "CLM:::1.4.5.2.3": 0.9775601029396056
+    }
+  },
+  {
+    "id": "4265581_abstract_abstract",
+    "title": "METHOD OF PROCESSING EXHAUST GAS FROM A CEMENT PLANT",
+    "score": 0.8701455593109131,
+    "x": 1.0,
+    "y": 0.39724089638993704,
+    "abstract": "Patent ID 4265581_abstract_abstract from year 2023",
+    "year": 2023,
+    "pollutant": "Cadmium and compounds (as Cd)",
+    "bref_relevance": {
+      "CLM:::1.4.7": 0.8701455593109131
+    }
+  },
+  {
+    "id": "4265581_abstract_abstract",
+    "title": "METHOD OF PROCESSING EXHAUST GAS FROM A CEMENT PLANT",
+    "score": 0.8701455593109131,
+    "x": 1.0,
+    "y": 0.39724089638993704,
+    "abstract": "Patent ID 4265581_abstract_abstract from year 2023",
+    "year": 2023,
+    "pollutant": "Chromium and compounds (as Cr)",
+    "bref_relevance": {
+      "CLM:::1.4.7": 0.8701455593109131
+    }
+  },
+  {
+    "id": "4265581_abstract_abstract",
+    "title": "METHOD OF PROCESSING EXHAUST GAS FROM A CEMENT PLANT",
+    "score": 0.8701455593109131,
+    "x": 1.0,
+    "y": 0.39724089638993704,
+    "abstract": "Patent ID 4265581_abstract_abstract from year 2023",
+    "year": 2023,
+    "pollutant": "Copper and compounds (as Cu)",
+    "bref_relevance": {
+      "CLM:::1.4.7": 0.8701455593109131
+    }
+  },
+  {
+    "id": "4265581_abstract_abstract",
+    "title": "METHOD OF PROCESSING EXHAUST GAS FROM A CEMENT PLANT",
+    "score": 0.8701455593109131,
+    "x": 1.0,
+    "y": 0.39724089638993704,
+    "abstract": "Patent ID 4265581_abstract_abstract from year 2023",
+    "year": 2023,
+    "pollutant": "Hydrogen cyanide (HCN)",
+    "bref_relevance": {
+      "CLM:::1.4.7": 0.8701455593109131
+    }
+  },
+  {
+    "id": "4265581_abstract_abstract",
+    "title": "METHOD OF PROCESSING EXHAUST GAS FROM A CEMENT PLANT",
+    "score": 0.8701455593109131,
+    "x": 1.0,
+    "y": 0.39724089638993704,
+    "abstract": "Patent ID 4265581_abstract_abstract from year 2023",
+    "year": 2023,
+    "pollutant": "Lead and compounds (as Pb)",
+    "bref_relevance": {
+      "CLM:::1.4.7": 0.8701455593109131
+    }
+  },
+  {
+    "id": "4265581_abstract_abstract",
+    "title": "METHOD OF PROCESSING EXHAUST GAS FROM A CEMENT PLANT",
+    "score": 0.8701455593109131,
+    "x": 1.0,
+    "y": 0.39724089638993704,
+    "abstract": "Patent ID 4265581_abstract_abstract from year 2023",
+    "year": 2023,
+    "pollutant": "Mercury and compounds (as Hg)",
+    "bref_relevance": {
+      "CLM:::1.4.7": 0.8701455593109131
+    }
+  },
+  {
+    "id": "4265581_abstract_abstract",
+    "title": "METHOD OF PROCESSING EXHAUST GAS FROM A CEMENT PLANT",
+    "score": 0.8701455593109131,
+    "x": 1.0,
+    "y": 0.39724089638993704,
+    "abstract": "Patent ID 4265581_abstract_abstract from year 2023",
+    "year": 2023,
+    "pollutant": "Nickel and compounds (as Ni)",
+    "bref_relevance": {
+      "CLM:::1.4.7": 0.8701455593109131
+    }
+  },
+  {
+    "id": "4265581_abstract_abstract",
+    "title": "METHOD OF PROCESSING EXHAUST GAS FROM A CEMENT PLANT",
+    "score": 0.8701455593109131,
+    "x": 1.0,
+    "y": 0.39724089638993704,
+    "abstract": "Patent ID 4265581_abstract_abstract from year 2023",
+    "year": 2023,
+    "pollutant": "Zinc and compounds (as Zn)",
+    "bref_relevance": {
+      "CLM:::1.4.7": 0.8701455593109131
+    }
+  },
+  {
+    "id": "4265581_abstract_abstract",
+    "title": "METHOD OF PROCESSING EXHAUST GAS FROM A CEMENT PLANT",
+    "score": 0.9551045894622804,
+    "x": 1.0,
+    "y": 0.39724089638993704,
+    "abstract": "Patent ID 4265581_abstract_abstract from year 2023",
+    "year": 2023,
+    "pollutant": "PCDD + PCDF (dioxins + furans) (as Teq)",
+    "bref_relevance": {
+      "CLM:::1.4.6": 0.9551045894622804
+    }
+  },
+  {
+    "id": "2289858_abstract_abstract",
+    "title": "METHOD AND APPARATUS FOR RECOVERING CO<sb>2</sb> GAS IN CEMENT PRODUCTION EQUIPMENT",
+    "score": 0.9179967641830444,
+    "x": 1.0,
+    "y": 0.4883794403775096,
+    "abstract": "Patent ID 2289858_abstract_abstract from year 2011",
+    "year": 2011,
+    "pollutant": "Chlorides (as total Cl)",
+    "bref_relevance": {
+      "CLM:::1.4.5.5": 0.856468677520752,
+      "CLM:::1.4.3.2": 0.9179967641830444
+    }
+  },
+  {
+    "id": "2289858_abstract_abstract",
+    "title": "METHOD AND APPARATUS FOR RECOVERING CO<sb>2</sb> GAS IN CEMENT PRODUCTION EQUIPMENT",
+    "score": 0.9179967641830444,
+    "x": 1.0,
+    "y": 0.4883794403775096,
+    "abstract": "Patent ID 2289858_abstract_abstract from year 2011",
+    "year": 2011,
+    "pollutant": "Chlorine and inorganic compounds (as HCl)",
+    "bref_relevance": {
+      "CLM:::1.4.5.5": 0.856468677520752,
+      "CLM:::1.4.3.2": 0.9179967641830444
+    }
+  },
+  {
+    "id": "2289858_abstract_abstract",
+    "title": "METHOD AND APPARATUS FOR RECOVERING CO<sb>2</sb> GAS IN CEMENT PRODUCTION EQUIPMENT",
+    "score": 0.9179967641830444,
+    "x": 1.0,
+    "y": 0.4883794403775096,
+    "abstract": "Patent ID 2289858_abstract_abstract from year 2011",
+    "year": 2011,
+    "pollutant": "Copper and compounds (as Cu)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.9179967641830444
+    }
+  },
+  {
+    "id": "2289858_abstract_abstract",
+    "title": "METHOD AND APPARATUS FOR RECOVERING CO<sb>2</sb> GAS IN CEMENT PRODUCTION EQUIPMENT",
+    "score": 0.9179967641830444,
+    "x": 1.0,
+    "y": 0.4883794403775096,
+    "abstract": "Patent ID 2289858_abstract_abstract from year 2011",
+    "year": 2011,
+    "pollutant": "Fluorides (as total F)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.9179967641830444
+    }
+  },
+  {
+    "id": "2289858_abstract_abstract",
+    "title": "METHOD AND APPARATUS FOR RECOVERING CO<sb>2</sb> GAS IN CEMENT PRODUCTION EQUIPMENT",
+    "score": 0.9179967641830444,
+    "x": 1.0,
+    "y": 0.4883794403775096,
+    "abstract": "Patent ID 2289858_abstract_abstract from year 2011",
+    "year": 2011,
+    "pollutant": "Halogenated organic compounds (as AOX)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.9179967641830444
+    }
+  },
+  {
+    "id": "2289858_abstract_abstract",
+    "title": "METHOD AND APPARATUS FOR RECOVERING CO<sb>2</sb> GAS IN CEMENT PRODUCTION EQUIPMENT",
+    "score": 0.9179967641830444,
+    "x": 1.0,
+    "y": 0.4883794403775096,
+    "abstract": "Patent ID 2289858_abstract_abstract from year 2011",
+    "year": 2011,
+    "pollutant": "Mercury and compounds (as Hg)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.9179967641830444
+    }
+  },
+  {
+    "id": "2289858_abstract_abstract",
+    "title": "METHOD AND APPARATUS FOR RECOVERING CO<sb>2</sb> GAS IN CEMENT PRODUCTION EQUIPMENT",
+    "score": 0.9179967641830444,
+    "x": 1.0,
+    "y": 0.4883794403775096,
+    "abstract": "Patent ID 2289858_abstract_abstract from year 2011",
+    "year": 2011,
+    "pollutant": "Nickel and compounds (as Ni)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.9179967641830444
+    }
+  },
+  {
+    "id": "2289858_abstract_abstract",
+    "title": "METHOD AND APPARATUS FOR RECOVERING CO<sb>2</sb> GAS IN CEMENT PRODUCTION EQUIPMENT",
+    "score": 0.9179967641830444,
+    "x": 1.0,
+    "y": 0.4883794403775096,
+    "abstract": "Patent ID 2289858_abstract_abstract from year 2011",
+    "year": 2011,
+    "pollutant": "Total nitrogen",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.9179967641830444
+    }
+  },
+  {
+    "id": "2289858_abstract_abstract",
+    "title": "METHOD AND APPARATUS FOR RECOVERING CO<sb>2</sb> GAS IN CEMENT PRODUCTION EQUIPMENT",
+    "score": 0.9179967641830444,
+    "x": 1.0,
+    "y": 0.4883794403775096,
+    "abstract": "Patent ID 2289858_abstract_abstract from year 2011",
+    "year": 2011,
+    "pollutant": "Total organic carbon(as total C or COD/3) (TOC)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.9179967641830444
+    }
+  },
+  {
+    "id": "2289858_abstract_abstract",
+    "title": "METHOD AND APPARATUS FOR RECOVERING CO<sb>2</sb> GAS IN CEMENT PRODUCTION EQUIPMENT",
+    "score": 0.9179967641830444,
+    "x": 1.0,
+    "y": 0.4883794403775096,
+    "abstract": "Patent ID 2289858_abstract_abstract from year 2011",
+    "year": 2011,
+    "pollutant": "Vinyl chloride",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.9179967641830444
+    }
+  },
+  {
+    "id": "2289858_abstract_abstract",
+    "title": "METHOD AND APPARATUS FOR RECOVERING CO<sb>2</sb> GAS IN CEMENT PRODUCTION EQUIPMENT",
+    "score": 0.9179967641830444,
+    "x": 1.0,
+    "y": 0.4883794403775096,
+    "abstract": "Patent ID 2289858_abstract_abstract from year 2011",
+    "year": 2011,
+    "pollutant": "Zinc and compounds (as Zn)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.9179967641830444
+    }
+  },
+  {
+    "id": "3608667_abstract_abstract",
+    "title": "METHOD AND DEVICE FOR ANALYZING SAMPLES OF A GAS IN A ROTARY CEMENT KILN",
+    "score": 0.9941710233688354,
+    "x": 1.0,
+    "y": 0.468288903584443,
+    "abstract": "Patent ID 3608667_abstract_abstract from year 2020",
+    "year": 2020,
+    "pollutant": "Chlorides (as total Cl)",
+    "bref_relevance": {
+      "CLM:::1.4.5.5": 0.821795642375946,
+      "CLM:::1.4.3.2": 0.9941710233688354
+    }
+  },
+  {
+    "id": "3608667_abstract_abstract",
+    "title": "METHOD AND DEVICE FOR ANALYZING SAMPLES OF A GAS IN A ROTARY CEMENT KILN",
+    "score": 0.9941710233688354,
+    "x": 1.0,
+    "y": 0.468288903584443,
+    "abstract": "Patent ID 3608667_abstract_abstract from year 2020",
+    "year": 2020,
+    "pollutant": "Chlorine and inorganic compounds (as HCl)",
+    "bref_relevance": {
+      "CLM:::1.4.5.5": 0.821795642375946,
+      "CLM:::1.4.3.2": 0.9941710233688354
+    }
+  },
+  {
+    "id": "3608667_abstract_abstract",
+    "title": "METHOD AND DEVICE FOR ANALYZING SAMPLES OF A GAS IN A ROTARY CEMENT KILN",
+    "score": 0.9941710233688354,
+    "x": 1.0,
+    "y": 0.468288903584443,
+    "abstract": "Patent ID 3608667_abstract_abstract from year 2020",
+    "year": 2020,
+    "pollutant": "Copper and compounds (as Cu)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.9941710233688354
+    }
+  },
+  {
+    "id": "3608667_abstract_abstract",
+    "title": "METHOD AND DEVICE FOR ANALYZING SAMPLES OF A GAS IN A ROTARY CEMENT KILN",
+    "score": 0.9941710233688354,
+    "x": 1.0,
+    "y": 0.468288903584443,
+    "abstract": "Patent ID 3608667_abstract_abstract from year 2020",
+    "year": 2020,
+    "pollutant": "Fluorides (as total F)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.9941710233688354
+    }
+  },
+  {
+    "id": "3608667_abstract_abstract",
+    "title": "METHOD AND DEVICE FOR ANALYZING SAMPLES OF A GAS IN A ROTARY CEMENT KILN",
+    "score": 0.9941710233688354,
+    "x": 1.0,
+    "y": 0.468288903584443,
+    "abstract": "Patent ID 3608667_abstract_abstract from year 2020",
+    "year": 2020,
+    "pollutant": "Halogenated organic compounds (as AOX)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.9941710233688354
+    }
+  },
+  {
+    "id": "3608667_abstract_abstract",
+    "title": "METHOD AND DEVICE FOR ANALYZING SAMPLES OF A GAS IN A ROTARY CEMENT KILN",
+    "score": 0.9941710233688354,
+    "x": 1.0,
+    "y": 0.468288903584443,
+    "abstract": "Patent ID 3608667_abstract_abstract from year 2020",
+    "year": 2020,
+    "pollutant": "Mercury and compounds (as Hg)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.9941710233688354
+    }
+  },
+  {
+    "id": "3608667_abstract_abstract",
+    "title": "METHOD AND DEVICE FOR ANALYZING SAMPLES OF A GAS IN A ROTARY CEMENT KILN",
+    "score": 0.9941710233688354,
+    "x": 1.0,
+    "y": 0.468288903584443,
+    "abstract": "Patent ID 3608667_abstract_abstract from year 2020",
+    "year": 2020,
+    "pollutant": "Nickel and compounds (as Ni)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.9941710233688354
+    }
+  },
+  {
+    "id": "3608667_abstract_abstract",
+    "title": "METHOD AND DEVICE FOR ANALYZING SAMPLES OF A GAS IN A ROTARY CEMENT KILN",
+    "score": 0.9941710233688354,
+    "x": 1.0,
+    "y": 0.468288903584443,
+    "abstract": "Patent ID 3608667_abstract_abstract from year 2020",
+    "year": 2020,
+    "pollutant": "Total nitrogen",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.9941710233688354
+    }
+  },
+  {
+    "id": "3608667_abstract_abstract",
+    "title": "METHOD AND DEVICE FOR ANALYZING SAMPLES OF A GAS IN A ROTARY CEMENT KILN",
+    "score": 0.9941710233688354,
+    "x": 1.0,
+    "y": 0.468288903584443,
+    "abstract": "Patent ID 3608667_abstract_abstract from year 2020",
+    "year": 2020,
+    "pollutant": "Total organic carbon(as total C or COD/3) (TOC)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.9941710233688354
+    }
+  },
+  {
+    "id": "3608667_abstract_abstract",
+    "title": "METHOD AND DEVICE FOR ANALYZING SAMPLES OF A GAS IN A ROTARY CEMENT KILN",
+    "score": 0.9941710233688354,
+    "x": 1.0,
+    "y": 0.468288903584443,
+    "abstract": "Patent ID 3608667_abstract_abstract from year 2020",
+    "year": 2020,
+    "pollutant": "Vinyl chloride",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.9941710233688354
+    }
+  },
+  {
+    "id": "3608667_abstract_abstract",
+    "title": "METHOD AND DEVICE FOR ANALYZING SAMPLES OF A GAS IN A ROTARY CEMENT KILN",
+    "score": 0.9941710233688354,
+    "x": 1.0,
+    "y": 0.468288903584443,
+    "abstract": "Patent ID 3608667_abstract_abstract from year 2020",
+    "year": 2020,
+    "pollutant": "Zinc and compounds (as Zn)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.9941710233688354
+    }
+  },
+  {
+    "id": "4163266_abstract_abstract",
+    "title": "METHOD FOR SEPARATING AND RECOVERING CO2 IN CEMENT PRODUCTION EXHAUST GAS, AND CO2 SEPARATION AND RE",
+    "score": 0.9834119081497192,
+    "x": 1.0,
+    "y": 0.5105359435292437,
+    "abstract": "Patent ID 4163266_abstract_abstract from year 2023",
+    "year": 2023,
+    "pollutant": "Chlorides (as total Cl)",
+    "bref_relevance": {
+      "CLM:::1.4.5.5": 0.9834119081497192
+    }
+  },
+  {
+    "id": "4163266_abstract_abstract",
+    "title": "METHOD FOR SEPARATING AND RECOVERING CO2 IN CEMENT PRODUCTION EXHAUST GAS, AND CO2 SEPARATION AND RE",
+    "score": 0.9834119081497192,
+    "x": 1.0,
+    "y": 0.5105359435292437,
+    "abstract": "Patent ID 4163266_abstract_abstract from year 2023",
+    "year": 2023,
+    "pollutant": "Chlorine and inorganic compounds (as HCl)",
+    "bref_relevance": {
+      "CLM:::1.4.5.5": 0.9834119081497192
+    }
+  },
+  {
+    "id": "2503273_abstract_abstract",
+    "title": "MIXING/CALCINING FURNACE",
+    "score": 0.9170085191726683,
+    "x": 1.0,
+    "y": 0.4828547014213582,
+    "abstract": "Patent ID 2503273_abstract_abstract from year 2012",
+    "year": 2012,
+    "pollutant": "Chlorides (as total Cl)",
+    "bref_relevance": {
+      "CLM:::1.4.5.5": 0.9170085191726683,
+      "CLM:::1.4.3.2": 0.8384100198745728
+    }
+  },
+  {
+    "id": "2503273_abstract_abstract",
+    "title": "MIXING/CALCINING FURNACE",
+    "score": 0.9170085191726683,
+    "x": 1.0,
+    "y": 0.4828547014213582,
+    "abstract": "Patent ID 2503273_abstract_abstract from year 2012",
+    "year": 2012,
+    "pollutant": "Chlorine and inorganic compounds (as HCl)",
+    "bref_relevance": {
+      "CLM:::1.4.5.5": 0.9170085191726683,
+      "CLM:::1.4.3.2": 0.8384100198745728
+    }
+  },
+  {
+    "id": "2503273_abstract_abstract",
+    "title": "MIXING/CALCINING FURNACE",
+    "score": 0.8384100198745728,
+    "x": 1.0,
+    "y": 0.4828547014213582,
+    "abstract": "Patent ID 2503273_abstract_abstract from year 2012",
+    "year": 2012,
+    "pollutant": "Copper and compounds (as Cu)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.8384100198745728
+    }
+  },
+  {
+    "id": "2503273_abstract_abstract",
+    "title": "MIXING/CALCINING FURNACE",
+    "score": 0.8384100198745728,
+    "x": 1.0,
+    "y": 0.4828547014213582,
+    "abstract": "Patent ID 2503273_abstract_abstract from year 2012",
+    "year": 2012,
+    "pollutant": "Fluorides (as total F)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.8384100198745728
+    }
+  },
+  {
+    "id": "2503273_abstract_abstract",
+    "title": "MIXING/CALCINING FURNACE",
+    "score": 0.8384100198745728,
+    "x": 1.0,
+    "y": 0.4828547014213582,
+    "abstract": "Patent ID 2503273_abstract_abstract from year 2012",
+    "year": 2012,
+    "pollutant": "Halogenated organic compounds (as AOX)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.8384100198745728
+    }
+  },
+  {
+    "id": "2503273_abstract_abstract",
+    "title": "MIXING/CALCINING FURNACE",
+    "score": 0.8384100198745728,
+    "x": 1.0,
+    "y": 0.4828547014213582,
+    "abstract": "Patent ID 2503273_abstract_abstract from year 2012",
+    "year": 2012,
+    "pollutant": "Mercury and compounds (as Hg)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.8384100198745728
+    }
+  },
+  {
+    "id": "2503273_abstract_abstract",
+    "title": "MIXING/CALCINING FURNACE",
+    "score": 0.8384100198745728,
+    "x": 1.0,
+    "y": 0.4828547014213582,
+    "abstract": "Patent ID 2503273_abstract_abstract from year 2012",
+    "year": 2012,
+    "pollutant": "Nickel and compounds (as Ni)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.8384100198745728
+    }
+  },
+  {
+    "id": "2503273_abstract_abstract",
+    "title": "MIXING/CALCINING FURNACE",
+    "score": 0.8384100198745728,
+    "x": 1.0,
+    "y": 0.4828547014213582,
+    "abstract": "Patent ID 2503273_abstract_abstract from year 2012",
+    "year": 2012,
+    "pollutant": "Total nitrogen",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.8384100198745728
+    }
+  },
+  {
+    "id": "2503273_abstract_abstract",
+    "title": "MIXING/CALCINING FURNACE",
+    "score": 0.8384100198745728,
+    "x": 1.0,
+    "y": 0.4828547014213582,
+    "abstract": "Patent ID 2503273_abstract_abstract from year 2012",
+    "year": 2012,
+    "pollutant": "Total organic carbon(as total C or COD/3) (TOC)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.8384100198745728
+    }
+  },
+  {
+    "id": "2503273_abstract_abstract",
+    "title": "MIXING/CALCINING FURNACE",
+    "score": 0.8384100198745728,
+    "x": 1.0,
+    "y": 0.4828547014213582,
+    "abstract": "Patent ID 2503273_abstract_abstract from year 2012",
+    "year": 2012,
+    "pollutant": "Vinyl chloride",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.8384100198745728
+    }
+  },
+  {
+    "id": "2503273_abstract_abstract",
+    "title": "MIXING/CALCINING FURNACE",
+    "score": 0.8384100198745728,
+    "x": 1.0,
+    "y": 0.4828547014213582,
+    "abstract": "Patent ID 2503273_abstract_abstract from year 2012",
+    "year": 2012,
+    "pollutant": "Zinc and compounds (as Zn)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.8384100198745728
+    }
+  },
+  {
+    "id": "3865801_abstract_abstract",
+    "title": "APPARATUS AND METHOD FOR MANUFACTURING CEMENT CLINKER",
+    "score": 0.9516869187355042,
+    "x": 1.0,
+    "y": 0.4997669264163344,
+    "abstract": "Patent ID 3865801_abstract_abstract from year 2021",
+    "year": 2021,
+    "pollutant": "Chlorides (as total Cl)",
+    "bref_relevance": {
+      "CLM:::1.4.5.5": 0.9516869187355042
+    }
+  },
+  {
+    "id": "3865801_abstract_abstract",
+    "title": "APPARATUS AND METHOD FOR MANUFACTURING CEMENT CLINKER",
+    "score": 0.9516869187355042,
+    "x": 1.0,
+    "y": 0.4997669264163344,
+    "abstract": "Patent ID 3865801_abstract_abstract from year 2021",
+    "year": 2021,
+    "pollutant": "Chlorine and inorganic compounds (as HCl)",
+    "bref_relevance": {
+      "CLM:::1.4.5.5": 0.9516869187355042
+    }
+  },
+  {
+    "id": "3865801_abstract_abstract",
+    "title": "APPARATUS AND METHOD FOR MANUFACTURING CEMENT CLINKER",
+    "score": 0.9092066884040833,
+    "x": 1.0,
+    "y": 0.4997669264163344,
+    "abstract": "Patent ID 3865801_abstract_abstract from year 2021",
+    "year": 2021,
+    "pollutant": "PCDD + PCDF (dioxins + furans) (as Teq)",
+    "bref_relevance": {
+      "CLM:::1.4.6": 0.9092066884040833
+    }
+  },
+  {
+    "id": "4086512_abstract_abstract",
+    "title": "COMBUSTOR FOR FUEL COMBUSTION AND COMBUSTION METHOD THEREFOR",
+    "score": 0.9990422129631042,
+    "x": 1.0,
+    "y": 0.5147099908568433,
+    "abstract": "Patent ID 4086512_abstract_abstract from year 2022",
+    "year": 2022,
+    "pollutant": "Total nitrogen",
+    "bref_relevance": {
+      "CLM:::1.4.5.1.3": 0.9990422129631042
+    }
+  },
+  {
+    "id": "2199717_abstract_abstract",
+    "title": "Refractory ring for a lime kiln",
+    "score": 0.8149530291557312,
+    "x": 1.0,
+    "y": 0.476367702881157,
+    "abstract": "Patent ID 2199717_abstract_abstract from year 2010",
+    "year": 2010,
+    "pollutant": "PCDD + PCDF (dioxins + furans) (as Teq)",
+    "bref_relevance": {
+      "CLM:::2.4.7": 0.8149530291557312
+    }
+  },
+  {
+    "id": "4183743_abstract_abstract",
+    "title": "SYSTEM FOR THE CAPTURE AND PURIFICATION OF COAND PURIFICATION UNIT OF SAID SYSTEM",
+    "score": 0.823743462562561,
+    "x": 1.0,
+    "y": 0.481605131426278,
+    "abstract": "Patent ID 4183743_abstract_abstract from year 2023",
+    "year": 2023,
+    "pollutant": "Chlorine and inorganic compounds (as HCl)",
+    "bref_relevance": {
+      "CLM:::1.4.5.2.3": 0.823743462562561
+    }
+  },
+  {
+    "id": "4253318_abstract_abstract",
+    "title": "EQUIPMENT TO PRODUCE ACTIVATED CARBON BY PHYSICAL ACTIVATION",
+    "score": 0.9858537316322328,
+    "x": 1.0,
+    "y": 0.4357343632159778,
+    "abstract": "Patent ID 4253318_abstract_abstract from year 2023",
+    "year": 2023,
+    "pollutant": "Chlorine and inorganic compounds (as HCl)",
+    "bref_relevance": {
+      "CLM:::1.4.5.2.3": 0.9858537316322328
+    }
+  },
+  {
+    "id": "2960207_abstract_abstract",
+    "title": "GRANULAR ACTIVATED CARBON, AND MANUFACTURING METHOD FOR SAME",
+    "score": 0.9941536784172058,
+    "x": 1.0,
+    "y": 0.521437842670034,
+    "abstract": "Patent ID 2960207_abstract_abstract from year 2015",
+    "year": 2015,
+    "pollutant": "Chlorine and inorganic compounds (as HCl)",
+    "bref_relevance": {
+      "CLM:::1.4.5.2.3": 0.9941536784172058
+    }
+  },
+  {
+    "id": "2724771_abstract_abstract",
+    "title": "DEVICE AND METHOD FOR THE CAPTURE OF CO2 BY CAO CARBONATION AND FOR MAINTAINING SORBENT ACTIVITY",
+    "score": 0.8100783824920654,
+    "x": 1.0,
+    "y": 0.48119205275771526,
+    "abstract": "Patent ID 2724771_abstract_abstract from year 2014",
+    "year": 2014,
+    "pollutant": "Chlorine and inorganic compounds (as HCl)",
+    "bref_relevance": {
+      "CLM:::1.4.5.2.3": 0.8100783824920654
+    }
+  },
+  {
+    "id": "3960274_abstract_abstract",
+    "title": "ACTIVATED CARBON FIBRE FILTER",
+    "score": 0.8476752042770386,
+    "x": 1.0,
+    "y": 0.4567025331864717,
+    "abstract": "Patent ID 3960274_abstract_abstract from year 2022",
+    "year": 2022,
+    "pollutant": "Chlorine and inorganic compounds (as HCl)",
+    "bref_relevance": {
+      "CLM:::1.4.5.2.3": 0.8476752042770386
+    }
+  },
+  {
+    "id": "3741442_abstract_abstract",
+    "title": "FILTERING PANEL FOR PASSIVE FILTERING OF AIR AND GASES",
+    "score": 0.9965994954109192,
+    "x": 1.0,
+    "y": 0.5103778062194168,
+    "abstract": "Patent ID 3741442_abstract_abstract from year 2020",
+    "year": 2020,
+    "pollutant": "Chlorine and inorganic compounds (as HCl)",
+    "bref_relevance": {
+      "CLM:::1.4.5.2.3": 0.9965994954109192
+    }
+  },
+  {
+    "id": "3984632_abstract_abstract",
+    "title": "METHOD AND APPARATUS FOR PRODUCING DESULFURIZING AGENT, AND METHOD FOR REMOVING SULFUR DIOXIDE FROM ",
+    "score": 0.9965973496437072,
+    "x": 1.0,
+    "y": 0.4241045812421902,
+    "abstract": "Patent ID 3984632_abstract_abstract from year 2022",
+    "year": 2022,
+    "pollutant": "Chlorine and inorganic compounds (as HCl)",
+    "bref_relevance": {
+      "CLM:::1.4.5.2.2": 0.9965973496437072
+    }
+  },
+  {
+    "id": "3984632_abstract_abstract",
+    "title": "METHOD AND APPARATUS FOR PRODUCING DESULFURIZING AGENT, AND METHOD FOR REMOVING SULFUR DIOXIDE FROM ",
+    "score": 0.9965973496437072,
+    "x": 1.0,
+    "y": 0.4241045812421902,
+    "abstract": "Patent ID 3984632_abstract_abstract from year 2022",
+    "year": 2022,
+    "pollutant": "Mercury and compounds (as Hg)",
+    "bref_relevance": {
+      "CLM:::1.4.5.2.2": 0.9965973496437072
+    }
+  },
+  {
+    "id": "3643692_abstract_abstract",
+    "title": "A RECYCLING METHOD OF DIHYDRATE GYPSUM FROM WASTE GYPSUM BOARDS",
+    "score": 0.9043262004852296,
+    "x": 1.0,
+    "y": 0.47793187560679484,
+    "abstract": "Patent ID 3643692_abstract_abstract from year 2020",
+    "year": 2020,
+    "pollutant": "Chlorine and inorganic compounds (as HCl)",
+    "bref_relevance": {
+      "CLM:::1.4.5.2.2": 0.9043262004852296
+    }
+  },
+  {
+    "id": "3643692_abstract_abstract",
+    "title": "A RECYCLING METHOD OF DIHYDRATE GYPSUM FROM WASTE GYPSUM BOARDS",
+    "score": 0.9043262004852296,
+    "x": 1.0,
+    "y": 0.47793187560679484,
+    "abstract": "Patent ID 3643692_abstract_abstract from year 2020",
+    "year": 2020,
+    "pollutant": "Mercury and compounds (as Hg)",
+    "bref_relevance": {
+      "CLM:::1.4.5.2.2": 0.9043262004852296
+    }
+  },
+  {
+    "id": "2347815_abstract_abstract",
+    "title": "Process for reducing the concentration of carbon dioxide in an exhaust gas",
+    "score": 0.8979764580726624,
+    "x": 1.0,
+    "y": 0.5193717152028613,
+    "abstract": "Patent ID 2347815_abstract_abstract from year 2011",
+    "year": 2011,
+    "pollutant": "PCDD + PCDF (dioxins + furans) (as Teq)",
+    "bref_relevance": {
+      "CLM:::1.4.6": 0.8979764580726624
+    }
+  },
+  {
+    "id": "2803651_abstract_abstract",
+    "title": "Process for cooling white clinker and relative apparatus",
+    "score": 0.8642899394035339,
+    "x": 1.0,
+    "y": 0.4803032029278021,
+    "abstract": "Patent ID 2803651_abstract_abstract from year 2014",
+    "year": 2014,
+    "pollutant": "PCDD + PCDF (dioxins + furans) (as Teq)",
+    "bref_relevance": {
+      "CLM:::1.4.6": 0.8642899394035339
+    }
+  },
+  {
+    "id": "4238948_abstract_abstract",
+    "title": "METHOD AND PLANT FOR TREATING RAW-MEAL IN A CEMENT CLINKER MANUFACTURING PROCESS",
+    "score": 0.979519784450531,
+    "x": 1.0,
+    "y": 0.4732098637894725,
+    "abstract": "Patent ID 4238948_abstract_abstract from year 2023",
+    "year": 2023,
+    "pollutant": "Chlorides (as total Cl)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.979519784450531
+    }
+  },
+  {
+    "id": "4238948_abstract_abstract",
+    "title": "METHOD AND PLANT FOR TREATING RAW-MEAL IN A CEMENT CLINKER MANUFACTURING PROCESS",
+    "score": 0.979519784450531,
+    "x": 1.0,
+    "y": 0.4732098637894725,
+    "abstract": "Patent ID 4238948_abstract_abstract from year 2023",
+    "year": 2023,
+    "pollutant": "Chlorine and inorganic compounds (as HCl)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.979519784450531
+    }
+  },
+  {
+    "id": "4238948_abstract_abstract",
+    "title": "METHOD AND PLANT FOR TREATING RAW-MEAL IN A CEMENT CLINKER MANUFACTURING PROCESS",
+    "score": 0.979519784450531,
+    "x": 1.0,
+    "y": 0.4732098637894725,
+    "abstract": "Patent ID 4238948_abstract_abstract from year 2023",
+    "year": 2023,
+    "pollutant": "Copper and compounds (as Cu)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.979519784450531
+    }
+  },
+  {
+    "id": "4238948_abstract_abstract",
+    "title": "METHOD AND PLANT FOR TREATING RAW-MEAL IN A CEMENT CLINKER MANUFACTURING PROCESS",
+    "score": 0.979519784450531,
+    "x": 1.0,
+    "y": 0.4732098637894725,
+    "abstract": "Patent ID 4238948_abstract_abstract from year 2023",
+    "year": 2023,
+    "pollutant": "Fluorides (as total F)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.979519784450531
+    }
+  },
+  {
+    "id": "4238948_abstract_abstract",
+    "title": "METHOD AND PLANT FOR TREATING RAW-MEAL IN A CEMENT CLINKER MANUFACTURING PROCESS",
+    "score": 0.979519784450531,
+    "x": 1.0,
+    "y": 0.4732098637894725,
+    "abstract": "Patent ID 4238948_abstract_abstract from year 2023",
+    "year": 2023,
+    "pollutant": "Halogenated organic compounds (as AOX)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.979519784450531
+    }
+  },
+  {
+    "id": "4238948_abstract_abstract",
+    "title": "METHOD AND PLANT FOR TREATING RAW-MEAL IN A CEMENT CLINKER MANUFACTURING PROCESS",
+    "score": 0.979519784450531,
+    "x": 1.0,
+    "y": 0.4732098637894725,
+    "abstract": "Patent ID 4238948_abstract_abstract from year 2023",
+    "year": 2023,
+    "pollutant": "Mercury and compounds (as Hg)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.979519784450531
+    }
+  },
+  {
+    "id": "4238948_abstract_abstract",
+    "title": "METHOD AND PLANT FOR TREATING RAW-MEAL IN A CEMENT CLINKER MANUFACTURING PROCESS",
+    "score": 0.979519784450531,
+    "x": 1.0,
+    "y": 0.4732098637894725,
+    "abstract": "Patent ID 4238948_abstract_abstract from year 2023",
+    "year": 2023,
+    "pollutant": "Nickel and compounds (as Ni)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.979519784450531
+    }
+  },
+  {
+    "id": "4238948_abstract_abstract",
+    "title": "METHOD AND PLANT FOR TREATING RAW-MEAL IN A CEMENT CLINKER MANUFACTURING PROCESS",
+    "score": 0.979519784450531,
+    "x": 1.0,
+    "y": 0.4732098637894725,
+    "abstract": "Patent ID 4238948_abstract_abstract from year 2023",
+    "year": 2023,
+    "pollutant": "Total nitrogen",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.979519784450531
+    }
+  },
+  {
+    "id": "4238948_abstract_abstract",
+    "title": "METHOD AND PLANT FOR TREATING RAW-MEAL IN A CEMENT CLINKER MANUFACTURING PROCESS",
+    "score": 0.979519784450531,
+    "x": 1.0,
+    "y": 0.4732098637894725,
+    "abstract": "Patent ID 4238948_abstract_abstract from year 2023",
+    "year": 2023,
+    "pollutant": "Total organic carbon(as total C or COD/3) (TOC)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.979519784450531
+    }
+  },
+  {
+    "id": "4238948_abstract_abstract",
+    "title": "METHOD AND PLANT FOR TREATING RAW-MEAL IN A CEMENT CLINKER MANUFACTURING PROCESS",
+    "score": 0.979519784450531,
+    "x": 1.0,
+    "y": 0.4732098637894725,
+    "abstract": "Patent ID 4238948_abstract_abstract from year 2023",
+    "year": 2023,
+    "pollutant": "Vinyl chloride",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.979519784450531
+    }
+  },
+  {
+    "id": "4238948_abstract_abstract",
+    "title": "METHOD AND PLANT FOR TREATING RAW-MEAL IN A CEMENT CLINKER MANUFACTURING PROCESS",
+    "score": 0.979519784450531,
+    "x": 1.0,
+    "y": 0.4732098637894725,
+    "abstract": "Patent ID 4238948_abstract_abstract from year 2023",
+    "year": 2023,
+    "pollutant": "Zinc and compounds (as Zn)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.979519784450531
+    }
+  },
+  {
+    "id": "3950635_abstract_abstract",
+    "title": "PRODUCTION METHOD FOR CEMENT CLINKER AND CEMENT CLINKER POWDER",
+    "score": 0.875030517578125,
+    "x": 1.0,
+    "y": 0.4835757280097279,
+    "abstract": "Patent ID 3950635_abstract_abstract from year 2022",
+    "year": 2022,
+    "pollutant": "Chlorides (as total Cl)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.875030517578125
+    }
+  },
+  {
+    "id": "3950635_abstract_abstract",
+    "title": "PRODUCTION METHOD FOR CEMENT CLINKER AND CEMENT CLINKER POWDER",
+    "score": 0.875030517578125,
+    "x": 1.0,
+    "y": 0.4835757280097279,
+    "abstract": "Patent ID 3950635_abstract_abstract from year 2022",
+    "year": 2022,
+    "pollutant": "Chlorine and inorganic compounds (as HCl)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.875030517578125
+    }
+  },
+  {
+    "id": "3950635_abstract_abstract",
+    "title": "PRODUCTION METHOD FOR CEMENT CLINKER AND CEMENT CLINKER POWDER",
+    "score": 0.875030517578125,
+    "x": 1.0,
+    "y": 0.4835757280097279,
+    "abstract": "Patent ID 3950635_abstract_abstract from year 2022",
+    "year": 2022,
+    "pollutant": "Copper and compounds (as Cu)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.875030517578125
+    }
+  },
+  {
+    "id": "3950635_abstract_abstract",
+    "title": "PRODUCTION METHOD FOR CEMENT CLINKER AND CEMENT CLINKER POWDER",
+    "score": 0.875030517578125,
+    "x": 1.0,
+    "y": 0.4835757280097279,
+    "abstract": "Patent ID 3950635_abstract_abstract from year 2022",
+    "year": 2022,
+    "pollutant": "Fluorides (as total F)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.875030517578125
+    }
+  },
+  {
+    "id": "3950635_abstract_abstract",
+    "title": "PRODUCTION METHOD FOR CEMENT CLINKER AND CEMENT CLINKER POWDER",
+    "score": 0.875030517578125,
+    "x": 1.0,
+    "y": 0.4835757280097279,
+    "abstract": "Patent ID 3950635_abstract_abstract from year 2022",
+    "year": 2022,
+    "pollutant": "Halogenated organic compounds (as AOX)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.875030517578125
+    }
+  },
+  {
+    "id": "3950635_abstract_abstract",
+    "title": "PRODUCTION METHOD FOR CEMENT CLINKER AND CEMENT CLINKER POWDER",
+    "score": 0.875030517578125,
+    "x": 1.0,
+    "y": 0.4835757280097279,
+    "abstract": "Patent ID 3950635_abstract_abstract from year 2022",
+    "year": 2022,
+    "pollutant": "Mercury and compounds (as Hg)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.875030517578125
+    }
+  },
+  {
+    "id": "3950635_abstract_abstract",
+    "title": "PRODUCTION METHOD FOR CEMENT CLINKER AND CEMENT CLINKER POWDER",
+    "score": 0.875030517578125,
+    "x": 1.0,
+    "y": 0.4835757280097279,
+    "abstract": "Patent ID 3950635_abstract_abstract from year 2022",
+    "year": 2022,
+    "pollutant": "Nickel and compounds (as Ni)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.875030517578125
+    }
+  },
+  {
+    "id": "3950635_abstract_abstract",
+    "title": "PRODUCTION METHOD FOR CEMENT CLINKER AND CEMENT CLINKER POWDER",
+    "score": 0.875030517578125,
+    "x": 1.0,
+    "y": 0.4835757280097279,
+    "abstract": "Patent ID 3950635_abstract_abstract from year 2022",
+    "year": 2022,
+    "pollutant": "Total nitrogen",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.875030517578125
+    }
+  },
+  {
+    "id": "3950635_abstract_abstract",
+    "title": "PRODUCTION METHOD FOR CEMENT CLINKER AND CEMENT CLINKER POWDER",
+    "score": 0.875030517578125,
+    "x": 1.0,
+    "y": 0.4835757280097279,
+    "abstract": "Patent ID 3950635_abstract_abstract from year 2022",
+    "year": 2022,
+    "pollutant": "Total organic carbon(as total C or COD/3) (TOC)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.875030517578125
+    }
+  },
+  {
+    "id": "3950635_abstract_abstract",
+    "title": "PRODUCTION METHOD FOR CEMENT CLINKER AND CEMENT CLINKER POWDER",
+    "score": 0.875030517578125,
+    "x": 1.0,
+    "y": 0.4835757280097279,
+    "abstract": "Patent ID 3950635_abstract_abstract from year 2022",
+    "year": 2022,
+    "pollutant": "Vinyl chloride",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.875030517578125
+    }
+  },
+  {
+    "id": "3950635_abstract_abstract",
+    "title": "PRODUCTION METHOD FOR CEMENT CLINKER AND CEMENT CLINKER POWDER",
+    "score": 0.875030517578125,
+    "x": 1.0,
+    "y": 0.4835757280097279,
+    "abstract": "Patent ID 3950635_abstract_abstract from year 2022",
+    "year": 2022,
+    "pollutant": "Zinc and compounds (as Zn)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.875030517578125
+    }
+  },
+  {
+    "id": "2840394_abstract_abstract",
+    "title": "Method for characterization of the redox condition of cementitious materials",
+    "score": 0.8423169255256653,
+    "x": 1.0,
+    "y": 0.437075525830465,
+    "abstract": "Patent ID 2840394_abstract_abstract from year 2015",
+    "year": 2015,
+    "pollutant": "Chlorides (as total Cl)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.8423169255256653
+    }
+  },
+  {
+    "id": "2840394_abstract_abstract",
+    "title": "Method for characterization of the redox condition of cementitious materials",
+    "score": 0.8423169255256653,
+    "x": 1.0,
+    "y": 0.437075525830465,
+    "abstract": "Patent ID 2840394_abstract_abstract from year 2015",
+    "year": 2015,
+    "pollutant": "Chlorine and inorganic compounds (as HCl)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.8423169255256653
+    }
+  },
+  {
+    "id": "2840394_abstract_abstract",
+    "title": "Method for characterization of the redox condition of cementitious materials",
+    "score": 0.8423169255256653,
+    "x": 1.0,
+    "y": 0.437075525830465,
+    "abstract": "Patent ID 2840394_abstract_abstract from year 2015",
+    "year": 2015,
+    "pollutant": "Copper and compounds (as Cu)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.8423169255256653
+    }
+  },
+  {
+    "id": "2840394_abstract_abstract",
+    "title": "Method for characterization of the redox condition of cementitious materials",
+    "score": 0.8423169255256653,
+    "x": 1.0,
+    "y": 0.437075525830465,
+    "abstract": "Patent ID 2840394_abstract_abstract from year 2015",
+    "year": 2015,
+    "pollutant": "Fluorides (as total F)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.8423169255256653
+    }
+  },
+  {
+    "id": "2840394_abstract_abstract",
+    "title": "Method for characterization of the redox condition of cementitious materials",
+    "score": 0.8423169255256653,
+    "x": 1.0,
+    "y": 0.437075525830465,
+    "abstract": "Patent ID 2840394_abstract_abstract from year 2015",
+    "year": 2015,
+    "pollutant": "Halogenated organic compounds (as AOX)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.8423169255256653
+    }
+  },
+  {
+    "id": "2840394_abstract_abstract",
+    "title": "Method for characterization of the redox condition of cementitious materials",
+    "score": 0.8423169255256653,
+    "x": 1.0,
+    "y": 0.437075525830465,
+    "abstract": "Patent ID 2840394_abstract_abstract from year 2015",
+    "year": 2015,
+    "pollutant": "Mercury and compounds (as Hg)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.8423169255256653
+    }
+  },
+  {
+    "id": "2840394_abstract_abstract",
+    "title": "Method for characterization of the redox condition of cementitious materials",
+    "score": 0.8423169255256653,
+    "x": 1.0,
+    "y": 0.437075525830465,
+    "abstract": "Patent ID 2840394_abstract_abstract from year 2015",
+    "year": 2015,
+    "pollutant": "Nickel and compounds (as Ni)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.8423169255256653
+    }
+  },
+  {
+    "id": "2840394_abstract_abstract",
+    "title": "Method for characterization of the redox condition of cementitious materials",
+    "score": 0.8423169255256653,
+    "x": 1.0,
+    "y": 0.437075525830465,
+    "abstract": "Patent ID 2840394_abstract_abstract from year 2015",
+    "year": 2015,
+    "pollutant": "Total nitrogen",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.8423169255256653
+    }
+  },
+  {
+    "id": "2840394_abstract_abstract",
+    "title": "Method for characterization of the redox condition of cementitious materials",
+    "score": 0.8423169255256653,
+    "x": 1.0,
+    "y": 0.437075525830465,
+    "abstract": "Patent ID 2840394_abstract_abstract from year 2015",
+    "year": 2015,
+    "pollutant": "Total organic carbon(as total C or COD/3) (TOC)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.8423169255256653
+    }
+  },
+  {
+    "id": "2840394_abstract_abstract",
+    "title": "Method for characterization of the redox condition of cementitious materials",
+    "score": 0.8423169255256653,
+    "x": 1.0,
+    "y": 0.437075525830465,
+    "abstract": "Patent ID 2840394_abstract_abstract from year 2015",
+    "year": 2015,
+    "pollutant": "Vinyl chloride",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.8423169255256653
+    }
+  },
+  {
+    "id": "2840394_abstract_abstract",
+    "title": "Method for characterization of the redox condition of cementitious materials",
+    "score": 0.8423169255256653,
+    "x": 1.0,
+    "y": 0.437075525830465,
+    "abstract": "Patent ID 2840394_abstract_abstract from year 2015",
+    "year": 2015,
+    "pollutant": "Zinc and compounds (as Zn)",
+    "bref_relevance": {
+      "CLM:::1.4.3.2": 0.8423169255256653
+    }
+  },
+  {
+    "id": "3034942_abstract_abstract",
+    "title": "BIO OIL BURNER AND OIL NOZZLE",
+    "score": 0.8091078400611877,
+    "x": 1.0,
+    "y": 0.5201509672568791,
+    "abstract": "Patent ID 3034942_abstract_abstract from year 2016",
+    "year": 2016,
+    "pollutant": "Total nitrogen",
+    "bref_relevance": {
+      "CLM:::2.4.6.1.3": 0.8091078400611877
+    }
+  },
+  {
+    "id": "3364105_abstract_abstract",
+    "title": "BURNER HEAD FOR LOW CALORIFIC FUELS",
+    "score": 0.8266844749450684,
+    "x": 1.0,
+    "y": 0.496313418740692,
+    "abstract": "Patent ID 3364105_abstract_abstract from year 2018",
+    "year": 2018,
+    "pollutant": "Total nitrogen",
+    "bref_relevance": {
+      "CLM:::2.4.6.1.3": 0.8266844749450684
+    }
+  }
+]

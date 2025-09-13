@@ -3,8 +3,8 @@
     "id": "4166218_abstract_abstract",
     "title": "DEVICE FOR REDUCING POLLUTANTS IN INDOOR AIR, AMBIENT AIR, OR EXHAUST GAS BY USING NONTHERMAL PLASMA",
     "score": 1.0000235438346865,
-    "x": 0.6186280846595764,
-    "y": 0.6805670261383057,
+    "x": 0.04580146446824074,
+    "y": 0.5761178731918335,
     "abstract": "Patent ID 4166218_abstract_abstract from year 2023",
     "year": 2023,
     "bref_relevance": {
@@ -15,8 +15,8 @@
     "id": "2312612_abstract_abstract",
     "title": "Plasma reactor for abating hazardous materials and driving method thereof",
     "score": 0.9995516538619996,
-    "x": 0.6166327595710754,
-    "y": 0.6821646690368652,
+    "x": 0.052002135664224625,
+    "y": 0.5730482935905457,
     "abstract": "Patent ID 2312612_abstract_abstract from year 2011",
     "year": 2011,
     "bref_relevance": {
@@ -27,8 +27,8 @@
     "id": "2638959_abstract_abstract",
     "title": "PLASMA GENERATOR, AND PLASMA GENERATING METHOD",
     "score": 0.9995485544204712,
-    "x": 0.6227962374687195,
-    "y": 0.6815212368965149,
+    "x": 0.04562245309352875,
+    "y": 0.5851986408233643,
     "abstract": "Patent ID 2638959_abstract_abstract from year 2013",
     "year": 2013,
     "bref_relevance": {
@@ -39,8 +39,8 @@
     "id": "3750617_abstract_abstract",
     "title": "SYSTEM FOR REDUCING PARTICULATE MATTER IN EXHAUST GAS",
     "score": 0.9995442032814026,
-    "x": 0.6228161454200745,
-    "y": 0.6817795038223267,
+    "x": 0.04368181899189949,
+    "y": 0.5790970921516418,
     "abstract": "Patent ID 3750617_abstract_abstract from year 2020",
     "year": 2020,
     "bref_relevance": {
@@ -51,11 +51,12 @@
     "id": "3984624_abstract_abstract",
     "title": "METHOD AND SYSTEM FOR WET TREATMENT OF NITROGEN OXIDE WASTE GASES",
     "score": 0.9995436072349548,
-    "x": 0.12683752179145813,
-    "y": 0.1389211267232895,
+    "x": 0.1601371467113495,
+    "y": 0.11163769662380219,
     "abstract": "Patent ID 3984624_abstract_abstract from year 2022",
     "year": 2022,
     "bref_relevance": {
+      "CWW:::3.3.2.3.4.4.2": 0.8286386132240295,
       "FMP:::8.8.5.3": 0.9995436072349548
     }
   },
@@ -63,8 +64,8 @@
     "id": "3643470_abstract_abstract",
     "title": "APPARATUS FOR PLASMA TREATMENT OF GRANULAR POLYMER MATERIAL",
     "score": 0.9995432496070862,
-    "x": 0.6087241172790527,
-    "y": 0.6825845837593079,
+    "x": 0.057063471525907516,
+    "y": 0.5701895356178284,
     "abstract": "Patent ID 3643470_abstract_abstract from year 2020",
     "year": 2020,
     "bref_relevance": {
@@ -75,8 +76,8 @@
     "id": "3808862_abstract_abstract",
     "title": "TREATMENT OF A COMPOSITION WITH A PLASMA",
     "score": 0.9995426535606384,
-    "x": 0.5947616696357727,
-    "y": 0.6922765374183655,
+    "x": 0.0787382572889328,
+    "y": 0.5619446635246277,
     "abstract": "Patent ID 3808862_abstract_abstract from year 2021",
     "year": 2021,
     "bref_relevance": {
@@ -87,8 +88,8 @@
     "id": "2578659_abstract_abstract",
     "title": "WATER-AND-OIL REPELLENT AGENT, AND WATER-AND-OIL REPELLENT AGENT COMPOSITION",
     "score": 0.9995415806770324,
-    "x": 0.5800707936286926,
-    "y": 0.8930427432060242,
+    "x": 0.36967700719833374,
+    "y": 0.8494892120361328,
     "abstract": "Patent ID 2578659_abstract_abstract from year 2013",
     "year": 2013,
     "bref_relevance": {
@@ -99,8 +100,8 @@
     "id": "3834913_abstract_abstract",
     "title": "MULTI-LEVEL GAS SCRUBBER WITH MULTIPLE FLOODED SCRUBBER HEADS",
     "score": 0.9995413422584534,
-    "x": 0.19128239154815674,
-    "y": 0.12517781555652618,
+    "x": 0.21267488598823547,
+    "y": 0.13707976043224335,
     "abstract": "Patent ID 3834913_abstract_abstract from year 2021",
     "year": 2021,
     "bref_relevance": {
@@ -112,8 +113,8 @@
     "id": "3401003_abstract_abstract",
     "title": "WET SCRUBBER TOWER WITH PLATES BETWEEN NOZZLES FOR WET FLUE GAS DESULPHURISATION AND PARTICULATE MAT",
     "score": 0.9995406866073608,
-    "x": 0.4783860445022583,
-    "y": 0.1466757208108902,
+    "x": 0.4593493640422821,
+    "y": 0.1822383552789688,
     "abstract": "Patent ID 3401003_abstract_abstract from year 2018",
     "year": 2018,
     "bref_relevance": {
@@ -124,8 +125,8 @@
     "id": "2457634_abstract_abstract",
     "title": "A wet scrubber for removing sulphur dioxide from a process gas",
     "score": 0.9995400309562684,
-    "x": 0.18831785023212433,
-    "y": 0.18725372850894928,
+    "x": 0.18901485204696655,
+    "y": 0.19622869789600372,
     "abstract": "Patent ID 2457634_abstract_abstract from year 2012",
     "year": 2012,
     "bref_relevance": {
@@ -136,11 +137,12 @@
     "id": "3192591_abstract_abstract",
     "title": "IN-SITU SUBSURFACE DECONTAMINATION METHOD",
     "score": 0.9995392560958862,
-    "x": 0.4555431306362152,
-    "y": 0.5056684613227844,
+    "x": 0.5646865963935852,
+    "y": 0.5263698101043701,
     "abstract": "Patent ID 3192591_abstract_abstract from year 2017",
     "year": 2017,
     "bref_relevance": {
+      "PP:::4.3.10": 0.9472976326942444,
       "CWW:::3.3.2.3.4.4.2": 0.9995392560958862
     }
   },
@@ -148,8 +150,8 @@
     "id": "2659947_abstract_abstract",
     "title": "Method and apparatus for removing contaminants from exhaust gases",
     "score": 0.9995392560958862,
-    "x": 0.16133102774620056,
-    "y": 0.15181955695152283,
+    "x": 0.1869032084941864,
+    "y": 0.14935384690761566,
     "abstract": "Patent ID 2659947_abstract_abstract from year 2013",
     "year": 2013,
     "bref_relevance": {
@@ -160,8 +162,8 @@
     "id": "3677759_abstract_abstract",
     "title": "SYSTEM FOR REDUCING PARTICULATE MATTER IN EXHAUST GAS",
     "score": 0.9995388984680176,
-    "x": 0.6194564700126648,
-    "y": 0.6826928853988647,
+    "x": 0.04854368418455124,
+    "y": 0.5781697034835815,
     "abstract": "Patent ID 3677759_abstract_abstract from year 2020",
     "year": 2020,
     "bref_relevance": {
@@ -172,8 +174,8 @@
     "id": "4151298_abstract_abstract",
     "title": "SEPARATION OF OIL-CONTAINING AQUEOUS LIQUID MIXTURE",
     "score": 0.9995386004447936,
-    "x": 0.4374195337295532,
-    "y": 0.3318997919559479,
+    "x": 0.3449445068836212,
+    "y": 0.378354012966156,
     "abstract": "Patent ID 4151298_abstract_abstract from year 2023",
     "year": 2023,
     "bref_relevance": {
@@ -184,8 +186,8 @@
     "id": "2500323_abstract_abstract",
     "title": "Method for the degradation of industrial wastewater and apparatus for performing the method",
     "score": 0.9995384216308594,
-    "x": 0.513435959815979,
-    "y": 0.4712103009223938,
+    "x": 0.5946385860443115,
+    "y": 0.48598146438598633,
     "abstract": "Patent ID 2500323_abstract_abstract from year 2012",
     "year": 2012,
     "bref_relevance": {
@@ -197,8 +199,8 @@
     "id": "4249803_abstract_abstract",
     "title": "REGENERATIVE THERMAL OXIDIZER, SYSTEM COMPRISING A REGENERATIVE THERMAL OXIDIZER AND METHOD OF OPERA",
     "score": 0.9995380640029908,
-    "x": 0.34573009610176086,
-    "y": 0.09474886208772659,
+    "x": 0.34059277176856995,
+    "y": 0.11006999760866165,
     "abstract": "Patent ID 4249803_abstract_abstract from year 2023",
     "year": 2023,
     "bref_relevance": {
@@ -209,8 +211,8 @@
     "id": "4086224_abstract_abstract",
     "title": "PLASMA REACTOR FOR PLASMA-BASED GAS CONVERSION COMPRISING AN EFFUSION NOZZLE",
     "score": 0.999538004398346,
-    "x": 0.5923640131950378,
-    "y": 0.6769309639930725,
+    "x": 0.40762650966644287,
+    "y": 0.09500671923160553,
     "abstract": "Patent ID 4086224_abstract_abstract from year 2022",
     "year": 2022,
     "bref_relevance": {
@@ -221,8 +223,8 @@
     "id": "2644254_abstract_abstract",
     "title": "Scrubber for cleaning a process gas and recovering heat",
     "score": 0.9995371103286744,
-    "x": 0.3349149525165558,
-    "y": 0.24663133919239044,
+    "x": 0.3078024387359619,
+    "y": 0.28504613041877747,
     "abstract": "Patent ID 2644254_abstract_abstract from year 2013",
     "year": 2013,
     "bref_relevance": {
@@ -233,8 +235,8 @@
     "id": "2859935_abstract_abstract",
     "title": "Method and apparatus for wet desulfurization spray towers",
     "score": 0.9995368123054504,
-    "x": 0.4775312542915344,
-    "y": 0.14747068285942078,
+    "x": 0.459209680557251,
+    "y": 0.17928332090377808,
     "abstract": "Patent ID 2859935_abstract_abstract from year 2015",
     "year": 2015,
     "bref_relevance": {
@@ -245,8 +247,8 @@
     "id": "3798431_abstract_abstract",
     "title": "METHOD AND SYSTEM FOR TREATING EMISSIONS USING A TRANSIENT PULSED PLASMA",
     "score": 0.9995365738868712,
-    "x": 0.6479949355125427,
-    "y": 0.6889564990997314,
+    "x": 0.01657971926033497,
+    "y": 0.5753758549690247,
     "abstract": "Patent ID 3798431_abstract_abstract from year 2021",
     "year": 2021,
     "bref_relevance": {
@@ -257,8 +259,8 @@
     "id": "2410143_abstract_abstract",
     "title": "EXHAUST GAS CLEANING DEVICE",
     "score": 0.9995363354682922,
-    "x": 0.6137536764144897,
-    "y": 0.6802654266357422,
+    "x": 0.052518103271722794,
+    "y": 0.5769821405410767,
     "abstract": "Patent ID 2410143_abstract_abstract from year 2012",
     "year": 2012,
     "bref_relevance": {
@@ -269,8 +271,8 @@
     "id": "4005667_abstract_abstract",
     "title": "NON-THERMAL PLASMA AIR PURIFIER",
     "score": 0.9995362162590028,
-    "x": 0.6195405125617981,
-    "y": 0.6832603812217712,
+    "x": 0.05069423466920853,
+    "y": 0.5796924233436584,
     "abstract": "Patent ID 4005667_abstract_abstract from year 2022",
     "year": 2022,
     "bref_relevance": {
@@ -281,8 +283,8 @@
     "id": "2489421_abstract_abstract",
     "title": "A wet scrubber for cleaning an effluent gas comprising an inlet gas distributor with a diffusor",
     "score": 0.999535083770752,
-    "x": 0.4910341203212738,
-    "y": 0.14415445923805237,
+    "x": 0.4648563265800476,
+    "y": 0.17264670133590698,
     "abstract": "Patent ID 2489421_abstract_abstract from year 2012",
     "year": 2012,
     "bref_relevance": {
@@ -293,8 +295,8 @@
     "id": "4249802_abstract_abstract",
     "title": "REGENERATIVE THERMAL OXIDIZER, SYSTEM COMPRISING A REGENERATIVE THERMAL OXIDIZER AND METHOD OF OPERA",
     "score": 0.9995349049568176,
-    "x": 0.35659462213516235,
-    "y": 0.08331407606601715,
+    "x": 0.3451879322528839,
+    "y": 0.08985421806573868,
     "abstract": "Patent ID 4249802_abstract_abstract from year 2023",
     "year": 2023,
     "bref_relevance": {
@@ -305,8 +307,8 @@
     "id": "3871752_abstract_abstract",
     "title": "EXHAUST TREATMENT SYSTEM AND METHOD",
     "score": 0.99953430891037,
-    "x": 0.6582939624786377,
-    "y": 0.6879610419273376,
+    "x": 0.01023759413510561,
+    "y": 0.584114670753479,
     "abstract": "Patent ID 3871752_abstract_abstract from year 2021",
     "year": 2021,
     "bref_relevance": {
@@ -317,8 +319,8 @@
     "id": "2725114_abstract_abstract",
     "title": "Flux compositions for steel galvanization",
     "score": 0.9995341897010804,
-    "x": 0.31306231021881104,
-    "y": 0.7040851712226868,
+    "x": 0.28947028517723083,
+    "y": 0.6074004173278809,
     "abstract": "Patent ID 2725114_abstract_abstract from year 2014",
     "year": 2014,
     "bref_relevance": {
@@ -329,8 +331,8 @@
     "id": "3085244_abstract_abstract",
     "title": "NON-THERMAL PLASMA REACTOR FOR THE STERILIZATION OF ORGANIC PRODUCTS",
     "score": 0.9995340704917908,
-    "x": 0.6151062250137329,
-    "y": 0.6777269840240479,
+    "x": 0.055564772337675095,
+    "y": 0.5752703547477722,
     "abstract": "Patent ID 3085244_abstract_abstract from year 2016",
     "year": 2016,
     "bref_relevance": {
@@ -341,8 +343,8 @@
     "id": "2692402_abstract_abstract",
     "title": "Phase separation element and phase separation device",
     "score": 0.999534010887146,
-    "x": 0.3473205864429474,
-    "y": 0.3582444489002228,
+    "x": 0.31714609265327454,
+    "y": 0.385580837726593,
     "abstract": "Patent ID 2692402_abstract_abstract from year 2014",
     "year": 2014,
     "bref_relevance": {
@@ -353,8 +355,8 @@
     "id": "3530433_abstract_abstract",
     "title": "ARRANGEMENT AND METHOD FOR PLASMA TREATMENT OF WORKPIECES",
     "score": 0.9995338320732116,
-    "x": 0.6021602153778076,
-    "y": 0.6871941685676575,
+    "x": 0.06784913688898087,
+    "y": 0.5688956379890442,
     "abstract": "Patent ID 3530433_abstract_abstract from year 2019",
     "year": 2019,
     "bref_relevance": {
@@ -365,8 +367,8 @@
     "id": "2759330_abstract_abstract",
     "title": "DEVICE AND METHOD FOR GAS TREATMENT USING LOW-TEMPERATURE PLASMA AND CATALYST MEDIUM",
     "score": 0.9995328783988952,
-    "x": 0.6163130402565002,
-    "y": 0.6838732361793518,
+    "x": 0.05205708369612694,
+    "y": 0.5784068703651428,
     "abstract": "Patent ID 2759330_abstract_abstract from year 2014",
     "year": 2014,
     "bref_relevance": {
@@ -377,8 +379,8 @@
     "id": "3488912_abstract_abstract",
     "title": "GASEOUS STREAM TREATMENT APPARATUS AND PLANT FOR THE PRODUCTION OF BITUMINOUS MACADAMS COMPRISING SA",
     "score": 0.9995324611663818,
-    "x": 0.13540296256542206,
-    "y": 0.2616867125034332,
+    "x": 0.13401518762111664,
+    "y": 0.2465898096561432,
     "abstract": "Patent ID 3488912_abstract_abstract from year 2019",
     "year": 2019,
     "bref_relevance": {
@@ -390,8 +392,8 @@
     "id": "3246627_abstract_abstract",
     "title": "FLAMELESS THERMAL OXIDIZER AND CORRESPONDING METHOD FOR OXIDIZING GASEOUS EFFLUENT STREAMS CONTAININ",
     "score": 0.999531388282776,
-    "x": 0.3718327283859253,
-    "y": 0.06415767222642899,
+    "x": 0.3440282344818115,
+    "y": 0.07083942741155624,
     "abstract": "Patent ID 3246627_abstract_abstract from year 2017",
     "year": 2017,
     "bref_relevance": {
@@ -402,8 +404,8 @@
     "id": "3290098_abstract_abstract",
     "title": "METHOD FOR OPERERATING AN ADSORBER ARRANGEMENT AND ADSORBER ARRANGEMENT",
     "score": 0.9995309114456176,
-    "x": 0.1350957304239273,
-    "y": 0.2601839005947113,
+    "x": 0.13225913047790527,
+    "y": 0.24825093150138855,
     "abstract": "Patent ID 3290098_abstract_abstract from year 2018",
     "year": 2018,
     "bref_relevance": {
@@ -414,8 +416,8 @@
     "id": "3831457_abstract_abstract",
     "title": "PROCESS FOR DEGASSING A LIQUID",
     "score": 0.9995301961898804,
-    "x": 0.40788766741752625,
-    "y": 0.3155081272125244,
+    "x": 0.31017401814460754,
+    "y": 0.343818336725235,
     "abstract": "Patent ID 3831457_abstract_abstract from year 2021",
     "year": 2021,
     "bref_relevance": {
@@ -426,8 +428,8 @@
     "id": "2361667_abstract_abstract",
     "title": "A wet scrubber and a method of cleaning a process gas",
     "score": 0.9995297789573668,
-    "x": 0.47899383306503296,
-    "y": 0.14917029440402985,
+    "x": 0.4625680148601532,
+    "y": 0.18454807996749878,
     "abstract": "Patent ID 2361667_abstract_abstract from year 2011",
     "year": 2011,
     "bref_relevance": {
@@ -438,8 +440,8 @@
     "id": "2921214_abstract_abstract",
     "title": "EXHAUST GAS AND GAS SCRUBBER FLUID CLEANING EQUIPMENT AND METHOD",
     "score": 0.9995296001434326,
-    "x": 0.4880688488483429,
-    "y": 0.18467742204666138,
+    "x": 0.47345367074012756,
+    "y": 0.1879042685031891,
     "abstract": "Patent ID 2921214_abstract_abstract from year 2015",
     "year": 2015,
     "bref_relevance": {
@@ -450,8 +452,8 @@
     "id": "4183471_abstract_abstract",
     "title": "ORGANIC SOLVENT RECOVERY SYSTEM",
     "score": 0.9995294809341432,
-    "x": 0.11868838965892792,
-    "y": 0.27175381779670715,
+    "x": 0.11816699802875519,
+    "y": 0.24726144969463348,
     "abstract": "Patent ID 4183471_abstract_abstract from year 2023",
     "year": 2023,
     "bref_relevance": {
@@ -462,8 +464,8 @@
     "id": "4183470_abstract_abstract",
     "title": "ORGANIC SOLVENT RECOVERY SYSTEM",
     "score": 0.99952894449234,
-    "x": 0.14505311846733093,
-    "y": 0.2624469995498657,
+    "x": 0.14133182168006897,
+    "y": 0.25607410073280334,
     "abstract": "Patent ID 4183470_abstract_abstract from year 2023",
     "year": 2023,
     "bref_relevance": {
@@ -474,8 +476,8 @@
     "id": "2657192_abstract_abstract",
     "title": "Method for reducing organic impurities in waste water",
     "score": 0.9995240569114684,
-    "x": 0.46506577730178833,
-    "y": 0.4826526939868927,
+    "x": 0.5488395094871521,
+    "y": 0.5200062394142151,
     "abstract": "Patent ID 2657192_abstract_abstract from year 2013",
     "year": 2013,
     "bref_relevance": {
@@ -488,8 +490,8 @@
     "id": "2581925_abstract_abstract",
     "title": "Plasma reactor for removal of contaminants",
     "score": 0.9990553259849548,
-    "x": 0.6094747185707092,
-    "y": 0.6803447008132935,
+    "x": 0.05514662712812424,
+    "y": 0.5690863728523254,
     "abstract": "Patent ID 2581925_abstract_abstract from year 2013",
     "year": 2013,
     "bref_relevance": {
@@ -500,8 +502,8 @@
     "id": "3020465_abstract_abstract",
     "title": "A flue gas purification device",
     "score": 0.9990538358688354,
-    "x": 0.19066369533538818,
-    "y": 0.13235627114772797,
+    "x": 0.21263965964317322,
+    "y": 0.14017178118228912,
     "abstract": "Patent ID 3020465_abstract_abstract from year 2016",
     "year": 2016,
     "bref_relevance": {
@@ -512,8 +514,8 @@
     "id": "2883593_abstract_abstract",
     "title": "Method for removing contaminants from exhaust gases",
     "score": 0.9990529417991638,
-    "x": 0.1453893631696701,
-    "y": 0.13719341158866882,
+    "x": 0.1759493499994278,
+    "y": 0.12288899719715118,
     "abstract": "Patent ID 2883593_abstract_abstract from year 2015",
     "year": 2015,
     "bref_relevance": {
@@ -525,8 +527,8 @@
     "id": "3849283_abstract_abstract",
     "title": "EXHAUST PLASMA APPARATUS",
     "score": 0.9990522265434264,
-    "x": 0.6134285926818848,
-    "y": 0.6862144470214844,
+    "x": 0.05118807777762413,
+    "y": 0.5722306966781616,
     "abstract": "Patent ID 3849283_abstract_abstract from year 2021",
     "year": 2021,
     "bref_relevance": {
@@ -537,8 +539,8 @@
     "id": "3192921_abstract_abstract",
     "title": "GARMENT STEAMER",
     "score": 0.999052107334137,
-    "x": 0.6217501759529114,
-    "y": 0.6828467845916748,
+    "x": 0.05775924772024155,
+    "y": 0.589246392250061,
     "abstract": "Patent ID 3192921_abstract_abstract from year 2017",
     "year": 2017,
     "bref_relevance": {
@@ -546,23 +548,11 @@
     }
   },
   {
-    "id": "3244152_abstract_abstract",
-    "title": "FURNACE PLANT AND PROCESS FOR TREATING FURNACE GAS",
-    "score": 0.9990518093109132,
-    "x": 0.4888699948787689,
-    "y": 0.15304405987262726,
-    "abstract": "Patent ID 3244152_abstract_abstract from year 2017",
-    "year": 2017,
-    "bref_relevance": {
-      "FMP:::8.8.1.7": 0.9990518093109132
-    }
-  },
-  {
     "id": "2862619_abstract_abstract",
     "title": "A method of disociation of exhaust gases, in particular of gases containing carbon dioxide (CO2) and",
     "score": 0.9990518093109132,
-    "x": 0.6173941493034363,
-    "y": 0.682321310043335,
+    "x": 0.04718314856290817,
+    "y": 0.5817420482635498,
     "abstract": "Patent ID 2862619_abstract_abstract from year 2015",
     "year": 2015,
     "bref_relevance": {
@@ -570,11 +560,23 @@
     }
   },
   {
+    "id": "3244152_abstract_abstract",
+    "title": "FURNACE PLANT AND PROCESS FOR TREATING FURNACE GAS",
+    "score": 0.9990518093109132,
+    "x": 0.46835440397262573,
+    "y": 0.17613686621189117,
+    "abstract": "Patent ID 3244152_abstract_abstract from year 2017",
+    "year": 2017,
+    "bref_relevance": {
+      "FMP:::8.8.1.7": 0.9990518093109132
+    }
+  },
+  {
     "id": "3280230_abstract_abstract",
     "title": "A METHOD FOR PRODUCING A PLASMA IN A HEAT CARRIER FOR STABILIZATION OF COMBUSTION AND NEUTRALIZATION",
     "score": 0.9990509748458862,
-    "x": 0.5964452028274536,
-    "y": 0.690340518951416,
+    "x": 0.0751153975725174,
+    "y": 0.5625075101852417,
     "abstract": "Patent ID 3280230_abstract_abstract from year 2018",
     "year": 2018,
     "bref_relevance": {
@@ -585,8 +587,8 @@
     "id": "4141144_abstract_abstract",
     "title": "ALUMINUM SLURRY COATINGS AND METHODS OF THEIR FORMATION AND USE",
     "score": 0.9990504384040833,
-    "x": 0.2513860762119293,
-    "y": 0.5785243511199951,
+    "x": 0.4117785692214966,
+    "y": 0.61085045337677,
     "abstract": "Patent ID 4141144_abstract_abstract from year 2023",
     "year": 2023,
     "bref_relevance": {
@@ -597,8 +599,8 @@
     "id": "2785151_abstract_abstract",
     "title": "PLASMA GENERATING DEVICE",
     "score": 0.9990503787994384,
-    "x": 0.6123412251472473,
-    "y": 0.6825704574584961,
+    "x": 0.05789755657315254,
+    "y": 0.5827596783638,
     "abstract": "Patent ID 2785151_abstract_abstract from year 2014",
     "year": 2014,
     "bref_relevance": {
@@ -609,8 +611,8 @@
     "id": "2765592_abstract_abstract",
     "title": "Homogenous plasma chemical reaction device",
     "score": 0.9990497827529908,
-    "x": 0.5908531546592712,
-    "y": 0.6929033398628235,
+    "x": 0.0702080950140953,
+    "y": 0.5658143162727356,
     "abstract": "Patent ID 2765592_abstract_abstract from year 2014",
     "year": 2014,
     "bref_relevance": {
@@ -621,8 +623,8 @@
     "id": "3792458_abstract_abstract",
     "title": "EXHAUST GAS CLEANING SYSTEM AND METHOD FOR CLEANING EXHAUST GAS AND USE OF EXHAUST GAS CLEANING SYST",
     "score": 0.9990490674972534,
-    "x": 0.2141343653202057,
-    "y": 0.11669114232063293,
+    "x": 0.2406759411096573,
+    "y": 0.113015316426754,
     "abstract": "Patent ID 3792458_abstract_abstract from year 2021",
     "year": 2021,
     "bref_relevance": {
@@ -633,8 +635,8 @@
     "id": "2664604_abstract_abstract",
     "title": "PROCESS FOR PRODUCING OLEFIN OLIGOMER MIXTURE",
     "score": 0.9990487694740297,
-    "x": 0.2884083688259125,
-    "y": 0.31502223014831543,
+    "x": 0.2595027685165405,
+    "y": 0.3566655218601227,
     "abstract": "Patent ID 2664604_abstract_abstract from year 2013",
     "year": 2013,
     "bref_relevance": {
@@ -645,8 +647,8 @@
     "id": "4135485_abstract_abstract",
     "title": "PLASMA DEVICE FOR TREATING EXHAUST GAS",
     "score": 0.9990480542182922,
-    "x": 0.6020280718803406,
-    "y": 0.688199520111084,
+    "x": 0.07437927275896072,
+    "y": 0.560238242149353,
     "abstract": "Patent ID 4135485_abstract_abstract from year 2023",
     "year": 2023,
     "bref_relevance": {
@@ -657,8 +659,8 @@
     "id": "2659946_abstract_abstract",
     "title": "APPARATUS FOR PROCESSING EXHAUST FLUID",
     "score": 0.9990479946136476,
-    "x": 0.6029284596443176,
-    "y": 0.6868934631347656,
+    "x": 0.06037504971027374,
+    "y": 0.5728535652160645,
     "abstract": "Patent ID 2659946_abstract_abstract from year 2013",
     "year": 2013,
     "bref_relevance": {
@@ -666,25 +668,25 @@
     }
   },
   {
-    "id": "2835172_abstract_abstract",
-    "title": "METHOD FOR TREATING DISCHARGE GAS",
+    "id": "4238666_abstract_abstract",
+    "title": "BATCH-TYPE COMPLEX TEMPERATURE TREATMENT MACHINE USING HIGH-TEMPERATURE PLASMA, AND METHOD FOR TREAT",
     "score": 0.9990478157997132,
-    "x": 0.16196894645690918,
-    "y": 0.1356518417596817,
-    "abstract": "Patent ID 2835172_abstract_abstract from year 2015",
-    "year": 2015,
+    "x": 0.3359576165676117,
+    "y": 0.09458351135253906,
+    "abstract": "Patent ID 4238666_abstract_abstract from year 2023",
+    "year": 2023,
     "bref_relevance": {
       "FDM:::2.3.7.3.8": 0.9990478157997132
     }
   },
   {
-    "id": "4238666_abstract_abstract",
-    "title": "BATCH-TYPE COMPLEX TEMPERATURE TREATMENT MACHINE USING HIGH-TEMPERATURE PLASMA, AND METHOD FOR TREAT",
+    "id": "2835172_abstract_abstract",
+    "title": "METHOD FOR TREATING DISCHARGE GAS",
     "score": 0.9990478157997132,
-    "x": 0.3429310619831085,
-    "y": 0.08992192894220352,
-    "abstract": "Patent ID 4238666_abstract_abstract from year 2023",
-    "year": 2023,
+    "x": 0.18768484890460968,
+    "y": 0.13160522282123566,
+    "abstract": "Patent ID 2835172_abstract_abstract from year 2015",
+    "year": 2015,
     "bref_relevance": {
       "FDM:::2.3.7.3.8": 0.9990478157997132
     }
@@ -693,8 +695,8 @@
     "id": "3922599_abstract_abstract",
     "title": "NOVEL PEROXIDE STABILIZERS",
     "score": 0.9990476369857788,
-    "x": 0.2684760093688965,
-    "y": 0.5626893043518066,
+    "x": 0.464214563369751,
+    "y": 0.6173915266990662,
     "abstract": "Patent ID 3922599_abstract_abstract from year 2021",
     "year": 2021,
     "bref_relevance": {
@@ -702,23 +704,11 @@
     }
   },
   {
-    "id": "3309130_abstract_abstract",
-    "title": "PROCESS AND FACILITY FOR TREATING PRODUCED WATER FROM AN OIL & GAS FIELD",
-    "score": 0.9990459084510804,
-    "x": 0.5132617950439453,
-    "y": 0.4734736979007721,
-    "abstract": "Patent ID 3309130_abstract_abstract from year 2018",
-    "year": 2018,
-    "bref_relevance": {
-      "CWW:::3.3.2.3.4.4.2": 0.9990459084510804
-    }
-  },
-  {
     "id": "2907869_abstract_abstract",
     "title": "Biofuel production from fatty acid rich feedstock",
     "score": 0.9990459084510804,
-    "x": 0.30995261669158936,
-    "y": 0.356494665145874,
+    "x": 0.24997404217720032,
+    "y": 0.4033806025981903,
     "abstract": "Patent ID 2907869_abstract_abstract from year 2015",
     "year": 2015,
     "bref_relevance": {
@@ -726,11 +716,23 @@
     }
   },
   {
+    "id": "3309130_abstract_abstract",
+    "title": "PROCESS AND FACILITY FOR TREATING PRODUCED WATER FROM AN OIL & GAS FIELD",
+    "score": 0.9990459084510804,
+    "x": 0.5906424522399902,
+    "y": 0.4782206416130066,
+    "abstract": "Patent ID 3309130_abstract_abstract from year 2018",
+    "year": 2018,
+    "bref_relevance": {
+      "CWW:::3.3.2.3.4.4.2": 0.9990459084510804
+    }
+  },
+  {
     "id": "2725115_abstract_abstract",
     "title": "Flux compositions for steel galvanization",
     "score": 0.9990456104278564,
-    "x": 0.3098144233226776,
-    "y": 0.6991308331489563,
+    "x": 0.29468807578086853,
+    "y": 0.6037513613700867,
     "abstract": "Patent ID 2725115_abstract_abstract from year 2014",
     "year": 2014,
     "bref_relevance": {
@@ -741,8 +743,8 @@
     "id": "3808432_abstract_abstract",
     "title": "APPARATUS AND METHOD FOR PROCESSING EXHAUST GAS",
     "score": 0.999044954776764,
-    "x": 0.5077954530715942,
-    "y": 0.17317934334278107,
+    "x": 0.4848077595233917,
+    "y": 0.14492207765579224,
     "abstract": "Patent ID 3808432_abstract_abstract from year 2021",
     "year": 2021,
     "bref_relevance": {
@@ -753,8 +755,8 @@
     "id": "2711066_abstract_abstract",
     "title": "Method and device for cleaning an industrial waste gas comprising CO2 by incineration in an oxyfuel ",
     "score": 0.9990442991256714,
-    "x": 0.27218425273895264,
-    "y": 0.11021877825260162,
+    "x": 0.27605748176574707,
+    "y": 0.11864881217479706,
     "abstract": "Patent ID 2711066_abstract_abstract from year 2014",
     "year": 2014,
     "bref_relevance": {
@@ -765,8 +767,8 @@
     "id": "3067101_abstract_abstract",
     "title": "An evaporator and process for use thereof",
     "score": 0.999043881893158,
-    "x": 0.33193016052246094,
-    "y": 0.28206461668014526,
+    "x": 0.30512475967407227,
+    "y": 0.31935855746269226,
     "abstract": "Patent ID 3067101_abstract_abstract from year 2016",
     "year": 2016,
     "bref_relevance": {
@@ -777,8 +779,8 @@
     "id": "3888785_abstract_abstract",
     "title": "SYSTEMS AND METHODS FOR GAS TREATMENT",
     "score": 0.9990438222885132,
-    "x": 0.15440517663955688,
-    "y": 0.29321107268333435,
+    "x": 0.1297955960035324,
+    "y": 0.27492085099220276,
     "abstract": "Patent ID 3888785_abstract_abstract from year 2021",
     "year": 2021,
     "bref_relevance": {
@@ -789,8 +791,8 @@
     "id": "3760315_abstract_abstract",
     "title": "SYSTEM FOR THE PURIFICATION OF THE PARTICULATE PRESENT IN FUMES AND IN EXHAUST GASES IN COMBUSTION P",
     "score": 0.9990437030792236,
-    "x": 0.6534407734870911,
-    "y": 0.6875095963478088,
+    "x": 0.014892028644680977,
+    "y": 0.5835245251655579,
     "abstract": "Patent ID 3760315_abstract_abstract from year 2021",
     "year": 2021,
     "bref_relevance": {
@@ -801,8 +803,8 @@
     "id": "2772301_abstract_abstract",
     "title": "Process and Apparatus for Reducing the Content of Nitrogen Oxides",
     "score": 0.9990435242652892,
-    "x": 0.1187029629945755,
-    "y": 0.13970692455768585,
+    "x": 0.15377938747406006,
+    "y": 0.10512348264455795,
     "abstract": "Patent ID 2772301_abstract_abstract from year 2014",
     "year": 2014,
     "bref_relevance": {
@@ -814,8 +816,8 @@
     "id": "4230320_abstract_abstract",
     "title": "METHOD FOR LOW-TEMPERATURE TRANSFORMATION OF DOMESTIC WASTE",
     "score": 0.9990425705909728,
-    "x": 0.6194375157356262,
-    "y": 0.6802967190742493,
+    "x": 0.046721406280994415,
+    "y": 0.5784990191459656,
     "abstract": "Patent ID 4230320_abstract_abstract from year 2023",
     "year": 2023,
     "bref_relevance": {
@@ -826,8 +828,8 @@
     "id": "3900823_abstract_abstract",
     "title": "METHOD OF REGENERATION OF CARBONACEOUS ADSORBENT",
     "score": 0.9990419149398804,
-    "x": 0.2699299156665802,
-    "y": 0.1754479855298996,
+    "x": 0.2727222144603729,
+    "y": 0.1979643553495407,
     "abstract": "Patent ID 3900823_abstract_abstract from year 2021",
     "year": 2021,
     "bref_relevance": {
@@ -838,8 +840,8 @@
     "id": "3549661_abstract_abstract",
     "title": "NOX REMOVAL FROM GASEOUS EFFLUENTS",
     "score": 0.9990407228469848,
-    "x": 0.10494493693113327,
-    "y": 0.13727837800979614,
+    "x": 0.14580035209655762,
+    "y": 0.10541097074747086,
     "abstract": "Patent ID 3549661_abstract_abstract from year 2019",
     "year": 2019,
     "bref_relevance": {
@@ -850,8 +852,8 @@
     "id": "3187238_abstract_abstract",
     "title": "INTEGRATED HYDROCARBONS FEED STRIPPER",
     "score": 0.9990405440330504,
-    "x": 0.288249135017395,
-    "y": 0.2893166244029999,
+    "x": 0.26820939779281616,
+    "y": 0.32404911518096924,
     "abstract": "Patent ID 3187238_abstract_abstract from year 2017",
     "year": 2017,
     "bref_relevance": {
@@ -862,8 +864,8 @@
     "id": "2463272_abstract_abstract",
     "title": "A method of producing toluene diisocyanate (TDI) in the process of the toluene diamine (TDA) phosgen",
     "score": 0.9990381002426147,
-    "x": 0.2783260643482208,
-    "y": 0.32351699471473694,
+    "x": 0.24282370507717133,
+    "y": 0.35885199904441833,
     "abstract": "Patent ID 2463272_abstract_abstract from year 2012",
     "year": 2012,
     "bref_relevance": {
@@ -874,8 +876,8 @@
     "id": "2927261_abstract_abstract",
     "title": "Fluoropolyether-containing polymer",
     "score": 0.99857896566391,
-    "x": 0.6006832122802734,
-    "y": 0.9024282097816467,
+    "x": 0.3408440053462982,
+    "y": 0.8719691038131714,
     "abstract": "Patent ID 2927261_abstract_abstract from year 2015",
     "year": 2015,
     "bref_relevance": {
@@ -886,8 +888,8 @@
     "id": "2690162_abstract_abstract",
     "title": "Equipment for treating gases and use of said equipment for treating a synthesis gas contaminated wit",
     "score": 0.9985703825950624,
-    "x": 0.30671507120132446,
-    "y": 0.10239839553833008,
+    "x": 0.29173868894577026,
+    "y": 0.10936533659696579,
     "abstract": "Patent ID 2690162_abstract_abstract from year 2014",
     "year": 2014,
     "bref_relevance": {
@@ -898,8 +900,8 @@
     "id": "2462954_abstract_abstract",
     "title": "Plasma generation method and apparatus for biocidal and deodorising air treatment",
     "score": 0.9985650181770324,
-    "x": 0.6188257336616516,
-    "y": 0.6804543137550354,
+    "x": 0.045331697911024094,
+    "y": 0.5821287035942078,
     "abstract": "Patent ID 2462954_abstract_abstract from year 2012",
     "year": 2012,
     "bref_relevance": {
@@ -910,8 +912,8 @@
     "id": "3246290_abstract_abstract",
     "title": "CHROMIUM-CONTAINING WATER TREATMENT METHOD",
     "score": 0.9985648989677428,
-    "x": 0.24906514585018158,
-    "y": 0.5586531162261963,
+    "x": 0.41488927602767944,
+    "y": 0.5902872085571289,
     "abstract": "Patent ID 3246290_abstract_abstract from year 2017",
     "year": 2017,
     "bref_relevance": {
@@ -923,8 +925,8 @@
     "id": "3871783_abstract_abstract",
     "title": "EXHAUST GAS PROCESSING SYSTEM AND METHOD",
     "score": 0.9985642433166504,
-    "x": 0.6656023859977722,
-    "y": 0.6840527057647705,
+    "x": 0.005440874025225639,
+    "y": 0.5867101550102234,
     "abstract": "Patent ID 3871783_abstract_abstract from year 2021",
     "year": 2021,
     "bref_relevance": {
@@ -935,8 +937,8 @@
     "id": "3848563_abstract_abstract",
     "title": "EXHAUST PROCESSING SYSTEM, USE THEREOF AND VEHICLE COMPRISING THE SAME",
     "score": 0.9985617399215698,
-    "x": 0.6221736669540405,
-    "y": 0.6839234232902527,
+    "x": 0.04203497990965843,
+    "y": 0.5728573203086853,
     "abstract": "Patent ID 3848563_abstract_abstract from year 2021",
     "year": 2021,
     "bref_relevance": {
@@ -947,8 +949,8 @@
     "id": "3919448_abstract_abstract",
     "title": "SUPERCRITICAL WATER ALL-IN-ONE MACHINE AND ORGANIC WASTEWATER TREATMENT METHOD",
     "score": 0.998560905456543,
-    "x": 0.33126339316368103,
-    "y": 0.284549355506897,
+    "x": 0.2968319058418274,
+    "y": 0.32257041335105896,
     "abstract": "Patent ID 3919448_abstract_abstract from year 2021",
     "year": 2021,
     "bref_relevance": {
@@ -959,8 +961,8 @@
     "id": "2578292_abstract_abstract",
     "title": "A method of controlling a wet scrubber useful for removing sulphur dioxide from a process gas",
     "score": 0.9985606074333192,
-    "x": 0.16018258035182953,
-    "y": 0.14812056720256805,
+    "x": 0.17684265971183777,
+    "y": 0.15098288655281067,
     "abstract": "Patent ID 2578292_abstract_abstract from year 2013",
     "year": 2013,
     "bref_relevance": {
@@ -971,8 +973,8 @@
     "id": "2397207_abstract_abstract",
     "title": "System for separating a feed stream comprising at least three liquid phases",
     "score": 0.9985575079917908,
-    "x": 0.5398685336112976,
-    "y": 0.30639106035232544,
+    "x": 0.6290745139122009,
+    "y": 0.27578067779541016,
     "abstract": "Patent ID 2397207_abstract_abstract from year 2011",
     "year": 2011,
     "bref_relevance": {
@@ -983,8 +985,8 @@
     "id": "2520315_abstract_abstract",
     "title": "METAL BELT-PLATE STRUCTURE REACTOR",
     "score": 0.99855637550354,
-    "x": 0.6165329217910767,
-    "y": 0.6824544668197632,
+    "x": 0.045333217829465866,
+    "y": 0.5797610282897949,
     "abstract": "Patent ID 2520315_abstract_abstract from year 2012",
     "year": 2012,
     "bref_relevance": {
@@ -995,8 +997,8 @@
     "id": "2865649_abstract_abstract",
     "title": "Process for the disposal of intractable non-biodegradable waste material flows from oil refineries",
     "score": 0.9985559582710266,
-    "x": 0.08322367072105408,
-    "y": 0.13716936111450195,
+    "x": 0.6063336133956909,
+    "y": 0.460748553276062,
     "abstract": "Patent ID 2865649_abstract_abstract from year 2015",
     "year": 2015,
     "bref_relevance": {
@@ -1007,8 +1009,8 @@
     "id": "2397206_abstract_abstract",
     "title": "Separator for separating a feed stream comprising at least three liquid phases",
     "score": 0.9985558390617372,
-    "x": 0.545785129070282,
-    "y": 0.310892254114151,
+    "x": 0.630987823009491,
+    "y": 0.2819349467754364,
     "abstract": "Patent ID 2397206_abstract_abstract from year 2011",
     "year": 2011,
     "bref_relevance": {
@@ -1019,8 +1021,8 @@
     "id": "2740529_abstract_abstract",
     "title": "Methods and equipment for hydrothermal processing and disposal of highly toxic substances, waste and",
     "score": 0.9985550045967102,
-    "x": 0.3450971245765686,
-    "y": 0.25500327348709106,
+    "x": 0.320388525724411,
+    "y": 0.300395131111145,
     "abstract": "Patent ID 2740529_abstract_abstract from year 2014",
     "year": 2014,
     "bref_relevance": {
@@ -1031,8 +1033,8 @@
     "id": "3871753_abstract_abstract",
     "title": "EXHAUST TREATMENT SYSTEM AND METHOD",
     "score": 0.9985533952713012,
-    "x": 0.657354474067688,
-    "y": 0.6894515156745911,
+    "x": 0.010205493308603764,
+    "y": 0.5845232009887695,
     "abstract": "Patent ID 3871753_abstract_abstract from year 2021",
     "year": 2021,
     "bref_relevance": {
@@ -1043,8 +1045,8 @@
     "id": "2899163_abstract_abstract",
     "title": "Stacked type falling film evaporator, zero liquid discharge system comprising the same, and zero liq",
     "score": 0.9985510110855104,
-    "x": 0.34925907850265503,
-    "y": 0.27222946286201477,
+    "x": 0.32289788126945496,
+    "y": 0.29249775409698486,
     "abstract": "Patent ID 2899163_abstract_abstract from year 2015",
     "year": 2015,
     "bref_relevance": {
@@ -1055,8 +1057,8 @@
     "id": "3100777_abstract_abstract",
     "title": "METHOD FOR SEPARATING HYDROGEN SULFIDE AND AMMONIA DISSOLVED IN SOUR WATERS",
     "score": 0.9985486268997192,
-    "x": 0.21049964427947998,
-    "y": 0.22043897211551666,
+    "x": 0.19430309534072876,
+    "y": 0.2260473072528839,
     "abstract": "Patent ID 3100777_abstract_abstract from year 2016",
     "year": 2016,
     "bref_relevance": {
@@ -1067,8 +1069,8 @@
     "id": "4098124_abstract_abstract",
     "title": "SYSTEM AND METHOD FOR TREATMENT OF FOOD WITH A GAS",
     "score": 0.9980745911598206,
-    "x": 0.6135025024414062,
-    "y": 0.6831940412521362,
+    "x": 0.0540306493639946,
+    "y": 0.5805527567863464,
     "abstract": "Patent ID 4098124_abstract_abstract from year 2022",
     "year": 2022,
     "bref_relevance": {
@@ -1079,8 +1081,8 @@
     "id": "2364759_abstract_abstract",
     "title": "Separator apparatus and method.",
     "score": 0.9980741143226624,
-    "x": 0.5239369869232178,
-    "y": 0.30782386660575867,
+    "x": 0.6162796020507812,
+    "y": 0.29852986335754395,
     "abstract": "Patent ID 2364759_abstract_abstract from year 2011",
     "year": 2011,
     "bref_relevance": {
@@ -1091,8 +1093,8 @@
     "id": "3348318_abstract_abstract",
     "title": "EVAPORATOR",
     "score": 0.9980703592300416,
-    "x": 0.344239205121994,
-    "y": 0.28042230010032654,
+    "x": 0.3123956322669983,
+    "y": 0.3172192871570587,
     "abstract": "Patent ID 3348318_abstract_abstract from year 2018",
     "year": 2018,
     "bref_relevance": {
@@ -1103,8 +1105,8 @@
     "id": "3709337_abstract_abstract",
     "title": "NON-THERMAL PLASMA REACTOR OF BARRIER DISCHARGE FOR DISINFECTION AND/OR STERILIZATION OF ORGANIC PRO",
     "score": 0.998070240020752,
-    "x": 0.6125808954238892,
-    "y": 0.6774272918701172,
+    "x": 0.052930861711502075,
+    "y": 0.5742880702018738,
     "abstract": "Patent ID 3709337_abstract_abstract from year 2020",
     "year": 2020,
     "bref_relevance": {
@@ -1115,8 +1117,8 @@
     "id": "3530626_abstract_abstract",
     "title": "METHOD FOR TREATING AGRO-INDUSTRIAL RESIDUAL WATERS BY OXIDATION-PRECIPITATION PROCESSES",
     "score": 0.9980680346488952,
-    "x": 0.5088123083114624,
-    "y": 0.4181203842163086,
+    "x": 0.5874607563018799,
+    "y": 0.45580199360847473,
     "abstract": "Patent ID 3530626_abstract_abstract from year 2019",
     "year": 2019,
     "bref_relevance": {
@@ -1127,8 +1129,8 @@
     "id": "3162768_abstract_abstract",
     "title": "RESOURCE REUSE-TYPE INDUSTRIAL WASTE WATER TREATMENT METHOD AND APPARATUS UTILIZING OXIDIZING AGENT ",
     "score": 0.9980668425559998,
-    "x": 0.5270938873291016,
-    "y": 0.45997706055641174,
+    "x": 0.6042082905769348,
+    "y": 0.4890502989292145,
     "abstract": "Patent ID 3162768_abstract_abstract from year 2017",
     "year": 2017,
     "bref_relevance": {
@@ -1139,8 +1141,8 @@
     "id": "3536718_abstract_abstract",
     "title": "FLUORINATED POLYMER AND SURFACE TREATING AGENT COMPOSITION",
     "score": 0.998066782951355,
-    "x": 0.6098531484603882,
-    "y": 0.9071550369262695,
+    "x": 0.3331485688686371,
+    "y": 0.8773853182792664,
     "abstract": "Patent ID 3536718_abstract_abstract from year 2019",
     "year": 2019,
     "bref_relevance": {
@@ -1151,8 +1153,8 @@
     "id": "3738675_abstract_abstract",
     "title": "HEAVY PHASE LIQUID DISCHARGE ELEMENT FOR A CENTRIFUGAL SEPARATOR, CENTRIFUGAL SEPARATOR AND METHOD F",
     "score": 0.998066246509552,
-    "x": 0.5178378820419312,
-    "y": 0.28556761145591736,
+    "x": 0.6158669590950012,
+    "y": 0.2357105016708374,
     "abstract": "Patent ID 3738675_abstract_abstract from year 2020",
     "year": 2020,
     "bref_relevance": {
@@ -1163,8 +1165,8 @@
     "id": "3267102_abstract_abstract",
     "title": "FLAMELESS THERMAL OXIDIZER AND CORRESPONDING METHOD",
     "score": 0.9980642199516296,
-    "x": 0.39933472871780396,
-    "y": 0.06558936089277267,
+    "x": 0.39064472913742065,
+    "y": 0.056632012128829956,
     "abstract": "Patent ID 3267102_abstract_abstract from year 2018",
     "year": 2018,
     "bref_relevance": {
@@ -1175,8 +1177,8 @@
     "id": "4265312_abstract_abstract",
     "title": "INTEGRATED EQUIPMENT FOR LIQUID-LIQUID EXTRACTION AND SOLVENT RECOVERY BY EVAPORATION IN FALLING THI",
     "score": 0.997591197490692,
-    "x": 0.3139389157295227,
-    "y": 0.3109944462776184,
+    "x": 0.28271201252937317,
+    "y": 0.3516418933868408,
     "abstract": "Patent ID 4265312_abstract_abstract from year 2023",
     "year": 2023,
     "bref_relevance": {
@@ -1187,8 +1189,8 @@
     "id": "3300796_abstract_abstract",
     "title": "EVAPORATION SYSTEM FOR A PROCESS STREAM",
     "score": 0.9975874423980712,
-    "x": 0.31848272681236267,
-    "y": 0.29069340229034424,
+    "x": 0.29174432158470154,
+    "y": 0.3248347342014313,
     "abstract": "Patent ID 3300796_abstract_abstract from year 2018",
     "year": 2018,
     "bref_relevance": {
@@ -1199,8 +1201,8 @@
     "id": "3871784_abstract_abstract",
     "title": "EXHAUST GAS TREATMENT SYSTEM AND METHOD",
     "score": 0.9975870847702026,
-    "x": 0.6664757132530212,
-    "y": 0.6855102777481079,
+    "x": 0.005770596209913492,
+    "y": 0.5855228304862976,
     "abstract": "Patent ID 3871784_abstract_abstract from year 2021",
     "year": 2021,
     "bref_relevance": {
@@ -1211,8 +1213,8 @@
     "id": "3906993_abstract_abstract",
     "title": "WET INLINE SCRUBBER WITH A SIDE INLET FOR REDUCING THE AMOUNT OF SOX IN AN EXHAUST GAS PRODUCED BY O",
     "score": 0.9975855946540833,
-    "x": 0.47817376255989075,
-    "y": 0.13833390176296234,
+    "x": 0.4371189475059509,
+    "y": 0.1651540845632553,
     "abstract": "Patent ID 3906993_abstract_abstract from year 2021",
     "year": 2021,
     "bref_relevance": {
@@ -1223,8 +1225,8 @@
     "id": "2927293_abstract_abstract",
     "title": "Fluorochemical Coating Composition and Article Treated Therewith",
     "score": 0.997584581375122,
-    "x": 0.5871689915657043,
-    "y": 0.8946322798728943,
+    "x": 0.3583497703075409,
+    "y": 0.85862135887146,
     "abstract": "Patent ID 2927293_abstract_abstract from year 2015",
     "year": 2015,
     "bref_relevance": {
@@ -1235,8 +1237,8 @@
     "id": "2402661_abstract_abstract",
     "title": "Household appliance and method for disinfecting a functional subunit of a household appliance and/or",
     "score": 0.9975835680961608,
-    "x": 0.577771782875061,
-    "y": 0.5776292085647583,
+    "x": 0.5899432897567749,
+    "y": 0.6452670693397522,
     "abstract": "Patent ID 2402661_abstract_abstract from year 2012",
     "year": 2012,
     "bref_relevance": {
@@ -1247,8 +1249,8 @@
     "id": "3659686_abstract_abstract",
     "title": "SEPARATOR AND PROCESS FOR SEPARATING VOLATILE COMPOUNDS FROM A POLYMER SOLUTION",
     "score": 0.997583508491516,
-    "x": 0.2934698462486267,
-    "y": 0.30805888772010803,
+    "x": 0.2723044157028198,
+    "y": 0.34423041343688965,
     "abstract": "Patent ID 3659686_abstract_abstract from year 2020",
     "year": 2020,
     "bref_relevance": {
@@ -1259,8 +1261,8 @@
     "id": "3881925_abstract_abstract",
     "title": "SMOKE TREATMENT SYSTEM AND METHOD",
     "score": 0.997580111026764,
-    "x": 0.2119120955467224,
-    "y": 0.11931456625461578,
+    "x": 0.24299688637256622,
+    "y": 0.12456420809030533,
     "abstract": "Patent ID 3881925_abstract_abstract from year 2021",
     "year": 2021,
     "bref_relevance": {
@@ -1271,8 +1273,8 @@
     "id": "2402288_abstract_abstract",
     "title": "Cleaning equipment for gas scrubber fluid",
     "score": 0.9975773692131042,
-    "x": 0.4851657450199127,
-    "y": 0.18508511781692505,
+    "x": 0.4702792763710022,
+    "y": 0.19141405820846558,
     "abstract": "Patent ID 2402288_abstract_abstract from year 2012",
     "year": 2012,
     "bref_relevance": {
@@ -1283,8 +1285,8 @@
     "id": "2790472_abstract_abstract",
     "title": "PLASMA GENERATOR",
     "score": 0.9975769519805908,
-    "x": 0.6197154521942139,
-    "y": 0.6810493469238281,
+    "x": 0.045715466141700745,
+    "y": 0.5810845494270325,
     "abstract": "Patent ID 2790472_abstract_abstract from year 2014",
     "year": 2014,
     "bref_relevance": {
@@ -1295,8 +1297,8 @@
     "id": "3858791_abstract_abstract",
     "title": "SYSTEMS FOR REDUCING HYDROGEN PEROXIDE IN WASTE WATER",
     "score": 0.9975758790969848,
-    "x": 0.5030196309089661,
-    "y": 0.4804360568523407,
+    "x": 0.5853456854820251,
+    "y": 0.48200851678848267,
     "abstract": "Patent ID 3858791_abstract_abstract from year 2021",
     "year": 2021,
     "bref_relevance": {
@@ -1307,8 +1309,8 @@
     "id": "3181526_abstract_abstract",
     "title": "PROCESS FOR TREATING PRODUCED WATER FROM AN OIL & GAS FIELD",
     "score": 0.997575342655182,
-    "x": 0.171380415558815,
-    "y": 0.2392340898513794,
+    "x": 0.1845160722732544,
+    "y": 0.254372239112854,
     "abstract": "Patent ID 3181526_abstract_abstract from year 2017",
     "year": 2017,
     "bref_relevance": {
@@ -1319,8 +1321,8 @@
     "id": "3127910_abstract_abstract",
     "title": "FLUORINE-CONTAINING SILANE COMPOUND",
     "score": 0.9971048831939696,
-    "x": 0.6060875654220581,
-    "y": 0.9047225117683411,
+    "x": 0.3370209336280823,
+    "y": 0.873304545879364,
     "abstract": "Patent ID 3127910_abstract_abstract from year 2017",
     "year": 2017,
     "bref_relevance": {
@@ -1331,8 +1333,8 @@
     "id": "2468778_abstract_abstract",
     "title": "FLUOROALKYL GROUP-CONTAINING N-SUBSTITUTED (METH)ACRYLAMIDE COMPOUND, POLYMER THEREOF, AND USE THERE",
     "score": 0.9971023201942444,
-    "x": 0.6046936511993408,
-    "y": 0.9087449908256531,
+    "x": 0.33548933267593384,
+    "y": 0.879485547542572,
     "abstract": "Patent ID 2468778_abstract_abstract from year 2012",
     "year": 2012,
     "bref_relevance": {
@@ -1343,8 +1345,8 @@
     "id": "2586757_abstract_abstract",
     "title": "Liquid chromium reducer for highly oxidative cement grinding environments",
     "score": 0.9971014857292176,
-    "x": 0.2843053638935089,
-    "y": 0.6862823367118835,
+    "x": 0.30573171377182007,
+    "y": 0.7153448462486267,
     "abstract": "Patent ID 2586757_abstract_abstract from year 2013",
     "year": 2013,
     "bref_relevance": {
@@ -1355,8 +1357,8 @@
     "id": "2827337_abstract_abstract",
     "title": "Method for processing radioactive liquid effluents of a nuclear power reactor and corresponding faci",
     "score": 0.997100830078125,
-    "x": 0.29352617263793945,
-    "y": 0.3887613117694855,
+    "x": 0.28942495584487915,
+    "y": 0.38375189900398254,
     "abstract": "Patent ID 2827337_abstract_abstract from year 2015",
     "year": 2015,
     "bref_relevance": {
@@ -1367,8 +1369,8 @@
     "id": "3031782_abstract_abstract",
     "title": "PLANT AND METHOD FOR THE ABATEMENT OF POLLUTANTS IN FUMES AND PROCESS WATER COMING FROM A RECYCLING ",
     "score": 0.9970983266830444,
-    "x": 0.4881919026374817,
-    "y": 0.1865130513906479,
+    "x": 0.4761228859424591,
+    "y": 0.19488097727298737,
     "abstract": "Patent ID 3031782_abstract_abstract from year 2016",
     "year": 2016,
     "bref_relevance": {
@@ -1379,8 +1381,8 @@
     "id": "3113582_abstract_abstract",
     "title": "STABILIZED AND HOMOGENIZED SOURCE OF NON-THERMAL PLASMA",
     "score": 0.9970955848693848,
-    "x": 0.6182734966278076,
-    "y": 0.6788747310638428,
+    "x": 0.04500877112150192,
+    "y": 0.5696884393692017,
     "abstract": "Patent ID 3113582_abstract_abstract from year 2017",
     "year": 2017,
     "bref_relevance": {
@@ -1391,8 +1393,8 @@
     "id": "2292572_abstract_abstract",
     "title": "Process for the separation of aromatic compounds from a mixture",
     "score": 0.9970945715904236,
-    "x": 0.29053694009780884,
-    "y": 0.34929409623146057,
+    "x": 0.25824540853500366,
+    "y": 0.3847867250442505,
     "abstract": "Patent ID 2292572_abstract_abstract from year 2011",
     "year": 2011,
     "bref_relevance": {
@@ -1403,8 +1405,8 @@
     "id": "3865461_abstract_abstract",
     "title": "METHOD FOR TREATING PRODUCTION WASTEWATER FROM PREPARATION OF PROPYLENE OXIDE WITH CO-OXIDATION METH",
     "score": 0.9970932602882384,
-    "x": 0.38885393738746643,
-    "y": 0.41112977266311646,
+    "x": 0.5540478229522705,
+    "y": 0.48189517855644226,
     "abstract": "Patent ID 3865461_abstract_abstract from year 2021",
     "year": 2021,
     "bref_relevance": {
@@ -1415,8 +1417,8 @@
     "id": "3406315_abstract_abstract",
     "title": "A METHOD AND AN EVAPORATOR FOR PURIFYING LIQUID WASTE",
     "score": 0.9970910549163818,
-    "x": 0.5991227030754089,
-    "y": 0.2561253011226654,
+    "x": 0.574497640132904,
+    "y": 0.2863258719444275,
     "abstract": "Patent ID 3406315_abstract_abstract from year 2018",
     "year": 2018,
     "bref_relevance": {
@@ -1427,8 +1429,8 @@
     "id": "2447219_abstract_abstract",
     "title": "Method for purifying waste water from a stainless steel slag treatment process",
     "score": 0.9970905780792236,
-    "x": 0.24689534306526184,
-    "y": 0.5576368570327759,
+    "x": 0.4146896302700043,
+    "y": 0.5914552807807922,
     "abstract": "Patent ID 2447219_abstract_abstract from year 2012",
     "year": 2012,
     "bref_relevance": {
@@ -1439,8 +1441,8 @@
     "id": "2597142_abstract_abstract",
     "title": "De-acidification of fats and oils",
     "score": 0.9970905184745787,
-    "x": 0.28467464447021484,
-    "y": 0.314311683177948,
+    "x": 0.2551306486129761,
+    "y": 0.34242644906044006,
     "abstract": "Patent ID 2597142_abstract_abstract from year 2013",
     "year": 2013,
     "bref_relevance": {
@@ -1451,8 +1453,8 @@
     "id": "3900809_abstract_abstract",
     "title": "PROCESS AND APPARATUS FOR REMOVING UNWANTED COMPONENTS FROM A GAS MIXTURE",
     "score": 0.9970873594284058,
-    "x": 0.1315893679857254,
-    "y": 0.2582070231437683,
+    "x": 0.12575189769268036,
+    "y": 0.24466264247894287,
     "abstract": "Patent ID 3900809_abstract_abstract from year 2021",
     "year": 2021,
     "bref_relevance": {
@@ -1463,8 +1465,8 @@
     "id": "3669959_abstract_abstract",
     "title": "HYDROCYCLONE AND ITS USE IN SEPARATION OF FLUIDIC PHASES",
     "score": 0.9970868825912476,
-    "x": 0.5003370046615601,
-    "y": 0.2930026054382324,
+    "x": 0.530312180519104,
+    "y": 0.22321709990501404,
     "abstract": "Patent ID 3669959_abstract_abstract from year 2020",
     "year": 2020,
     "bref_relevance": {
@@ -1475,8 +1477,8 @@
     "id": "3875167_abstract_abstract",
     "title": "IMPROVED NOX REMOVAL METHOD",
     "score": 0.9970834255218506,
-    "x": 0.13855181634426117,
-    "y": 0.14673428237438202,
+    "x": 0.1649615466594696,
+    "y": 0.12550051510334015,
     "abstract": "Patent ID 3875167_abstract_abstract from year 2021",
     "year": 2021,
     "bref_relevance": {
@@ -1487,8 +1489,8 @@
     "id": "2439176_abstract_abstract",
     "title": "Treatment of water for use in hydraulic fracture stimulation",
     "score": 0.997081220149994,
-    "x": 0.16859903931617737,
-    "y": 0.22490234673023224,
+    "x": 0.15210570394992828,
+    "y": 0.2153993844985962,
     "abstract": "Patent ID 2439176_abstract_abstract from year 2012",
     "year": 2012,
     "bref_relevance": {
@@ -1499,8 +1501,8 @@
     "id": "2471746_abstract_abstract",
     "title": "Method for treating liquid wastes by closed circuit stripping with cryogenic condensation system",
     "score": 0.997080624103546,
-    "x": 0.2653733491897583,
-    "y": 0.3586132824420929,
+    "x": 0.25572076439857483,
+    "y": 0.3776428997516632,
     "abstract": "Patent ID 2471746_abstract_abstract from year 2012",
     "year": 2012,
     "bref_relevance": {
@@ -1511,8 +1513,8 @@
     "id": "2492395_abstract_abstract",
     "title": "Oil and grease resistant treatment compositions",
     "score": 0.9966147541999816,
-    "x": 0.660263180732727,
-    "y": 0.5359396934509277,
+    "x": 0.634389340877533,
+    "y": 0.6176936626434326,
     "abstract": "Patent ID 2492395_abstract_abstract from year 2012",
     "year": 2012,
     "bref_relevance": {
@@ -1523,8 +1525,8 @@
     "id": "2514522_abstract_abstract",
     "title": "Conversion of urea to reactants for nox reduction",
     "score": 0.9966050386428832,
-    "x": 0.11493179202079773,
-    "y": 0.13847412168979645,
+    "x": 0.16093240678310394,
+    "y": 0.10697668045759201,
     "abstract": "Patent ID 2514522_abstract_abstract from year 2012",
     "year": 2012,
     "bref_relevance": {
@@ -1535,8 +1537,8 @@
     "id": "2628713_abstract_abstract",
     "title": "Degradation of hormones using recombinant HRP isoenzymes",
     "score": 0.9966039061546326,
-    "x": 0.898378312587738,
-    "y": 0.49001002311706543,
+    "x": 0.8291530609130859,
+    "y": 0.5988072156906128,
     "abstract": "Patent ID 2628713_abstract_abstract from year 2013",
     "year": 2013,
     "bref_relevance": {
@@ -1547,8 +1549,8 @@
     "id": "2364766_abstract_abstract",
     "title": "\"Method for the removal of moist in a gas stream\"",
     "score": 0.9966030716896056,
-    "x": 0.30873680114746094,
-    "y": 0.24383363127708435,
+    "x": 0.3051489293575287,
+    "y": 0.2755831182003021,
     "abstract": "Patent ID 2364766_abstract_abstract from year 2011",
     "year": 2011,
     "bref_relevance": {
@@ -1559,8 +1561,8 @@
     "id": "3868789_abstract_abstract",
     "title": "METHOD FOR PREPARING WATER REPELLENT TEXTILE SUBSTRATES AND PRODUCTS THEREOF",
     "score": 0.996602177619934,
-    "x": 0.5609156489372253,
-    "y": 0.8810526132583618,
+    "x": 0.4695759415626526,
+    "y": 0.7938784956932068,
     "abstract": "Patent ID 3868789_abstract_abstract from year 2021",
     "year": 2021,
     "bref_relevance": {
@@ -1571,8 +1573,8 @@
     "id": "2364760_abstract_abstract",
     "title": "Cleaning equipment for gas scrubber fluid",
     "score": 0.996599555015564,
-    "x": 0.4862483739852905,
-    "y": 0.18227113783359528,
+    "x": 0.4704180955886841,
+    "y": 0.18779464066028595,
     "abstract": "Patent ID 2364760_abstract_abstract from year 2011",
     "year": 2011,
     "bref_relevance": {
@@ -1583,8 +1585,8 @@
     "id": "2927292_abstract_abstract",
     "title": "Fluoropolyether-containing polymer-modified silane, surface treating agent, and article",
     "score": 0.996133029460907,
-    "x": 0.5896793007850647,
-    "y": 0.9009320735931396,
+    "x": 0.3494183421134949,
+    "y": 0.8736568689346313,
     "abstract": "Patent ID 2927292_abstract_abstract from year 2015",
     "year": 2015,
     "bref_relevance": {
@@ -1595,8 +1597,8 @@
     "id": "2497788_abstract_abstract",
     "title": "FLUORINE-CONTAINING COMPOUND, FLUORINE-CONTAINING POLYMER AND FLUORINE-CONTAINING COPOLYMER",
     "score": 0.9961262941360474,
-    "x": 0.6063311100006104,
-    "y": 0.9054490923881531,
+    "x": 0.3363986909389496,
+    "y": 0.8741164803504944,
     "abstract": "Patent ID 2497788_abstract_abstract from year 2012",
     "year": 2012,
     "bref_relevance": {
@@ -1607,8 +1609,8 @@
     "id": "2827685_abstract_abstract",
     "title": "Plasma torch",
     "score": 0.9961222410202026,
-    "x": 0.6119098663330078,
-    "y": 0.6834849119186401,
+    "x": 0.052896954119205475,
+    "y": 0.5682173371315002,
     "abstract": "Patent ID 2827685_abstract_abstract from year 2015",
     "year": 2015,
     "bref_relevance": {
@@ -1619,8 +1621,8 @@
     "id": "2361668_abstract_abstract",
     "title": "Apparatus for purifying industrial exhaust gas",
     "score": 0.9961177706718444,
-    "x": 0.2788439095020294,
-    "y": 0.13609763979911804,
+    "x": 0.27668875455856323,
+    "y": 0.14683368802070618,
     "abstract": "Patent ID 2361668_abstract_abstract from year 2011",
     "year": 2011,
     "bref_relevance": {
@@ -1631,8 +1633,8 @@
     "id": "3401298_abstract_abstract",
     "title": "NOVEL FLUORINE-CONTAINING COMPOUND HAVING UNSATURATED BOND, AND SURFACE MODIFIER USING SAME",
     "score": 0.9961177110671996,
-    "x": 0.6048974990844727,
-    "y": 0.9047926068305969,
+    "x": 0.3378933072090149,
+    "y": 0.874662458896637,
     "abstract": "Patent ID 3401298_abstract_abstract from year 2018",
     "year": 2018,
     "bref_relevance": {
@@ -1643,8 +1645,8 @@
     "id": "2495493_abstract_abstract",
     "title": "Combustion system",
     "score": 0.9961172342300416,
-    "x": 0.29672524333000183,
-    "y": 0.09245972335338593,
+    "x": 0.2778249680995941,
+    "y": 0.0994439423084259,
     "abstract": "Patent ID 2495493_abstract_abstract from year 2012",
     "year": 2012,
     "bref_relevance": {
@@ -1655,8 +1657,8 @@
     "id": "3378839_abstract_abstract",
     "title": "A WATER TREATMENT SYSTEM AND A METHOD OF CLEANING CONTAMINATED WATER",
     "score": 0.9961167573928832,
-    "x": 0.531525194644928,
-    "y": 0.3704588711261749,
+    "x": 0.6097984313964844,
+    "y": 0.41469141840934753,
     "abstract": "Patent ID 3378839_abstract_abstract from year 2018",
     "year": 2018,
     "bref_relevance": {
@@ -1667,8 +1669,8 @@
     "id": "4170080_abstract_abstract",
     "title": "ADSORPTION ELEMENT BLOCK, ADSORPTION UNIT, ADSORPTION ROTOR, ADSORPTION TREATMENT DEVICE, AND TREATM",
     "score": 0.99611634016037,
-    "x": 0.08836865425109863,
-    "y": 0.2865530252456665,
+    "x": 0.07049375027418137,
+    "y": 0.2155313789844513,
     "abstract": "Patent ID 4170080_abstract_abstract from year 2023",
     "year": 2023,
     "bref_relevance": {
@@ -1680,8 +1682,8 @@
     "id": "2286895_abstract_abstract",
     "title": "System and method for flue gas scrubbing",
     "score": 0.9961135387420654,
-    "x": 0.47830918431282043,
-    "y": 0.11871357262134552,
+    "x": 0.4620952606201172,
+    "y": 0.11258053779602051,
     "abstract": "Patent ID 2286895_abstract_abstract from year 2011",
     "year": 2011,
     "bref_relevance": {
@@ -1692,8 +1694,8 @@
     "id": "3338562_abstract_abstract",
     "title": "PROCESS AND APPARATUS FOR DECONTAMINATION OF FOOD ARTICLES",
     "score": 0.996110737323761,
-    "x": 0.5761886239051819,
-    "y": 0.5761646628379822,
+    "x": 0.5876404047012329,
+    "y": 0.6454141139984131,
     "abstract": "Patent ID 3338562_abstract_abstract from year 2018",
     "year": 2018,
     "bref_relevance": {
@@ -1704,8 +1706,8 @@
     "id": "2638960_abstract_abstract",
     "title": "PLASMA GENERATING DEVICE, PLASMA GENERATING METHOD, AND METHOD FOR SUPPRESSING OZONE GENERATION",
     "score": 0.9961104393005372,
-    "x": 0.6178157925605774,
-    "y": 0.6821116209030151,
+    "x": 0.05433918535709381,
+    "y": 0.5769467353820801,
     "abstract": "Patent ID 2638960_abstract_abstract from year 2013",
     "year": 2013,
     "bref_relevance": {
@@ -1716,8 +1718,8 @@
     "id": "3640218_abstract_abstract",
     "title": "PROCESS OF TREATMENT OF INDUSTRIAL WASTES",
     "score": 0.995638370513916,
-    "x": 0.47241416573524475,
-    "y": 0.5585469603538513,
+    "x": 0.20551759004592896,
+    "y": 0.6811825633049011,
     "abstract": "Patent ID 3640218_abstract_abstract from year 2020",
     "year": 2020,
     "bref_relevance": {
@@ -1728,8 +1730,8 @@
     "id": "3932959_abstract_abstract",
     "title": "FLUORINE-CONTAINING COPOLYMER, METHOD FOR PRODUCING SAME, WATER REPELLENT OIL REPELLENT AGENT COMPOS",
     "score": 0.9956356883049012,
-    "x": 0.6053532361984253,
-    "y": 0.9035310745239258,
+    "x": 0.33709147572517395,
+    "y": 0.8755283951759338,
     "abstract": "Patent ID 3932959_abstract_abstract from year 2022",
     "year": 2022,
     "bref_relevance": {
@@ -1740,8 +1742,8 @@
     "id": "3449996_abstract_abstract",
     "title": "A TEMPERATURE-SWING ADSORPTION PROCESS",
     "score": 0.995622217655182,
-    "x": 0.13230852782726288,
-    "y": 0.2596454620361328,
+    "x": 0.12948131561279297,
+    "y": 0.24908246099948883,
     "abstract": "Patent ID 3449996_abstract_abstract from year 2019",
     "year": 2019,
     "bref_relevance": {
@@ -1752,8 +1754,8 @@
     "id": "3786238_abstract_abstract",
     "title": "GLOSS RETENTIVE FLUOROCOPOLYMERS FOR COATING APPLICATIONS",
     "score": 0.9951478242874146,
-    "x": 0.6081870794296265,
-    "y": 0.9054744243621826,
+    "x": 0.33568260073661804,
+    "y": 0.873855710029602,
     "abstract": "Patent ID 3786238_abstract_abstract from year 2021",
     "year": 2021,
     "bref_relevance": {
@@ -1764,8 +1766,8 @@
     "id": "2525387_abstract_abstract",
     "title": "Process for plasma treatment employing ceramic-filled polyamideimide composite parts",
     "score": 0.995147705078125,
-    "x": 0.5701153874397278,
-    "y": 0.701476514339447,
+    "x": 0.10029775649309158,
+    "y": 0.5678781270980835,
     "abstract": "Patent ID 2525387_abstract_abstract from year 2012",
     "year": 2012,
     "bref_relevance": {
@@ -1776,8 +1778,8 @@
     "id": "3753618_abstract_abstract",
     "title": "METHOD FOR SEPARATING ORGANIC SOLVENT FROM ORGANIC SOLVENT-CONTAINING MIXED SOLUTION",
     "score": 0.9951352477073668,
-    "x": 0.2954363226890564,
-    "y": 0.364929735660553,
+    "x": 0.2562834322452545,
+    "y": 0.39762166142463684,
     "abstract": "Patent ID 3753618_abstract_abstract from year 2020",
     "year": 2020,
     "bref_relevance": {
@@ -1788,8 +1790,8 @@
     "id": "3267103_abstract_abstract",
     "title": "FLAMELESS THERMAL OXIDIZER AND CORRESPONDING METHOD",
     "score": 0.99513441324234,
-    "x": 0.3947416841983795,
-    "y": 0.06593074649572372,
+    "x": 0.38376566767692566,
+    "y": 0.061130911111831665,
     "abstract": "Patent ID 3267103_abstract_abstract from year 2018",
     "year": 2018,
     "bref_relevance": {
@@ -1800,8 +1802,8 @@
     "id": "4122985_abstract_abstract",
     "title": "NON-FLUORINATED COPOLYMER COMPOSITION AND OIL-RESISTANT AGENT FOR PAPER",
     "score": 0.9946557879447936,
-    "x": 0.6052451133728027,
-    "y": 0.903316855430603,
+    "x": 0.3378925919532776,
+    "y": 0.8727577924728394,
     "abstract": "Patent ID 4122985_abstract_abstract from year 2023",
     "year": 2023,
     "bref_relevance": {
@@ -1812,8 +1814,8 @@
     "id": "2784031_abstract_abstract",
     "title": "Method of treating leachate, phototreatment reactors and respective use",
     "score": 0.994652509689331,
-    "x": 0.5012760162353516,
-    "y": 0.5343121290206909,
+    "x": 0.5580881834030151,
+    "y": 0.6260284185409546,
     "abstract": "Patent ID 2784031_abstract_abstract from year 2014",
     "year": 2014,
     "bref_relevance": {
@@ -1824,8 +1826,8 @@
     "id": "4230321_abstract_abstract",
     "title": "METHOD FOR DESTROYING ORGANIC WASTE WITH A LOW WATER CONTENT",
     "score": 0.9946516752243042,
-    "x": 0.6195641160011292,
-    "y": 0.6772476434707642,
+    "x": 0.04710734263062477,
+    "y": 0.5824719071388245,
     "abstract": "Patent ID 4230321_abstract_abstract from year 2023",
     "year": 2023,
     "bref_relevance": {
@@ -1836,8 +1838,8 @@
     "id": "3505601_abstract_abstract",
     "title": "SYSTEMS AND METHODS FOR MONITORING AND CONTROLLING DESALTING IN A CRUDE DISTILLATION UNIT",
     "score": 0.9946504831314088,
-    "x": 0.38390442728996277,
-    "y": 0.35047951340675354,
+    "x": 0.31967946887016296,
+    "y": 0.39374157786369324,
     "abstract": "Patent ID 3505601_abstract_abstract from year 2019",
     "year": 2019,
     "bref_relevance": {
@@ -1848,8 +1850,8 @@
     "id": "3015480_abstract_abstract",
     "title": "SURFACE TREATMENT AGENT",
     "score": 0.9941863417625428,
-    "x": 0.6047722101211548,
-    "y": 0.9040040969848633,
+    "x": 0.34059739112854004,
+    "y": 0.8711868524551392,
     "abstract": "Patent ID 3015480_abstract_abstract from year 2016",
     "year": 2016,
     "bref_relevance": {
@@ -1860,8 +1862,8 @@
     "id": "2497762_abstract_abstract",
     "title": "FLUORINATED COMPOUND AND FLUORINATED POLYMER",
     "score": 0.9941840171813964,
-    "x": 0.6041792631149292,
-    "y": 0.9036521911621094,
+    "x": 0.3337218761444092,
+    "y": 0.877987802028656,
     "abstract": "Patent ID 2497762_abstract_abstract from year 2012",
     "year": 2012,
     "bref_relevance": {
@@ -1872,8 +1874,8 @@
     "id": "3006447_abstract_abstract",
     "title": "FLUOROCHEMICAL SURFACE TREATING AGENT AND ARTICLE TREATED THEREWITH",
     "score": 0.9941748380661012,
-    "x": 0.5786503553390503,
-    "y": 0.8909411430358887,
+    "x": 0.363750696182251,
+    "y": 0.8569576144218445,
     "abstract": "Patent ID 3006447_abstract_abstract from year 2016",
     "year": 2016,
     "bref_relevance": {
@@ -1884,8 +1886,8 @@
     "id": "4039755_abstract_abstract",
     "title": "COATING AGENT COMPOSITION, SURFACE TREATMENT METHOD AND ARTICLE",
     "score": 0.9941669702529908,
-    "x": 0.5838713049888611,
-    "y": 0.8961949348449707,
+    "x": 0.3599788248538971,
+    "y": 0.8616397380828857,
     "abstract": "Patent ID 4039755_abstract_abstract from year 2022",
     "year": 2022,
     "bref_relevance": {
@@ -1896,8 +1898,8 @@
     "id": "2314366_abstract_abstract",
     "title": "Pressure swing adsorption system with multiple-vessel beds",
     "score": 0.9941644668579102,
-    "x": 0.4771344065666199,
-    "y": 0.1602315753698349,
+    "x": 0.26863905787467957,
+    "y": 0.32473447918891907,
     "abstract": "Patent ID 2314366_abstract_abstract from year 2011",
     "year": 2011,
     "bref_relevance": {
@@ -1908,8 +1910,8 @@
     "id": "3778495_abstract_abstract",
     "title": "WASTEWATER INCINERATION METHOD AND WASTEWATER INCINERATION APPARATUS",
     "score": 0.9941622018814088,
-    "x": 0.3234117925167084,
-    "y": 0.14180485904216766,
+    "x": 0.3037343919277191,
+    "y": 0.1543031930923462,
     "abstract": "Patent ID 3778495_abstract_abstract from year 2021",
     "year": 2021,
     "bref_relevance": {
@@ -1920,8 +1922,8 @@
     "id": "2889316_abstract_abstract",
     "title": "FLUORINE-CONTAINING COPOLYMER, METHOD FOR PRODUCING SAME, WATER REPELLENT COMPOSITION, AND ARTICLE",
     "score": 0.9941614270210266,
-    "x": 0.6038463115692139,
-    "y": 0.9032760262489319,
+    "x": 0.3386092185974121,
+    "y": 0.8714936971664429,
     "abstract": "Patent ID 2889316_abstract_abstract from year 2015",
     "year": 2015,
     "bref_relevance": {
@@ -1932,8 +1934,8 @@
     "id": "4011936_abstract_abstract",
     "title": "FLUOROPOLYETHER-GROUP-CONTAINING POLYMER, SURFACE TREATMENT AGENT, AND ARTICLE",
     "score": 0.9936831593513488,
-    "x": 0.5851988196372986,
-    "y": 0.9012573957443237,
+    "x": 0.35527247190475464,
+    "y": 0.8741245269775391,
     "abstract": "Patent ID 4011936_abstract_abstract from year 2022",
     "year": 2022,
     "bref_relevance": {
@@ -1944,8 +1946,8 @@
     "id": "2818208_abstract_abstract",
     "title": "DECONTAMINATION METHOD FOR ORGANIC COMPOUND",
     "score": 0.9936792254447936,
-    "x": 0.11879787594079971,
-    "y": 0.14119181036949158,
+    "x": 0.16214996576309204,
+    "y": 0.11334298551082611,
     "abstract": "Patent ID 2818208_abstract_abstract from year 2014",
     "year": 2014,
     "bref_relevance": {
@@ -1956,8 +1958,8 @@
     "id": "2711078_abstract_abstract",
     "title": "FENTON REACTION CATALYST PRODUCED USING REDUCING ORGANIC SUBSTANCE AS RAW MATERIAL",
     "score": 0.9936755299568176,
-    "x": 0.31196725368499756,
-    "y": 0.6509538292884827,
+    "x": 0.5094200968742371,
+    "y": 0.640336811542511,
     "abstract": "Patent ID 2711078_abstract_abstract from year 2014",
     "year": 2014,
     "bref_relevance": {
@@ -1968,8 +1970,8 @@
     "id": "4159701_abstract_abstract",
     "title": "MIXTURE FOR REDUCING CR(VI) CONTAINED IN CEMENT TO CR(III)",
     "score": 0.9931951761245728,
-    "x": 0.20213235914707184,
-    "y": 0.5284644961357117,
+    "x": 0.3718065023422241,
+    "y": 0.5513842701911926,
     "abstract": "Patent ID 4159701_abstract_abstract from year 2023",
     "year": 2023,
     "bref_relevance": {
@@ -1980,8 +1982,8 @@
     "id": "2826541_abstract_abstract",
     "title": "Wet scrubber nozzle system and method of use for cleaning a process gas",
     "score": 0.993189811706543,
-    "x": 0.48041829466819763,
-    "y": 0.14887095987796783,
+    "x": 0.46809133887290955,
+    "y": 0.18997852504253387,
     "abstract": "Patent ID 2826541_abstract_abstract from year 2015",
     "year": 2015,
     "bref_relevance": {
@@ -1992,8 +1994,8 @@
     "id": "4092060_abstract_abstract",
     "title": "POLYMERIZABLE FLAME RETARDANT",
     "score": 0.993188202381134,
-    "x": 0.605279803276062,
-    "y": 0.9832764267921448,
+    "x": 0.36243999004364014,
+    "y": 0.9843801856040955,
     "abstract": "Patent ID 4092060_abstract_abstract from year 2022",
     "year": 2022,
     "bref_relevance": {
@@ -2001,23 +2003,11 @@
     }
   },
   {
-    "id": "2554256_abstract_abstract",
-    "title": "FENTON REACTION CATALYST USING COFFEE GROUNDS OR TEA DREGS AS RAW MATERIAL",
-    "score": 0.9931878447532654,
-    "x": 0.3153821527957916,
-    "y": 0.6476314067840576,
-    "abstract": "Patent ID 2554256_abstract_abstract from year 2013",
-    "year": 2013,
-    "bref_relevance": {
-      "CWW:::3.3.2.3.4.4.2": 0.9931878447532654
-    }
-  },
-  {
     "id": "3264079_abstract_abstract",
     "title": "DETERMINING HYDROCARBON PRODUCTION INFORMATION AS A FUNCTION OF PROPERTIES OF DIFFERENT PHASES OF A ",
     "score": 0.9931878447532654,
-    "x": 0.38139715790748596,
-    "y": 0.3501831889152527,
+    "x": 0.3193311095237732,
+    "y": 0.3887159526348114,
     "abstract": "Patent ID 3264079_abstract_abstract from year 2018",
     "year": 2018,
     "bref_relevance": {
@@ -2025,11 +2015,23 @@
     }
   },
   {
+    "id": "2554256_abstract_abstract",
+    "title": "FENTON REACTION CATALYST USING COFFEE GROUNDS OR TEA DREGS AS RAW MATERIAL",
+    "score": 0.9931878447532654,
+    "x": 0.5089688301086426,
+    "y": 0.6401145458221436,
+    "abstract": "Patent ID 2554256_abstract_abstract from year 2013",
+    "year": 2013,
+    "bref_relevance": {
+      "CWW:::3.3.2.3.4.4.2": 0.9931878447532654
+    }
+  },
+  {
     "id": "3660264_abstract_abstract",
     "title": "OIL, WATER, GAS AND SOLID PARTICLE SEPARATION IN OIL AND/OR GAS PRODUCTION",
     "score": 0.9931870102882384,
-    "x": 0.421120285987854,
-    "y": 0.3324473202228546,
+    "x": 0.3333386480808258,
+    "y": 0.37905386090278625,
     "abstract": "Patent ID 3660264_abstract_abstract from year 2020",
     "year": 2020,
     "bref_relevance": {
@@ -2040,8 +2042,8 @@
     "id": "3747835_abstract_abstract",
     "title": "METHOD AND DEVICE TO CLEAN A TREATMENT WATER CONTAINING A VETERINARY PRODUCT FOR AQUATIC ANIMALS",
     "score": 0.9927093386650084,
-    "x": 0.494341641664505,
-    "y": 0.46647369861602783,
+    "x": 0.5669384598731995,
+    "y": 0.4692521095275879,
     "abstract": "Patent ID 3747835_abstract_abstract from year 2020",
     "year": 2020,
     "bref_relevance": {
@@ -2052,8 +2054,8 @@
     "id": "4242172_abstract_abstract",
     "title": "REGENERATIVE RECOVERY OF SULFUR DIOXIDE FROM EFFLUENT GASES",
     "score": 0.9927030205726624,
-    "x": 0.18390338122844696,
-    "y": 0.15100152790546417,
+    "x": 0.19238527119159698,
+    "y": 0.14993862807750702,
     "abstract": "Patent ID 4242172_abstract_abstract from year 2023",
     "year": 2023,
     "bref_relevance": {
@@ -2064,8 +2066,8 @@
     "id": "3243801_abstract_abstract",
     "title": "METHOD FOR THE OXIDATION OF ORGANIC SLUDGES IN CYCLIC BATCH MODE",
     "score": 0.9926989674568176,
-    "x": 0.6238245964050293,
-    "y": 0.4255821406841278,
+    "x": 0.6815088391304016,
+    "y": 0.49591729044914246,
     "abstract": "Patent ID 3243801_abstract_abstract from year 2017",
     "year": 2017,
     "bref_relevance": {
@@ -2076,20 +2078,21 @@
     "id": "2775112_abstract_abstract",
     "title": "Cleaning system and method for reduction of SOx in exhaust gases",
     "score": 0.992698073387146,
-    "x": 0.2704227566719055,
-    "y": 0.17917104065418243,
+    "x": 0.25723111629486084,
+    "y": 0.18766818940639496,
     "abstract": "Patent ID 2775112_abstract_abstract from year 2014",
     "year": 2014,
     "bref_relevance": {
-      "FMP:::8.8.1.7": 0.992698073387146
+      "FMP:::8.8.1.7": 0.992698073387146,
+      "FMP:::8.8.5.3": 0.8740436434745789
     }
   },
   {
     "id": "4272862_abstract_abstract",
     "title": "ADSORBENT FOR REMOVING CONTAMINANTS FROM PYROLYSIS OIL",
     "score": 0.9926978945732116,
-    "x": 0.29063037037849426,
-    "y": 0.43561339378356934,
+    "x": 0.15057885646820068,
+    "y": 0.3094329535961151,
     "abstract": "Patent ID 4272862_abstract_abstract from year 2023",
     "year": 2023,
     "bref_relevance": {
@@ -2100,8 +2103,8 @@
     "id": "3865524_abstract_abstract",
     "title": "FLUORINE-CONTAINING POLYMER AND SURFACE TREATMENT AGENT",
     "score": 0.992216944694519,
-    "x": 0.6028709411621094,
-    "y": 0.9044050574302673,
+    "x": 0.3389560878276825,
+    "y": 0.8728195428848267,
     "abstract": "Patent ID 3865524_abstract_abstract from year 2021",
     "year": 2021,
     "bref_relevance": {
@@ -2112,8 +2115,8 @@
     "id": "2762504_abstract_abstract",
     "title": "WATER-REPELLENT AND OIL-REPELLENT COMPOSITION",
     "score": 0.9917343854904176,
-    "x": 0.5946498513221741,
-    "y": 0.8975611329078674,
+    "x": 0.3500221073627472,
+    "y": 0.8652875423431396,
     "abstract": "Patent ID 2762504_abstract_abstract from year 2014",
     "year": 2014,
     "bref_relevance": {
@@ -2124,8 +2127,8 @@
     "id": "3656743_abstract_abstract",
     "title": "WASTEWATER TREATMENT SYSTEM AND METHOD WITH CATALYSTS",
     "score": 0.9917266368865968,
-    "x": 0.49932926893234253,
-    "y": 0.5069693922996521,
+    "x": 0.5424087643623352,
+    "y": 0.568788468837738,
     "abstract": "Patent ID 3656743_abstract_abstract from year 2020",
     "year": 2020,
     "bref_relevance": {
@@ -2136,8 +2139,8 @@
     "id": "3029293_abstract_abstract",
     "title": "EXHAUST GAS PURIFICATION APPARATUS",
     "score": 0.9917246103286744,
-    "x": 0.6274916529655457,
-    "y": 0.6833658218383789,
+    "x": 0.038687288761138916,
+    "y": 0.5798419117927551,
     "abstract": "Patent ID 3029293_abstract_abstract from year 2016",
     "year": 2016,
     "bref_relevance": {
@@ -2148,8 +2151,8 @@
     "id": "2927290_abstract_abstract",
     "title": "Fluorochemical coating composition and article treated therewith",
     "score": 0.9917238354682922,
-    "x": 0.5882364511489868,
-    "y": 0.8974056243896484,
+    "x": 0.35093021392822266,
+    "y": 0.8660700917243958,
     "abstract": "Patent ID 2927290_abstract_abstract from year 2015",
     "year": 2015,
     "bref_relevance": {
@@ -2160,8 +2163,8 @@
     "id": "2606952_abstract_abstract",
     "title": "Scrubber for reactive gases",
     "score": 0.9917235374450684,
-    "x": 0.583564043045044,
-    "y": 0.6967238187789917,
+    "x": 0.0736195519566536,
+    "y": 0.5646910667419434,
     "abstract": "Patent ID 2606952_abstract_abstract from year 2013",
     "year": 2013,
     "bref_relevance": {
@@ -2169,23 +2172,11 @@
     }
   },
   {
-    "id": "3760316_abstract_abstract",
-    "title": "SYSTEM FOR THE PURIFICATION OF THE PARTICULATE PRESENT IN FUMES AND IN EXHAUST GASES IN COMBUSTION P",
-    "score": 0.9917197823524476,
-    "x": 0.6507164835929871,
-    "y": 0.6884785890579224,
-    "abstract": "Patent ID 3760316_abstract_abstract from year 2021",
-    "year": 2021,
-    "bref_relevance": {
-      "FDM:::2.3.7.3.8": 0.9917197823524476
-    }
-  },
-  {
     "id": "3020702_abstract_abstract",
     "title": "Urea finishing process with acid scrubbing",
     "score": 0.9917197823524476,
-    "x": 0.21521715819835663,
-    "y": 0.22055567800998688,
+    "x": 0.20792867243289948,
+    "y": 0.24220415949821472,
     "abstract": "Patent ID 3020702_abstract_abstract from year 2016",
     "year": 2016,
     "bref_relevance": {
@@ -2193,11 +2184,23 @@
     }
   },
   {
+    "id": "3760316_abstract_abstract",
+    "title": "SYSTEM FOR THE PURIFICATION OF THE PARTICULATE PRESENT IN FUMES AND IN EXHAUST GASES IN COMBUSTION P",
+    "score": 0.9917197823524476,
+    "x": 0.017519686371088028,
+    "y": 0.5820451974868774,
+    "abstract": "Patent ID 3760316_abstract_abstract from year 2021",
+    "year": 2021,
+    "bref_relevance": {
+      "FDM:::2.3.7.3.8": 0.9917197823524476
+    }
+  },
+  {
     "id": "2870991_abstract_abstract",
     "title": "Inlet for scrubber",
     "score": 0.991719663143158,
-    "x": 0.5198763608932495,
-    "y": 0.14627836644649506,
+    "x": 0.48589614033699036,
+    "y": 0.1657980978488922,
     "abstract": "Patent ID 2870991_abstract_abstract from year 2015",
     "year": 2015,
     "bref_relevance": {
@@ -2208,8 +2211,8 @@
     "id": "3023693_abstract_abstract",
     "title": "Device and system for plasma treatment of solid waste",
     "score": 0.9917157292366028,
-    "x": 0.6023226380348206,
-    "y": 0.6735684871673584,
+    "x": 0.37910813093185425,
+    "y": 0.11011623591184616,
     "abstract": "Patent ID 3023693_abstract_abstract from year 2016",
     "year": 2016,
     "bref_relevance": {
@@ -2220,8 +2223,8 @@
     "id": "4098349_abstract_abstract",
     "title": "APPARATUS FOR TREATING WASTE GAS OF ELECTRONICS INDUSTRY",
     "score": 0.991243064403534,
-    "x": 0.28169944882392883,
-    "y": 0.11200452595949173,
+    "x": 0.26951277256011963,
+    "y": 0.11292485892772675,
     "abstract": "Patent ID 4098349_abstract_abstract from year 2022",
     "year": 2022,
     "bref_relevance": {
@@ -2232,8 +2235,8 @@
     "id": "4056249_abstract_abstract",
     "title": "FLUID TREATMENT SYSTEM AND PROCESS",
     "score": 0.9907442927360536,
-    "x": 0.5131179094314575,
-    "y": 0.3743675947189331,
+    "x": 0.6113061308860779,
+    "y": 0.4092220962047577,
     "abstract": "Patent ID 4056249_abstract_abstract from year 2022",
     "year": 2022,
     "bref_relevance": {
@@ -2244,8 +2247,8 @@
     "id": "2610221_abstract_abstract",
     "title": "Method and arrangement for a water treatment",
     "score": 0.9907438158988952,
-    "x": 0.4973630905151367,
-    "y": 0.5312573313713074,
+    "x": 0.5424075126647949,
+    "y": 0.5827123522758484,
     "abstract": "Patent ID 2610221_abstract_abstract from year 2013",
     "year": 2013,
     "bref_relevance": {
@@ -2256,8 +2259,8 @@
     "id": "2390408_abstract_abstract",
     "title": "Control of enzymes in the production of pulp",
     "score": 0.9902580380439758,
-    "x": 0.6377602219581604,
-    "y": 0.5340176820755005,
+    "x": 0.6214660406112671,
+    "y": 0.6032381653785706,
     "abstract": "Patent ID 2390408_abstract_abstract from year 2011",
     "year": 2011,
     "bref_relevance": {
@@ -2268,8 +2271,8 @@
     "id": "2543746_abstract_abstract",
     "title": "HYDROMETALLURGICAL METHOD FOR THE RECOVERY OF ZINC IN A SULPHUR MEDIUM FROM SULPHURED ZINC CONCENTRA",
     "score": 0.9897847175598145,
-    "x": 0.20462101697921753,
-    "y": 0.5534098148345947,
+    "x": 0.37954801321029663,
+    "y": 0.5921406149864197,
     "abstract": "Patent ID 2543746_abstract_abstract from year 2013",
     "year": 2013,
     "bref_relevance": {
@@ -2280,8 +2283,8 @@
     "id": "4082584_abstract_abstract",
     "title": "GAS TREATMENT METHOD, STORAGE CHAMBER, INCUBATOR, AND STERILIZER",
     "score": 0.9897816777229308,
-    "x": 0.6052135825157166,
-    "y": 0.7466719150543213,
+    "x": 0.6014001965522766,
+    "y": 0.7200215458869934,
     "abstract": "Patent ID 4082584_abstract_abstract from year 2022",
     "year": 2022,
     "bref_relevance": {
@@ -2292,8 +2295,8 @@
     "id": "4201522_abstract_abstract",
     "title": "METHOD FOR PROCESSING LIQUID PHARMACHEMICAL AND/OR FINE CHEMICAL WASTE COMPRISING ORGANIC SOLVENTS A",
     "score": 0.9897697567939758,
-    "x": 0.2113451510667801,
-    "y": 0.5495580434799194,
+    "x": 0.36909642815589905,
+    "y": 0.5843098163604736,
     "abstract": "Patent ID 4201522_abstract_abstract from year 2023",
     "year": 2023,
     "bref_relevance": {
@@ -2304,8 +2307,8 @@
     "id": "3037162_abstract_abstract",
     "title": "METHOD FOR TREATING ORGANIC MATTER IN THE PRESENCE OF WATER, CONTACT REACTION DEVICE AND SYSTEM INCL",
     "score": 0.9897645711898804,
-    "x": 0.3312690556049347,
-    "y": 0.6402122378349304,
+    "x": 0.5016008615493774,
+    "y": 0.618180513381958,
     "abstract": "Patent ID 3037162_abstract_abstract from year 2016",
     "year": 2016,
     "bref_relevance": {
@@ -2316,8 +2319,8 @@
     "id": "2583753_abstract_abstract",
     "title": "Process and apparatus for dedusting a vapour gas mixture",
     "score": 0.9892941117286682,
-    "x": 0.2818495035171509,
-    "y": 0.18258342146873474,
+    "x": 0.2780725359916687,
+    "y": 0.21155284345149994,
     "abstract": "Patent ID 2583753_abstract_abstract from year 2013",
     "year": 2013,
     "bref_relevance": {
@@ -2328,8 +2331,8 @@
     "id": "4230319_abstract_abstract",
     "title": "REACTOR FOR A WASTE TRANSFORMATION DEVICE",
     "score": 0.9892817735671996,
-    "x": 0.6166794300079346,
-    "y": 0.6795873641967773,
+    "x": 0.05284561961889267,
+    "y": 0.5752149224281311,
     "abstract": "Patent ID 4230319_abstract_abstract from year 2023",
     "year": 2023,
     "bref_relevance": {
@@ -2340,8 +2343,8 @@
     "id": "2338865_abstract_abstract",
     "title": "Process for removing oxygenated contaminants from an hydrocarbon stream",
     "score": 0.98878812789917,
-    "x": 0.2934841513633728,
-    "y": 0.32642245292663574,
+    "x": 0.2631397843360901,
+    "y": 0.3671469986438751,
     "abstract": "Patent ID 2338865_abstract_abstract from year 2011",
     "year": 2011,
     "bref_relevance": {
@@ -2352,8 +2355,8 @@
     "id": "2905063_abstract_abstract",
     "title": "REMOVAL OF OXIDES OF NITROGEN AND SULFUR FROM WASTE GAS BY REACTION WITH CHLORINE DIOXIDE",
     "score": 0.988308608531952,
-    "x": 0.14766182005405426,
-    "y": 0.13956592977046967,
+    "x": 0.1741786152124405,
+    "y": 0.12483850866556168,
     "abstract": "Patent ID 2905063_abstract_abstract from year 2015",
     "year": 2015,
     "bref_relevance": {
@@ -2364,8 +2367,8 @@
     "id": "3892348_abstract_abstract",
     "title": "METHOD AND SYSTEM FOR TREATING WASTE LIQUIDS",
     "score": 0.9883081912994384,
-    "x": 0.315220445394516,
-    "y": 0.2592194676399231,
+    "x": 0.2987765371799469,
+    "y": 0.2914551794528961,
     "abstract": "Patent ID 3892348_abstract_abstract from year 2021",
     "year": 2021,
     "bref_relevance": {
@@ -2377,8 +2380,8 @@
     "id": "3378920_abstract_abstract",
     "title": "INTEGRATED SYSTEM AND PROCESS FOR IN-SITU ORGANIC  PEROXIDE PRODUCTION AND OXIDATIVE HETEROATOM CONV",
     "score": 0.9883068799972534,
-    "x": 0.4982607960700989,
-    "y": 0.504224956035614,
+    "x": 0.163716122508049,
+    "y": 0.24847452342510223,
     "abstract": "Patent ID 3378920_abstract_abstract from year 2018",
     "year": 2018,
     "bref_relevance": {
@@ -2389,8 +2392,8 @@
     "id": "2725116_abstract_abstract",
     "title": "Continuous single-dip process for galvanization of steel long products into Zn-Al-Mg alloys",
     "score": 0.9878110289573668,
-    "x": 0.3124845623970032,
-    "y": 0.6999590992927551,
+    "x": 0.2880694270133972,
+    "y": 0.6079217195510864,
     "abstract": "Patent ID 2725116_abstract_abstract from year 2014",
     "year": 2014,
     "bref_relevance": {
@@ -2401,8 +2404,8 @@
     "id": "2657943_abstract_abstract",
     "title": "A method for removing the 137 Cs from polluted EAF dusts",
     "score": 0.9868472218513488,
-    "x": 0.2629339396953583,
-    "y": 0.46887505054473877,
+    "x": 0.4362431466579437,
+    "y": 0.5227547883987427,
     "abstract": "Patent ID 2657943_abstract_abstract from year 2013",
     "year": 2013,
     "bref_relevance": {
@@ -2413,8 +2416,8 @@
     "id": "2765837_abstract_abstract",
     "title": "System and method for treatment of biofilms",
     "score": 0.9868459105491638,
-    "x": 0.6026955246925354,
-    "y": 0.6875016689300537,
+    "x": 0.06944677978754044,
+    "y": 0.5623912215232849,
     "abstract": "Patent ID 2765837_abstract_abstract from year 2014",
     "year": 2014,
     "bref_relevance": {
@@ -2425,8 +2428,8 @@
     "id": "3831465_abstract_abstract",
     "title": "APPARATUS AND METHOD FOR PROCESSING EXHAUST GAS",
     "score": 0.9868443012237548,
-    "x": 0.5093997716903687,
-    "y": 0.17353980243206024,
+    "x": 0.4941321611404419,
+    "y": 0.15973472595214844,
     "abstract": "Patent ID 3831465_abstract_abstract from year 2021",
     "year": 2021,
     "bref_relevance": {
@@ -2437,8 +2440,8 @@
     "id": "3363918_abstract_abstract",
     "title": "METHOD FOR EXTRACTING METALS FROM CONCENTRATED SULPHURATED MINERALS CONTAINING METALS BY DIRECT REDU",
     "score": 0.9868428111076356,
-    "x": 0.13608402013778687,
-    "y": 0.5169822573661804,
+    "x": 0.3286339044570923,
+    "y": 0.5631652474403381,
     "abstract": "Patent ID 3363918_abstract_abstract from year 2018",
     "year": 2018,
     "bref_relevance": {
@@ -2449,8 +2452,8 @@
     "id": "3100781_abstract_abstract",
     "title": "PROCESS AND APPARATUS FOR HIGH PERFORMANCE FLUE GAS CLEANING",
     "score": 0.9863619804382324,
-    "x": 0.47984635829925537,
-    "y": 0.14545485377311707,
+    "x": 0.4564545452594757,
+    "y": 0.17924758791923523,
     "abstract": "Patent ID 3100781_abstract_abstract from year 2016",
     "year": 2016,
     "bref_relevance": {
@@ -2461,8 +2464,8 @@
     "id": "4285859_abstract_abstract",
     "title": "SYSTEM FOR ERADICATION OF PATHOGENIC MICROORGANISMS FROM FLAT SURFACES OR SKIN TISSUE",
     "score": 0.9863610863685608,
-    "x": 0.6015863418579102,
-    "y": 0.6863569021224976,
+    "x": 0.0630388930439949,
+    "y": 0.574177622795105,
     "abstract": "Patent ID 4285859_abstract_abstract from year 2023",
     "year": 2023,
     "bref_relevance": {
@@ -2473,8 +2476,8 @@
     "id": "3967416_abstract_abstract",
     "title": "METHOD FOR REMOVING BIOFILM",
     "score": 0.9863535761833192,
-    "x": 0.5450571179389954,
-    "y": 0.5252164602279663,
+    "x": 0.5741328597068787,
+    "y": 0.5631824731826782,
     "abstract": "Patent ID 3967416_abstract_abstract from year 2022",
     "year": 2022,
     "bref_relevance": {
@@ -2485,8 +2488,8 @@
     "id": "2711062_abstract_abstract",
     "title": "Stripper for separating process in aromatic component processing apparatus and method for operating ",
     "score": 0.9863410592079164,
-    "x": 0.287090003490448,
-    "y": 0.321162611246109,
+    "x": 0.25862839818000793,
+    "y": 0.35845673084259033,
     "abstract": "Patent ID 2711062_abstract_abstract from year 2014",
     "year": 2014,
     "bref_relevance": {
@@ -2497,8 +2500,8 @@
     "id": "2497763_abstract_abstract",
     "title": "FLUORINATED COMPOUND AND FLUORINATED POLYMER",
     "score": 0.985880732536316,
-    "x": 0.6046068072319031,
-    "y": 0.9062170386314392,
+    "x": 0.33559268712997437,
+    "y": 0.8758461475372314,
     "abstract": "Patent ID 2497763_abstract_abstract from year 2012",
     "year": 2012,
     "bref_relevance": {
@@ -2509,8 +2512,8 @@
     "id": "2939983_abstract_abstract",
     "title": "Titanium dioxide-catalysed oxidation method",
     "score": 0.9853832721710204,
-    "x": 0.6043067574501038,
-    "y": 0.535802960395813,
+    "x": 0.5616052746772766,
+    "y": 0.632673442363739,
     "abstract": "Patent ID 2939983_abstract_abstract from year 2015",
     "year": 2015,
     "bref_relevance": {
@@ -2521,8 +2524,8 @@
     "id": "3779169_abstract_abstract",
     "title": "METHOD AND SYSTEM FOR REDUCING CONCENTRATION OF POLLUTANTS IN SMOKE GENERATED BY COMBUSTION",
     "score": 0.985373079776764,
-    "x": 0.2987383008003235,
-    "y": 0.08605599403381348,
+    "x": 0.2666874825954437,
+    "y": 0.09207853674888611,
     "abstract": "Patent ID 3779169_abstract_abstract from year 2021",
     "year": 2021,
     "bref_relevance": {
@@ -2533,8 +2536,8 @@
     "id": "3095760_abstract_abstract",
     "title": "A METHOD FOR INCREASING THE CAPACITY OF AN AMMONIA PLANT",
     "score": 0.9853654503822328,
-    "x": 0.2584800124168396,
-    "y": 0.2440684586763382,
+    "x": 0.2369847297668457,
+    "y": 0.2713595926761627,
     "abstract": "Patent ID 3095760_abstract_abstract from year 2016",
     "year": 2016,
     "bref_relevance": {
@@ -2545,8 +2548,8 @@
     "id": "2415726_abstract_abstract",
     "title": "COMPOSITION FOR REDUCING CR (VI) INTO CEMENT",
     "score": 0.9844219088554382,
-    "x": 0.140523761510849,
-    "y": 0.5040559768676758,
+    "x": 0.32520461082458496,
+    "y": 0.5530619025230408,
     "abstract": "Patent ID 2415726_abstract_abstract from year 2012",
     "year": 2012,
     "bref_relevance": {
@@ -2557,8 +2560,8 @@
     "id": "3623347_abstract_abstract",
     "title": "METHOD FOR REMOVING A CONTAMINANT FROM WASTEWATER FROM AN INDUSTRIAL PLANT AND A SYSTEM FOR PERFORMI",
     "score": 0.9843984246253968,
-    "x": 0.4583583176136017,
-    "y": 0.4658783972263336,
+    "x": 0.5454603433609009,
+    "y": 0.4867357313632965,
     "abstract": "Patent ID 3623347_abstract_abstract from year 2020",
     "year": 2020,
     "bref_relevance": {
@@ -2569,8 +2572,8 @@
     "id": "2287886_abstract_abstract",
     "title": "Plasma treatment system",
     "score": 0.9834287762641908,
-    "x": 0.5932589769363403,
-    "y": 0.6886962652206421,
+    "x": 0.07442670315504074,
+    "y": 0.5647774934768677,
     "abstract": "Patent ID 2287886_abstract_abstract from year 2011",
     "year": 2011,
     "bref_relevance": {
@@ -2581,8 +2584,8 @@
     "id": "4116342_abstract_abstract",
     "title": "DISPERSION",
     "score": 0.9834265112876892,
-    "x": 0.6063326001167297,
-    "y": 0.9050352573394775,
+    "x": 0.33659103512763977,
+    "y": 0.8727214932441711,
     "abstract": "Patent ID 4116342_abstract_abstract from year 2023",
     "year": 2023,
     "bref_relevance": {
@@ -2593,8 +2596,8 @@
     "id": "2489630_abstract_abstract",
     "title": "HYDROGEN GAS RECOVERY SYSTEM AND HYDROGEN GAS SEPARATION AND RECOVERY METHOD",
     "score": 0.9834223389625548,
-    "x": 0.17681287229061127,
-    "y": 0.2819460928440094,
+    "x": 0.16276662051677704,
+    "y": 0.2797669470310211,
     "abstract": "Patent ID 2489630_abstract_abstract from year 2012",
     "year": 2012,
     "bref_relevance": {
@@ -2606,8 +2609,8 @@
     "id": "4075449_abstract_abstract",
     "title": "METHOD FOR CONCENTRATING LIQUID RADIOACTIVE WASTE",
     "score": 0.98341965675354,
-    "x": 0.26544272899627686,
-    "y": 0.45038166642189026,
+    "x": 0.42769861221313477,
+    "y": 0.5073647499084473,
     "abstract": "Patent ID 4075449_abstract_abstract from year 2022",
     "year": 2022,
     "bref_relevance": {
@@ -2618,8 +2621,8 @@
     "id": "3270058_abstract_abstract",
     "title": "EXHAUST-GAS TREATMENT APPARATUS",
     "score": 0.9829311370849608,
-    "x": 0.37321802973747253,
-    "y": 0.0923234075307846,
+    "x": 0.3626667857170105,
+    "y": 0.08822190016508102,
     "abstract": "Patent ID 3270058_abstract_abstract from year 2018",
     "year": 2018,
     "bref_relevance": {
@@ -2630,20 +2633,21 @@
     "id": "3513862_abstract_abstract",
     "title": "REGENERATIVE RECOVERY OF SULFUR DIOXIDE FROM EFFLUENT GASES",
     "score": 0.9829235076904296,
-    "x": 0.16352106630802155,
-    "y": 0.17615346610546112,
+    "x": 0.16371817886829376,
+    "y": 0.17807643115520477,
     "abstract": "Patent ID 3513862_abstract_abstract from year 2019",
     "year": 2019,
     "bref_relevance": {
-      "REF:::4.3.9": 0.9829235076904296
+      "REF:::4.3.9": 0.9829235076904296,
+      "FMP:::8.8.5.3": 0.9482654333114624
     }
   },
   {
     "id": "3031511_abstract_abstract",
     "title": "Method for energy efficient recovery of carbon dioxide from an absorbent and a plant suitable for op",
     "score": 0.9829201102256776,
-    "x": 0.2758771479129791,
-    "y": 0.244657963514328,
+    "x": 0.2642856240272522,
+    "y": 0.2756672203540802,
     "abstract": "Patent ID 3031511_abstract_abstract from year 2016",
     "year": 2016,
     "bref_relevance": {
@@ -2654,8 +2658,8 @@
     "id": "4249430_abstract_abstract",
     "title": "INTEGRATED PROCESS FOR THE PRODUCTION OF SULPHURIC ACID AND SULPHUR",
     "score": 0.9824503660202026,
-    "x": 0.1931426078081131,
-    "y": 0.17455631494522095,
+    "x": 0.20235003530979156,
+    "y": 0.1709706038236618,
     "abstract": "Patent ID 4249430_abstract_abstract from year 2023",
     "year": 2023,
     "bref_relevance": {
@@ -2666,8 +2670,8 @@
     "id": "3409741_abstract_abstract",
     "title": "HEXAVALENT CHROMIUM TREATMENT AGENT, AND LEATHER OR LEATHER PRODUCT USING SAME",
     "score": 0.9824459552764891,
-    "x": 0.2926061153411865,
-    "y": 0.6916407942771912,
+    "x": 0.3115152418613434,
+    "y": 0.7192891240119934,
     "abstract": "Patent ID 3409741_abstract_abstract from year 2018",
     "year": 2018,
     "bref_relevance": {
@@ -2678,8 +2682,8 @@
     "id": "3594304_abstract_abstract",
     "title": "POWDERY COMPOSITION FOR HEXAVALENT CHROMIUM TREATMENT, TABLET, AND METHOD FOR PRODUCING LEATHER",
     "score": 0.9819823503494264,
-    "x": 0.29000332951545715,
-    "y": 0.6883572936058044,
+    "x": 0.30924323201179504,
+    "y": 0.7148945927619934,
     "abstract": "Patent ID 3594304_abstract_abstract from year 2020",
     "year": 2020,
     "bref_relevance": {
@@ -2690,8 +2694,8 @@
     "id": "3900824_abstract_abstract",
     "title": "METHOD OF REGENERATION OF CARBONACEOUS ADSORBENT AND SYSTEM FOR CARRYING OUT THE METHOD",
     "score": 0.980012595653534,
-    "x": 0.18196025490760803,
-    "y": 0.16017362475395203,
+    "x": 0.19327901303768158,
+    "y": 0.15752898156642914,
     "abstract": "Patent ID 3900824_abstract_abstract from year 2021",
     "year": 2021,
     "bref_relevance": {
@@ -2702,8 +2706,8 @@
     "id": "4163251_abstract_abstract",
     "title": "REACTOR FOR PARTIAL OXIDATION OF HYDROCARBONS",
     "score": 0.9800024032592772,
-    "x": 0.3936542570590973,
-    "y": 0.06291583180427551,
+    "x": 0.3831556439399719,
+    "y": 0.05864559859037399,
     "abstract": "Patent ID 4163251_abstract_abstract from year 2023",
     "year": 2023,
     "bref_relevance": {
@@ -2714,8 +2718,8 @@
     "id": "2554556_abstract_abstract",
     "title": "FLUORINE-CONTAINING COMPOUND AND FLUORINE-CONTAINING POLYMER",
     "score": 0.9795268774032592,
-    "x": 0.607017993927002,
-    "y": 0.9054141044616699,
+    "x": 0.3370056748390198,
+    "y": 0.8746768236160278,
     "abstract": "Patent ID 2554556_abstract_abstract from year 2013",
     "year": 2013,
     "bref_relevance": {
@@ -2726,8 +2730,8 @@
     "id": "2638952_abstract_abstract",
     "title": "A method of controlling a gas cleaning system by measuring a parameter of an absorbent material",
     "score": 0.97903174161911,
-    "x": 0.5254238247871399,
-    "y": 0.18032750487327576,
+    "x": 0.5145863890647888,
+    "y": 0.17011040449142456,
     "abstract": "Patent ID 2638952_abstract_abstract from year 2013",
     "year": 2013,
     "bref_relevance": {
@@ -2738,8 +2742,8 @@
     "id": "3967663_abstract_abstract",
     "title": "METHOD FOR RECOVERING WATER AND CHEMICALS FROM PLANTS FOR TREATING EFFLUENTS FROM PULP AND PAPER FAC",
     "score": 0.9785387516021729,
-    "x": 0.38652053475379944,
-    "y": 0.42695367336273193,
+    "x": 0.44126102328300476,
+    "y": 0.4645537734031677,
     "abstract": "Patent ID 3967663_abstract_abstract from year 2022",
     "year": 2022,
     "bref_relevance": {
@@ -2750,8 +2754,8 @@
     "id": "2312283_abstract_abstract",
     "title": "Method and apparatus for detection of phase separation in storage tanks",
     "score": 0.9780521392822266,
-    "x": 0.6266676187515259,
-    "y": 0.3177235424518585,
+    "x": 0.6475691199302673,
+    "y": 0.333695650100708,
     "abstract": "Patent ID 2312283_abstract_abstract from year 2011",
     "year": 2011,
     "bref_relevance": {
@@ -2762,8 +2766,8 @@
     "id": "3196169_abstract_abstract",
     "title": "METHOD FOR SEPARATING o/w EMULSION INTO OIL AND WATER, AND OIL/WATER SEPARATION AGENT FOR o/w EMULSI",
     "score": 0.9770681858062744,
-    "x": 0.34857046604156494,
-    "y": 0.36182111501693726,
+    "x": 0.29802948236465454,
+    "y": 0.40520909428596497,
     "abstract": "Patent ID 3196169_abstract_abstract from year 2017",
     "year": 2017,
     "bref_relevance": {
@@ -2774,8 +2778,8 @@
     "id": "3812025_abstract_abstract",
     "title": "A SEPARATOR",
     "score": 0.9765886068344116,
-    "x": 0.5029712319374084,
-    "y": 0.3656133711338043,
+    "x": 0.5891678929328918,
+    "y": 0.4002338647842407,
     "abstract": "Patent ID 3812025_abstract_abstract from year 2021",
     "year": 2021,
     "bref_relevance": {
@@ -2786,8 +2790,8 @@
     "id": "3437718_abstract_abstract",
     "title": "A SCRUBBER FOR CLEANING OF A GAS",
     "score": 0.9756137132644652,
-    "x": 0.5050839781761169,
-    "y": 0.1434175968170166,
+    "x": 0.48500433564186096,
+    "y": 0.1714094579219818,
     "abstract": "Patent ID 3437718_abstract_abstract from year 2019",
     "year": 2019,
     "bref_relevance": {
@@ -2798,8 +2802,8 @@
     "id": "2505626_abstract_abstract",
     "title": "An oil-repellent coating material composition",
     "score": 0.975153148174286,
-    "x": 0.5929248929023743,
-    "y": 0.9131981134414673,
+    "x": 0.3420300781726837,
+    "y": 0.8854056596755981,
     "abstract": "Patent ID 2505626_abstract_abstract from year 2012",
     "year": 2012,
     "bref_relevance": {
@@ -2810,8 +2814,8 @@
     "id": "3943454_abstract_abstract",
     "title": "METHOD AND DEVICE FOR TREATMENT OF WATER USING OZONE",
     "score": 0.9751326441764832,
-    "x": 0.49337178468704224,
-    "y": 0.4843932092189789,
+    "x": 0.5764079093933105,
+    "y": 0.47320252656936646,
     "abstract": "Patent ID 3943454_abstract_abstract from year 2022",
     "year": 2022,
     "bref_relevance": {
@@ -2822,8 +2826,8 @@
     "id": "3585136_abstract_abstract",
     "title": "A METHOD AND DEVICE FOR GENERATING LOW-TEMPERATURE ELECTRICAL WATER-BASED PLASMA AT NEAR-ATMOSPHERIC",
     "score": 0.975129008293152,
-    "x": 0.6098529100418091,
-    "y": 0.6851750612258911,
+    "x": 0.056418851017951965,
+    "y": 0.5762355327606201,
     "abstract": "Patent ID 3585136_abstract_abstract from year 2019",
     "year": 2019,
     "bref_relevance": {
@@ -2834,8 +2838,8 @@
     "id": "2808074_abstract_abstract",
     "title": "Hydrogen chloride removal process contact with ferrous compounds",
     "score": 0.9751205444335938,
-    "x": 0.24744150042533875,
-    "y": 0.6077035069465637,
+    "x": 0.3455066382884979,
+    "y": 0.6436799168586731,
     "abstract": "Patent ID 2808074_abstract_abstract from year 2014",
     "year": 2014,
     "bref_relevance": {
@@ -2847,8 +2851,8 @@
     "id": "2366671_abstract_abstract",
     "title": "Apparatus and method for dissolution of ozone in water and catalytic oxidation",
     "score": 0.9741522073745728,
-    "x": 0.4963298439979553,
-    "y": 0.4822378158569336,
+    "x": 0.5799768567085266,
+    "y": 0.46502697467803955,
     "abstract": "Patent ID 2366671_abstract_abstract from year 2011",
     "year": 2011,
     "bref_relevance": {
@@ -2859,8 +2863,8 @@
     "id": "3231828_abstract_abstract",
     "title": "METHOD FOR PREPARING NON-FLUORINATED URETHANE BASED COATINGS",
     "score": 0.9741519689559937,
-    "x": 0.47894158959388733,
-    "y": 0.8726362586021423,
+    "x": 0.45017537474632263,
+    "y": 0.861926257610321,
     "abstract": "Patent ID 3231828_abstract_abstract from year 2017",
     "year": 2017,
     "bref_relevance": {
@@ -2871,8 +2875,8 @@
     "id": "3705169_abstract_abstract",
     "title": "ADSORPTIVE GAS SEPARATION PROCESS",
     "score": 0.973648965358734,
-    "x": 0.17799746990203857,
-    "y": 0.2574963867664337,
+    "x": 0.1687651425600052,
+    "y": 0.2624923288822174,
     "abstract": "Patent ID 3705169_abstract_abstract from year 2020",
     "year": 2020,
     "bref_relevance": {
@@ -2883,8 +2887,8 @@
     "id": "3922607_abstract_abstract",
     "title": "WATER TREATMENT DEVICE",
     "score": 0.9721945524215698,
-    "x": 0.4995606243610382,
-    "y": 0.5396655201911926,
+    "x": 0.5395639538764954,
+    "y": 0.5986680388450623,
     "abstract": "Patent ID 3922607_abstract_abstract from year 2021",
     "year": 2021,
     "bref_relevance": {
@@ -2895,8 +2899,8 @@
     "id": "2497560_abstract_abstract",
     "title": "A method and system for removing contaminants from a process gas",
     "score": 0.9717026948928832,
-    "x": 0.18269747495651245,
-    "y": 0.1629108190536499,
+    "x": 0.1913711428642273,
+    "y": 0.17240476608276367,
     "abstract": "Patent ID 2497560_abstract_abstract from year 2012",
     "year": 2012,
     "bref_relevance": {
@@ -2907,8 +2911,8 @@
     "id": "3792328_abstract_abstract",
     "title": "WATER AND OIL REPELLENT AND TEXTILE PRODUCT",
     "score": 0.9702560901641846,
-    "x": 0.6043332815170288,
-    "y": 0.9053424000740051,
+    "x": 0.3390626609325409,
+    "y": 0.8725852966308594,
     "abstract": "Patent ID 3792328_abstract_abstract from year 2021",
     "year": 2021,
     "bref_relevance": {
@@ -2919,8 +2923,8 @@
     "id": "2570550_abstract_abstract",
     "title": "Oxygen treatment of water and pulp from paper or cardboard production",
     "score": 0.9702404737472534,
-    "x": 0.6207388639450073,
-    "y": 0.5221952795982361,
+    "x": 0.6265374422073364,
+    "y": 0.5855419635772705,
     "abstract": "Patent ID 2570550_abstract_abstract from year 2013",
     "year": 2013,
     "bref_relevance": {
@@ -2931,8 +2935,8 @@
     "id": "3437717_abstract_abstract",
     "title": "A SCRUBBER FOR CLEANING OF A GAS",
     "score": 0.969758689403534,
-    "x": 0.5088369250297546,
-    "y": 0.14024269580841064,
+    "x": 0.4826504588127136,
+    "y": 0.1695525348186493,
     "abstract": "Patent ID 3437717_abstract_abstract from year 2019",
     "year": 2019,
     "bref_relevance": {
@@ -2943,8 +2947,8 @@
     "id": "3533511_abstract_abstract",
     "title": "AN EXHAUST GAS TREATMENT METHOD AND SYSTEM ARRANGED FOR TREATING EXHAUST GASES COLLECTED FROM AT LEA",
     "score": 0.968782603740692,
-    "x": 0.12101449072360992,
-    "y": 0.1332613229751587,
+    "x": 0.16531065106391907,
+    "y": 0.1065681129693985,
     "abstract": "Patent ID 3533511_abstract_abstract from year 2019",
     "year": 2019,
     "bref_relevance": {
@@ -2955,8 +2959,8 @@
     "id": "3744692_abstract_abstract",
     "title": "REMOVAL OF HEAVY METALS FROM AQUEOUS SOLUTIONS",
     "score": 0.9668247699737548,
-    "x": 0.28772813081741333,
-    "y": 0.5275269746780396,
+    "x": 0.44326916337013245,
+    "y": 0.5665587782859802,
     "abstract": "Patent ID 3744692_abstract_abstract from year 2020",
     "year": 2020,
     "bref_relevance": {
@@ -2967,8 +2971,8 @@
     "id": "2311904_abstract_abstract",
     "title": "Compositions containing fluorine substituted olefins",
     "score": 0.9663483500480652,
-    "x": 0.6109099984169006,
-    "y": 0.9079993367195129,
+    "x": 0.19195879995822906,
+    "y": 0.42257970571517944,
     "abstract": "Patent ID 2311904_abstract_abstract from year 2011",
     "year": 2011,
     "bref_relevance": {
@@ -2979,8 +2983,8 @@
     "id": "3276262_abstract_abstract",
     "title": "METHOD FOR OPERATING A CLAUS BURNER",
     "score": 0.966339349746704,
-    "x": 0.37530434131622314,
-    "y": 0.03760820999741554,
+    "x": 0.3437165319919586,
+    "y": 0.04103374108672142,
     "abstract": "Patent ID 3276262_abstract_abstract from year 2018",
     "year": 2018,
     "bref_relevance": {
@@ -2991,8 +2995,8 @@
     "id": "3915668_abstract_abstract",
     "title": "CATALYTIC OXIDATION AND REMOVAL OF NOX/SOX FROM FLUE GASES",
     "score": 0.9658489227294922,
-    "x": 0.12906447052955627,
-    "y": 0.13872797787189484,
+    "x": 0.16375508904457092,
+    "y": 0.11615365743637085,
     "abstract": "Patent ID 3915668_abstract_abstract from year 2021",
     "year": 2021,
     "bref_relevance": {
@@ -3003,8 +3007,8 @@
     "id": "3782712_abstract_abstract",
     "title": "REDUCING FLUCTUATIONS IN TAIL GAS FLOW AND FUEL PROPERTY FROM AN ADSORPTION UNIT",
     "score": 0.962917685508728,
-    "x": 0.3561044931411743,
-    "y": 0.02301214449107647,
+    "x": 0.30641669034957886,
+    "y": 0.0403246134519577,
     "abstract": "Patent ID 3782712_abstract_abstract from year 2021",
     "year": 2021,
     "bref_relevance": {
@@ -3015,8 +3019,8 @@
     "id": "3919161_abstract_abstract",
     "title": "SCRUBBER APPARATUS FOR CARBON DIOXIDE REMOVAL BY TEMPERATURE SWING ADSORPTION AND CONTROLLED ATMOSPH",
     "score": 0.961938738822937,
-    "x": 0.13773198425769806,
-    "y": 0.26085424423217773,
+    "x": 0.13104887306690216,
+    "y": 0.2468780130147934,
     "abstract": "Patent ID 3919161_abstract_abstract from year 2021",
     "year": 2021,
     "bref_relevance": {
@@ -3027,8 +3031,8 @@
     "id": "3604464_abstract_abstract",
     "title": "SURFACE TREATMENT AGENT AND METHOD FOR PRODUCING SAME",
     "score": 0.9604867696762084,
-    "x": 0.6083493828773499,
-    "y": 0.9068544507026672,
+    "x": 0.3334099054336548,
+    "y": 0.8772570490837097,
     "abstract": "Patent ID 3604464_abstract_abstract from year 2020",
     "year": 2020,
     "bref_relevance": {
@@ -3039,8 +3043,8 @@
     "id": "2606953_abstract_abstract",
     "title": "Membrane distillation system, method of starting such a system and use thereof",
     "score": 0.9599814414978028,
-    "x": 0.3384265899658203,
-    "y": 0.2824519872665405,
+    "x": 0.3040925860404968,
+    "y": 0.31944993138313293,
     "abstract": "Patent ID 2606953_abstract_abstract from year 2013",
     "year": 2013,
     "bref_relevance": {
@@ -3051,8 +3055,8 @@
     "id": "3266510_abstract_abstract",
     "title": "PROCESS ENGINEERING ARRANGEMENT AND METHOD FOR OPERATING A PROCESS ENGINEERING ARRANGEMENT",
     "score": 0.9599806666374208,
-    "x": 0.13321034610271454,
-    "y": 0.2592647969722748,
+    "x": 0.1284564584493637,
+    "y": 0.24347615242004395,
     "abstract": "Patent ID 3266510_abstract_abstract from year 2018",
     "year": 2018,
     "bref_relevance": {
@@ -3063,8 +3067,8 @@
     "id": "2871162_abstract_abstract",
     "title": "Process for removing contaminants from an aqueous stream",
     "score": 0.9594995379447936,
-    "x": 0.30454203486442566,
-    "y": 0.3350661098957062,
+    "x": 0.2796160578727722,
+    "y": 0.3684413731098175,
     "abstract": "Patent ID 2871162_abstract_abstract from year 2015",
     "year": 2015,
     "bref_relevance": {
@@ -3075,8 +3079,8 @@
     "id": "2305976_abstract_abstract",
     "title": "Exhaust gas treatment apparatus",
     "score": 0.9594958424568176,
-    "x": 0.4756055474281311,
-    "y": 0.09483405947685242,
+    "x": 0.4536099433898926,
+    "y": 0.0754619613289833,
     "abstract": "Patent ID 2305976_abstract_abstract from year 2011",
     "year": 2011,
     "bref_relevance": {
@@ -3087,8 +3091,8 @@
     "id": "4206531_abstract_abstract",
     "title": "METHOD AND DEVICE FOR CLEANING FLUE GAS FROM THE INCINERATION OF CHLORINE-COMPRISING MATERIAL AND OB",
     "score": 0.9590079188346864,
-    "x": 0.19800405204296112,
-    "y": 0.12848365306854248,
+    "x": 0.21970818936824799,
+    "y": 0.13144169747829437,
     "abstract": "Patent ID 4206531_abstract_abstract from year 2023",
     "year": 2023,
     "bref_relevance": {
@@ -3099,8 +3103,8 @@
     "id": "3508513_abstract_abstract",
     "title": "PROCESSES FOR PRODUCING FLUOROETHER COMPOUNDS",
     "score": 0.9560864567756652,
-    "x": 0.6082179546356201,
-    "y": 0.9075038433074951,
+    "x": 0.3332529366016388,
+    "y": 0.8772581815719604,
     "abstract": "Patent ID 3508513_abstract_abstract from year 2019",
     "year": 2019,
     "bref_relevance": {
@@ -3111,8 +3115,8 @@
     "id": "3384974_abstract_abstract",
     "title": "METHOD FOR TREATING A GAS FLOW AND EMISSION CONTROL ARRANGEMENT",
     "score": 0.9551042914390564,
-    "x": 0.15053342282772064,
-    "y": 0.16406497359275818,
+    "x": 0.17210938036441803,
+    "y": 0.15476486086845398,
     "abstract": "Patent ID 3384974_abstract_abstract from year 2018",
     "year": 2018,
     "bref_relevance": {
@@ -3123,8 +3127,8 @@
     "id": "2445320_abstract_abstract",
     "title": "Energy harvesting cold atmospheric plasma generator",
     "score": 0.9541324973106384,
-    "x": 0.6062638759613037,
-    "y": 0.6824626922607422,
+    "x": 0.05618452653288841,
+    "y": 0.5826356410980225,
     "abstract": "Patent ID 2445320_abstract_abstract from year 2012",
     "year": 2012,
     "bref_relevance": {
@@ -3135,8 +3139,8 @@
     "id": "4180114_abstract_abstract",
     "title": "WET ELECTROSTATIC PRECIPITATOR AND RELATED METHODS",
     "score": 0.953155517578125,
-    "x": 0.47847843170166016,
-    "y": 0.1786046028137207,
+    "x": 0.4676983654499054,
+    "y": 0.18711942434310913,
     "abstract": "Patent ID 4180114_abstract_abstract from year 2023",
     "year": 2023,
     "bref_relevance": {
@@ -3147,24 +3151,1129 @@
     "id": "2778522_abstract_abstract",
     "title": "FLAME-FREE CATALYTIC THERMAL OXIDATION INCINERATION DEVICE",
     "score": 0.9526641368865968,
-    "x": 0.31481099128723145,
-    "y": 0.09362876415252686,
+    "x": 0.28138574957847595,
+    "y": 0.09809903055429459,
     "abstract": "Patent ID 2778522_abstract_abstract from year 2014",
     "year": 2014,
     "bref_relevance": {
-      "FDM:::2.3.7.3.8": 0.9526641368865968
+      "FDM:::2.3.7.3.8": 0.9526641368865968,
+      "EFS:::4.1.3.15.1": 0.8955352306365967
     }
   },
   {
     "id": "3202721_abstract_abstract",
     "title": "OZONE-BASED ADVANCED OXIDATION PROCESS",
     "score": 0.9516926407814026,
-    "x": 0.49868762493133545,
-    "y": 0.48825228214263916,
+    "x": 0.5818282961845398,
+    "y": 0.46673089265823364,
     "abstract": "Patent ID 3202721_abstract_abstract from year 2017",
     "year": 2017,
     "bref_relevance": {
       "CWW:::3.3.2.3.4.4.2": 0.9516926407814026
+    }
+  },
+  {
+    "id": "2556879_abstract_abstract",
+    "title": "A method for monitoring a cleaning of a process gas",
+    "score": 0.9477791786193848,
+    "x": 0.17526695132255554,
+    "y": 0.1454998403787613,
+    "abstract": "Patent ID 2556879_abstract_abstract from year 2013",
+    "year": 2013,
+    "bref_relevance": {
+      "FMP:::8.8.1.7": 0.9477791786193848
+    }
+  },
+  {
+    "id": "3339730_abstract_abstract",
+    "title": "STAGED COMBUSTION INSTALLATION AND METHOD",
+    "score": 0.9472982883453368,
+    "x": 0.39978718757629395,
+    "y": 0.06475802510976791,
+    "abstract": "Patent ID 3339730_abstract_abstract from year 2018",
+    "year": 2018,
+    "bref_relevance": {
+      "EFS:::4.1.3.15.1": 0.9472982883453368
+    }
+  },
+  {
+    "id": "2815805_abstract_abstract",
+    "title": "Membrane system and method for treating fluid mixtures including aqueous and organic phases",
+    "score": 0.9472825527191162,
+    "x": 0.31084465980529785,
+    "y": 0.3843063414096832,
+    "abstract": "Patent ID 2815805_abstract_abstract from year 2014",
+    "year": 2014,
+    "bref_relevance": {
+      "LVOC:::5.4.2.1.0.1": 0.9472825527191162
+    }
+  },
+  {
+    "id": "2583741_abstract_abstract",
+    "title": "System and Method for Controlling and Reducing NOx Emissions",
+    "score": 0.9463188648223876,
+    "x": 0.1395481526851654,
+    "y": 0.09068764746189117,
+    "abstract": "Patent ID 2583741_abstract_abstract from year 2013",
+    "year": 2013,
+    "bref_relevance": {
+      "FMP:::8.8.5.3": 0.9463188648223876
+    }
+  },
+  {
+    "id": "2746231_abstract_abstract",
+    "title": "Method and apparatus for the treatment of process water from a hydrothermal organic material convers",
+    "score": 0.945820450782776,
+    "x": 0.6475418210029602,
+    "y": 0.49818670749664307,
+    "abstract": "Patent ID 2746231_abstract_abstract from year 2014",
+    "year": 2014,
+    "bref_relevance": {
+      "CWW:::3.3.2.3.4.4.2": 0.945820450782776
+    }
+  },
+  {
+    "id": "3951142_abstract_abstract",
+    "title": "NONTHERMAL PLASMA-BASED EXHAUST GAS PARTICULATE MATTER REDUCTION APPARATUS FOR PREVENTING ARCING PHE",
+    "score": 0.945341169834137,
+    "x": 0.04563286155462265,
+    "y": 0.5755916237831116,
+    "abstract": "Patent ID 3951142_abstract_abstract from year 2022",
+    "year": 2022,
+    "bref_relevance": {
+      "FDM:::2.3.7.3.8": 0.945341169834137
+    }
+  },
+  {
+    "id": "2589570_abstract_abstract",
+    "title": "Process for the manufacture of hydrogen peroxide",
+    "score": 0.9448491930961608,
+    "x": 0.5201494097709656,
+    "y": 0.5995940566062927,
+    "abstract": "Patent ID 2589570_abstract_abstract from year 2013",
+    "year": 2013,
+    "bref_relevance": {
+      "CWW:::3.3.2.3.4.4.2": 0.9448491930961608
+    }
+  },
+  {
+    "id": "3162427_abstract_abstract",
+    "title": "A METHOD AND APPARATUS FOR REMOVING NOX AND N2O FROM A GAS",
+    "score": 0.943873167037964,
+    "x": 0.1399911493062973,
+    "y": 0.09373778849840164,
+    "abstract": "Patent ID 3162427_abstract_abstract from year 2017",
+    "year": 2017,
+    "bref_relevance": {
+      "FMP:::8.8.5.3": 0.943873167037964
+    }
+  },
+  {
+    "id": "2959951_abstract_abstract",
+    "title": "Multiple effect distillation",
+    "score": 0.9399802088737488,
+    "x": 0.04429824650287628,
+    "y": 0.5818386077880859,
+    "abstract": "Patent ID 2959951_abstract_abstract from year 2015",
+    "year": 2015,
+    "bref_relevance": {
+      "LVOC:::10.4.2.3.2": 0.9399802088737488
+    }
+  },
+  {
+    "id": "2845927_abstract_abstract",
+    "title": "Electrochemical production of hydrogen peroxide",
+    "score": 0.93947571516037,
+    "x": 0.16793233156204224,
+    "y": 0.6652846336364746,
+    "abstract": "Patent ID 2845927_abstract_abstract from year 2015",
+    "year": 2015,
+    "bref_relevance": {
+      "CWW:::3.3.2.3.4.4.2": 0.93947571516037
+    }
+  },
+  {
+    "id": "2653451_abstract_abstract",
+    "title": "Method and apparatus for the treatment of process water from an organic material conversion process",
+    "score": 0.93605238199234,
+    "x": 0.4834509789943695,
+    "y": 0.4484817087650299,
+    "abstract": "Patent ID 2653451_abstract_abstract from year 2013",
+    "year": 2013,
+    "bref_relevance": {
+      "CWW:::3.3.2.3.4.4.2": 0.93605238199234
+    }
+  },
+  {
+    "id": "2708525_abstract_abstract",
+    "title": "Process of stripping a liquid medium",
+    "score": 0.936049222946167,
+    "x": 0.24326792359352112,
+    "y": 0.38192203640937805,
+    "abstract": "Patent ID 2708525_abstract_abstract from year 2014",
+    "year": 2014,
+    "bref_relevance": {
+      "REF:::4.3.9": 0.936049222946167
+    }
+  },
+  {
+    "id": "3399343_abstract_abstract",
+    "title": "CLEAN CORONA GAS IONIZATION FOR STATIC CHARGE NEUTRALIZATION",
+    "score": 0.9355781078338624,
+    "x": 0.054068099707365036,
+    "y": 0.5729971528053284,
+    "abstract": "Patent ID 3399343_abstract_abstract from year 2018",
+    "year": 2018,
+    "bref_relevance": {
+      "FDM:::2.3.7.3.8": 0.9355781078338624
+    }
+  },
+  {
+    "id": "2385154_abstract_abstract",
+    "title": "COMPOSITION FOR CHEMICAL CONVERSION COATING, AND MEMBER EQUIPPED WITH CHEMICAL CONVERSION COATING FI",
+    "score": 0.9350839853286744,
+    "x": 0.3212423026561737,
+    "y": 0.7436552047729492,
+    "abstract": "Patent ID 2385154_abstract_abstract from year 2011",
+    "year": 2011,
+    "bref_relevance": {
+      "FMP:::8.9.4": 0.9350839853286744
+    }
+  },
+  {
+    "id": "2698353_abstract_abstract",
+    "title": "Wastewater treatment using microbial strains",
+    "score": 0.9341061115264891,
+    "x": 0.5791791677474976,
+    "y": 0.48222023248672485,
+    "abstract": "Patent ID 2698353_abstract_abstract from year 2014",
+    "year": 2014,
+    "bref_relevance": {
+      "CWW:::3.3.2.3.4.4.2": 0.9341061115264891
+    }
+  },
+  {
+    "id": "2586525_abstract_abstract",
+    "title": "MODIFICATION OF SALINE SLAGS FROM THE PROCESSES OF SECOND SMELTING OF ALUMINIUM AND THE USE THEREOF ",
+    "score": 0.931183397769928,
+    "x": 0.41897204518318176,
+    "y": 0.5652385950088501,
+    "abstract": "Patent ID 2586525_abstract_abstract from year 2013",
+    "year": 2013,
+    "bref_relevance": {
+      "NFM:::4.3.5.3.2": 0.931183397769928
+    }
+  },
+  {
+    "id": "4151684_abstract_abstract",
+    "title": "PREPARATIONS FOR INCREASING THE SLIPPERINESS OF SURFACES OF POLYMERIC MATERIALS AND COMPOSITES",
+    "score": 0.9297215938568116,
+    "x": 0.36245495080947876,
+    "y": 0.8586335182189941,
+    "abstract": "Patent ID 4151684_abstract_abstract from year 2023",
+    "year": 2023,
+    "bref_relevance": {
+      "TAN:::4.2.2.3": 0.9297215938568116
+    }
+  },
+  {
+    "id": "3406762_abstract_abstract",
+    "title": "METHOD FOR REDUCING CORROSIVE IONS IN AROMATIC COMPOUND EXTRACTION SOLVENT",
+    "score": 0.9292131662368774,
+    "x": 0.35716646909713745,
+    "y": 0.6035941243171692,
+    "abstract": "Patent ID 3406762_abstract_abstract from year 2018",
+    "year": 2018,
+    "bref_relevance": {
+      "REF:::4.3.9": 0.9292131662368774
+    }
+  },
+  {
+    "id": "2818224_abstract_abstract",
+    "title": "Device for the reduction of emissions",
+    "score": 0.9277624487876892,
+    "x": 0.5018149614334106,
+    "y": 0.17305366694927216,
+    "abstract": "Patent ID 2818224_abstract_abstract from year 2014",
+    "year": 2014,
+    "bref_relevance": {
+      "NFM:::10.3.3.1": 0.9277624487876892
+    }
+  },
+  {
+    "id": "3449997_abstract_abstract",
+    "title": "A TEMPERATURE-SWING ADSORPTION PROCESS",
+    "score": 0.92776221036911,
+    "x": 0.13621793687343597,
+    "y": 0.2489383965730667,
+    "abstract": "Patent ID 3449997_abstract_abstract from year 2019",
+    "year": 2019,
+    "bref_relevance": {
+      "STS:::7.4.3.2": 0.92776221036911
+    }
+  },
+  {
+    "id": "2599536_abstract_abstract",
+    "title": "Method for depleting an exhaust gas stream in gaseous acid",
+    "score": 0.9277535080909728,
+    "x": 0.1866920441389084,
+    "y": 0.23248587548732758,
+    "abstract": "Patent ID 2599536_abstract_abstract from year 2013",
+    "year": 2013,
+    "bref_relevance": {
+      "REF:::4.3.9": 0.9277535080909728
+    }
+  },
+  {
+    "id": "4223705_abstract_abstract",
+    "title": "SYSTEMS AND PROCESSES FOR TREATMENT OF HIGH TOTAL DISSOLVED SOLIDS WASTEWATER",
+    "score": 0.9272660613059998,
+    "x": 0.5602467656135559,
+    "y": 0.4916943311691284,
+    "abstract": "Patent ID 4223705_abstract_abstract from year 2023",
+    "year": 2023,
+    "bref_relevance": {
+      "CWW:::3.3.2.3.4.4.2": 0.9272660613059998
+    }
+  },
+  {
+    "id": "2319805_abstract_abstract",
+    "title": "Device and method for ammonia recovery",
+    "score": 0.92725932598114,
+    "x": 0.22697390615940094,
+    "y": 0.25753822922706604,
+    "abstract": "Patent ID 2319805_abstract_abstract from year 2011",
+    "year": 2011,
+    "bref_relevance": {
+      "REF:::4.3.9": 0.92725932598114
+    }
+  },
+  {
+    "id": "2581130_abstract_abstract",
+    "title": "Modular plant fo removal of pollutants from flue gases produced by industrial processes",
+    "score": 0.9258049130439758,
+    "x": 0.20469926297664642,
+    "y": 0.13979659974575043,
+    "abstract": "Patent ID 2581130_abstract_abstract from year 2013",
+    "year": 2013,
+    "bref_relevance": {
+      "NFM:::4.3.5.3.2": 0.9258049130439758
+    }
+  },
+  {
+    "id": "3689818_abstract_abstract",
+    "title": "REACTOR AND PROCESS FOR PARTIAL OXIDATION",
+    "score": 0.9248355627059937,
+    "x": 0.42183005809783936,
+    "y": 0.0446021743118763,
+    "abstract": "Patent ID 3689818_abstract_abstract from year 2020",
+    "year": 2020,
+    "bref_relevance": {
+      "EFS:::4.1.3.15.1": 0.9248355627059937
+    }
+  },
+  {
+    "id": "3254745_abstract_abstract",
+    "title": "DRY VACUUM PUMP WITH ABATEMENT FUNCTION",
+    "score": 0.924829125404358,
+    "x": 0.568988025188446,
+    "y": 0.2314395159482956,
+    "abstract": "Patent ID 3254745_abstract_abstract from year 2017",
+    "year": 2017,
+    "bref_relevance": {
+      "FDM:::2.3.7.3.8": 0.924829125404358
+    }
+  },
+  {
+    "id": "2689846_abstract_abstract",
+    "title": "Selective catalytic reduction of nitrogen oxides in the presence of iron-containing aluminosilicate ",
+    "score": 0.9248257279396056,
+    "x": 0.11073122918605804,
+    "y": 0.1026029884815216,
+    "abstract": "Patent ID 2689846_abstract_abstract from year 2014",
+    "year": 2014,
+    "bref_relevance": {
+      "FMP:::8.8.5.3": 0.9248257279396056
+    }
+  },
+  {
+    "id": "2495030_abstract_abstract",
+    "title": "METHOD FOR ADSORBING AND DECOMPOSING LEAN NITROGEN OXIDE USING A MIXED METAL OXIDE CATALYST",
+    "score": 0.9228723049163818,
+    "x": 0.12660641968250275,
+    "y": 0.0952262431383133,
+    "abstract": "Patent ID 2495030_abstract_abstract from year 2012",
+    "year": 2012,
+    "bref_relevance": {
+      "FMP:::8.8.5.3": 0.9228723049163818
+    }
+  },
+  {
+    "id": "2338842_abstract_abstract",
+    "title": "Deodorization module",
+    "score": 0.921407163143158,
+    "x": 0.3337600529193878,
+    "y": 0.23814862966537476,
+    "abstract": "Patent ID 2338842_abstract_abstract from year 2011",
+    "year": 2011,
+    "bref_relevance": {
+      "FDM:::2.3.7.3.8": 0.921407163143158
+    }
+  },
+  {
+    "id": "2671861_abstract_abstract",
+    "title": "SELECTIVE OXIDATION OF HYDROCARBONS USING HETEROGENEOUS CATALYSTS",
+    "score": 0.9199560880661012,
+    "x": 0.11890187114477158,
+    "y": 0.312074214220047,
+    "abstract": "Patent ID 2671861_abstract_abstract from year 2013",
+    "year": 2013,
+    "bref_relevance": {
+      "CWW:::3.3.2.3.4.4.2": 0.9199560880661012
+    }
+  },
+  {
+    "id": "4260923_abstract_abstract",
+    "title": "METHOD FOR REMOVING HCL IN CHLORINATION REACTION",
+    "score": 0.9170047044754028,
+    "x": 0.22152794897556305,
+    "y": 0.3400171101093292,
+    "abstract": "Patent ID 4260923_abstract_abstract from year 2023",
+    "year": 2023,
+    "bref_relevance": {
+      "REF:::4.3.9": 0.9170047044754028
+    }
+  },
+  {
+    "id": "2463014_abstract_abstract",
+    "title": "A wet scrubber comprising deflector plates, and a method of cleaning a process gas",
+    "score": 0.9160403609275818,
+    "x": 0.4615739583969116,
+    "y": 0.18355540931224823,
+    "abstract": "Patent ID 2463014_abstract_abstract from year 2012",
+    "year": 2012,
+    "bref_relevance": {
+      "FMP:::8.8.1.7": 0.9160403609275818
+    }
+  },
+  {
+    "id": "2559667_abstract_abstract",
+    "title": "TREATMENT METHOD OF WASTEWATER CONTAINING PERSISTENT SUBSTANCES",
+    "score": 0.9160332679748536,
+    "x": 0.5929986238479614,
+    "y": 0.4822036623954773,
+    "abstract": "Patent ID 2559667_abstract_abstract from year 2013",
+    "year": 2013,
+    "bref_relevance": {
+      "CWW:::3.3.2.3.4.4.2": 0.9160332679748536
+    }
+  },
+  {
+    "id": "2581129_abstract_abstract",
+    "title": "Method for stripping acid gas from a solvent",
+    "score": 0.9155467748641968,
+    "x": 0.24128979444503784,
+    "y": 0.3561376631259918,
+    "abstract": "Patent ID 2581129_abstract_abstract from year 2013",
+    "year": 2013,
+    "bref_relevance": {
+      "REF:::4.3.9": 0.9155467748641968
+    }
+  },
+  {
+    "id": "2591742_abstract_abstract",
+    "title": "PLASMA IRRADIATION TREATMENT DEVICE",
+    "score": 0.9136025309562684,
+    "x": 0.04442661628127098,
+    "y": 0.5738108158111572,
+    "abstract": "Patent ID 2591742_abstract_abstract from year 2013",
+    "year": 2013,
+    "bref_relevance": {
+      "FDM:::2.3.7.3.8": 0.9136025309562684
+    }
+  },
+  {
+    "id": "2415512_abstract_abstract",
+    "title": "PRESSURE VARIATION ADSORPTION METHOD FOR GAS SEPARATION OF GAS AND APPARATUS THEREFOR",
+    "score": 0.9131117463111876,
+    "x": 0.11141854524612427,
+    "y": 0.24116286635398865,
+    "abstract": "Patent ID 2415512_abstract_abstract from year 2012",
+    "year": 2012,
+    "bref_relevance": {
+      "STS:::7.4.3.2": 0.9131117463111876
+    }
+  },
+  {
+    "id": "2832961_abstract_abstract",
+    "title": "EXHAUST TREATMENT DEVICE FOR DIESEL ENGINE",
+    "score": 0.9111481308937072,
+    "x": 0.020400067791342735,
+    "y": 0.580418050289154,
+    "abstract": "Patent ID 2832961_abstract_abstract from year 2015",
+    "year": 2015,
+    "bref_relevance": {
+      "FDM:::2.3.7.3.8": 0.9111481308937072
+    }
+  },
+  {
+    "id": "3760591_abstract_abstract",
+    "title": "PROCESS FOR PRODUCING A MICROBIAL STORAGE COMPOUND",
+    "score": 0.9072490334510804,
+    "x": 0.6435515880584717,
+    "y": 0.48018503189086914,
+    "abstract": "Patent ID 3760591_abstract_abstract from year 2021",
+    "year": 2021,
+    "bref_relevance": {
+      "CWW:::3.3.2.3.4.4.2": 0.9072490334510804
+    }
+  },
+  {
+    "id": "3042967_abstract_abstract",
+    "title": "Gas mixture and method for controlling a carbon potential of a furnace atmosphere",
+    "score": 0.9067634344100952,
+    "x": 0.3102807104587555,
+    "y": 0.0855482965707779,
+    "abstract": "Patent ID 3042967_abstract_abstract from year 2016",
+    "year": 2016,
+    "bref_relevance": {
+      "IS:::3.3.2.6.1": 0.9067634344100952
+    }
+  },
+  {
+    "id": "2896450_abstract_abstract",
+    "title": "SYSTEM FOR TREATING MERCURY IN EXHAUST GAS",
+    "score": 0.9043158292770386,
+    "x": 0.1787671148777008,
+    "y": 0.14738209545612335,
+    "abstract": "Patent ID 2896450_abstract_abstract from year 2015",
+    "year": 2015,
+    "bref_relevance": {
+      "WI:::4.5.7.1": 0.9043158292770386
+    }
+  },
+  {
+    "id": "2966110_abstract_abstract",
+    "title": "FLUORINE-CONTAINING ETHER COMPOUND, COMPOSITION FOR FORMING HARD COATING LAYER, AND ARTICLE HAVING H",
+    "score": 0.903838872909546,
+    "x": 0.33751603960990906,
+    "y": 0.873624324798584,
+    "abstract": "Patent ID 2966110_abstract_abstract from year 2016",
+    "year": 2016,
+    "bref_relevance": {
+      "TAN:::4.2.2.3": 0.903838872909546
+    }
+  },
+  {
+    "id": "4079395_abstract_abstract",
+    "title": "FLAMELESS CATALYTIC THERMAL OXIDATION DEVICE",
+    "score": 0.9028533697128296,
+    "x": 0.26931947469711304,
+    "y": 0.10972490161657333,
+    "abstract": "Patent ID 4079395_abstract_abstract from year 2022",
+    "year": 2022,
+    "bref_relevance": {
+      "EFS:::4.1.3.15.1": 0.9028533697128296
+    }
+  },
+  {
+    "id": "4186869_abstract_abstract",
+    "title": "SOLUTION OF PEROXYACETIC ACID AND HYDROGEN PEROXIDE FOR THE DISINFECTION OF WASTEWATER FROM BIOLOGIC",
+    "score": 0.9014025926589966,
+    "x": 0.5598331689834595,
+    "y": 0.5031955242156982,
+    "abstract": "Patent ID 4186869_abstract_abstract from year 2023",
+    "year": 2023,
+    "bref_relevance": {
+      "CWW:::3.3.2.3.4.4.2": 0.9014025926589966
+    }
+  },
+  {
+    "id": "3205638_abstract_abstract",
+    "title": "METHOD FOR PRODUCING FLUORINE GROUP-CONTAINING HALOOLEFIN COMPOUND AND COMPOSITION",
+    "score": 0.9013951420783995,
+    "x": 0.19269952178001404,
+    "y": 0.416984498500824,
+    "abstract": "Patent ID 3205638_abstract_abstract from year 2017",
+    "year": 2017,
+    "bref_relevance": {
+      "TAN:::4.2.2.3": 0.9013951420783995
+    }
+  },
+  {
+    "id": "2835171_abstract_abstract",
+    "title": "Method and system for the purification of exhaust gas with an electrochemical cell",
+    "score": 0.9004085659980774,
+    "x": 0.14534972608089447,
+    "y": 0.07006458193063736,
+    "abstract": "Patent ID 2835171_abstract_abstract from year 2015",
+    "year": 2015,
+    "bref_relevance": {
+      "FDM:::2.3.7.3.8": 0.9004085659980774
+    }
+  },
+  {
+    "id": "3335776_abstract_abstract",
+    "title": "LARGE-SCALE WATER PURIFICATION AND DESALINATION",
+    "score": 0.8989500403404236,
+    "x": 0.5061864256858826,
+    "y": 0.4591957628726959,
+    "abstract": "Patent ID 3335776_abstract_abstract from year 2018",
+    "year": 2018,
+    "bref_relevance": {
+      "LVOC:::10.4.2.3.2": 0.8989500403404236
+    }
+  },
+  {
+    "id": "3447030_abstract_abstract",
+    "title": "PROCESS OF TREATMENT OF AGROINDUSTRIAL WASTE WATER BY REACTION OF ACIDIFICATION WITH ADDITION OF STR",
+    "score": 0.898944079875946,
+    "x": 0.5724788904190063,
+    "y": 0.48882433772087097,
+    "abstract": "Patent ID 3447030_abstract_abstract from year 2019",
+    "year": 2019,
+    "bref_relevance": {
+      "CWW:::3.3.2.3.4.4.2": 0.898944079875946
+    }
+  },
+  {
+    "id": "3285278_abstract_abstract",
+    "title": "MAGNET USED WITH A PLASMA CLEANER",
+    "score": 0.8960346579551697,
+    "x": 0.07650715857744217,
+    "y": 0.5654528737068176,
+    "abstract": "Patent ID 3285278_abstract_abstract from year 2018",
+    "year": 2018,
+    "bref_relevance": {
+      "FDM:::2.3.7.3.8": 0.8960346579551697
+    }
+  },
+  {
+    "id": "3492187_abstract_abstract",
+    "title": "CURBING TOXIC EMISSIONS FROM REMEDIATED SUBSTRATE",
+    "score": 0.8955344557762146,
+    "x": 0.5263632535934448,
+    "y": 0.5250943899154663,
+    "abstract": "Patent ID 3492187_abstract_abstract from year 2019",
+    "year": 2019,
+    "bref_relevance": {
+      "FMP:::8.9.4": 0.8955344557762146
+    }
+  },
+  {
+    "id": "2336265_abstract_abstract",
+    "title": "Compositions containing fluorine substituted olefins",
+    "score": 0.894572913646698,
+    "x": 0.19232498109340668,
+    "y": 0.42124485969543457,
+    "abstract": "Patent ID 2336265_abstract_abstract from year 2011",
+    "year": 2011,
+    "bref_relevance": {
+      "TAN:::4.2.2.3": 0.894572913646698
+    }
+  },
+  {
+    "id": "3059271_abstract_abstract",
+    "title": "FLUORINE-CONTAINING COMPOUND, COMPOSITION FOR FORMING HARD COAT LAYER, AND ARTICLE HAVING HARD COAT ",
+    "score": 0.8945552110671997,
+    "x": 0.3398582637310028,
+    "y": 0.8734386563301086,
+    "abstract": "Patent ID 3059271_abstract_abstract from year 2016",
+    "year": 2016,
+    "bref_relevance": {
+      "TAN:::4.2.2.3": 0.8945552110671997
+    }
+  },
+  {
+    "id": "2460768_abstract_abstract",
+    "title": "A self-cleaning electro-reaction unit for wastewater treatment and related process",
+    "score": 0.8896772861480713,
+    "x": 0.16669274866580963,
+    "y": 0.6675459146499634,
+    "abstract": "Patent ID 2460768_abstract_abstract from year 2012",
+    "year": 2012,
+    "bref_relevance": {
+      "CWW:::3.3.2.3.4.4.2": 0.8896772861480713
+    }
+  },
+  {
+    "id": "2662346_abstract_abstract",
+    "title": "Portland cement additives consisting of a reducing agent embedded in a polymer matrix",
+    "score": 0.8882087469100952,
+    "x": 0.4672328233718872,
+    "y": 0.8987069725990295,
+    "abstract": "Patent ID 2662346_abstract_abstract from year 2013",
+    "year": 2013,
+    "bref_relevance": {
+      "FMP:::8.9.4": 0.8882087469100952
+    }
+  },
+  {
+    "id": "2497821_abstract_abstract",
+    "title": "Solvent compositions comprising unsaturated fluorinated hydrocarbons",
+    "score": 0.8867482542991638,
+    "x": 0.39513322710990906,
+    "y": 0.7717202305793762,
+    "abstract": "Patent ID 2497821_abstract_abstract from year 2012",
+    "year": 2012,
+    "bref_relevance": {
+      "TAN:::4.2.2.3": 0.8867482542991638
+    }
+  },
+  {
+    "id": "2844043_abstract_abstract",
+    "title": "PLASMA GENERATOR (VARIANTS)",
+    "score": 0.8823431730270386,
+    "x": 0.058190010488033295,
+    "y": 0.5570515990257263,
+    "abstract": "Patent ID 2844043_abstract_abstract from year 2015",
+    "year": 2015,
+    "bref_relevance": {
+      "FDM:::2.3.7.3.8": 0.8823431730270386
+    }
+  },
+  {
+    "id": "3495458_abstract_abstract",
+    "title": "HEAVY HYDROCARBON REMOVAL PROCESS",
+    "score": 0.88233882188797,
+    "x": 0.2074461430311203,
+    "y": 0.2944803833961487,
+    "abstract": "Patent ID 3495458_abstract_abstract from year 2019",
+    "year": 2019,
+    "bref_relevance": {
+      "STS:::7.4.3.2": 0.88233882188797
+    }
+  },
+  {
+    "id": "3130389_abstract_abstract",
+    "title": "PROCESS AND APPARATUS FOR REMOVING ACIDIC GASES AND/OR ACIDS WITH AN UPSTREAM ACID REMOVAL BED AND A",
+    "score": 0.8804032802581787,
+    "x": 0.20016337931156158,
+    "y": 0.18098606169223785,
+    "abstract": "Patent ID 3130389_abstract_abstract from year 2017",
+    "year": 2017,
+    "bref_relevance": {
+      "FMP:::8.8.5.3": 0.8804032802581787
+    }
+  },
+  {
+    "id": "2749361_abstract_abstract",
+    "title": "Direct contact high temperature thermal desorbtion",
+    "score": 0.8774598836898804,
+    "x": 0.23455357551574707,
+    "y": 0.10372420400381088,
+    "abstract": "Patent ID 2749361_abstract_abstract from year 2014",
+    "year": 2014,
+    "bref_relevance": {
+      "FDM:::2.3.7.3.8": 0.8774598836898804
+    }
+  },
+  {
+    "id": "2374761_abstract_abstract",
+    "title": "Zero liquid discharge water treatment system and method",
+    "score": 0.8740426898002625,
+    "x": 0.4316733479499817,
+    "y": 0.44436073303222656,
+    "abstract": "Patent ID 2374761_abstract_abstract from year 2011",
+    "year": 2011,
+    "bref_relevance": {
+      "LVOC:::10.4.2.3.2": 0.8740426898002625
+    }
+  },
+  {
+    "id": "3249073_abstract_abstract",
+    "title": "A METHOD OF CLEANING A PLASMA PROCESSING DEVICE",
+    "score": 0.8735697865486145,
+    "x": 0.0760369598865509,
+    "y": 0.565599262714386,
+    "abstract": "Patent ID 3249073_abstract_abstract from year 2017",
+    "year": 2017,
+    "bref_relevance": {
+      "FDM:::2.3.7.3.8": 0.8735697865486145
+    }
+  },
+  {
+    "id": "2905064_abstract_abstract",
+    "title": "Method and system for removal of mercury from a flue gas",
+    "score": 0.8735575675964355,
+    "x": 0.1797240525484085,
+    "y": 0.1431068480014801,
+    "abstract": "Patent ID 2905064_abstract_abstract from year 2015",
+    "year": 2015,
+    "bref_relevance": {
+      "WI:::4.5.7.1": 0.8735575675964355
+    }
+  },
+  {
+    "id": "3025787_abstract_abstract",
+    "title": "APPARATUS AND PROCESS FOR MOISTURE REMOVAL FROM OIL",
+    "score": 0.8711125254631042,
+    "x": 0.31440362334251404,
+    "y": 0.3655931353569031,
+    "abstract": "Patent ID 3025787_abstract_abstract from year 2016",
+    "year": 2016,
+    "bref_relevance": {
+      "REF:::4.3.9": 0.8711125254631042
+    }
+  },
+  {
+    "id": "3437719_abstract_abstract",
+    "title": "A SCRUBBER FOR CLEANING OF A GAS",
+    "score": 0.8667299151420593,
+    "x": 0.47937288880348206,
+    "y": 0.16592061519622803,
+    "abstract": "Patent ID 3437719_abstract_abstract from year 2019",
+    "year": 2019,
+    "bref_relevance": {
+      "FMP:::8.8.1.7": 0.8667299151420593
+    }
+  },
+  {
+    "id": "3020861_abstract_abstract",
+    "title": "IMPROVED COMPOSITIONS AND PROCESSES FOR PAPER PRODUCTION",
+    "score": 0.8647792935371399,
+    "x": 0.5745024085044861,
+    "y": 0.662563681602478,
+    "abstract": "Patent ID 3020861_abstract_abstract from year 2016",
+    "year": 2016,
+    "bref_relevance": {
+      "PP:::4.3.10": 0.8647792935371399
+    }
+  },
+  {
+    "id": "3533509_abstract_abstract",
+    "title": "WET ABATEMENT SYSTEM",
+    "score": 0.864768922328949,
+    "x": 0.4593755006790161,
+    "y": 0.1788804829120636,
+    "abstract": "Patent ID 3533509_abstract_abstract from year 2019",
+    "year": 2019,
+    "bref_relevance": {
+      "FMP:::8.8.1.7": 0.864768922328949
+    }
+  },
+  {
+    "id": "2808305_abstract_abstract",
+    "title": "Method of biological wastewater treatment",
+    "score": 0.8613501787185669,
+    "x": 0.6421420574188232,
+    "y": 0.4453122913837433,
+    "abstract": "Patent ID 2808305_abstract_abstract from year 2014",
+    "year": 2014,
+    "bref_relevance": {
+      "CWW:::3.3.2.3.4.4.2": 0.8613501787185669
+    }
+  },
+  {
+    "id": "3715399_abstract_abstract",
+    "title": "FLUOROPOLYETHER-GROUP-CONTAINING POLYMER, SURFACE TREATMENT AGENT, AND ARTICLE",
+    "score": 0.8608720302581787,
+    "x": 0.3404798209667206,
+    "y": 0.8776581883430481,
+    "abstract": "Patent ID 3715399_abstract_abstract from year 2020",
+    "year": 2020,
+    "bref_relevance": {
+      "TAN:::4.2.2.3": 0.8608720302581787
+    }
+  },
+  {
+    "id": "2738182_abstract_abstract",
+    "title": "Polymerization process for olefin-based polymers",
+    "score": 0.857454776763916,
+    "x": 0.2435981184244156,
+    "y": 0.35908788442611694,
+    "abstract": "Patent ID 2738182_abstract_abstract from year 2014",
+    "year": 2014,
+    "bref_relevance": {
+      "LVOC:::5.4.2.1.0.1": 0.857454776763916
+    }
+  },
+  {
+    "id": "3199222_abstract_abstract",
+    "title": "HEATER ARRANGEMENT FOR TEPSA SYSTEM",
+    "score": 0.8574387431144714,
+    "x": 0.1328459084033966,
+    "y": 0.2574712932109833,
+    "abstract": "Patent ID 3199222_abstract_abstract from year 2017",
+    "year": 2017,
+    "bref_relevance": {
+      "STS:::7.4.3.2": 0.8574387431144714
+    }
+  },
+  {
+    "id": "3795658_abstract_abstract",
+    "title": "SYSTEMS AND METHODS FOR REDUCING RESOURCE CONSUMPTION IN PRODUCTION OF ALCOHOL FUEL BY CONVERSION TO",
+    "score": 0.8559674620628357,
+    "x": 0.27926936745643616,
+    "y": 0.262870728969574,
+    "abstract": "Patent ID 3795658_abstract_abstract from year 2021",
+    "year": 2021,
+    "bref_relevance": {
+      "REF:::4.3.9": 0.8559674620628357
+    }
+  },
+  {
+    "id": "2990110_abstract_abstract",
+    "title": "RECOVERY METHOD AND REUSE METHOD OF OXO ACID CATALYST",
+    "score": 0.855484664440155,
+    "x": 0.514860987663269,
+    "y": 0.6137602925300598,
+    "abstract": "Patent ID 2990110_abstract_abstract from year 2016",
+    "year": 2016,
+    "bref_relevance": {
+      "CWW:::3.3.2.3.4.4.2": 0.855484664440155
+    }
+  },
+  {
+    "id": "2314367_abstract_abstract",
+    "title": "Reduction of CO and NOx in regenerator flue gas",
+    "score": 0.853551983833313,
+    "x": 0.16512447595596313,
+    "y": 0.09451877325773239,
+    "abstract": "Patent ID 2314367_abstract_abstract from year 2011",
+    "year": 2011,
+    "bref_relevance": {
+      "FMP:::8.8.5.3": 0.853551983833313
+    }
+  },
+  {
+    "id": "3090791_abstract_abstract",
+    "title": "MULTI-EFFECT DESALINATION APPARATUS PARTIALLY DOSING ACIDS INTO SOME EVAPORATORS AND DESALINATION ME",
+    "score": 0.8515900373458862,
+    "x": 0.4348107576370239,
+    "y": 0.46298226714134216,
+    "abstract": "Patent ID 3090791_abstract_abstract from year 2016",
+    "year": 2016,
+    "bref_relevance": {
+      "LVOC:::10.4.2.3.2": 0.8515900373458862
+    }
+  },
+  {
+    "id": "4059589_abstract_abstract",
+    "title": "AN EXHAUST GAS TREATMENT METHOD ARRANGED FOR TREATING EXHAUST GASES COLLECTED FROM AT LEAST ONE FOUN",
+    "score": 0.845728874206543,
+    "x": 0.16206562519073486,
+    "y": 0.09938916563987732,
+    "abstract": "Patent ID 4059589_abstract_abstract from year 2022",
+    "year": 2022,
+    "bref_relevance": {
+      "FDM:::2.3.7.3.8": 0.845728874206543
+    }
+  },
+  {
+    "id": "2532728_abstract_abstract",
+    "title": "METHOD AND SYSTEM FOR SUPPLYING THERMAL ENERGY TO A THERMAL PROCESSING SYSTEM FROM THE GASIFICATION ",
+    "score": 0.8457232713699341,
+    "x": 0.2796977162361145,
+    "y": 0.16045840084552765,
+    "abstract": "Patent ID 2532728_abstract_abstract from year 2012",
+    "year": 2012,
+    "bref_relevance": {
+      "EFS:::4.1.3.15.1": 0.8457232713699341
+    }
+  },
+  {
+    "id": "2295526_abstract_abstract",
+    "title": "Hybrid pyrolysis and gasification process and system for converting waste",
+    "score": 0.8432906866073608,
+    "x": 0.3143632113933563,
+    "y": 0.18422889709472656,
+    "abstract": "Patent ID 2295526_abstract_abstract from year 2011",
+    "year": 2011,
+    "bref_relevance": {
+      "NFM:::4.3.5.3.2": 0.8432906866073608
+    }
+  },
+  {
+    "id": "3978546_abstract_abstract",
+    "title": "SURFACE TREATING AGENT",
+    "score": 0.838899552822113,
+    "x": 0.3310408592224121,
+    "y": 0.8701027631759644,
+    "abstract": "Patent ID 3978546_abstract_abstract from year 2022",
+    "year": 2022,
+    "bref_relevance": {
+      "TAN:::4.2.2.3": 0.838899552822113
+    }
+  },
+  {
+    "id": "2695875_abstract_abstract",
+    "title": "Improved method for the oxidation of alkyl aromatic hydrocarbons",
+    "score": 0.8286405801773071,
+    "x": 0.22126542031764984,
+    "y": 0.23205526173114777,
+    "abstract": "Patent ID 2695875_abstract_abstract from year 2014",
+    "year": 2014,
+    "bref_relevance": {
+      "EFS:::4.1.3.15.1": 0.8286405801773071
+    }
+  },
+  {
+    "id": "4023786_abstract_abstract",
+    "title": "FLUX AND PRODUCTION METHOD OF STEEL FORMED PRODUCT WITH HOT-DIP ZN-AL-MG COATING USING SAID FLUX",
+    "score": 0.8286335468292236,
+    "x": 0.2883491814136505,
+    "y": 0.5979588627815247,
+    "abstract": "Patent ID 4023786_abstract_abstract from year 2022",
+    "year": 2022,
+    "bref_relevance": {
+      "FMP:::8.8.6.1": 0.8286335468292236
+    }
+  },
+  {
+    "id": "2471964_abstract_abstract",
+    "title": "Installation and method for in-line molten metal processing using salt reactant in a deep box degass",
+    "score": 0.8286305069923401,
+    "x": 0.23775695264339447,
+    "y": 0.5154287815093994,
+    "abstract": "Patent ID 2471964_abstract_abstract from year 2012",
+    "year": 2012,
+    "bref_relevance": {
+      "FMP:::8.8.6.1": 0.8286305069923401
+    }
+  },
+  {
+    "id": "2975159_abstract_abstract",
+    "title": "ELECTROLESS COPPER PLATING COMPOSITIONS",
+    "score": 0.8261978030204773,
+    "x": 0.2491002380847931,
+    "y": 0.731274425983429,
+    "abstract": "Patent ID 2975159_abstract_abstract from year 2016",
+    "year": 2016,
+    "bref_relevance": {
+      "FMP:::8.9.4": 0.8261978030204773
+    }
+  },
+  {
+    "id": "2363204_abstract_abstract",
+    "title": "Oxidation system with internal secondary reactor",
+    "score": 0.8242390751838684,
+    "x": 0.2299218326807022,
+    "y": 0.2892148196697235,
+    "abstract": "Patent ID 2363204_abstract_abstract from year 2011",
+    "year": 2011,
+    "bref_relevance": {
+      "CWW:::3.3.2.3.4.4.2": 0.8242390751838684
+    }
+  },
+  {
+    "id": "3933375_abstract_abstract",
+    "title": "AUTOMATIC SAMPLE CONCENTRATING UNIT",
+    "score": 0.8242377042770386,
+    "x": 0.5218733549118042,
+    "y": 0.3590354025363922,
+    "abstract": "Patent ID 3933375_abstract_abstract from year 2022",
+    "year": 2022,
+    "bref_relevance": {
+      "LVOC:::10.4.2.3.2": 0.8242377042770386
+    }
+  },
+  {
+    "id": "2468388_abstract_abstract",
+    "title": "Carbon dioxide sequestration processes",
+    "score": 0.8242368698120117,
+    "x": 0.19976288080215454,
+    "y": 0.18573345243930817,
+    "abstract": "Patent ID 2468388_abstract_abstract from year 2012",
+    "year": 2012,
+    "bref_relevance": {
+      "FMP:::8.8.5.3": 0.8242368698120117
+    }
+  },
+  {
+    "id": "3159054_abstract_abstract",
+    "title": "EVAPORATOR",
+    "score": 0.821799635887146,
+    "x": 0.3662271201610565,
+    "y": 0.252316951751709,
+    "abstract": "Patent ID 3159054_abstract_abstract from year 2017",
+    "year": 2017,
+    "bref_relevance": {
+      "LVOC:::10.4.2.3.2": 0.821799635887146
+    }
+  },
+  {
+    "id": "2407434_abstract_abstract",
+    "title": "Method of biological waste-water treatment",
+    "score": 0.8174077272415161,
+    "x": 0.6373341083526611,
+    "y": 0.4409913718700409,
+    "abstract": "Patent ID 2407434_abstract_abstract from year 2012",
+    "year": 2012,
+    "bref_relevance": {
+      "CWW:::3.3.2.3.4.4.2": 0.8174077272415161
+    }
+  },
+  {
+    "id": "2518024_abstract_abstract",
+    "title": "CATALYST FOR TREATMENT OF WASTE WATER, AND METHOD FOR TREATMENT OF WASTE WATER USING THE CATALYST",
+    "score": 0.8169147968292236,
+    "x": 0.10296399146318436,
+    "y": 0.09329071640968323,
+    "abstract": "Patent ID 2518024_abstract_abstract from year 2012",
+    "year": 2012,
+    "bref_relevance": {
+      "CWW:::3.3.2.3.4.4.2": 0.8169147968292236
+    }
+  },
+  {
+    "id": "3501623_abstract_abstract",
+    "title": "COMPACT SCRUBBER AND A METHOD THEREOF",
+    "score": 0.8164390921592712,
+    "x": 0.4723877012729645,
+    "y": 0.16726350784301758,
+    "abstract": "Patent ID 3501623_abstract_abstract from year 2019",
+    "year": 2019,
+    "bref_relevance": {
+      "FMP:::8.8.1.7": 0.8164390921592712
+    }
+  },
+  {
+    "id": "3533512_abstract_abstract",
+    "title": "PROCESS FOR REDUCING THE CONTENT OF NOX AND N2O FROM A TAIL GAS OF A NITRIC ACID PROCESS",
+    "score": 0.814963698387146,
+    "x": 0.19412586092948914,
+    "y": 0.08089080452919006,
+    "abstract": "Patent ID 3533512_abstract_abstract from year 2019",
+    "year": 2019,
+    "bref_relevance": {
+      "FMP:::8.8.5.3": 0.814963698387146
+    }
+  },
+  {
+    "id": "2821449_abstract_abstract",
+    "title": "Fluorinated Polymer Based Coatings and Methods for Applying the Same",
+    "score": 0.8027648329734802,
+    "x": 0.42508241534233093,
+    "y": 0.8003675937652588,
+    "abstract": "Patent ID 2821449_abstract_abstract from year 2015",
+    "year": 2015,
+    "bref_relevance": {
+      "TAN:::4.2.2.3": 0.8027648329734802
+    }
+  },
+  {
+    "id": "4166580_abstract_abstract",
+    "title": "FLUORINE-CONTAINING COMPOUND",
+    "score": 0.8027632236480713,
+    "x": 0.33376386761665344,
+    "y": 0.8792267441749573,
+    "abstract": "Patent ID 4166580_abstract_abstract from year 2023",
+    "year": 2023,
+    "bref_relevance": {
+      "TAN:::4.2.2.3": 0.8027632236480713
+    }
+  },
+  {
+    "id": "2415716_abstract_abstract",
+    "title": "METHOD FOR ADSORBING FLUOROCARBOXYLIC ACID HAVING ETHER BOND AND METHOD FOR COLLECTING SAME",
+    "score": 0.802264392375946,
+    "x": 0.21693997085094452,
+    "y": 0.408822625875473,
+    "abstract": "Patent ID 2415716_abstract_abstract from year 2012",
+    "year": 2012,
+    "bref_relevance": {
+      "STS:::7.4.3.2": 0.802264392375946
     }
   }
 ]
