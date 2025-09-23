@@ -54,11 +54,12 @@ const getPointColor = (score, opacity = 1) => {
   return `rgba(${r}, ${g}, ${b}, ${opacity})`;
 };
 
-// Generate CSS gradient for the color bar
+// Generate CSS gradient for the color bar - focused on 0.8-1.0 range
 const generateColorBarGradient = () => {
   const stops = [];
+  // Generate gradient focused on the 0.8-1.0 range for better visibility
   for (let i = 0; i <= 100; i += 5) {
-    const score = i / 100;
+    const score = 0.8 + (i / 100) * 0.2; // Scale to 0.8-1.0 range
     const color = getPointColor(score, 1);
     // Extract RGB values to convert to hex
     const match = color.match(/rgba?\((\d+),\s*(\d+),\s*(\d+)/);
@@ -117,8 +118,8 @@ const OptimizedPatentSpace = ({
   // Tool state
   const [activeTool, setActiveTool] = useState('move');
   
-  // NEW: Score filtering state
-  const [scoreThreshold, setScoreThreshold] = useState(0.5);
+  // NEW: Score filtering state - updated to start at 0.8
+  const [scoreThreshold, setScoreThreshold] = useState(0.8);
   const [showFilterPanel, setShowFilterPanel] = useState(false);
   
   // Filter patents based on score threshold
@@ -905,21 +906,21 @@ const OptimizedPatentSpace = ({
             <div className="flex-1 relative">
               <input
                 type="range"
-                min="0"
+                min="0.8"
                 max="1"
-                step="0.05"
+                step="0.01"
                 value={scoreThreshold}
                 onChange={(e) => setScoreThreshold(parseFloat(e.target.value))}
                 className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer slider"
                 style={{
-                  background: `linear-gradient(to right, #6366f1 0%, #6366f1 ${scoreThreshold * 100}%, #e5e7eb ${scoreThreshold * 100}%, #e5e7eb 100%)`
+                  background: `linear-gradient(to right, #6366f1 0%, #6366f1 ${((scoreThreshold - 0.8) / 0.2) * 100}%, #e5e7eb ${((scoreThreshold - 0.8) / 0.2) * 100}%, #e5e7eb 100%)`
                 }}
               />
               <div className="flex justify-between text-xs text-gray-500 mt-1">
-                <span>0%</span>
-                <span>25%</span>
-                <span>50%</span>
-                <span>75%</span>
+                <span>80%</span>
+                <span>85%</span>
+                <span>90%</span>
+                <span>95%</span>
                 <span>100%</span>
               </div>
             </div>
@@ -981,7 +982,7 @@ const OptimizedPatentSpace = ({
         <div className="flex items-center justify-between mb-3">
           <div className="text-sm font-medium text-gray-700">Relevance Score Legend</div>
           <button
-            onClick={() => setScoreThreshold(0.5)}
+            onClick={() => setScoreThreshold(0.8)}
             className="text-xs text-indigo-600 hover:text-indigo-800 transition-colors"
           >
             Reset Filter
@@ -997,21 +998,22 @@ const OptimizedPatentSpace = ({
               const rect = e.currentTarget.getBoundingClientRect();
               const x = e.clientX - rect.left;
               const percentage = x / rect.width;
-              setScoreThreshold(Math.max(0, Math.min(1, percentage)));
+              const newThreshold = 0.8 + (percentage * 0.2); // Scale to 0.8-1.0 range
+              setScoreThreshold(Math.max(0.8, Math.min(1, newThreshold)));
             }}
           >
             {/* Threshold indicator */}
             <div
               className="absolute top-0 bottom-0 w-1 bg-white shadow-lg border border-gray-400 rounded"
-              style={{ left: `${scoreThreshold * 100}%`, transform: 'translateX(-50%)' }}
+              style={{ left: `${((scoreThreshold - 0.8) / 0.2) * 100}%`, transform: 'translateX(-50%)' }}
             />
-            
+
             {/* Score labels */}
             <div className="absolute inset-0 flex items-center justify-between px-2 text-xs font-medium text-white drop-shadow">
-              <span>0%</span>
-              <span>25%</span>
-              <span>50%</span>
-              <span>75%</span>
+              <span>80%</span>
+              <span>85%</span>
+              <span>90%</span>
+              <span>95%</span>
               <span>100%</span>
             </div>
           </div>

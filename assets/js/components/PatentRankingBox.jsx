@@ -1,7 +1,7 @@
 // PatentRankingBox.jsx - FIXED version with corrected score handling
 
 import React, { useState, useEffect, useMemo } from 'react';
-import { Trash2, Filter, AlertCircle, BookOpen, Eye } from 'lucide-react';
+import { Trash2, Filter, AlertCircle, BookOpen, Eye, ChevronLeft, ChevronRight, MoreHorizontal } from 'lucide-react';
 import {
   loadPollutantTopPatents,
   loadBrefRelevanceScores,
@@ -30,9 +30,14 @@ const PatentRankingBox = ({
   const [patentIndex, setPatentIndex] = useState(null);
   const [error, setError] = useState(null);
   const [selectedPatentForDetails, setSelectedPatentForDetails] = useState(null);
+
+  // Pagination state
+  const [currentPage, setCurrentPage] = useState(1);
+  const [pageSize, setPageSize] = useState(maxPatents || 5);
+  const [showPaginationControls, setShowPaginationControls] = useState(false);
   
   // Reliability threshold for patent filtering - ensure consistency
-  const RELIABILITY_THRESHOLD = 0.68;
+  const RELIABILITY_THRESHOLD = 0.80;
 
   // Load top patents for the selected pollutant
   useEffect(() => {
@@ -233,10 +238,9 @@ const PatentRankingBox = ({
       const combinedPatents = [...topPatentsWithScores, ...brefRelevantPatents];
       const uniquePatents = Array.from(new Map(combinedPatents.map(p => [p.id, p])).values());
       
-      // Sort by relevance score and take top maxPatents
+      // Sort by relevance score (removed maxPatents limit for pagination)
       const result = uniquePatents
-        .sort((a, b) => b.relevanceScore - a.relevanceScore)
-        .slice(0, maxPatents);
+        .sort((a, b) => b.relevanceScore - a.relevanceScore);
       
       console.log('BREF-filtered patents:', result.map(p => ({
         id: p.id, 
@@ -255,8 +259,7 @@ const PatentRankingBox = ({
         relevanceScore: patent.score || 0
       }))
       .filter(patent => patent.relevanceScore >= RELIABILITY_THRESHOLD)
-      .sort((a, b) => b.relevanceScore - a.relevanceScore)
-      .slice(0, maxPatents);
+      .sort((a, b) => b.relevanceScore - a.relevanceScore);
     
     // DEBUGGING: Log the final ranked patents
     console.log('Final ranked patents (pollutant only):', result.map(p => ({
@@ -267,7 +270,34 @@ const PatentRankingBox = ({
     })));
     
     return result;
-  }, [topPatents, selectedBref, brefRelevanceScores, patentIndex, maxPatents, getBrefRelevantPatentCount, RELIABILITY_THRESHOLD]);
+  }, [topPatents, selectedBref, brefRelevanceScores, patentIndex, getBrefRelevantPatentCount, RELIABILITY_THRESHOLD]);
+
+  // Pagination calculations
+  const totalPatents = rankedPatents.length;
+  const totalPages = Math.ceil(totalPatents / pageSize);
+  const startIndex = (currentPage - 1) * pageSize;
+  const endIndex = startIndex + pageSize;
+  const currentPagePatents = rankedPatents.slice(startIndex, endIndex);
+
+  // Reset to page 1 when pollutant or BREF changes
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [selectedPollutantFilename, selectedBref?.id]);
+
+  // Show pagination controls when there are more patents than page size
+  useEffect(() => {
+    setShowPaginationControls(totalPatents > pageSize);
+  }, [totalPatents, pageSize]);
+
+  // Pagination handlers
+  const handlePageChange = (newPage) => {
+    setCurrentPage(Math.max(1, Math.min(newPage, totalPages)));
+  };
+
+  const handlePageSizeChange = (newPageSize) => {
+    setPageSize(newPageSize);
+    setCurrentPage(1); // Reset to first page when changing page size
+  };
 
   // Get ranking basis description
   const getRankingBasis = () => {
@@ -338,7 +368,7 @@ const PatentRankingBox = ({
       {/* Loading or error state */}
       {(loadingPatents || loadingBrefScores) ? (
         <div className="animate-pulse space-y-3">
-          {Array(maxPatents).fill(0).map((_, i) => (
+          {Array(pageSize).fill(0).map((_, i) => (
             <div key={i} className="flex items-center p-2">
               <div className="h-4 w-4 bg-gray-200 mr-3 rounded"></div>
               <div className="flex-1">
@@ -363,8 +393,31 @@ const PatentRankingBox = ({
         </div>
       ) : rankedPatents.length > 0 ? (
         <>
+          {/* Page size selector */}
+          {showPaginationControls && (
+            <div className="flex items-center justify-between mb-4 p-3 bg-blue-50 rounded border border-blue-200">
+              <div className="flex items-center space-x-2">
+                <span className="text-sm text-blue-700 font-medium">Show:</span>
+                <select
+                  value={pageSize}
+                  onChange={(e) => handlePageSizeChange(parseInt(e.target.value))}
+                  className="px-2 py-1 border border-blue-300 rounded text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                >
+                  <option value={5}>5 patents</option>
+                  <option value={10}>10 patents</option>
+                  <option value={20}>20 patents</option>
+                  <option value={50}>50 patents</option>
+                </select>
+                <span className="text-sm text-blue-600">per page</span>
+              </div>
+              <div className="text-sm text-blue-700">
+                {totalPatents} patents found
+              </div>
+            </div>
+          )}
+
           <ul className="space-y-2">
-            {rankedPatents.map(patent => (
+            {currentPagePatents.map(patent => (
               <li key={patent.id} className="flex items-center p-2 hover:bg-gray-50 rounded transition-colors">
                 <input
                   type="checkbox"
@@ -421,7 +474,88 @@ const PatentRankingBox = ({
               </li>
             ))}
           </ul>
-          
+
+          {/* Pagination controls */}
+          {showPaginationControls && totalPages > 1 && (
+            <div className="flex items-center justify-between mt-4 p-3 bg-gray-50 rounded border border-gray-200">
+              <div className="flex items-center space-x-2">
+                <button
+                  onClick={() => handlePageChange(currentPage - 1)}
+                  disabled={currentPage === 1}
+                  className={`flex items-center px-3 py-1 rounded text-sm font-medium ${
+                    currentPage === 1
+                      ? 'bg-gray-200 text-gray-400 cursor-not-allowed'
+                      : 'bg-white text-gray-700 hover:bg-blue-50 hover:text-blue-700 border border-gray-300'
+                  }`}
+                >
+                  <ChevronLeft size={16} className="mr-1" />
+                  Previous
+                </button>
+
+                <div className="flex items-center space-x-1">
+                  {/* Page numbers */}
+                  {Array.from({ length: Math.min(totalPages, 5) }, (_, i) => {
+                    let pageNum;
+                    if (totalPages <= 5) {
+                      pageNum = i + 1;
+                    } else if (currentPage <= 3) {
+                      pageNum = i + 1;
+                    } else if (currentPage >= totalPages - 2) {
+                      pageNum = totalPages - 4 + i;
+                    } else {
+                      pageNum = currentPage - 2 + i;
+                    }
+
+                    return (
+                      <button
+                        key={pageNum}
+                        onClick={() => handlePageChange(pageNum)}
+                        className={`px-3 py-1 rounded text-sm font-medium ${
+                          currentPage === pageNum
+                            ? 'bg-blue-600 text-white'
+                            : 'bg-white text-gray-700 hover:bg-blue-50 hover:text-blue-700 border border-gray-300'
+                        }`}
+                      >
+                        {pageNum}
+                      </button>
+                    );
+                  })}
+
+                  {totalPages > 5 && currentPage < totalPages - 2 && (
+                    <>
+                      <span className="px-2 text-gray-500">
+                        <MoreHorizontal size={16} />
+                      </span>
+                      <button
+                        onClick={() => handlePageChange(totalPages)}
+                        className="px-3 py-1 rounded text-sm font-medium bg-white text-gray-700 hover:bg-blue-50 hover:text-blue-700 border border-gray-300"
+                      >
+                        {totalPages}
+                      </button>
+                    </>
+                  )}
+                </div>
+
+                <button
+                  onClick={() => handlePageChange(currentPage + 1)}
+                  disabled={currentPage === totalPages}
+                  className={`flex items-center px-3 py-1 rounded text-sm font-medium ${
+                    currentPage === totalPages
+                      ? 'bg-gray-200 text-gray-400 cursor-not-allowed'
+                      : 'bg-white text-gray-700 hover:bg-blue-50 hover:text-blue-700 border border-gray-300'
+                  }`}
+                >
+                  Next
+                  <ChevronRight size={16} className="ml-1" />
+                </button>
+              </div>
+
+              <div className="text-sm text-gray-600">
+                Showing {startIndex + 1}-{Math.min(endIndex, totalPatents)} of {totalPatents}
+              </div>
+            </div>
+          )}
+
           {/* Ranking explanation */}
           <div className="mt-3 p-2 bg-blue-50 rounded text-xs text-gray-600 border border-blue-100">
             <div className="flex items-center">

@@ -79,7 +79,7 @@ const PatentDetailsBox = ({
       // Convert to array, sort by score (descending) and take top 5
       const topSections = Object.entries(patentBrefScores)
         .map(([brefId, score]) => ({ brefId, score }))
-        .filter(item => item.score >= 0.68) // Apply same reliability threshold as in other components
+        .filter(item => item.score >= 0.80) // Apply same reliability threshold as in other components
         .sort((a, b) => b.score - a.score)
         .slice(0, 5);
       

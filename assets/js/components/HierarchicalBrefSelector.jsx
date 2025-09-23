@@ -32,7 +32,7 @@ const HierarchicalBrefSelector = ({
   const [loadingRelevanceScores, setLoadingRelevanceScores] = useState(false);
   
   // Reliability threshold for patent counting
-  const RELIABILITY_THRESHOLD = 0.68;
+  const RELIABILITY_THRESHOLD = 0.80;
   
   // Load BREF relevance scores for patent counting
   useEffect(() => {

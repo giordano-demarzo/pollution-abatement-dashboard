@@ -220,7 +220,7 @@ const AppInfoBox = ({ isOpen, onClose }) => {
                 <div className="space-y-4 text-gray-700">
                   <div>
                     <h4 className="font-semibold text-gray-800 mb-2">Patent Relevance Filtering</h4>
-                    <p>Use the score threshold slider to filter patents by relevance (0-100%). 
+                    <p>Use the score threshold slider to filter patents by relevance (80-100%).
                     Only patents above the threshold are displayed in rankings and visualizations.</p>
                   </div>
                   
