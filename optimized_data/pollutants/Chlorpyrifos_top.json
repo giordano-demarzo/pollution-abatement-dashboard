@@ -5,7 +5,7 @@
     "score": 0.9995415806770324,
     "x": 0.36967700719833374,
     "y": 0.8494892120361328,
-    "abstract": "Patent ID 2578659_abstract_abstract from year 2013",
+    "abstract": "<IPC> ['C09K3/18', 'D06M15/576'] </IPC> WATER-AND-OIL REPELLENT AGENT, AND WATER-AND-OIL REPELLENT AGENT COMPOSITION To provide a water/oil repellent agent and a water/oil repellent composition which are capable of imparting sufficient water/oil repellency to the surface of an article and which have low environmental impact. One comprising a reaction product obtained by reacting a fluorinated alcohol or amine having a polyfluoroalkyl moiety having at most 6 carbon atoms with a polyisocyanate compound, which is, when applied to an article, capable of imparting sufficient water/oil repellency, while presenting little environmental impact. When applied to an article, the water/oil repellent composition of the present invention is capable of imparting a high quality water/oil repellency to the article.",
     "year": 2013,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.9995415806770324
@@ -17,7 +17,7 @@
     "score": 0.9995324611663818,
     "x": 0.13401518762111664,
     "y": 0.2465898096561432,
-    "abstract": "Patent ID 3488912_abstract_abstract from year 2019",
+    "abstract": "<IPC> ['B01D53/04'] </IPC> GASEOUS STREAM TREATMENT APPARATUS AND PLANT FOR THE PRODUCTION OF BITUMINOUS MACADAMS COMPRISING SAID TREATMENT APPARATUS This invention relates to a gaseous stream treatment apparatus (1) for reducing the content of total organic carbon and/or the content of other polluting compounds in the gaseous stream. The treatment apparatus (1) comprises a plurality of treatment compartments (2), each equipped with at least one adsorbent element (3) suitable for adsorbing organic compounds that contribute to the total organic carbon and/or other polluting compounds, an infeed opening (17) and an outfeed opening (18) for the gaseous stream, a distribution chamber (21) for the gaseous stream to be treated and a collection chamber for the gaseous stream treated. The apparatus (1) also comprises a regeneration system for regeneration of the adsorbent elements (3) by means of desorption, wherein the regeneration system can adopt a plurality of configurations, each configuration corresponding to a regeneration condition of one or more respective treatment compartments (2). The regeneration system is suitable for feeding a purging fluid stream to the one or more respective treatment compartments (2) to be regenerated, for discharging the purging fluid stream from said one or more respective treatment compartments (2) to be regenerated, and for heating the at least one adsorbent element (3) of said one or more respective treatment compartments (2) to be regenerated. During use, at least one treatment compartment (2) is in operating condition and at least part of the gaseous stream to be treated flows through it. The regeneration system is operated in such a way as to cyclically switch each treatment compartment (2) from the operating condition to the regeneration condition and vice versa. This invention also relates to a plant (1) for the production of bituminous macadams.",
     "year": 2019,
     "bref_relevance": {
       "STS:::7.4.3.2": 0.9995324611663818
@@ -29,7 +29,7 @@
     "score": 0.9995309114456176,
     "x": 0.13225913047790527,
     "y": 0.24825093150138855,
-    "abstract": "Patent ID 3290098_abstract_abstract from year 2018",
+    "abstract": "<IPC> ['B01D53/04', 'C01B23/00'] </IPC> METHOD FOR OPERERATING AN ADSORBER ARRANGEMENT AND ADSORBER ARRANGEMENT Method for operating an adsorber arrangement (1), the adsorber arrangement (1) comprising a first (10) and a second (20) adsorber device, arranged in parallel between an upstream process device (2) providing a process gas and a downstream process device (3) receiving a purified process gas, the method comprising the steps of: during a process of purifying the process gas with the first adsorber device, (10) cooling the second adsorber device (20) by passing a portion of purified process gas, received from the first adsorber device (10), through the second adsorber device (20) and directing the process gas portion that has passed through the second adsorber device (20) to the upstream process device (2); sequentially coupling the first (10) and the second (20) adsorber device, such that process gas from the upstream process device (2) passes through the second adsorber device (20) for cooling the second adsorber device (20), and through the first adsorber device (10); and receiving purified process gas at the downstream process device (3) from the first adsorber device (10).",
     "year": 2018,
     "bref_relevance": {
       "STS:::7.4.3.2": 0.9995309114456176
@@ -41,7 +41,7 @@
     "score": 0.9995294809341432,
     "x": 0.11816699802875519,
     "y": 0.24726144969463348,
-    "abstract": "Patent ID 4183471_abstract_abstract from year 2023",
+    "abstract": "<IPC> ['B01D53/04', 'B01D53/06', 'B01J20/20', 'B01J20/34'] </IPC> ORGANIC SOLVENT RECOVERY SYSTEM An organic solvent recovery system (1) includes an organic solvent recovery device (100) including two treatment tanks (101,102), each containing a first adsorbent, a water vapor supply unit (110), and an extraction flow path (L31,L32), and an organic solvent concentrating device (200) that contains a second adsorbent (201A) and includes an adsorbing unit (202) and a desorbing unit (203), and a return flow path (400) that returns concentrated gas to organic solvent recovery device (100). The second adsorbent (201A) contains activated carbon fiber nonwoven fabric. The activated carbon fiber nonwoven fabric has a fiber diameter of 11 \u00b5m or more and 120 \u00b5m or less, a toluene adsorbency of 25 wt% or more and 75 wt% or less, and a total basis weight of 200 g/m2 or more and 6000 g/m2 or less.",
     "year": 2023,
     "bref_relevance": {
       "STS:::7.4.3.2": 0.9995294809341432
@@ -53,7 +53,7 @@
     "score": 0.99952894449234,
     "x": 0.14133182168006897,
     "y": 0.25607410073280334,
-    "abstract": "Patent ID 4183470_abstract_abstract from year 2023",
+    "abstract": "<IPC> ['B01D53/04', 'B01D53/06', 'B01J20/20', 'B01J20/34'] </IPC> ORGANIC SOLVENT RECOVERY SYSTEM An organic solvent recovery system (1) includes an organic solvent recovery device (100) including at least three treatment tanks (101, 102, 103), each containing a first adsorbent, a water vapor supply unit (110), a connecting flow path (L21, L22, L23), an extraction flow path (L31, L32, L33), and a diluent-gas supply flow path (L70), and an organic solvent concentrating device (200) that contains a second adsorbent (201A) and includes an adsorbing unit (202) and a desorbing unit (203), and a return flow path (400) that returns concentrated gas to diluent-gas supply flow path (L70). The second adsorbent (201A) contains activated carbon fiber nonwoven fabric.",
     "year": 2023,
     "bref_relevance": {
       "STS:::7.4.3.2": 0.99952894449234
@@ -65,7 +65,7 @@
     "score": 0.9990504384040833,
     "x": 0.4117785692214966,
     "y": 0.61085045337677,
-    "abstract": "Patent ID 4141144_abstract_abstract from year 2023",
+    "abstract": "<IPC> ['C23C22/33', 'C23C22/73'] </IPC> ALUMINUM SLURRY COATINGS AND METHODS OF THEIR FORMATION AND USE Methods for reducing a concentration of hexavalent chromium within a first aluminum slurry by adding a reducing agent to form a second aluminum slurry are provided. The reducing agent causes a chemical reduction reaction with the hexavalent chromium compound of the first aluminum slurry to form a trivalent chromium compound within the second aluminum slurry such that a first weight ratio of hexavalent chromium to trivalent chromium in the first aluminum slurry is decreased to a second weight ratio of hexavalent chromium to trivalent chromium in the second aluminum slurry, with the second weight ratio being less than the first weight ratio.",
     "year": 2023,
     "bref_relevance": {
       "FMP:::8.9.4": 0.9990504384040833
@@ -77,7 +77,7 @@
     "score": 0.9990453720092772,
     "x": 0.3257356882095337,
     "y": 0.27742305397987366,
-    "abstract": "Patent ID 3524579_abstract_abstract from year 2019",
+    "abstract": "<IPC> ['C02F11/18', 'C02F1/02'] </IPC> METHOD AND FACILITY FOR STATIONARY THERMAL HYDROLYSIS OF ORGANIC MATERIAL WITH TOTAL ENERGY RECOVERY Procedure for the thermal hydrolysis of organic matter in steady state, with a double steam explosion and total energy recovery, which consists, as a minimum, of the 1) feeding stage, stepped pressurization and sequential injection of low, medium and high pressure level steam; 2) first stage of hydrolysis by consecutive steam explosion operations with the production of medium pressure level steam and thermal reaction; 3) second stage of hydrolysis consisting of steam explosion and production of low pressure steam. An installation for the implementation of the process, which consists of comprising pumps for stepped pressurization, fluid-steam mixers, valves, mixers, decompression elements, tanks, piping and instrumentation and control systems.",
     "year": 2019,
     "bref_relevance": {
       "CWW:::3.3.2.3.4.6": 0.9990453720092772
@@ -89,7 +89,7 @@
     "score": 0.9990438222885132,
     "x": 0.1297955960035324,
     "y": 0.27492085099220276,
-    "abstract": "Patent ID 3888785_abstract_abstract from year 2021",
+    "abstract": "<IPC> ['B01J20/20'] </IPC> SYSTEMS AND METHODS FOR GAS TREATMENT A system and process for the recovery of at least one halogenated hydrocarbon from a gas stream. The recovery includes adsorption by exposing the gas stream to an adsorbent with a lattice structure having pore diameters with an average pore opening of between about 5 and about 50 angstroms. The adsorbent is then regenerated by exposing the adsorbent to a purge gas under conditions which efficiently desorb the at least one adsorbed halogenated hydrocarbon from the adsorbent. The at least one halogenated hydrocarbon (and impurities or reaction products) can be condensed from the purge gas and subjected to fractional distillation to provide a recovered halogenated hydrocarbon.",
     "year": 2021,
     "bref_relevance": {
       "STS:::7.4.3.2": 0.9990438222885132
@@ -101,7 +101,7 @@
     "score": 0.9990419149398804,
     "x": 0.2727222144603729,
     "y": 0.1979643553495407,
-    "abstract": "Patent ID 3900823_abstract_abstract from year 2021",
+    "abstract": "<IPC> ['B01J20/20', 'B01J20/34'] </IPC> METHOD OF REGENERATION OF CARBONACEOUS ADSORBENT The present invention disclose a method for regenerating carbonaceous adsorbent comprising the steps of:\na) providing a carbonaceous adsorbent comprising a catalyst and adsorbed contaminants,\nb) pyrolysing of the adsorbed contaminants,\nc) reactivating the carbonaceous adsorbent by subjecting the carbonaceous adsorbent to steam thereby obtaining a reactivated carbonaceous adsorbent,\nd) cooling the thus obtained reactivated carbonaceous adsorbent to a temperature of less than 250\u00b0C and\ne) oxidizing catalyst that is in a reduced state following steps b) and c) comprised in the reactivated carbonaceous adsorbent.Further described is a system for carrying out the method.",
     "year": 2021,
     "bref_relevance": {
       "STS:::7.4.3.2": 0.9990419149398804
@@ -113,7 +113,7 @@
     "score": 0.9990411996841432,
     "x": 0.320388525724411,
     "y": 0.300395131111145,
-    "abstract": "Patent ID 2740529_abstract_abstract from year 2014",
+    "abstract": "<IPC> ['B01J3/00'] </IPC> Methods and equipment for hydrothermal processing and disposal of highly toxic substances, waste and metal powders Methods and Equipment for Hydrothermal Processing and Deactivation of Highly Toxic Substances, Waste and Metal Powders.A method of hydrothermal processing of highly toxic substances, wastes and metal powders, comprises a batch processing cycle of at least following steps i. to viii: i. preparing a batch of highly toxic waste, substances and metal powders for processing; ii. applying precision dozing to the batch to obtain a mixture of the batch with water and at least one additional reagent in preset proportions; iii. feeding the mixture into a reactor; iv. spraying the mixture inside the reactor with a mechanical spray nozzle; v. supplying an additional oxidizing agent inside the reactor; vi. adjusting a temperature inside the reactor to above 374.2\u00b0C; vii. adjusting a pressure inside the reactor to above 21.8 MPa, thereby driving the water into supercritical condition and initiating a supercritical hydrothermal oxidation process; and viii. keeping the mixture in the reactor for a preset amount of time, and at the same time. The method further comprises removing a produced steam and hydrogen mixture from the reactor via a steam-gas unit and droplet separator into a wastewater condenser unit and a gas drainage pipe, and venting suspended solids through a bottom part of the reactor into a solids collector unit. The method then provides the steps of repeating the batch processing cycle after it has terminated; and monitoring and controlling the temperature and pressure inside the reactor via an Automatic Process Control System (APCS) during all steps.",
     "year": 2014,
     "bref_relevance": {
       "CWW:::3.3.2.3.4.6": 0.9990411996841432
@@ -125,7 +125,7 @@
     "score": 0.99857896566391,
     "x": 0.3408440053462982,
     "y": 0.8719691038131714,
-    "abstract": "Patent ID 2927261_abstract_abstract from year 2015",
+    "abstract": "<IPC> ['C08G65/00', 'C08G65/332'] </IPC> Fluoropolyether-containing polymer A fluoropolyether-containing polymer of formula (1) is novel wherein Rf is a polymer residue containing a monovalent fluorooxyalkyl or divalent fluorooxyalkylene group, Z is a divalent hydrocarbon group, and \u03b1 is 1 or 2. The polymer may be converted into a fluoropolyether-containing polymer-modified silane, which forms a water/oil repellent coating having weatherability.",
     "year": 2015,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.99857896566391
@@ -137,7 +137,7 @@
     "score": 0.9985643029212952,
     "x": 0.41488927602767944,
     "y": 0.5902872085571289,
-    "abstract": "Patent ID 3246290_abstract_abstract from year 2017",
+    "abstract": "<IPC> ['C02F1/70', 'C02F1/62', 'C22B3/44'] </IPC> CHROMIUM-CONTAINING WATER TREATMENT METHOD The present invention provides a chromium-containing water treatment method that allows treatment of water that contains chromium (chromium-containing water) at low cost. A chromium-containing water treatment method according to the present invention comprises: a reduction step in which chromium-containing water 11 and a liquid 12 containing 5-50 ppm of hydrogen sulfide are mixed, and the mixture is adjusted to pH 3.5 or lower and ORP 200-400 mV by adding an acid 13 thereto, so as to reduce chromium contained in the water; and a precipitation separation step in which a neutralizing agent is added to a solution 11' obtained via the reduction step so as to adjust the solution 11' to pH 8-9, thereby precipitating and separating, as a hydroxide, the reduced chromium contained in the solution.",
     "year": 2017,
     "bref_relevance": {
       "FMP:::8.9.4": 0.9985643029212952
@@ -149,7 +149,7 @@
     "score": 0.9985580444335938,
     "x": 0.5559592843055725,
     "y": 0.5183523297309875,
-    "abstract": "Patent ID 2727662_abstract_abstract from year 2014",
+    "abstract": "<IPC> ['B09C1/02', 'B09C1/10', 'A62D3/00', 'A62D3/02', 'B09C1/00', 'A62D101/04'] </IPC> Process for reducing levels of contamination of soils polluted by DDT, DDE, DDD and/or isomers thereof This invention relates to a process for reducing the levels of contamination of soils polluted by DDT, DDE, DDD and/or their isomers which comprises the steps of:\n(i) excavating the polluted soil;\n(ii) sieving the excavated soil to separate out a first part with particle size measurement less than a predetermined threshold value;\n(iii) adding to a predetermined quantity of the first part of sieved polluted soil a first aqueous solution containing one or more enzymes in such a way as to obtain a solid - liquid mass;\n(iv) stirring the solid - liquid mass for a predetermined time so that said one or more enzymes catalyse the partial or total degradation of said pollutant; and\n(v) separating the solid - liquid mass into a residual aqueous suspension and into a solid part.",
     "year": 2014,
     "bref_relevance": {
       "CWW:::3.3.2.3.4.6": 0.9985580444335938
@@ -161,7 +161,7 @@
     "score": 0.9985560774803162,
     "x": 0.3285564184188843,
     "y": 0.29805997014045715,
-    "abstract": "Patent ID 4209465_abstract_abstract from year 2023",
+    "abstract": "<IPC> ['C02F11/18', 'C02F11/04'] </IPC> LOW TEMPERATURE CHEMICAL ASSISTED THERMAL HYDROLYSIS METHOD AND APPARATUS The present invention relates to an apparatus for the thermal hydrolysis of organic matter, wherein, with reference to the organic matter to be treated, the PH is adjusted to reduce the thermal hydrolysis temperature and, with reference to the thermal hydrolysis process, the pressurisation of the reactor is achieved using an inert gas like nitrogen, argon or similar fluids and the heating up of the fluid to be processed is obtained using one or a combination of the following methods: circulating it through one or more external heat exchangers, circulating a heat transfer medium between a heat exchanger internal to the hydrolysis reactor and one or more external heat exchangers, using an internal heat resistor, using an external trace heating.The apparatus is composed by a pre-treatment vessel, a thermal hydrolysis reactor vessel and a flashing vessel. With reference to the organic matter to be treated, the method includes the chemical adjustment of the PH in the pre-treatment vessel, the pressurisation in the thermal hydrolysis reactor vessel, the heating up and the maintenance of the required pressure and temperature for the time necessary to complete the thermal hydrolysis process, the flashing and cooling down of the processed matter. The hydrolysed matter is typically transferred to an anaerobic digestor to produce biogas.Advantageously the process is carried out without any addition of steam and at a lower temperature thanks to the chemical assisted PH adjustment, leading to a simpler system and cheaper process.",
     "year": 2023,
     "bref_relevance": {
       "CWW:::3.3.2.3.4.6": 0.9985560774803162
@@ -173,7 +173,7 @@
     "score": 0.9985559582710266,
     "x": 0.32273221015930176,
     "y": 0.3023045063018799,
-    "abstract": "Patent ID 2774894_abstract_abstract from year 2014",
+    "abstract": "<IPC> ['C02F11/18', 'B01J8/00', 'C02F1/02'] </IPC> Continuously operating method for the thermal hydrolysis of organic material and installation for implementing the method The present invention relates to a continuously operating method for the thermal hydrolysis of organic material, comprising a preheating step, a subsequent reaction step and a later depressurization step, wherein the preheating step comprises the operation of circulating organic material to be hydrolyzed in a first circuit; the reaction step comprises the operation of circulating organic material extracted from the first circuit in a second circuit, subjecting it to pressure and temperature; and the depressurization step comprises the sudden decompression of organic material continuously extracted from the second circuit. The present invention also relates to an installation for implementing the method which comprises two circulation sections connected in series; means for continuously feeding organic material into one circulation section, for transferring it from this section to a circulation section following same, and for extracting the organic material from the other recirculation section.",
     "year": 2014,
     "bref_relevance": {
       "CWW:::3.3.2.3.4.6": 0.9985559582710266
@@ -185,7 +185,7 @@
     "score": 0.998551607131958,
     "x": 0.3488256335258484,
     "y": 0.383105605840683,
-    "abstract": "Patent ID 2894130_abstract_abstract from year 2015",
+    "abstract": "<IPC> ['C02F1/02'] </IPC> PROCESS FOR PURIFYING MELAMINE PRODUCTION WASTEWATER The invention relates to processes for purifying wastewater generated in the production of melamine from urea using techniques that involve the use of aqueous solutions of alkali metal hydroxides in order to purify and separate melamine. The invention can be used in the industrial production of melamine. The process for purifying melamine production wastewater involves the thermal hydrolysis of the wastewater at a temperature of 190-245\u00b0C, wherein steam having a temperature 5-60\u00b0C greater than the working hydrolysis temperature is bubbled through wastewater, preferably in an amount equal to 5-20% of the amount of unpurified wastewater. The technical result which can be achieved using the invention is an increase in the level of purification of the wastewater and a simplification of the technique.",
     "year": 2015,
     "bref_relevance": {
       "CWW:::3.3.2.3.4.6": 0.998551607131958
@@ -197,7 +197,7 @@
     "score": 0.9980763792991638,
     "x": 0.31876125931739807,
     "y": 0.3000422716140747,
-    "abstract": "Patent ID 3222591_abstract_abstract from year 2017",
+    "abstract": "<IPC> ['C02F11/18', 'C12M1/33'] </IPC> METHOD FOR THE CONTINUOUS THERMAL HYDROLYSIS OF ORGANIC MATTER, AND A SYSTEM SUITABLE FOR CARRYING OUT SAID METHOD A method for the continuous thermal hydrolysis of organic material, which comprises at least the stages of:\na) pressurizing starting organic material at a pressure setpoint P1;\nb) inline mixing organic material with steam to obtain a mixture at a controlled temperature setpoint T1, selected below the steam saturation temperature of the mixture;\nc) continuously introducing the mixture obtained, which is in a liquid phase, into a hydrolysis reactor;\nd) continuously extracting hydrolyzed mixture from the hydrolysis reactor; and\ne) suddenly depressurizing said hydrolyzed mixture separating a liquid fraction from a steam fraction, which is recovered;\nwherein the steam employed to produce the mixture in stage b) comprises steam recovered in operation e) which is recompressed.",
     "year": 2017,
     "bref_relevance": {
       "CWW:::3.3.2.3.4.6": 0.9980763792991638
@@ -209,7 +209,7 @@
     "score": 0.9980693459510804,
     "x": 0.6886418461799622,
     "y": 0.4942900538444519,
-    "abstract": "Patent ID 4201540_abstract_abstract from year 2023",
+    "abstract": "<IPC> ['B09B3/60', 'B09B3/40'] </IPC> WASTE TREATMENT SYSTEM AND WASTE TREATMENT METHOD A waste treatment system includes: at least one reformer for hydrolyzing waste with steam; a microbial reactor for microbially degrading a reformed material containing at least a solid of the waste hydrolyzed by the at least one reformer; and at least one steam generation device for generating the steam by using only combustion energy of a gas produced in the microbial reactor.",
     "year": 2023,
     "bref_relevance": {
       "CWW:::3.3.2.3.4.6": 0.9980693459510804
@@ -221,7 +221,7 @@
     "score": 0.998066782951355,
     "x": 0.3331485688686371,
     "y": 0.8773853182792664,
-    "abstract": "Patent ID 3536718_abstract_abstract from year 2019",
+    "abstract": "<IPC> ['C08F220/22', 'C08G18/80', 'C09K3/18', 'D06M15/277'] </IPC> FLUORINATED POLYMER AND SURFACE TREATING AGENT COMPOSITION Provided is a fluorinated polymer that can impart excellent washing durability and water- and oil-repellency to fibers, said fluorinated polymer having a repeating unit derived from a fluorinated monomer (a) that comprises a first fluorinated monomer (a1) represented by the formula: CH2=C(-X1)-C(=O)-Y1-Z1-Rf1 [wherein X1 represents a halogen atom; Y1 represents -O- or -NH-; Z1 represents a direct bond or a bivalent organic group; and Rf1 represents a fluoroalkyl group having 1 to 20 carbon atoms] and a second fluorinated monomer (a2) represented by the formula: CH2=C(-X2)-C(=O)-Y2-Z2-Rf2 [wherein X2 represents a monovalent organic group or a hydrogen atom; Y2 represents -O- or -NH-; Z2 represents a direct bond or a bivalent organic group; and Rf2 represents a fluoroalkyl group having 1 to 20 carbon atoms].",
     "year": 2019,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.998066782951355
@@ -233,7 +233,7 @@
     "score": 0.9980624318122864,
     "x": 0.32517707347869873,
     "y": 0.29666098952293396,
-    "abstract": "Patent ID 3156374_abstract_abstract from year 2017",
+    "abstract": "<IPC> ['C02F11/18', 'C02F1/02'] </IPC> METHOD AND FACILITY FOR THERMAL HYDROLYSIS OF ORGANIC MATTER HAVING SHORT RESIDENCE TIMES AND NO PUMPS The invention relates to a continuously operational method for thermal hydrolysis of organic matter, which includes an impelling step in which the organic matter is conveyed, without the need to use pumps or other mechanical elements, a hydrolysis step in which the mass to be hydrolysed is heated using live steam until reaching high temperatures in very short times and, after undergoing a first breakdown of the structure, is maintained at the hydrolysis temperature during a predetermined time, and an energy recovery step with vapours of two enthalpy levels. The invention also relates to a facility for implementing the method, which includes interconnected load and pressurisation tanks in the impelling step, a quick mixer and a relief chamber in the hydrolysis step, and a decompression system with a flash chamber and an ejector that mixes the produced vapours in the recovery step.",
     "year": 2017,
     "bref_relevance": {
       "CWW:::3.3.2.3.4.6": 0.9980624318122864
@@ -245,7 +245,7 @@
     "score": 0.9980590343475342,
     "x": 0.560431957244873,
     "y": 0.4863644540309906,
-    "abstract": "Patent ID 3064475_abstract_abstract from year 2016",
+    "abstract": "<IPC> ['C02F1/02', 'C02F1/58', 'C02F101/38', 'C02F103/36'] </IPC> METHOD FOR TREATING WASTEWATER FROM MELAMINE PRODUCTION The invention relates to processes for purifying wastewater formed during manufacturing of melamine produced from urea using techniques that involve the use of aqueous solutions of alkali metal hydroxides in order to purify and separate melamine. The invention can be used in the industrial production of melamine. The process for purifying melamine production wastewater involves two stages of wastewater thermal hydrolysis. The thermal hydrolysis of the first stage is performed at a temperature of 180-270\u00b0C to decomposition of 95.0-99.9% of triazine derivatives present in a wastewater; the water treated at the first stage at the amount of 20-80% is recycled into the process. The second stage is the final thermal hydrolysis of the other part of wastewater treated at the first stage. It is performed at a temperature of 180-270\u00b0C.The technical result that can be achieved by invention is a high level of purification of wastewater discharged into the sewers, reduced amount of treated wastewater discharged into the sewers, reduced consumption of pure water in the process along with simplified process technology and reduced energy consumption.",
     "year": 2016,
     "bref_relevance": {
       "CWW:::3.3.2.3.4.6": 0.9980590343475342
@@ -257,7 +257,7 @@
     "score": 0.9975863695144652,
     "x": 0.5946385860443115,
     "y": 0.48598146438598633,
-    "abstract": "Patent ID 2500323_abstract_abstract from year 2012",
+    "abstract": "<IPC> ['C02F1/72', 'C02F101/30'] </IPC> Method for the degradation of industrial wastewater and apparatus for performing the method A method for the degradation of industrial wastewater, which provides, in a first step a., sending a predefined quantity of wastewater to an apparatus (1) provided with a respective containment tank (2); then, in a second step b., the method consists in administering to the predefined quantity of wastewater a first additive for adjusting the pH value, in order to bring it to a first predefined value. Upon reaching the first predefined pH value, in a step c. hydrogen peroxide and an iron salt are added to the predefined quantity of wastewater, in order to induce the forming of hydroxyl radicals, suitable for the advanced oxidation of substances of various types present in the predefined quantity of wastewater, for an at least partial first degradation thereof. Then, in a step d., the method according to the invention provides for adding to the predefined quantity of wastewater a second additive for adjusting the pH value, in order to bring it to a second predefined value, adapted to facilitate the spontaneous decomposition of the residual hydrogen peroxide and the precipitation of iron hydroxides, for a second degradation of the remaining substances of various types present in the predefined quantity of wastewater; finally, in a step e., the containment tank (2) is evacuated, for the final disposal of the predefined quantity of wastewater, substantially degraded.",
     "year": 2012,
     "bref_relevance": {
       "CWW:::3.3.2.3.4.6": 0.9941630363464355,
@@ -270,7 +270,7 @@
     "score": 0.997584581375122,
     "x": 0.3583497703075409,
     "y": 0.85862135887146,
-    "abstract": "Patent ID 2927293_abstract_abstract from year 2015",
+    "abstract": "<IPC> ['C09D183/12'] </IPC> Fluorochemical Coating Composition and Article Treated Therewith A fluorochemical coating composition is provided comprising (A) a hydrolyzable group-containing silane modified with a fluoropolyether-containing polymer and (B) a hydrolyzable group-containing silane modified with a fluoropolyether-polysiloxane copolymer in a weight ratio (A)/(B) of 40/60 to 95/5. The composition forms on a substrate a water/oil repellent layer which does not detract from the visibility of the substrate.",
     "year": 2015,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.997584581375122
@@ -282,7 +282,7 @@
     "score": 0.9975783824920654,
     "x": 0.33405163884162903,
     "y": 0.2969391345977783,
-    "abstract": "Patent ID 2796419_abstract_abstract from year 2014",
+    "abstract": "<IPC> ['C02F11/10'] </IPC> OPERATION LOGIC OF AN ORGANIC MATERIAL THERMOHYDROLYSIS SYSTEM Disclosed is an operating logic of an organic material thermal hydrolysis system. One or at least two reactors are used and controlled according to a control program based on an operating logic stored in a PLC or a micro-computer to improve digestion efficiency and to minimize an amount of a sludge dehydrated cake in a dehydration process after the digestion process has been performed. Waste heat generated from a reactor is used to preheat the conditioning tank to save operating energy, and continuously generated waste heat is continuously used.",
     "year": 2014,
     "bref_relevance": {
       "CWW:::3.3.2.3.4.6": 0.9975783824920654
@@ -294,7 +294,7 @@
     "score": 0.9971048831939696,
     "x": 0.3370209336280823,
     "y": 0.873304545879364,
-    "abstract": "Patent ID 3127910_abstract_abstract from year 2017",
+    "abstract": "<IPC> ['C07F7/18', 'C09K3/18'] </IPC> FLUORINE-CONTAINING SILANE COMPOUND A novel fluorine-containing silane compound is provided. The fluorine-containing silane compound is capable of providing excellent water repellency and oil repellency, and is useful as a fluorine-containing silane coupling agent with applicability to a wide variety of applications, even if it has a chemical structure, which is free of a perfluoroalkyl group of 8 or more of carbon atoms; and has no risk of formation of PFOS or PFOA causing bioaccumulation potential and environment adaptability problems. A fluorine-containing silane compound containing at least one of each of a nitrogen-containing perfluoroalkyl group and an alkoxysilyl group in the molecule is selected.",
     "year": 2017,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.9971048831939696
@@ -306,7 +306,7 @@
     "score": 0.9971023201942444,
     "x": 0.33548933267593384,
     "y": 0.879485547542572,
-    "abstract": "Patent ID 2468778_abstract_abstract from year 2012",
+    "abstract": "<IPC> ['C08F20/58', 'C07C233/49', 'C09K3/00', 'C09K3/18'] </IPC> FLUOROALKYL GROUP-CONTAINING N-SUBSTITUTED (METH)ACRYLAMIDE COMPOUND, POLYMER THEREOF, AND USE THEREOF A .compound represented by the following formula (a):\n\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003CH2=CR1-CONJ-CKR2-(CH2)n-COO-Q1-Rf1\u2003\u2003\u2003\u2003\u2003(a)\nis provided. This compound is capable of forming a polymer having an oil repellency equivalent to polymers containing a polyfluoroalkyl group containing at least 8 carbon atoms, although the polyfluoroalkyl group contains up to 6 carbon atoms. In the formula, R1 is hydrogen atom or methyl group, R2 is hydrogen atom or a group represented by - (CH2)m-COO-Q2-Rf2 (r), n and m are independently an integer of 0 to 4, Rf1 and Rf2 are independently a polyfluoroalkyl group or a polyfluoroether group containing 1 to 6 carbon atoms, Q1 and Q2 are independently single bond or a divalent linkage group, J is hydrogen atom or an alkyl group containing 1 to 3 carbon atoms, K is hydrogen atom or an alkyl group containing 1 to 3 carbon atoms, and j and k are independently single bond or an alkylene group containing 1 to 3 carbon atoms with the proviso that j and k are not simultaneously single bond.",
     "year": 2012,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.9971023201942444
@@ -318,7 +318,7 @@
     "score": 0.9971014857292176,
     "x": 0.30573171377182007,
     "y": 0.7153448462486267,
-    "abstract": "Patent ID 2586757_abstract_abstract from year 2013",
+    "abstract": "<IPC> ['C04B40/00'] </IPC> Liquid chromium reducer for highly oxidative cement grinding environments Exemplary liquid compositions for reducing hexavalent chromium in cement, comprise at least one metal chromium reducer, at least one alkylamine or alkanolamine compound, at least one antioxidant or oxygen scavenger, at least one sugar alcohol or carbohydrate or glycoside having ability to chelate or to form an association complex with the metal chromium reducer, and preferably a natural gum or biopolymer polysaccharide stabilizer for the liquid additive composition.",
     "year": 2013,
     "bref_relevance": {
       "FMP:::8.9.4": 0.9971014857292176
@@ -330,7 +330,7 @@
     "score": 0.9970905780792236,
     "x": 0.4146896302700043,
     "y": 0.5914552807807922,
-    "abstract": "Patent ID 2447219_abstract_abstract from year 2012",
+    "abstract": "<IPC> ['C02F1/52', 'C02F1/66', 'C02F101/20', 'C02F101/22', 'C02F103/16'] </IPC> Method for purifying waste water from a stainless steel slag treatment process The present invention relates to a method for purifying highly alkaline waste water from a stainless steel slag treatment process. This waste water contains between 0.5 and 5 mg/l of trivalent chromium (Cr(III)) and between 0.5 and 10 mg/l of molybdenum. To reduce the chromium and molybdenum content a trivalent iron is added to the waste water in the form of a water soluble ferric salt and the trivalent iron is allowed to co-precipitate with said chromium and molybdenum by lowering the pH of the waste water. It was found that by performing the co-precipitation at a pH of 3.5 to 5.7, both the chromium and the molybdenum content could be effectively reduced to a level of less than 0.5 mg/l, and this without having to provide large amounts of trivalent iron in the waste water, without having to repeat the purification process for several times, without having to add sulphide to the waste water, and without having to lower and raise the pH of the waste water for more than one time.",
     "year": 2012,
     "bref_relevance": {
       "FMP:::8.9.4": 0.9970905780792236
@@ -342,7 +342,7 @@
     "score": 0.9970873594284058,
     "x": 0.12575189769268036,
     "y": 0.24466264247894287,
-    "abstract": "Patent ID 3900809_abstract_abstract from year 2021",
+    "abstract": "<IPC> ['B01D53/04', 'C10L3/10', 'C10G5/02'] </IPC> PROCESS AND APPARATUS FOR REMOVING UNWANTED COMPONENTS FROM A GAS MIXTURE The invention proposes a process (100, 200) for removal of unwanted components from a feed gas mixture (A) comprising the unwanted components (A) and further components to be transferred into a purified gas mixture (D), wherein a temperature swing adsorption unit (10) comprising at least two adsorption vessels (11-13) is used, the method comprising cyclically operating the temperature swing adsorption unit (10) in successive operation modes in each of which a different one of the at least two adsorption vessels (11) is operated in an adsorption mode while a further one of the at least two adsorption vessels (12) previously operated in the adsorption mode is operated in a regeneration mode, the adsorption mode comprising forming an adsorption gas stream (B) using a part of the feed gas mixture (A) and passing the adsorption gas stream (B) through the adsorption vessel (11) operated in the adsorption mode, and the regeneration mode comprising passing a regeneration gas stream (C) through the adsorption vessel (12) operated in the regeneration mode, thereby forming the purified gas mixture (D). The regeneration gas stream (C) is formed using a further part of the feed gas mixture (A) and/or a part of the purified gas mixture (D), wherein the regeneration mode comprises a heating phase of 5 to 90 minutes in which the regeneration gas stream (C) is heated to a desorption temperature level of 80 to 350 \u00b0C and is thereafter passed through the adsorption vessel (12) operated in the regeneration mode, wherein the regeneration mode further comprises a cooling phase subsequent to the heating phase in which the regeneration gas stream (C) is passed through the adsorption vessel (12) operated in the regeneration mode without being heated to the desorption temperature level, and wherein at least a part of the regeneration gas stream (C) is recycled and is used in forming the adsorption gas stream (B). A hydrocarbon-rich gas mixture is preferably used as the feed gas mixture (A), the hydrocarbon-rich gas mixture comprising heavy hydrocarbons with at least five carbon atoms and/or water as the unwanted components. Corresponding apparatus is also part of the invention.",
     "year": 2021,
     "bref_relevance": {
       "STS:::7.4.3.2": 0.9970873594284058
@@ -354,7 +354,7 @@
     "score": 0.9966147541999816,
     "x": 0.634389340877533,
     "y": 0.6176936626434326,
-    "abstract": "Patent ID 2492395_abstract_abstract from year 2012",
+    "abstract": "<IPC> ['D21H17/10', 'D21H17/32', 'D21H19/24', 'D21H21/16'] </IPC> Oil and grease resistant treatment compositions The present disclosure relates to aqueous oil and grease resistant treatment compositions for cellulosic materials comprising a fluorocarbon resin, a guar gum and a inorganic phosphate salt. The disclosure also relates to a method for the preparation of cellulosic materials that have oil and grease resistant properties and to cellulosic products resulting from the method described.",
     "year": 2012,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.9966147541999816
@@ -366,7 +366,7 @@
     "score": 0.9966030716896056,
     "x": 0.3051489293575287,
     "y": 0.2755831182003021,
-    "abstract": "Patent ID 2364766_abstract_abstract from year 2011",
+    "abstract": "<IPC> ['B01D53/00', 'B01D53/04', 'B01D53/26', 'C07C1/04', 'C07C1/12'] </IPC> \"Method for the removal of moist in a gas stream\" Method for removal of moist contained in a gaseous product stream (8) having been obtained by reaction of a gaseous feed stream (2) being heated in a process heater (4) prior to the reaction (6) comprising the steps of\nremoving part of the moist by cooling the product stream below its dew point and separating water (14) from the cooled product stream to obtain a partially dried product stream (16);\nremoving remainder of the moist from the partially dried product stream (16) by passing the stream through at least one bed of solid adsorbent (20a,20b) and adsorbing the moist and withdrawing a dried product stream (24) until the adsorbent is saturated with the moist;\nregenerating the saturated adsorbent (20a,20b) by passing at least part (26) of the gaseous feed stream having been heated in the process heater (4) through the bed of loaded adsorbent (20a,20b) and desorbing moist into the heated feed stream and passing the heated and moist laden feed stream (34) to the reaction (6); and\ncooling the regenerated adsorbent (20a,20b) by passing at least a part (36) of the feed stream prior to the heating of the stream through the regenerated adsorbent (20a,20b);\npassing the feed stream (28) being withdrawn from the adsorbent (20a,20b) through the heater (4) and subsequently to the reaction (6).",
     "year": 2011,
     "bref_relevance": {
       "STS:::7.4.3.2": 0.9966030716896056
@@ -378,7 +378,7 @@
     "score": 0.996602177619934,
     "x": 0.4695759415626526,
     "y": 0.7938784956932068,
-    "abstract": "Patent ID 3868789_abstract_abstract from year 2021",
+    "abstract": "<IPC> ['C08B3/10', 'C08B15/04', 'C08B15/06', 'C08L1/02', 'C08L1/10', 'D06M15/05', 'D06M15/07', 'C09J107/02', 'C09D107/02'] </IPC> METHOD FOR PREPARING WATER REPELLENT TEXTILE SUBSTRATES AND PRODUCTS THEREOF The present disclosure relates to methods for producing water repellent textile substrates and products thereof. The methods can be conducted without the use of perfluorocarbons.",
     "year": 2021,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.996602177619934
@@ -390,7 +390,7 @@
     "score": 0.996133029460907,
     "x": 0.3494183421134949,
     "y": 0.8736568689346313,
-    "abstract": "Patent ID 2927292_abstract_abstract from year 2015",
+    "abstract": "<IPC> ['C09D183/12', 'C07F7/00', 'C08G65/336'] </IPC> Fluoropolyether-containing polymer-modified silane, surface treating agent, and article A fluoropolyether-containing polymer-modified silane having (1) is provided wherein Rf is a fluorooxyalkyl or fluorooxyalkylene-containing polymer residue, Y is a divalent to hexavalent hydrocarbon group, R is C1-C4 alkyl or phenyl, X is a hydrolysable group, n is an integer of 1 to 3, m is an integer of 1 to 5, and \u03b1 is 1 or 2. A surface treating agent comprising the silane or partial hydrolytic condensate thereof cures under mild conditions into a water/oil repellent layer having abrasion resistance, weatherability and low dynamic friction.",
     "year": 2015,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.996133029460907
@@ -402,7 +402,7 @@
     "score": 0.9961262941360474,
     "x": 0.3363986909389496,
     "y": 0.8741164803504944,
-    "abstract": "Patent ID 2497788_abstract_abstract from year 2012",
+    "abstract": "<IPC> ['C08F20/30', 'C07C69/76', 'C07C69/86'] </IPC> FLUORINE-CONTAINING COMPOUND, FLUORINE-CONTAINING POLYMER AND FLUORINE-CONTAINING COPOLYMER To provide a fluorinated compound having an RF group with at most 6 carbon atoms, whereby a fluorinated polymer having a highly durable water/oil repellency can be produced, and an environmental load is little, and a fluorinated polymer and a fluorinated copolymer having a highly durable water/oil repellency and presenting little environmental load, obtainable by polymerizing such a fluorinated compound. A fluorinated compound represented by the following formula (I) and its polymer:\n\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003CH2=C(M)COO(CH2)nPhCOO(CH2)mCrF2r+1\u2003\u2003\u2003\u2003\u2003(I)\n(in the formula (I), M is a hydrogen atom, a methyl group or a halogen atom, n is an integer of from 0 to 2, Ph is a phenylene group, m is an integer of from 1 to 4, and r is an integer of from 1 to 6).",
     "year": 2012,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.9961262941360474
@@ -414,7 +414,7 @@
     "score": 0.9961177110671996,
     "x": 0.3378933072090149,
     "y": 0.874662458896637,
-    "abstract": "Patent ID 3401298_abstract_abstract from year 2018",
+    "abstract": "<IPC> ['C07C21/18', 'C03C17/28', 'C07F7/12', 'C07F7/18', 'C07F9/38', 'C09K3/18'] </IPC> NOVEL FLUORINE-CONTAINING COMPOUND HAVING UNSATURATED BOND, AND SURFACE MODIFIER USING SAME To provide a novel fluorine-containing compound that does not include any long chain perfluoroalkyl unit having 8 or more carbon atoms, which is problematic in terms of the environment, and that is excellent in water repellency/oil repellency, and a surface modifier using the compound. [Solution] There are used a fluorine-containing compound represented by the following general formula (1), the following general formula (2) or the following general formula (5): Rf1-(CR1=CR2-X-Rf2)n-Y-Z (1), Rf1-(X-CR1=CR2-Rf2)n-Y-Z (2) or Rf3-(CF=CR3-CR4=CF-Rf4)n-Y-Z (5); and a surface modifier using the compound.",
     "year": 2018,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.9961177110671996
@@ -426,7 +426,7 @@
     "score": 0.99611634016037,
     "x": 0.07049375027418137,
     "y": 0.2155313789844513,
-    "abstract": "Patent ID 4170080_abstract_abstract from year 2023",
+    "abstract": "<IPC> ['D04H1/4242', 'B01D53/04', 'B01D53/06', 'B01D53/44', 'B01D53/72', 'B01D53/73', 'B01D53/83', 'C01B32/30', 'C01B32/354', 'B01J20/20', 'B01J20/28', 'B01J20/34'] </IPC> ADSORPTION ELEMENT BLOCK, ADSORPTION UNIT, ADSORPTION ROTOR, ADSORPTION TREATMENT DEVICE, AND TREATMENT SYSTEM An adsorption element block (140) includes: a housing (141) that has an introduction opening (141a) and a discharge opening (141b); and an adsorption element (142) which is loaded in the housing (141), and allows gas to pass through this adsorption element (142). The housing (141) allows all the gas introduced from the introduction opening (131a) to pass through the adsorption element (142) and subsequently be discharged through the discharge opening (141b). The adsorption element (142) includes an activated-carbon-fiber nonwoven fabric. The activated-carbon-fiber nonwoven fabric has a total weight per unit area of 600 to 6,000 g/m2, a toluene adsorption rate of 25 to 75 wt%, and a fiber diameter of 15 to 120 \u00b5m.",
     "year": 2023,
     "bref_relevance": {
       "STS:::7.4.3.2": 0.99611634016037
@@ -438,7 +438,7 @@
     "score": 0.9956356883049012,
     "x": 0.33709147572517395,
     "y": 0.8755283951759338,
-    "abstract": "Patent ID 3932959_abstract_abstract from year 2022",
+    "abstract": "<IPC> ['C08F214/18', 'C08F218/08', 'C09K3/18', 'C08F2/22'] </IPC> FLUORINE-CONTAINING COPOLYMER, METHOD FOR PRODUCING SAME, WATER REPELLENT OIL REPELLENT AGENT COMPOSITION, AND ARTICLE To provide a fluorinated copolymer capable of obtaining an article excellent in water and oil repellency, and friction durability of water and oil repellency. A fluorinated copolymer having units based on the following monomer a and units based on the following monomer b, wherein the proportion of the units based on the monomer a is from 20 to 50 mol% based on the total number of moles of units constituting the fluorinated copolymer, the mass average molecular weight is from 20,000 to 100,000, and the ratio of the half-width W1 of the peak of the fluorinated copolymer to the peak width W2 in a chromatogram obtainable by high performance liquid chromatography measurement is from 0.35 to 0.55:\nMonomer a: a compound represented by CH2=CH-Rf (Rf: a C1-8 perfluoroalkyl group;\nMonomer b: a monomer copolymerizable with the monomer a.",
     "year": 2022,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.9956356883049012
@@ -450,7 +450,7 @@
     "score": 0.995622217655182,
     "x": 0.12948131561279297,
     "y": 0.24908246099948883,
-    "abstract": "Patent ID 3449996_abstract_abstract from year 2019",
+    "abstract": "<IPC> ['B01D53/04'] </IPC> A TEMPERATURE-SWING ADSORPTION PROCESS A temperature swing adsorption process for removing a target component from a gaseous mixture, said process being carried out in a plurality of reactors, wherein each reactor performs: (a) adsorption of the target component providing a loaded adsorbent and a waste stream; (b) heating of the loaded adsorbent and desorption of target component, providing an output stream; (c) cooling of the adsorbent; a rinse step (a1) before the heating (b), wherein the loaded adsorbent is contacted with a rinse stream containing the target component, producing a purge stream depleted of the target component; a purge step (b1) before the cooling (c), wherein the adsorbent is contacted with the purge stream provided by another reactor while performing the rinse step (a1), thus producing an output stream containing the target component, wherein said rinse stream comprises at least a portion of the output stream provided by another reactor while performing the purge step (b1).",
     "year": 2019,
     "bref_relevance": {
       "STS:::7.4.3.2": 0.995622217655182
@@ -462,7 +462,7 @@
     "score": 0.9951478242874146,
     "x": 0.33568260073661804,
     "y": 0.873855710029602,
-    "abstract": "Patent ID 3786238_abstract_abstract from year 2021",
+    "abstract": "<IPC> ['C09D5/32', 'C09D127/20', 'C09D133/06', 'C08K5/3435'] </IPC> GLOSS RETENTIVE FLUOROCOPOLYMERS FOR COATING APPLICATIONS Disclosed are protective coating compositions having enhanced gloss retention properties formed by steps comprising: (i) providing one or more fluorocopolymers by copolymerization of (1) one or more hydrofluoroolefin monomer(s) selected from the group consisting of hydrofluoroethylenes, hydrofluoropropenes, hydrofluorobutenes, hydrofluoropentenes and combinations of these, (2) one or more vinyl ester monomer(s), and (3) one or more vinyl ether monomer(s), wherein at least a portion of said vinyl ether monomer is a hydroxyl group-containing vinyl ether monomer, wherein the copolymer preferably has a number average molecular weight of greater than about 10,000; (ii) providing a VOC containing carrier for said one or more fluorocopolymers; and (iii) providing a stabilizing agent comprising: a) a radical scavenger and b) an absorber of UV light; and (iv) combining said one or more fluorocopolymers with said carrier and said stabilizing agent to produce a polymeric coating composition.",
     "year": 2021,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.9951478242874146
@@ -474,7 +474,7 @@
     "score": 0.9946557879447936,
     "x": 0.3378925919532776,
     "y": 0.8727577924728394,
-    "abstract": "Patent ID 4122985_abstract_abstract from year 2023",
+    "abstract": "<IPC> ['C08L33/00', 'D21H19/10', 'D21H19/20', 'D21H21/16'] </IPC> NON-FLUORINATED COPOLYMER COMPOSITION AND OIL-RESISTANT AGENT FOR PAPER Provided is a non-fluorinated copolymer composition comprising (1) a non-fluorinated copolymer and (2) acetylene alcohol. The non-fluorinated copolymer (1) preferably contains no styrene skeleton. The non-fluorinated copolymer (1) preferably has (a) repeating units which are formed from an acrylic monomer that has a long-chain hydrocarbon group having 7 to 40 carbon atoms. In addition, the non-fluorinated copolymer (1) preferably has (b) repeating units which are formed from an acrylic monomer that has a hydrophilic group. The non-fluorinated copolymer composition exhibits little foaming during processing and can impart excellent oil resistance and water resistance to a base material.",
     "year": 2023,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.9946557879447936
@@ -486,7 +486,7 @@
     "score": 0.9941863417625428,
     "x": 0.34059739112854004,
     "y": 0.8711868524551392,
-    "abstract": "Patent ID 3015480_abstract_abstract from year 2016",
+    "abstract": "<IPC> ['C08F220/22', 'C09K3/18'] </IPC> SURFACE TREATMENT AGENT The present invention provides a fluorine-containing polymer having (a) a repeating unit derived from a fluorine-containing monomer indicated by the formula CH2=C(-X)-C(=O)-Y Z-Rf, (b) a repeating unit derived from a cyclic-hydrocarbon-group-containing acrylate ester monomer indicated by the formula CH2=CQ11-C(=O)-O-Q12, and (c) a repeating unit derived from an aliphatic-hydrocarbon-group-containing acrylate ester monomer indicated by the formula CH2=CQ21-C(=O)-O-Q22, wherein the fluorine-containing polymer is produced by polymerizing in the presence of one or both of (d) a silicon-containing monomer and a silicon-containing chain transfer agent. The fluorine-containing polymer provides a surface treatment agent that has superior water repellency and oil repellency, and that is such that the fluorine-containing polymer has superior solubility in the surface treatment agent.",
     "year": 2016,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.9941863417625428
@@ -498,7 +498,7 @@
     "score": 0.9941840171813964,
     "x": 0.3337218761444092,
     "y": 0.877987802028656,
-    "abstract": "Patent ID 2497762_abstract_abstract from year 2012",
+    "abstract": "<IPC> ['C07C69/653', 'C08F120/22'] </IPC> FLUORINATED COMPOUND AND FLUORINATED POLYMER To provide a fluorinated compound having an RF group with at most 6 carbon atoms, whereby a fluorinated polymer having a highly durable water/oil repellency can be produced, and an environmental load is little, and a fluorinated polymer having a highly durable water/oil repellency and presenting little environmental load, obtainable by polymerizing such a fluorinated compound. A fluorinated compound represented by the following formula (I) and its polymer:\n\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003CH2=C(CH3)COO(CH2)nPhXCrF2r+1\u2003\u2003\u2003\u2003\u2003(I)\n(in the formula (I), n is an integer of from 0 to 2, Ph is a phenylene group, X is a single bond or a C1-4 alkylene group containing an etheric oxygen atom, and r is an integer of from 2 to 6).",
     "year": 2012,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.9941840171813964
@@ -510,7 +510,7 @@
     "score": 0.9941748380661012,
     "x": 0.363750696182251,
     "y": 0.8569576144218445,
-    "abstract": "Patent ID 3006447_abstract_abstract from year 2016",
+    "abstract": "<IPC> ['C07F7/00', 'C08G65/336'] </IPC> FLUOROCHEMICAL SURFACE TREATING AGENT AND ARTICLE TREATED THEREWITH A fluorochemical surface treating agent comprising a hydrolyzable group-containing silane modified with a fluorooxyalkylene-containing polymer and/or a partial hydrolytic condensate thereof forms a water/oil repellent layer having chemical resistance and mar resistance.",
     "year": 2016,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.9941748380661012
@@ -522,7 +522,7 @@
     "score": 0.9941669702529908,
     "x": 0.3599788248538971,
     "y": 0.8616397380828857,
-    "abstract": "Patent ID 4039755_abstract_abstract from year 2022",
+    "abstract": "<IPC> ['C09D5/16', 'C09D171/00', 'C09K3/18', 'C09D7/20'] </IPC> COATING AGENT COMPOSITION, SURFACE TREATMENT METHOD AND ARTICLE The present invention enables the achievement of a coating agent composition which contains a perfluoropolyether compound (A) of a specific structure, and dissolves into at least one volatile organic solvent that does not contain a fluorine atom without using a fluorine-containing solvent having a boiling point of 260\u00b0C or less at atmospheric pressure by setting the content ratio of a non-functional perfluoropolyether compound (B) relative to a total of 100% by mole of the component (A) and the component (B) to less than 2.5% by mole, while forming a cured coating film by being rapidly cured on a base material, said cured coating film firmly adhering to the base material and exhibiting excellent water repellent oil repellent properties, sliding properties, mold releasability and the like.",
     "year": 2022,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.9941669702529908
@@ -534,7 +534,7 @@
     "score": 0.9941644668579102,
     "x": 0.26863905787467957,
     "y": 0.32473447918891907,
-    "abstract": "Patent ID 2314366_abstract_abstract from year 2011",
+    "abstract": "<IPC> ['B01D53/047'] </IPC> Pressure swing adsorption system with multiple-vessel beds A pressure swing adsorption system comprising two or more composite beds each composite bed comprising adsorbent material and having a composite bed feed end and a composite bed product end, the composite beds having a composite bed feed end manifold and a composite bed product end manifold, wherein each of the composite beds comprises two or more vessels arranged in parallel flow configuration having a vessel feed end manifold and a vessel product end manifold, each vessel containing a portion of the adsorbent material and having a vessel feed end and a vessel product end, wherein the composite bed feed end manifold of a composite bed is adapted to place the feed end of that composite bed in flow communication with the feed ends of the two or more vessels via the vessel feed end manifold, wherein the composite bed product end manifold is adapted to place the product end of that composite bed in flow communication with the product ends of the two or more vessels via the respective vessel product end manifold, and wherein any vessel feed end manifold comprises one or more flow restriction devices, each device being adapted to set the gas flow rate into the feed end of a respective vessel and/or to set the gas flow rate withdrawn from the feed end of the respective vessel, and/or any vessel product end manifold comprises one or more flow restriction devices, each device being adapted to set the gas flow rate into the product end of a respective vessel and/or to set gas flow rate withdrawn from the product end of the respective vessel.",
     "year": 2011,
     "bref_relevance": {
       "STS:::7.4.3.2": 0.9941644668579102
@@ -546,7 +546,7 @@
     "score": 0.9941614270210266,
     "x": 0.3386092185974121,
     "y": 0.8714936971664429,
-    "abstract": "Patent ID 2889316_abstract_abstract from year 2015",
+    "abstract": "<IPC> ['C08F220/24', 'C07C67/47', 'C07C69/54', 'C09K3/18', 'D06M15/248', 'D06M15/277'] </IPC> FLUORINE-CONTAINING COPOLYMER, METHOD FOR PRODUCING SAME, WATER REPELLENT COMPOSITION, AND ARTICLE To provide a fluorinated copolymer which presents little burden on the environment and is capable of imparting excellent water repellency to a surface of an article, a process for its production, a water repellent composition using such a fluorinated copolymer, and an article having a surface treated with such a water repellent composition.A fluorinated copolymer comprising, in specific ratios, units derived from F(CF2)6CH2CH2OC(O)C(CH3)=CH2, units derived from vinyl chloride, units derived from vinylidene chloride, units derived from an alkyl (meh)acrylate having a C12-30 alkyl group, and units derived from a monomer having no fluoroalkyl group and having a cross-linkable functional group, wherein units derived from F(CF2)nCH2CH2OC(O)C(CH3)=CH2 (wherein n is an integer of from 1 to 5) are in at most a specific ratio; a water repellent composition containing such a fluorinated copolymer; and an article treated with such a water repellent composition.",
     "year": 2015,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.9941614270210266
@@ -558,7 +558,7 @@
     "score": 0.9936831593513488,
     "x": 0.35527247190475464,
     "y": 0.8741245269775391,
-    "abstract": "Patent ID 4011936_abstract_abstract from year 2022",
+    "abstract": "<IPC> ['C08G65/336', 'C09K3/18'] </IPC> FLUOROPOLYETHER-GROUP-CONTAINING POLYMER, SURFACE TREATMENT AGENT, AND ARTICLE A surface treatment agent that comprises a fluoropolyether-group-containing polymer represented by general formula (1), which has a hydroxylated silyl group or a hydrolyzable silyl group, and/or a product of partial (hydrolytic) condensation of the polymer. The surface treatment agent is capable of forming cured coating films which are excellent in terms of water and oil repellency and resistance to wear by steel wool and have a small water-sliding angle.\n\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003Formula (1):\u2003\u2003\u2003\u2003\u2003Rf-[CH(V)2]\u03b1\n(In the formula, Rf is a mono- or divalent residue of a polymer including a fluorooxyalkylene group, the V moieties each independently are a monovalent group having a hydroxylated silyl group or hydrolyzable silyl group at the end and having no polar group besides the hydroxylated silyl group or hydrolyzable silyl group, and \u03b1 is 1 or 2.)",
     "year": 2022,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.9936831593513488
@@ -570,7 +570,7 @@
     "score": 0.9931951761245728,
     "x": 0.3718065023422241,
     "y": 0.5513842701911926,
-    "abstract": "Patent ID 4159701_abstract_abstract from year 2023",
+    "abstract": "<IPC> ['C04B28/04', 'C04B40/00', 'C04B111/10'] </IPC> MIXTURE FOR REDUCING CR(VI) CONTAINED IN CEMENT TO CR(III) The reducing mixture of Cr (VI) contained in cements is a mixture of two industrial by-products:on the one hand, filter cake of ferrous sulphate (Filter Salt), as a residue of the manufacture of TiO2 and, on the other, slag of iron silicate from the production of electrolytic copper, to which is added a natural aggregate in a small proportion which acts as a neutralizer of the acidity of the ferrous sulphate (dolomite, calcite and/or slaked lime).",
     "year": 2023,
     "bref_relevance": {
       "FMP:::8.9.4": 0.9931951761245728
@@ -582,7 +582,7 @@
     "score": 0.993188202381134,
     "x": 0.36243999004364014,
     "y": 0.9843801856040955,
-    "abstract": "Patent ID 4092060_abstract_abstract from year 2022",
+    "abstract": "<IPC> ['C08F230/02', 'C09D4/06', 'C09J4/06', 'C08F130/02', 'C09D4/00', 'C09J4/00'] </IPC> POLYMERIZABLE FLAME RETARDANT The present invention relates to non-halogenated and non-metal polymerizable flame retardants, their preparation, compositions containing the same and uses thereof. These flame retardants may be polymerized with other ethylenically unsaturated compounds and chemically bound to the resin matrix thus limiting their migration out of the finished product. The flame retardants of the invention are also more environmentally friendly than conventional halogen-based or metal-based flame retardants.",
     "year": 2022,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.993188202381134
@@ -594,7 +594,7 @@
     "score": 0.9931803345680236,
     "x": 0.58327317237854,
     "y": 0.5377070307731628,
-    "abstract": "Patent ID 3789352_abstract_abstract from year 2021",
+    "abstract": "<IPC> ['C02F9/00', 'C02F1/66', 'C02F1/70', 'C02F1/72', 'C02F1/54', 'C02F1/28', 'C02F1/00', 'C02F1/38', 'C02F103/36', 'C02F103/14', 'C02F101/38', 'C02F1/52', 'C02F101/34', 'C02F103/38'] </IPC> PROCESS FOR TREATMENT OF WASTEWATER CONTAINING PHENOL, ANILINE OR DERIVATIVES THEREOF The present disclosure relates to a process for treatment of wastewater containing phenol or derivatives thereof and/or aniline or derivatives. The process of the present disclosure is simple, economical, and environment friendly, that treats the wastewater via diazotization to obtain treated water comprising phenol or derivatives thereof and/or aniline or derivatives thereof to ppm level. The phenol or derivatives thereof and/or aniline or derivatives thereof, in the wastewater get converted to azo compounds such as 4-hydroxyazobenzene, which is a commercially significant solvent dye compound.",
     "year": 2021,
     "bref_relevance": {
       "CWW:::3.3.2.3.4.6": 0.9931803345680236
@@ -606,7 +606,7 @@
     "score": 0.9926978945732116,
     "x": 0.15057885646820068,
     "y": 0.3094329535961151,
-    "abstract": "Patent ID 4272862_abstract_abstract from year 2023",
+    "abstract": "<IPC> ['B01J20/34'] </IPC> ADSORBENT FOR REMOVING CONTAMINANTS FROM PYROLYSIS OIL The present invention concerns the use of an adsorbent composition in removing impurities from hydrocarbon feedstocks, and a method for regenerating the adsorbent after use.",
     "year": 2023,
     "bref_relevance": {
       "STS:::7.4.3.2": 0.9926978945732116
@@ -618,7 +618,7 @@
     "score": 0.992216944694519,
     "x": 0.3389560878276825,
     "y": 0.8728195428848267,
-    "abstract": "Patent ID 3865524_abstract_abstract from year 2021",
+    "abstract": "<IPC> ['C08F220/24', 'C08F220/34', 'C08F220/56', 'C08L33/16', 'C09K3/00', 'C09K3/18', 'D06M15/277'] </IPC> FLUORINE-CONTAINING POLYMER AND SURFACE TREATMENT AGENT Provided is a surface treatment agent comprising (A) a fluorine-containing polymer including a repeat unit derived from a fluorine-containing monomer (A1) and a repeat unit derived from a hydrocarbon group-bearing fluorine-free monomer (A2), and (B) a liquid medium. The fluorine-free monomer (A2) is preferably at least one monomer selected from the group consisting of (A2-1) R22-C(=O)-NH-R23-O-R21, (A2-2) CH2=C(-R32)-C(=O)-Y31-Z31(-Y32-R31)n, and (A2-3)X41N(H)r-R41. The surface treatment agent imparts an excellent water/oil repellency to base materials, e.g., fibers.",
     "year": 2021,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.992216944694519
@@ -630,7 +630,7 @@
     "score": 0.9917421340942384,
     "x": 0.6815758943557739,
     "y": 0.6173684000968933,
-    "abstract": "Patent ID 4094911_abstract_abstract from year 2022",
+    "abstract": "<IPC> ['B27K5/00', 'B05D7/06', 'B27K5/02', 'B27M1/06'] </IPC> METHOD FOR THE TREATMENT OF A WOODEN MATERIAL AND MATERIAL SO OBTAINED Method for the treatment of a wooden material and wooden material thus obtained.",
     "year": 2022,
     "bref_relevance": {
       "STS:::15.4.6.5": 0.9917421340942384
@@ -642,7 +642,7 @@
     "score": 0.9917343854904176,
     "x": 0.3500221073627472,
     "y": 0.8652875423431396,
-    "abstract": "Patent ID 2762504_abstract_abstract from year 2014",
+    "abstract": "<IPC> ['C08F259/08', 'C09K3/18'] </IPC> WATER-REPELLENT AND OIL-REPELLENT COMPOSITION Disclosed is a fluorine-containing polymer comprising a first polymer formed from first monomers, and a second polymer formed from second monomers, the second monomers being polymerized in the presence of the first polymer, the first monomers and/or the second monomers containing a fluorine-containing monomer (a), and the second monomers containing a halogenated olefin monomer (b). The fluorine-containing polymer imparts excellent water- and oil-repellency to base materials for fiber products and the like, and provides a water-repellent and oil-repellent composition superior at preventing polymer adhesion to rolls during processing.",
     "year": 2014,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.9917343854904176
@@ -654,7 +654,7 @@
     "score": 0.9917238354682922,
     "x": 0.35093021392822266,
     "y": 0.8660700917243958,
-    "abstract": "Patent ID 2927290_abstract_abstract from year 2015",
+    "abstract": "<IPC> ['C09D171/02'] </IPC> Fluorochemical coating composition and article treated therewith A fluorochemical coating composition is provided comprising (A) a hydrolyzable group-containing silane modified with a fluorooxyalkylene-containing polymer and (B) a fluorooxyalkylene-containing polymer having an average molecular weight not higher than the average molecular weight of component (A) in a weight ratio (A)/(B) of 40/60 to 95/5. The composition forms on a substrate a water/oil repellent layer which does not detract from the visibility of the substrate.",
     "year": 2015,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.9917238354682922
@@ -666,7 +666,7 @@
     "score": 0.9897847175598145,
     "x": 0.37954801321029663,
     "y": 0.5921406149864197,
-    "abstract": "Patent ID 2543746_abstract_abstract from year 2013",
+    "abstract": "<IPC> ['C22B19/20', 'C22B3/00', 'C22B1/02'] </IPC> HYDROMETALLURGICAL METHOD FOR THE RECOVERY OF ZINC IN A SULPHUR MEDIUM FROM SULPHURED ZINC CONCENTRATES The zinc concentrate is subjected to the following stages:\na. Roasting of at least part of the zinc concentrate.\nb. Neutral leaching where zinc oxide is dissolved.\nc. Acid leaching where zinc ferrites are leached.\nd. Reduction of the Fe+++ contained in the solution to Fe++ by means of the addition of zinc concentrate.\ne. Neutralization of the acidity in the solution with calcine.\nh. Oxidation of iron and precipitation of jarosite, free of contaminating solids, by means of the injection of oxygen or oxygen-enriched air and the addition of an alkali or an alkaline salt.Additionally, following the neutralization stage (e), it is possible to incorporate a stage (f) to re-leach the residue for the precipitation of arsenic and allied impurities, and a stage (g) of cementation of Cu, and following stage (c) a stage (i) of reduction of iron and direct leaching.",
     "year": 2013,
     "bref_relevance": {
       "FMP:::8.9.4": 0.9897847175598145
@@ -678,7 +678,7 @@
     "score": 0.987808644771576,
     "x": 0.25572076439857483,
     "y": 0.3776428997516632,
-    "abstract": "Patent ID 2471746_abstract_abstract from year 2012",
+    "abstract": "<IPC> ['C02F1/20', 'B01D19/00', 'B01D5/00', 'C02F103/06', 'C02F101/32', 'C02F101/36'] </IPC> Method for treating liquid wastes by closed circuit stripping with cryogenic condensation system The present invention relates to a method for treating aqueous liquid waste containing volatile, chlorinated and not chlorinated, organic compounds, by stripping and cryogenic condensation system of the desorbed contaminants by means of liquid nitrogen and a closed circuit plant for treating said waste.",
     "year": 2012,
     "bref_relevance": {
       "CWW:::3.3.2.3.4.6": 0.987808644771576
@@ -690,7 +690,7 @@
     "score": 0.9868472218513488,
     "x": 0.4362431466579437,
     "y": 0.5227547883987427,
-    "abstract": "Patent ID 2657943_abstract_abstract from year 2013",
+    "abstract": "<IPC> ['G21F9/06', 'G21F9/30'] </IPC> A method for removing the 137 Cs from polluted EAF dusts The present invention refers to a method and related plants for removing, by means of redox reactions, the 137Cs from polluted EAF dusts, with an initial average value of radioactivity concentration either higher or lower than 10,000 Bq/kg, the decontamination from the 137Cs initially present in the EAF dusts having a yield of 98% - 100%; the present invention also refers to the use of chemical-physical destabilisation agents, by means of redox reactions, for obtaining EAF dusts decontaminated from 137Cs.",
     "year": 2013,
     "bref_relevance": {
       "FMP:::8.9.4": 0.9868472218513488
@@ -702,7 +702,7 @@
     "score": 0.9868428111076356,
     "x": 0.3286339044570923,
     "y": 0.5631652474403381,
-    "abstract": "Patent ID 3363918_abstract_abstract from year 2018",
+    "abstract": "<IPC> ['C22B5/02', 'C22B15/00'] </IPC> METHOD FOR EXTRACTING METALS FROM CONCENTRATED SULPHURATED MINERALS CONTAINING METALS BY DIRECT REDUCTION WITH REGENERATION AND RECYCLING OF THE REDUCING AGENT, IRON, AND OF THE FLUX, SODIUM CARBONATE The invention entitled \"Method for extracting metals prom concentrated sulphurated minerals containing metals by direct reduction with regeneration and recycling of the reducing agent, iron, and of the flux, sodium carbonate\" is presented as an alternative to conventional processes for extracting ferrous and non-ferrous metals from sulphurated minerals containing them, applying the improved direct reduction process, i.e. without sulphur dioxide emissions and without producing the slag generated by conventional metallurgy, thus minimizing environmental pollution. In addition, operating costs of the metallurgical process are substantially reduced by regenerating and recycling the reducing agent, iron, and the flux, sodium carbonate.Nowadays, the extraction of metals from mining activity is carried out by conventional and modern processes. On the one hand, we find conventional pyrometallurgical processes, which involve the previous toasting of the mineral before extracting metals in furnaces, and on the other hand, combined pyro, hydro and electrometallurgical processes, in which sulphurated minerals are toasted first, and the dissolved metal to be extracted is then leached and electro-deposited. These processes are highly polluting, though. With respect to modern processes, we find biometallurgy, which uses bacteria for the extraction of metal, with the disadvantage of being slow processes. On the other hand, hydrometallurgy is also used at high pressure, which involves high investment and operating costs.The new metallurgical process consists of:\n- Extraction of metals in the smelting furnace using iron as a reducing agent and sodium carbonate as a flux\n- Selective dissolution in water of sodium sulphide from slag and filtering of waste, ferrous oxide\n- Regeneration of sodium carbonate for recycling\n- Removal of hydrogen sulphide gas and obtaining elemental sulphur\n- Sintering of ferrous oxide agglomerates for subsequent reduction of iron metal\n- Generation of reducing gases, carbon monoxide and hydrogen\n- Regeneration of metal iron for recycling from ferrous oxideThe proposed technological innovation combines novel pyrometallurgical and hydrometallurgical processes, different from conventional ones, which do not require a prior toasting of the sulphurated mineral concentrate, and are technically and economically more advantageous than the currently used processes because it reduces to zero the positive oxidation state of the metal directly, using a single reactor for the extraction of metal. It regenerates and recycles metallurgical inputs with complementary processes, with a high speed in the kinetics of chemical reactions and, all this, without generating slag or polluting gases. As a result, the extraction of metals is achieved at a low operating cost, in an environmentally sustainable manner, thus avoiding high costs for environmental remediation.It is important to point out that the proposed invention can also be applied to the treatment of tailings and environmental liabilities, solving a problem that has been accumulating for years due to mining activity that is not very environmentally responsible and which, until now, has not been possible to remedy due to the high costs involved.Consequently, by applying this process, the economic viability of mining projects is increased, even under a scenario of lower metal prices. The process involved allows mining companies to obtain lower cut-offs and cash costs for their extractive activity and, in turn, allows them to generate higher revenues from the export of metals, rather than the export of mineral concentrates. In addition, as it is a clean and environmentally friendly technology, it allows mine closure costs to be radically reduced. As a result, this process provides a higher level of profitability and sustainability of mining activity.On the other hand, with a gradual implementation of the proposed process in mining activity, the Government will benefit thanks to the increase in the Trade Balance, resulting from increased exports, and to the higher tax revenue that will be generated by higher business income. This, in turn, positively affects regional and local governments for the higher revenues that will be generated from mining royalties. Increased mining activity will imply greater sources of direct and indirect employment generation, as well as boosting other sectors of the economy, such as the steel, metalworking and construction industries. Added to this are the lower costs of remediation of environmental liabilities. In short, it has the potential to generate higher incomes for the Government, and thus greater socio-economic well-being for the population.The advantages of this technological innovation in the environmental field range from the regeneration and recycling of inputs, and the elimination of slag and polluting gases from the extractive process, to the remediation of tailings from current mining activity as well as existing environmental liabilities, resulting in less pollution of rivers, agricultural fields and less impact on natural reserves. In other words, it significantly reduces the environmental footprint of mining activity.Finally, and as a consequence of the aforementioned, this invention manages to improve health standards in the population adjacent to the mines by reducing emissions and toxic waste, as well as by eliminating risks derived from the potential rupture of dams in tailings. Similarly, mining activity, by ceasing to interfere with the population's agricultural, fishing and livestock activities, reduces the possible emergence of social conflicts, thus allowing the viability of mining projects to increase, which in turn translates into greater social works and an increase in the income of the surrounding population. In conclusion, this innovative process for the extraction of metals has the capacity to generate harmony between mining activity, the environment and the population.",
     "year": 2018,
     "bref_relevance": {
       "FMP:::8.9.4": 0.9868428111076356
@@ -714,7 +714,7 @@
     "score": 0.985880732536316,
     "x": 0.33559268712997437,
     "y": 0.8758461475372314,
-    "abstract": "Patent ID 2497763_abstract_abstract from year 2012",
+    "abstract": "<IPC> ['C07C69/653', 'C07C69/76', 'C08F120/22'] </IPC> FLUORINATED COMPOUND AND FLUORINATED POLYMER To provide a fluorinated compound having an RF group with at most 6 carbon atoms, whereby a fluorinated polymer having a highly durable water/oil repellency can be produced, and an environmental load is little, and a fluorinated polymer having a highly durable water/oil repellency and presenting little environmental load, obtainable by polymerizing such a fluorinated compound. A fluorinated compound represented by the following formula (I) and its polymer:\n\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003CH2=C(M)COO(CH2)nPhXPhZCrF2r+1\u2003\u2003\u2003\u2003\u2003(I)\n(in the formula (I), M is a hydrogen atom, a methyl group or a halogen atom, n is an integer of from 0 to 2, Ph is a phenylene group, X is CH2O or OCH2, Z is a single bond, a C1-4 alkylene group containing an etheric oxygen atom, or COO(CH2)m (wherein m is an integer of from 1 to 4), and r is an integer of from 1 to 6).",
     "year": 2012,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.985880732536316
@@ -726,7 +726,7 @@
     "score": 0.9844219088554382,
     "x": 0.32520461082458496,
     "y": 0.5530619025230408,
-    "abstract": "Patent ID 2415726_abstract_abstract from year 2012",
+    "abstract": "<IPC> ['C04B18/14', 'C04B18/04', 'C04B22/14'] </IPC> COMPOSITION FOR REDUCING CR (VI) INTO CEMENT A composition for the reduction of Cr (VI) in cement using slags from electric steel mill oxides from a Waeltz kiln, treated by means of a reducing process, together with iron (II) sulphate from titanium dioxide manufacture.",
     "year": 2012,
     "bref_relevance": {
       "FMP:::8.9.4": 0.9844219088554382
@@ -738,7 +738,7 @@
     "score": 0.9839160442352296,
     "x": 0.6880192160606384,
     "y": 0.48987308144569397,
-    "abstract": "Patent ID 4134177_abstract_abstract from year 2023",
+    "abstract": "<IPC> ['B09B3/00'] </IPC> APPARAUS FOR CONVERTING WASTE TO BIOGAS AND METHOD FOR CONVERTING WASTE TO BIOGAS The purpose of the invention is to reduce various costs including a device manufacturing cost, an energy cost and a running cost by omitting a drying step of a product produced by hydrolyzing a waste with steam, a pellet molding step, and a treatment step for exhaust gas generated by combustion of pellets. A waste biogasification treatment device 1 for subjecting a raw material containing organic waste to hydrolysis treatment and biogasification comprises a hydrolysis device 2 and a biogasification and recovering device 3 for biogasifying the product produced by hydrolysis treatment and recovering generated biogas. The hydrolysis device 2 comprises a treatment vessel 23 having a raw material charging port 21 and a product discharging port 22; a stirring means provided inside the treatment vessel 23 and stirring the raw material; a steam supply pipe 24 for supplying steam to the treatment vessel 23; and a steam exhaust pipe 26 for discharging steam from the treatment vessel 23.",
     "year": 2023,
     "bref_relevance": {
       "CWW:::3.3.2.3.4.6": 0.9839160442352296
@@ -750,7 +750,7 @@
     "score": 0.9834265112876892,
     "x": 0.33659103512763977,
     "y": 0.8727214932441711,
-    "abstract": "Patent ID 4116342_abstract_abstract from year 2023",
+    "abstract": "<IPC> ['C08F220/22', 'C08K5/02', 'C08L27/04', 'C08L33/04', 'C08L33/16', 'D06M15/277'] </IPC> DISPERSION Provided is a dispersion having both product stability and water repellency and/or oil repellency, and comprising a fluorine-containing polymer and a liquid medium, wherein: the fluorine-containing polymer has a Q value of at least 2.0 and contains a repeating unit derived from a fluorine-containing monomer (a) containing a fluoroalkyl group, and a repeating unit derived from a chloride monomer (b), which is at least one selected from among vinyl chloride and vinylidene chloride; and the concentration of the unreacted chloride monomer (b) is at most 2.0 ppm.",
     "year": 2023,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.9834265112876892
@@ -762,7 +762,7 @@
     "score": 0.9824459552764891,
     "x": 0.3115152418613434,
     "y": 0.7192891240119934,
-    "abstract": "Patent ID 3409741_abstract_abstract from year 2018",
+    "abstract": "<IPC> ['C09K3/00', 'A62D3/37', 'C14C3/06', 'A62D101/43'] </IPC> HEXAVALENT CHROMIUM TREATMENT AGENT, AND LEATHER OR LEATHER PRODUCT USING SAME Provided is a hexavalent chromium treatment agent capable of penetrating inside of a leather and capable of reducing not only hexavalent chromium present in the vicinity of the surface of the leather but also hexavalent chromium present inside the leather into trivalent chromium. The hexavalent chromium treatment agent of the present invention comprises a hexavalent chromium-reducing compound capable of reducing hexavalent chromium into trivalent chromium, a nonionic surfactant, and an aqueous solvent. The hexavalent chromium-reducing compound preferably comprises an organic compound (A) that has a specific structure capable of acting to reduce hexavalent chromium into trivalent chromium, that has a hydroxyphenyl group, and that has no aldehyde groups and no carboxyl groups.",
     "year": 2018,
     "bref_relevance": {
       "FMP:::8.9.4": 0.9824459552764891
@@ -774,7 +774,7 @@
     "score": 0.9819823503494264,
     "x": 0.30924323201179504,
     "y": 0.7148945927619934,
-    "abstract": "Patent ID 3594304_abstract_abstract from year 2020",
+    "abstract": "<IPC> ['C09K3/00', 'C14C3/06'] </IPC> POWDERY COMPOSITION FOR HEXAVALENT CHROMIUM TREATMENT, TABLET, AND METHOD FOR PRODUCING LEATHER A powdery composition for hexavalent chromium treatment contains a hexavalent chromium reducing compound component capable of reducing hexavalent chromium into trivalent chromium, and a component capable of trapping moisture in air and dissolving in water. The hexavalent chromium reducing compound component contains an organic compound (A) having the structure represented by chemical formula (1) and capable of acting on hexavalent chromium for reduction into trivalent chromium, having a hydroxyphenyl group, and having no aldehyde groups and no carboxy groups.",
     "year": 2020,
     "bref_relevance": {
       "FMP:::8.9.4": 0.9819823503494264
@@ -786,7 +786,7 @@
     "score": 0.9795268774032592,
     "x": 0.3370056748390198,
     "y": 0.8746768236160278,
-    "abstract": "Patent ID 2554556_abstract_abstract from year 2013",
+    "abstract": "<IPC> ['C08F20/22', 'C07C69/92'] </IPC> FLUORINE-CONTAINING COMPOUND AND FLUORINE-CONTAINING POLYMER To provide a fluorinated compound having an RF group with at most 6 carbon atoms, whereby a fluorinated polymer having a highly durable water/oil repellency can be produced, and an environmental load is little, and a fluorinated polymer having a highly durable water/oil repellency and presenting little environmental load, obtainable by polymerizing such a fluorinated compound.A fluorinated compound represented by the following formula (I) and its polymer:\n\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003CH2=C(M)COOXPhCOO(CH2)mCrF2r+1\u2003\u2003\u2003\u2003\u2003(I)\n(in the formula (I), M is a hydrogen atom, a methyl group or a halogen atom, X is CHR1CH2O or CH2CHR1O, R1 is a C1-4 linear or branched alkyl group or CH2OR 2, R2 is a C1-4 linear or branched alkyl group, Ph is a phenylene group, m is an integer of from 1 to 4, and r is an integer of from 1 to 6).",
     "year": 2013,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.9795268774032592
@@ -798,7 +798,7 @@
     "score": 0.9790276288986206,
     "x": 0.4378461241722107,
     "y": 0.46811574697494507,
-    "abstract": "Patent ID 2565256_abstract_abstract from year 2013",
+    "abstract": "<IPC> ['C10L9/08', 'C10L5/46', 'C10L5/44'] </IPC> Reprocession of polluted biomass streams A process, which may appropriately be called a bio-refinery, is described for reprocessing polluted waste streams containing biomass but also salts, and which is characterized by subjecting the biomass to a thermal hydrolysis step, wherein also salts are washed out, separating the solid and liquid product thereof, drying the solid product, separating the liquid product into, on one hand a concentrate rich in water-soluble salts which is removed, and on the other hand a low-salt water product, and at least partial recycling the low-salt water product upstream in the bio-refinery.",
     "year": 2013,
     "bref_relevance": {
       "CWW:::3.3.2.3.4.6": 0.9790276288986206
@@ -810,7 +810,7 @@
     "score": 0.9780469536781312,
     "x": 0.6475884318351746,
     "y": 0.4818339943885803,
-    "abstract": "Patent ID 2998277_abstract_abstract from year 2016",
+    "abstract": "<IPC> ['C02F1/66', 'C02F11/14', 'C05D3/02', 'C05D9/02', 'C05F7/00', 'C02F1/20', 'C02F1/52', 'C02F11/12', 'C02F3/30', 'C02F101/16'] </IPC> METHOD FOR TREATING BIOLOGICAL MATERIALS ASSOCIATED WITH THE WASTEWATER PURIFICATION CYCLE Method for treating biological materials associated with the wastewater purification cycle, characterized in that it comprises the following steps:\nA1) recovery and supplying of the biological materials FLP0 to be treated to a chemical reactor;\nA2) alkaline conditioning of the biological starting material FLP0 with generation of a product FLP1 with pH&gt;10;\nB) neutralization of the biological mass FLP1, with generation of a liquid biological mass (FLP2);\nC) dehydration of the liquid biological material FLP2;\nwherein:\nsaid biological starting material FLP0 is extracted from a civil and industrial wastewater purification line before the conditioning and/or dehydration treatments and has a dry substance content of not more than 5% by weight,\nand in that the treatment steps A1) to C) are incorporated in the treatment steps of a wastewater purification plant (100), which comprise at least: denitrification, oxidation, nitrification and secondary sedimentation.",
     "year": 2016,
     "bref_relevance": {
       "CWW:::3.3.2.3.4.6": 0.9780469536781312
@@ -822,7 +822,7 @@
     "score": 0.9770686626434326,
     "x": 0.5724788904190063,
     "y": 0.48882433772087097,
-    "abstract": "Patent ID 3447030_abstract_abstract from year 2019",
+    "abstract": "<IPC> ['C02F1/52', 'C02F1/66', 'C02F103/22', 'C02F103/32', 'C02F101/34', 'C02F101/30'] </IPC> PROCESS OF TREATMENT OF AGROINDUSTRIAL WASTE WATER BY REACTION OF ACIDIFICATION WITH ADDITION OF STRONG ACIDS The present invention relates to a process for the treatment of agro-industrial waste water, preferably from slaughterhouses, olive oil presses, cheese industries or wine producing facilities by reaction of acidification with the addition of strong acids, preferably sulfuric, hydrochloric or nitric acid.The application of this process to treatment waste water reduces the level of contamination in terms of organic matter, including dissolved organic matter, monitored by chemical oxygen demand (total and dissolved COD), chemicals such as phosphorus, calcium and magnesium, turbidity, total phenols and characteristic absorbances.Accordingly, the present invention is in the technical field of treatment of effluents from agro-food industries.",
     "year": 2019,
     "bref_relevance": {
       "CWW:::3.3.2.3.4.6": 0.9770686626434326
@@ -834,7 +834,7 @@
     "score": 0.9765838980674744,
     "x": 0.6850056052207947,
     "y": 0.5014715790748596,
-    "abstract": "Patent ID 4154999_abstract_abstract from year 2023",
+    "abstract": "<IPC> ['B09B3/00', 'C02F3/28', 'C02F11/00', 'C02F11/04', 'C02F11/08'] </IPC> WASTE TREATMENT SYSTEM AND WASTE TREATMENT METHOD A waste treatment system includes: at least one reformer for hydrolyzing waste; and a microbial reactor for microbially degrading a reformed material containing at least a solid among the waste hydrolyzed in the at least one reformer.",
     "year": 2023,
     "bref_relevance": {
       "CWW:::3.3.2.3.4.6": 0.9765838980674744
@@ -846,7 +846,7 @@
     "score": 0.975153148174286,
     "x": 0.3420300781726837,
     "y": 0.8854056596755981,
-    "abstract": "Patent ID 2505626_abstract_abstract from year 2012",
+    "abstract": "<IPC> ['C09D183/08'] </IPC> An oil-repellent coating material composition An oil-repellent coating material composition characterized by comprising:\n(A) an alkoxysilane, represented by the following general formula (1), having a hydrocarbon group to which at least one or more fluorine atoms are bonded;\n\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003 Rf[-X-Y-SiR1a(OR2)3-a]m\u2003\u2003\u2003\u2003\u2003(1)\nwherein\nRf represents an alkyl group, an alkenyl group, or an aromatic hydrocarbon group, the group having at least one or more fluorine atoms and 1 to 20 carbon atoms;\nX represents an oxygen atom or a divalent organic group containing an oxygen atom;\nY represents a spacer group represented by (CH(Z)-)n\nwherein Z is a substituent selected from a hydrogen atom, a halogen atom, or a hydrocarbon group having 1 to 3 carbon atoms, and n denotes an integer of 2 to 8;\nR1 and R2 may be the same or different hydrocarbon group(s) having 1 to 10 carbon atoms;\nm is 1 or 2; and\na is 0, 1, or 2); and\n(B) a condensation catalyst.",
     "year": 2012,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.975153148174286
@@ -858,7 +858,7 @@
     "score": 0.9751205444335938,
     "x": 0.3455066382884979,
     "y": 0.6436799168586731,
-    "abstract": "Patent ID 2808074_abstract_abstract from year 2014",
+    "abstract": "<IPC> ['B01D53/68', 'B01D53/78', 'C01G49/10', 'C01B7/07', 'C02F1/72', 'B01F5/02', 'B01F5/10', 'B01F3/04', 'C01G49/00', 'C01G49/14', 'C02F1/74', 'C23F1/46'] </IPC> Hydrogen chloride removal process contact with ferrous compounds In a first aspect, the present invention provides a hydrogen chloride removal process, comprising the steps of:\ni. contacting in a reactor an aqueous solution comprising one or more Fe2+-compounds with a fluid comprising an oxidizing agent, hydrochloric acid gas and optionally chlorine gas; and\nii. oxidizing said Fe2+-compounds to Fe3+-compounds,\nthereby converting said fluid comprising hydrochloric acid gas to an exhaust gas comprising a reduced hydrochloric acid content.Furthermore, the invention also provides in an aqueous ferric chloride solution and/or a ferric chloride-hydrochloride solution obtainable by a process according to the first aspect of the invention and in the use thereof.",
     "year": 2014,
     "bref_relevance": {
       "FMP:::8.9.4": 0.9751205444335938
@@ -870,7 +870,7 @@
     "score": 0.9741519689559937,
     "x": 0.45017537474632263,
     "y": 0.861926257610321,
-    "abstract": "Patent ID 3231828_abstract_abstract from year 2017",
+    "abstract": "<IPC> ['C08G18/70', 'C08G18/73', 'C08G18/75', 'C08G18/78', 'C08G18/79', 'C08G18/28', 'C08G18/32', 'C08G18/36', 'D06M15/564'] </IPC> METHOD FOR PREPARING NON-FLUORINATED URETHANE BASED COATINGS A method for preparing a compound for imparting water repellency and optionally stain release to substrates comprising (i) reacting (a) at least one isocyanate group-containing compound selected from isocyanate, diisocyanate, polyisocyanate, or a mixture thereof, and (b) at least one isocyanate-reactive compound selected from formula (Ia) or (Ib) in a dry organic solvent free of isocyanate-reactive groups:",
     "year": 2017,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.9741519689559937
@@ -882,7 +882,7 @@
     "score": 0.973648965358734,
     "x": 0.1687651425600052,
     "y": 0.2624923288822174,
-    "abstract": "Patent ID 3705169_abstract_abstract from year 2020",
+    "abstract": "<IPC> ['B01D53/02', 'B01D53/047', 'B01D53/06'] </IPC> ADSORPTIVE GAS SEPARATION PROCESS An adsorptive gas separation process and system is provided for separating at least a first component from a multi-component fluid mixture, or specifically for separating carbon dioxide from a combustion gas stream. The adsorptive gas separation process comprises an adsorbing step, a first regenerating step, an optional second regenerating step and an optional conditioning step.",
     "year": 2020,
     "bref_relevance": {
       "STS:::7.4.3.2": 0.973648965358734
@@ -894,7 +894,7 @@
     "score": 0.973170518875122,
     "x": 0.16276662051677704,
     "y": 0.2797669470310211,
-    "abstract": "Patent ID 2489630_abstract_abstract from year 2012",
+    "abstract": "<IPC> ['C01B3/52', 'C01B3/56', 'B01D53/04', 'B01D53/46', 'B01D53/62', 'B01D53/68', 'B01D53/77', 'C01B33/03'] </IPC> HYDROGEN GAS RECOVERY SYSTEM AND HYDROGEN GAS SEPARATION AND RECOVERY METHOD The reaction exhaust gas from which chlorosilanes and hydrogen chloride have been removed in a hydrogen chloride absorption unit (30) is introduced to an adsorption unit (50) to recover a purified hydrogen (S105). Activated carbon is packed in the adsorption unit(50), the gas, which is mainly composed of hydrogen, is passed through the activated carbon-packed layer during which unseparated chlorosilanes, hydrogen chloride, nitrogen, carbon monoxide, methane, and monosilane contained in the gas are adsorbed on the activated carbon and removed from the gas, and thereby the purified hydrogen is obtained. Nitrogen, carbon monoxide, methane and monosilane are a compressed gas in the state of adsorption, whereas hydrogen chloride and chlorosilanes are a liquid in the state of adsorption, and require a vaporization heat during desorption. Using these properties, the separation of hydrogen chloride and chlorosilanes from other impurity components is possible merely by separating the pathways for the desorbed gas.",
     "year": 2012,
     "bref_relevance": {
       "STS:::7.4.3.2": 0.973170518875122
@@ -906,7 +906,7 @@
     "score": 0.9702560901641846,
     "x": 0.3390626609325409,
     "y": 0.8725852966308594,
-    "abstract": "Patent ID 3792328_abstract_abstract from year 2021",
+    "abstract": "<IPC> ['C09K3/18', 'C08F220/22', 'C08F220/54', 'D06M15/244', 'D06M15/277'] </IPC> WATER AND OIL REPELLENT AND TEXTILE PRODUCT Provided is a water and oil repellent comprising: (a) a fluorine-containing monomer represented by the general formula CH2=C(-X)-C(=O)-Y-Z-Rf [where X is a hydrogen atom, a monovalent organic group, or a halogen atom, Y is -0- or -NH-, Z is a direct bond or a divalent organic group, and Rf is a fluoroalkyl group having 1-20 carbon atoms]; and (b) a fluorine-containing copolymer containing a repeating unit derived from nonyl(meth)acrylate. This water and oil repellent can sufficiently achieve both high processing stability and high alcohol repellency (more specifically, isopropyl alcohol-water mixture repellency).",
     "year": 2021,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.9702560901641846
@@ -918,7 +918,7 @@
     "score": 0.9668247699737548,
     "x": 0.44326916337013245,
     "y": 0.5665587782859802,
-    "abstract": "Patent ID 3744692_abstract_abstract from year 2020",
+    "abstract": "<IPC> ['C02F1/52', 'C02F1/66', 'C02F101/20', 'C02F101/22', 'C02F103/16'] </IPC> REMOVAL OF HEAVY METALS FROM AQUEOUS SOLUTIONS The present invention refers to the removal of heavy metals, such as molybdenum and/or tungsten and/or chromium, from aqueous solutions, especially water such as wastewater or aqueous mineral acids, with the help of a lead salt. It further refers to the use of a lead salt, especially lead acetate, for the removal of heavy metals, especially molybdenum, tungsten and/or chromium, from aqueous solutions.",
     "year": 2020,
     "bref_relevance": {
       "FMP:::8.9.4": 0.9668247699737548
@@ -930,7 +930,7 @@
     "score": 0.9663483500480652,
     "x": 0.19195879995822906,
     "y": 0.42257970571517944,
-    "abstract": "Patent ID 2311904_abstract_abstract from year 2011",
+    "abstract": "<IPC> ['C08J9/14', 'C09K5/04'] </IPC> Compositions containing fluorine substituted olefins A composition comprises:\na) at least one fluoroalkene of Formula I:\n\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003 XCF2R3-z\u2003\u2003\u2003\u2003\u2003(I)\nwhere X is a C3 unsaturated, substituted or unsubstituted, alkyl radical, R is independently Cl, F, Br, I or H, and z is 1 to 3; and\nb) one or more compounds selected from the group consisting of difluoromethane (HFC-32), pentafluoroethane (HFC-125), 1,1,2,2-tetrafluoroethane (HFC-134), 1,1,1,2-tetrafluoroethane (HFC-134a), difluoroethane (HFC-152a), 1,1,1,2,3,3,3-heptafluoropropane (HFC-227ea), 1,1,1,3,3,3-hexafluoropropane (HFC-236fa), 1,1,1,3,3-pentafluoropropane (HFC-245fa), 1,1,1,3,3-pentafluorobutane (HFC-365mfc), water, CO2 and combinations of two or more of these.",
     "year": 2011,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.9663483500480652
@@ -942,7 +942,7 @@
     "score": 0.962917685508728,
     "x": 0.30641669034957886,
     "y": 0.0403246134519577,
-    "abstract": "Patent ID 3782712_abstract_abstract from year 2021",
+    "abstract": "<IPC> ['B01D53/053'] </IPC> REDUCING FLUCTUATIONS IN TAIL GAS FLOW AND FUEL PROPERTY FROM AN ADSORPTION UNIT Pressure swing adsorption process for reducing fluctuations in the flow rate of tail gas from the adsorption unit and reducing fluctuations in the stoichiometric oxidant flow rate required to completely combust the tail gas in a reformer furnace. Constant flow rate and constant fuel property can be obtained by intelligent mixing designs.",
     "year": 2021,
     "bref_relevance": {
       "STS:::7.4.3.2": 0.962917685508728
@@ -954,7 +954,7 @@
     "score": 0.9619390368461608,
     "x": 0.5049360990524292,
     "y": 0.5549460649490356,
-    "abstract": "Patent ID 2287118_abstract_abstract from year 2011",
+    "abstract": "<IPC> ['C02F1/52', 'C02F1/46', 'C02F9/00'] </IPC> Process and installation for MAP precipitation and hydrogen production A process and a plant for the removal of ammonium and/or ammonia in wastewaters, are based on the capture of ammonium and/or ammonia present in wastewaters through precipitation of Magnesium Ammonium Phosphate (MAP) by addition of magnesium and phosphorous salts to the wastewaters; the separation of the precipitate from the treated wastewaters; the decomposition of the precipitate in order to recover the energy content of the ammonia removed and recover the magnesium and phosphorous salts previously used; the recycling of the magnesium and phosphorous salts for a new MAP precipitation cycle as reported; and they account for the at least partial conversion of the ammonium and/or ammonia released within the decomposition process into hydrogen and nitrogen by molecular cleavage.",
     "year": 2011,
     "bref_relevance": {
       "CWW:::3.3.2.3.4.6": 0.9619390368461608
@@ -966,7 +966,7 @@
     "score": 0.961938738822937,
     "x": 0.13104887306690216,
     "y": 0.2468780130147934,
-    "abstract": "Patent ID 3919161_abstract_abstract from year 2021",
+    "abstract": "<IPC> ['B01D53/04', 'A23B7/148'] </IPC> SCRUBBER APPARATUS FOR CARBON DIOXIDE REMOVAL BY TEMPERATURE SWING ADSORPTION AND CONTROLLED ATMOSPHERE OPERATING METHOD The disclosure relates to an activated carbon scrubber apparatus 300 and a method of its operation for carbon dioxide (CO2) removal from a controlled environment. The scrubber apparatus is configured to switch between: an adsorption configuration in which it is configured to provide CO2-rich gas from the controlled environment to a sorbent bed 302 comprising activated carbon for CO2 adsorption, and to return the treated gas to the controlled environment; and a regeneration configuration in which it is configured to provide a regenerating gas from outside of the controlled environment to the sorbent bed to desorb CO2 and regenerate the activated carbon, and to discharge CO2-rich gas outside of the controlled environment. The method comprises alternately operating the scrubber apparatus in the adsorption configuration and the regeneration configuration over a plurality of cycles, wherein the scrubber apparatus is operated at a cycle frequency of between 4 and 30 cycles per hour. A heater 303 is controlled to heat the sorbent bed in the regeneration configuration.",
     "year": 2021,
     "bref_relevance": {
       "STS:::7.4.3.2": 0.961938738822937
@@ -978,7 +978,7 @@
     "score": 0.9604867696762084,
     "x": 0.3334099054336548,
     "y": 0.8772570490837097,
-    "abstract": "Patent ID 3604464_abstract_abstract from year 2020",
+    "abstract": "<IPC> ['C09D133/16', 'C08F20/26', 'C09D133/04', 'C09K3/00', 'C09K3/18'] </IPC> SURFACE TREATMENT AGENT AND METHOD FOR PRODUCING SAME A surface treatment agent comprising a polymer according to any one of the following formulae (I) to (III):\n(I) a polymer comprising, as a recurring unit, at least one linear hydrocarbon group-containing monomer represented by general formula (I):\n\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003CH3-(CH2)N-OC (=O)-CR1A=CH2\u2003\u2003\u2003\u2003\u2003(I)\nwherein R1A is H or methyl and N is 1 to 24;\n(II) a polymer comprising, as a recurring unit, at least one fluorine-containing monomer represented by general formula (II):\n\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003RFO-R1B-OC(=O)-CR2=CH2\u2003\u2003\u2003\u2003\u2003(II)\nwherein RF is a group represented by the following formula (1) or (2) :\n\nR1B is a divalent group having a carbon atom number of 2 to 50,\nand R2 is H or methyl, and\nthe proportion of the fluorine-containing monomer being 15% or more on a mass basis; and\n(III) a polymer comprising, as a recurring unit, the at least one linear hydrocarbon group-containing monomer represented by general formula (I) and the at least one fluorine-containing monomer represented by general formula (II), and\nthe proportion of the fluorine-containing monomer being 0% or more to 15% or less on a mass basis.",
     "year": 2020,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.9604867696762084
@@ -990,7 +990,7 @@
     "score": 0.9599806666374208,
     "x": 0.1284564584493637,
     "y": 0.24347615242004395,
-    "abstract": "Patent ID 3266510_abstract_abstract from year 2018",
+    "abstract": "<IPC> ['B01D53/04'] </IPC> PROCESS ENGINEERING ARRANGEMENT AND METHOD FOR OPERATING A PROCESS ENGINEERING ARRANGEMENT A process engineering arrangement comprises a temperature swing adsorption apparatus (1) with at least one adsorber device (10), which is configured to adsorb at least one component of a process gas (G11), in an adsorption mode, and to release the at least one adsorbed component into a purge gas (G12) at a regeneration temperature, in a regeneration mode; a heating device (11), configured to heat the purge gas (G12) to at least the regeneration temperature; and a solar energy device (12) being configured to feed energy to the heating device (11) for operating the heating device (11).",
     "year": 2018,
     "bref_relevance": {
       "STS:::7.4.3.2": 0.9599806666374208
@@ -1002,7 +1002,7 @@
     "score": 0.9560864567756652,
     "x": 0.3332529366016388,
     "y": 0.8772581815719604,
-    "abstract": "Patent ID 3508513_abstract_abstract from year 2019",
+    "abstract": "<IPC> ['C08G65/337'] </IPC> PROCESSES FOR PRODUCING FLUOROETHER COMPOUNDS Processes for producing a fluorinated ether compound are provided by which fluorinated ether compound capable of imparting excellent water/oil repellency, to a substrate surface or a hard coat layer can be easily produced in high yield. A process comprising reacting Rf(CF2)a-CF2OC(=O)Rf4 or Rf(CF2)a-C(=O)X1 with HN(-R1CH=CH2)2 to obtain Rf(CF2)a-C(=)N(-R1CH2=CH2)2 and a process comprising obtaining the above product and reacting the product with OHSiR2nL3-n to obtain Rf(CF2)a-C(=O)N(-R1CH2CH2SiR2nL3-n)2 wherein Rf is a linear polyfluoroalkyl group having at least two carbon atoms and at least one etheric oxygen atom between carbon atoms, Rf4 is a C1-30 perfluoroalkyl group or the like, X1 is a halogen atom, R1 is an alkylene group, a is an integer of from 1 to 5, R2 is a monovalent hydrocarbon group, L is a hydrolyzable group, and n is an integer of from 0 to 2.",
     "year": 2019,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.9560864567756652
@@ -1014,7 +1014,7 @@
     "score": 0.9531415700912476,
     "x": 0.44126102328300476,
     "y": 0.4645537734031677,
-    "abstract": "Patent ID 3967663_abstract_abstract from year 2022",
+    "abstract": "<IPC> ['C02F1/469', 'C02F103/28', 'C02F9/06', 'B01D61/42', 'B01D61/58', 'D21C11/00', 'C01D3/14', 'C01D5/16'] </IPC> METHOD FOR RECOVERING WATER AND CHEMICALS FROM PLANTS FOR TREATING EFFLUENTS FROM PULP AND PAPER FACTORIES Process for upgrading effluent treatment plants for pulp and paper production processes, where salts are removed from the effluent for water reuse and chemical recovery. The process comprises a first dialysis system for salt removal, a second treatment system for recovery or re-concentration, and optionally a post-treatment of the re-concentrate preventing liquid discharges to the environment. In the first system, a reversible electrodialysis or reversible pulsed step is carried out, separating the salts from the effluent, which are sent to the second treatment system to concentrate the salts (re-concentrate) or transform them into useful chemicals for the same process (recovery). Chemical recovery is achieved by electrodialysis with bipolar membranes or metathesis, to reduce the re-concentrate stream, which cannot be reused in the same plant. Lastly, this stream may be treated by spray drying, crystallization or evaporation.",
     "year": 2022,
     "bref_relevance": {
       "CWW:::3.3.2.3.4.6": 0.9531415700912476
@@ -1026,7 +1026,7 @@
     "score": 0.9516801834106444,
     "x": 0.5507520437240601,
     "y": 0.47286689281463623,
-    "abstract": "Patent ID 3772488_abstract_abstract from year 2021",
+    "abstract": "<IPC> ['C02F1/34', 'H05H1/24', 'B01J19/26', 'B01J19/00', 'B01F5/02'] </IPC> DEVICE FOR PURIFYING WASTEWATER METALLIC, NON-METALLIC AND METALLOID POLLUTANT CHEMICAL SPECIES The invention relates to a device for purifying wastewater which contains pollutant chemical species and is used to remove and eliminate said chemical pollutants from wastewater by acting on the characteristics of reactions in terms of their speed, efficiency (close to 100 %), activation temperature, rearrangement of anionic and cationic charges, electrostatic interactions, with possibilities of high treatment volumes of flow and reduced reaction times under one minute. The device is integrated in a standard physicochemical purification plant which provides the physical means for separating the precipitated/coagulated pollutants. The invention also relates to the method which is carried out in said device, which is small-sized and scalable.",
     "year": 2021,
     "bref_relevance": {
       "CWW:::3.3.2.3.4.6": 0.9516801834106444
@@ -1038,7 +1038,7 @@
     "score": 0.9463115930557252,
     "x": 0.6739388704299927,
     "y": 0.4604335427284241,
-    "abstract": "Patent ID 2905328_abstract_abstract from year 2015",
+    "abstract": "<IPC> ['C12M1/107', 'C12M1/00', 'C12M1/26', 'C12M1/34'] </IPC> METHOD AND SYSTEM FOR PROCESSING ORGANIC MATTER BY ANAEROBIC DIGESTION The object of the invention is a method of processing organic matter by anaerobic digestion, in conjunction with biogas production, wherein each of the stages of the process, including hydrolysis of macromolecular compounds to smaller molecules, conversion thereof to organic acids, followed by conversion into acetates, methanol and carbon dioxide, and processing to methane, proceeds within spontaneously created reaction zones under elevated hydraulic pressure, changing in pulses, with involvement of microorganisms that are specific for the given processing stage. The consecutive stages of the process are run in bioreactor chambers of length suitable for reactions proceeding therein, possibly connected in series, preferably filled with a bed. The reagents are transferred from one reaction zone to another in form of pulsating reciprocating stream of reaction mixture. At the same time, the undissolved fraction that needs longer time of digestion and is separated from obtained soluble decomposition products, is continuously removed from the bioreactor to a bioreactor operating in parallel, of extended hydraulic retention time.This invention also relates to a system for processing organic matter, comprising two processing sections operating under different pressures. The first section, for processing the quick-decomposing fraction, comprises the following components connected to one another consecutively: a substrate tank (1), substrate metering pump (2), ascending vessel (4) providing reciprocating movement of the substrate through the section and at least one bioreactor (3), and in the upper part of the bioreactor (3) situated is a separatory zone, from which to the digestate tank (17) is transferred the digestate, separate from the biogas, while the biogas is received by a pipeline provided with a gas valve (9). In the bottom of each bioreactor mounted is an outlet pipeline for removing the sedimenting fraction into the bioreactor (6) placed in the processing section, where required is longer digestion time, fed from the first section, and comprising an ascending vessel (7) and at least one bioreactor (6).",
     "year": 2015,
     "bref_relevance": {
       "CWW:::3.3.2.3.4.6": 0.9463115930557252
@@ -1050,7 +1050,7 @@
     "score": 0.94581800699234,
     "x": 0.6908106207847595,
     "y": 0.5052037835121155,
-    "abstract": "Patent ID 4201541_abstract_abstract from year 2023",
+    "abstract": "<IPC> ['B09B3/60', 'B09B3/30', 'C02F11/04'] </IPC> WASTE TREATMENT SYSTEM AND WASTE TREATMENT METHOD A waste treatment system, includes: at least one reformer for hydrolyzing waste; a microbial reactor for microbially degrading a reformed material containing at least a solid of the waste hydrolyzed by the at least one reformer; a microbial reaction detection device for detecting a state of degradation of the reformed material in the microbial reactor; and an adjustment device for adjusting amount and timing of supply of the reformed material to the microbial reactor, based on a detected value of the microbial reaction detection device.",
     "year": 2023,
     "bref_relevance": {
       "CWW:::3.3.2.3.4.6": 0.94581800699234
@@ -1062,7 +1062,7 @@
     "score": 0.941420316696167,
     "x": 0.5454603433609009,
     "y": 0.4867357313632965,
-    "abstract": "Patent ID 3623347_abstract_abstract from year 2020",
+    "abstract": "<IPC> ['C02F1/44', 'C02F1/467', 'C02F101/12'] </IPC> METHOD FOR REMOVING A CONTAMINANT FROM WASTEWATER FROM AN INDUSTRIAL PLANT AND A SYSTEM FOR PERFORMING SUCH METHOD The present application relates to a method for removing a contaminant from wastewater from an industrial plant. The method comprises the steps of concentrating the wastewater, of electrolyzing the wastewater and of recirculating the electrolyzed wastewater to the industrial plant. The present application further relates to a system arranged to perform the method according to the present application.",
     "year": 2020,
     "bref_relevance": {
       "CWW:::3.3.2.3.4.6": 0.941420316696167
@@ -1074,7 +1074,7 @@
     "score": 0.9404523968696594,
     "x": 0.20551759004592896,
     "y": 0.6811825633049011,
-    "abstract": "Patent ID 3640218_abstract_abstract from year 2020",
+    "abstract": "<IPC> ['C02F1/467', 'C02F101/30', 'C02F101/32'] </IPC> PROCESS OF TREATMENT OF INDUSTRIAL WASTES There is disclosed a treatment process of wastes containing organic molecules with electron-withdrawing groups on conjugated unsaturated bonds, for instance belonging to aromatic rings. The process comprises an electrochemical reduction step and a simultaneous or subsequent oxidation step, optionally also of electrochemical nature.",
     "year": 2020,
     "bref_relevance": {
       "CWW:::3.3.2.3.4.6": 0.9404523968696594
@@ -1086,7 +1086,7 @@
     "score": 0.9350839853286744,
     "x": 0.3212423026561737,
     "y": 0.7436552047729492,
-    "abstract": "Patent ID 2385154_abstract_abstract from year 2011",
+    "abstract": "<IPC> ['C23C22/07', 'C23C22/08', 'C23C22/34'] </IPC> COMPOSITION FOR CHEMICAL CONVERSION COATING, AND MEMBER EQUIPPED WITH CHEMICAL CONVERSION COATING FILM COMPRISING THE COMPOSITION The present invention provides a chemical conversion treatment solution capable of forming a chemical conversion film which a high degree of corrosion resistance and a superior appearance, and from which the amount of elution of hexavalent chromium is reduced. The solution comprises, based on the total composition, 0.1 g/L to 3.0 g/L of an aqueous cobalt-containing substance in cobalt equivalent, 0.05 g/L to 3.0 g/L of a pyrogallol compound in pyrogallol equivalent, and at least 1.5 g/L of an aqueous trivalent chromium-containing substance in chromium equivalent, the composition being acidic and the ratio of the content of the pyrogallol compound in pyrogallol equivalent to the content of the aqueous cobalt-containing substance in cobalt equivalent being 0.015 to 10, wherein a chemical conversion film formed on a metallic surface of a member by contacting the metallic surface with the composition for chemical conversion treatment has a content of hexavalent chromium of 0.050 \u00b5g/cm2 or less as measured by a method compliant with EN15205 after exposure to an environment having a temperature of 80 degrees C and a relative humidity of 100% for 72 hours.",
     "year": 2011,
     "bref_relevance": {
       "FMP:::8.9.4": 0.9350839853286744
@@ -1098,7 +1098,7 @@
     "score": 0.9331320524215698,
     "x": 0.18416227400302887,
     "y": 0.34655311703681946,
-    "abstract": "Patent ID 2674472_abstract_abstract from year 2013",
+    "abstract": "<IPC> ['C10L10/06', 'C10B53/07'] </IPC> The method for conducting of a pyrolysis process of waste plastics and/or rubber and/or organic wastes and the use of a chemical modifier in the method The object of the invention is a continuous process of pyrolysis of plastic waste and/or rubber waste and/or organic waste, comprising subjecting these components to a thermal decomposition in the pyrolytic reactor without any access to air, at a temperature of 200 to 850\u00b0C, under atmospheric pressure or elevated pressure or reduced pressure, characterized in that, into the pyrolytic reactor chamber, a composition of chemical modifier is dosed, which comprises 10 to 30% by weight of water, 20 to 80% by weight of at least one aliphatic alcohol, 5 to 15% by weight of carbamide or its derivatives of R1R2N(CO)NR3R4 type, wherein R1, R2, R3, R4 are the same or different and constitute C1-C6 alkyl groups, and 5 to 15% by weight of monoacetylferrocene, wherein this composition, prior to dispensing into the reactor, is additionally diluted with water, so that after dilution, it contains from about 5% by weight of composition and 95% by weight of water to 15% by weight of composition, and 85% of water.",
     "year": 2013,
     "bref_relevance": {
       "CWW:::3.3.2.3.4.6": 0.9331320524215698
@@ -1110,7 +1110,7 @@
     "score": 0.9311763048171996,
     "x": 0.3282139301300049,
     "y": 0.3063453137874603,
-    "abstract": "Patent ID 3753999_abstract_abstract from year 2020",
+    "abstract": "<IPC> ['C10L9/08', 'C10G1/00', 'B01J19/24'] </IPC> SEMI-CONTINOUS HYDROTHERMAL REACTION SYSTEM In a hydrothermal reaction system for processing raw materials, such as organic waste, clothing, fabrics, etc., with a superheated reaction solution, two or more hydrothermal reactors are used. Each reactor may be a subcritical water reactor. The reaction solution recovered after reacting with a first batch of raw materials deposited in a first reactor is transferred to a second reactor for recycling the reaction solution in reacting with a second batch of raw materials. Discharging the reaction solution after processing one batch is eliminated, and cooling of the reaction solution is not required. Furthermore, while reaction in the first reactor is in progress, the second batch of raw materials is conveniently deposited into the second reactor under atmospheric pressure. The system operates in a semi-continuous manner as a new batch of raw materials is processed shortly after one batch is completed in processing. Stable reaction is thus achievable.",
     "year": 2020,
     "bref_relevance": {
       "CWW:::3.3.2.3.4.6": 0.9311763048171996
@@ -1122,7 +1122,7 @@
     "score": 0.931170642375946,
     "x": 0.2664080560207367,
     "y": 0.3842054605484009,
-    "abstract": "Patent ID 2277834_abstract_abstract from year 2011",
+    "abstract": "<IPC> ['C02F1/66', 'C02F9/00'] </IPC> REVALUATION OF AQUEOUS WASTE STREAMS GENERATED IN THE PROPYLENE OXIDE AND STYRENE CO-PRODUCTION PROCESS A method for revaluation of aqueous waste streams generated in the propylene oxide and styrene co-production processes is disclosed. The method of reducing the organic contaminant load from a highly contaminated aqueous stream and recovery from said stream of organic compounds to be recirculated or used as fuel in the co-generation of energy comprises: acidification of said aqueous stream with inorganic acid at a pH less than 4.5; separation of the two resulting phases at a temperature greater than 40 DEG C; washing of the organic phase produced in the previous step with an aqueous solution of excess acid and separation of the two resulting phases..",
     "year": 2011,
     "bref_relevance": {
       "CWW:::3.3.2.3.4.6": 0.931170642375946
@@ -1134,7 +1134,7 @@
     "score": 0.9297215938568116,
     "x": 0.36245495080947876,
     "y": 0.8586335182189941,
-    "abstract": "Patent ID 4151684_abstract_abstract from year 2023",
+    "abstract": "<IPC> ['C08K5/54', 'C09D123/26', 'C09D183/10', 'C09D191/06', 'C09D191/08'] </IPC> PREPARATIONS FOR INCREASING THE SLIPPERINESS OF SURFACES OF POLYMERIC MATERIALS AND COMPOSITES The technical solution replaces the hydrophobic properties of thin layers of fluorinated polymers with one or two basic components based on silanized paraffin (SP) and silanized polyethylene (SE). The essence of these components are compounds based on silicones and siloxanes, which are more easily hydrolysable and removable by the metabolic processes of living organisms. Both mentioned components can be used both separately and in mutual mixtures. These components can be applied both in the form of solutions, emulsions or suspensions, and also in the form of solid particles - powders. After applying the component to the substrate in the form of a solution, emulsion or suspension, a homogeneous layer will be formed only by spontaneous evaporation of the volatile component of the system.",
     "year": 2023,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.9297215938568116
@@ -1146,7 +1146,7 @@
     "score": 0.92776221036911,
     "x": 0.13621793687343597,
     "y": 0.2489383965730667,
-    "abstract": "Patent ID 3449997_abstract_abstract from year 2019",
+    "abstract": "<IPC> ['B01D53/04'] </IPC> A TEMPERATURE-SWING ADSORPTION PROCESS A temperature swing adsorption process for removing a target component from a gaseous mixture (111) containing water and at least one side component, said process comprising: (a) at least one adsorption step, providing a target component-loaded adsorbent and at least one waste stream (112) depleted of the target component; (b) a desorption step, comprising heating of the loaded adsorbent to a desorption temperature (Tdes) and providing a first output stream (116) containing the desorbed target component; (c) a conditioning step; (d) at least one target component-releasing releasing step bringing the solid adsorbent to a temperature lower than said desorption temperature (Tdes) and providing at least one second output stream (117) containing an amount of the target component and containing water; (e) separating water from said second output stream(s) (117) and (f) subjecting the so obtained water-depleted stream(s) to said adsorption step or to at least one of said adsorption steps.",
     "year": 2019,
     "bref_relevance": {
       "STS:::7.4.3.2": 0.92776221036911
@@ -1158,7 +1158,7 @@
     "score": 0.9238420128822328,
     "x": 0.5929986238479614,
     "y": 0.4822036623954773,
-    "abstract": "Patent ID 2559667_abstract_abstract from year 2013",
+    "abstract": "<IPC> ['C02F1/58', 'B01D61/02', 'C02F1/20', 'C02F1/44', 'C02F1/52', 'C02F1/70', 'C02F1/72', 'C02F3/12', 'C02F3/28', 'C02F3/30', 'C02F9/00'] </IPC> TREATMENT METHOD OF WASTEWATER CONTAINING PERSISTENT SUBSTANCES Disclosed herein are a treatment method and a treatment system which are capable of inexpensively, efficiently, and safely treating wastewater discharged from a gasification plant in large amounts and containing two or more persistent substances.The method for treating wastewater discharged by wet-cleaning of gas obtained by partial oxidation of fossil fuel includes: a free cyanide removal step 2 in which free cyanides contained in the wastewater are removed by acidifying and aerating the wastewater; a biological treatment step 3 in which the wastewater that has been treated in the free cyanide removal step 2 is biologically treated; and a decomposition treatment step 4 in which COD components contained in the wastewater that has been treated in the biological treatment step 3 are decomposed. The decomposition treatment step 4 is preferably performed by an advanced oxidation treatment means, and may include the step of crystallizing calcium sulfate by adding a calcium-based alkaline agent to the wastewater.",
     "year": 2013,
     "bref_relevance": {
       "CWW:::3.3.2.3.4.6": 0.9238420128822328
@@ -1170,7 +1170,7 @@
     "score": 0.9194523096084596,
     "x": 0.536895751953125,
     "y": 0.5879168510437012,
-    "abstract": "Patent ID 3501679_abstract_abstract from year 2019",
+    "abstract": "<IPC> ['B09C1/08', 'C02F1/72', 'C02F11/14', 'B08B3/04'] </IPC> METHOD FOR REMOVAL, SEPARATION OR DEGRADATION OF PERSISTENT ORGANIC POLLUTANTS FROM A SUBSTRATE The present invention relates to a method for removal, separation or degradation of one or more persistent organic pollutant(s) (POPs) present in a substrate, the method comprising (i) the provision of a POP-contaminated substrate; (ii) a first reaction stage comprising adding to the substrate a basic solution (solution 1), and optionally one or more additives selected from the group comprising a transphase catalyst (TPC) and a hydrogen peroxide dissociation catalyst, and incubating the substrate with solution 1 and optionally the one or more additives for at least 15 minutes; and (iii) a second reaction stage comprising adding to the substrate a hydrogen peroxide solution (solution 2) and optionally one or more additives selected from the group comprising a TPC and a hydrogen peroxide dissociation catalyst, wherein a hydrogen peroxide dissociation catalyst and a TPC are added during the first and/or the second reaction stage.",
     "year": 2019,
     "bref_relevance": {
       "CWW:::3.3.2.3.4.6": 0.9194523096084596
@@ -1182,7 +1182,7 @@
     "score": 0.9145758748054504,
     "x": 0.16893251240253448,
     "y": 0.3525671660900116,
-    "abstract": "Patent ID 4239038_abstract_abstract from year 2023",
+    "abstract": "<IPC> ['C10G31/08'] </IPC> HYDROTHERMAL CLEANUP PROCESS A high-rate hydrothermal cleanup (HCU) process and system is disclosed for the rapid hydrolysis of renewable oils and reduction of inorganic and organic contaminants, such as salts, minerals, metals, asphaltenes, polymers, and coke precursors in both renewable oils and petroleum fractions. The process and system is characterized by a very short residence time, high-temperature, high-pressure, turbulent flow, hydrothermal operation. The HCU and integrated vapor-liquid separation system and process results in high yields of oil product that contains significantly reduced concentrations of inorganic and organic contaminants. The process may be operated to produce a concentrated clean glycerin byproduct and short-chain and long-chain free fatty acid product streams. The integrated vapor-liquid separation system and process performs at near atmospheric pressure by taking advantage of the water employed in the cleanup process and the energy imparted by the HCU reactor and eliminates the need for vacuum distillation.",
     "year": 2023,
     "bref_relevance": {
       "CWW:::3.3.2.3.4.6": 0.9145758748054504
@@ -1194,7 +1194,7 @@
     "score": 0.9131117463111876,
     "x": 0.11141854524612427,
     "y": 0.24116286635398865,
-    "abstract": "Patent ID 2415512_abstract_abstract from year 2012",
+    "abstract": "<IPC> ['B01D53/04', 'C01B23/00'] </IPC> PRESSURE VARIATION ADSORPTION METHOD FOR GAS SEPARATION OF GAS AND APPARATUS THEREFOR A method which separates a component which is easily adsorbed by an adsorbent and a component which is not easily adsorbed by the adsorbent, from a feed gas which includes at least two kinds of components, with adsorption columns, wherein the adsorbent is filled in the adsorption columns and has strong adsorbability with respect to at least one kind of component included in the feed gas, and also has weak adsorbability with respect to at least one kind of other components included in the feed gas, and a temperature of the adsorbents which is filled in the column is maintained to be higher than the highest temperature of an ambient temperature around the adsorption columns which is variable throughout the year.",
     "year": 2012,
     "bref_relevance": {
       "STS:::7.4.3.2": 0.9131117463111876
@@ -1206,7 +1206,7 @@
     "score": 0.903838872909546,
     "x": 0.33751603960990906,
     "y": 0.873624324798584,
-    "abstract": "Patent ID 2966110_abstract_abstract from year 2016",
+    "abstract": "<IPC> ['C08G65/48', 'B32B27/30', 'C09D4/00', 'G02B1/10'] </IPC> FLUORINE-CONTAINING ETHER COMPOUND, COMPOSITION FOR FORMING HARD COATING LAYER, AND ARTICLE HAVING HARD COATING LAYER To provide a fluorinated ether compound capable of imparting excellent antifouling properties (oil-based ink repellency, fingerprint stain removability) to a hard coating layer, etc., a composition for forming a hard coating layer, containing such a compound, and an article having an antifouling hard coating layer formed from such a composition.A fluorinated ether compound which has either a poly(oxyperfluoroalkylene) chain having a unit repeated that comprises a group constituted by one to three of at least one type of a C1-2 oxyperfluoroalkylene group and a group constituted by one to three of at least one type of a C3-6 oxyperfluoroalkylene group, bonded to each other, or a poly(oxyperfluoroalkylene) chain having a unit repeated that comprises a C4 oxyperfluoroalkylene group and an oxyperfluoroalkylene group other than such a group, bonded to each other, a linking group bonded to a first terminal of the above poly(oxyperfluoroalkylene) chain, and at least one (meth)acryloyl group bonded to the above linking group; a composition for forming a hard coating layer containing such a compound; and an article having such a hard coating layer.",
     "year": 2016,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.903838872909546
@@ -1218,7 +1218,7 @@
     "score": 0.9033432602882384,
     "x": 0.5059465765953064,
     "y": 0.5273897647857666,
-    "abstract": "Patent ID 2607322_abstract_abstract from year 2013",
+    "abstract": "<IPC> ['C02F1/52', 'C08J11/02', 'C02F101/30', 'C02F101/36', 'C02F103/38'] </IPC> Method for the treatment of wastewater A method is disclosed for the treatment of wastewater deriving from the manufacturing process of halogenated vinyl polymers, in particular vinylidene chloride polymers. The method comprises sequentially adding to the wastewater at least one water soluble carbonate, preferably sodium carbonate, and at least one water soluble calcium salt to form a solid precipitate and separating water from the solid precipitate.",
     "year": 2013,
     "bref_relevance": {
       "CWW:::3.3.2.3.4.6": 0.9033432602882384
@@ -1230,7 +1230,7 @@
     "score": 0.9013951420783995,
     "x": 0.19269952178001404,
     "y": 0.416984498500824,
-    "abstract": "Patent ID 3205638_abstract_abstract from year 2017",
+    "abstract": "<IPC> ['C07C17/20', 'C07C17/25', 'C07C19/01', 'C07C21/04', 'C07C21/18'] </IPC> METHOD FOR PRODUCING FLUORINE GROUP-CONTAINING HALOOLEFIN COMPOUND AND COMPOSITION The present invention provides a method for producing a fluorine-containing haloolefin compound, said method being able to reduce the generation of overly fluorinated compounds as by-products in the production of the fluorine-containing haloolefin compound and produce the target product of high purity at a high yield. The invention also provides a halogenated hydrocarbon composition. The method for producing a haloolefin compound through the step of fluorinating a starting material containing at least one of a pentachloropropane or a tetrachloropropene in the presence of a fluorinating agent in a reactor, according to the present invention, includes the step of adding hydrogen chloride to the reactor. The composition according to the present invention contains: at least one member selected from the group consisting of a pentachloropropane and a tetrachloropropene; and hydrogen chloride.",
     "year": 2017,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.9013951420783995
@@ -1242,7 +1242,7 @@
     "score": 0.8955344557762146,
     "x": 0.5263632535934448,
     "y": 0.5250943899154663,
-    "abstract": "Patent ID 3492187_abstract_abstract from year 2019",
+    "abstract": "<IPC> ['B09C1/02', 'B09C1/08', 'A62D3/33'] </IPC> CURBING TOXIC EMISSIONS FROM REMEDIATED SUBSTRATE A process for curbing of emissions of toxic metals and chelating agent from remediated soils, sediments and other substrates contaminated with toxic metals, said process comprising:\n(a) remediation of contaminated soil, sediment and other substrate with washing solution, said washing solution comprising EDTA or other chelating agent from the group of aminopolycarboxylic acids and their salts and mixtures thereof;\n(b) addition of 0.05 - 5% (w/w, dry weight) of zero-valent Fe or Fe compounds from the group of Fe-oxides and Fe-oxide-hydroxides into the slurry phase of soil, sediment and other substrate;\n(c) mixing of Fe-amended slurry;\n(d) separation of solid phase of remediated and Fe-amended soil, sediment and other substrate;\n(e) ageing of remediated and Fe-amended soil, sediment and other substrate for 0.5 - 45 days.",
     "year": 2019,
     "bref_relevance": {
       "FMP:::8.9.4": 0.8955344557762146
@@ -1254,7 +1254,7 @@
     "score": 0.894572913646698,
     "x": 0.19232498109340668,
     "y": 0.42124485969543457,
-    "abstract": "Patent ID 2336265_abstract_abstract from year 2011",
+    "abstract": "<IPC> ['C09K5/04', 'C08J9/14'] </IPC> Compositions containing fluorine substituted olefins A composition comprises:\n(a) at least one fluoroalkene having the Formula I:\n\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003 XCFzR3-z\u2003\u2003\u2003\u2003\u2003(I)\nwhere X is a C2 to C5 unsaturated, substituted or unsubstituted, radical, each R is independently Cl, F, Br, I or H, and z is 1 to 3; and\n(b) at least one additional component selected from the group consisting of lubricants, stabilizers, metal passivators, corrosion inhibitors, flammability suppressants, compatibilisers, trichlorofluoromethane (CFC-11), dichlorodifluoromethane (CFC-12), difluoromethane (HFC-32), pentafluoroethane(HFC-125), 1,1,2,2-tetrafluoroethane(HFC-134), 1,1,1,2-tetrafluoroethane(HFC-134a), difluoroethane (HFC-152a), 1,1,1,2,3,3,3-heptafluoropropane (HFC-227ea), 1,1,1,3,3,3-hexafluoropropane (HFC-236fa), 1,1,1,3,3-pentafluoropropane (HFC-245fa), 1,1,1,3,3-pentafluorobutane (HFC-365mfc), water, CO2, HFC-152, CF3I, propane, butanes, pentanes, and combinations of two or more of these.",
     "year": 2011,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.894572913646698
@@ -1266,7 +1266,7 @@
     "score": 0.8945552110671997,
     "x": 0.3398582637310028,
     "y": 0.8734386563301086,
-    "abstract": "Patent ID 3059271_abstract_abstract from year 2016",
+    "abstract": "<IPC> ['C08G65/00', 'B32B27/30', 'C08F290/06', 'C08J7/04', 'C09D4/00', 'C09D171/00'] </IPC> FLUORINE-CONTAINING COMPOUND, COMPOSITION FOR FORMING HARD COAT LAYER, AND ARTICLE HAVING HARD COAT LAYER To provide a fluorinated compound capable of imparting excellent antifouling properties (oily ink repellency, fingerprint stain removability) and lubricity to e.g. a hard coat layer, a hard coat layer-forming composition which contains such a fluorinated compound, and an article having a hard coat layer formed from such a composition.A fluorinated compound represented by D1-Rf1-O-CH2-(CmF2mO)n-A (wherein D1 is CF3- or CF3-O-, Rf1 is a C1-20 fluoroalkylene group containing at least one hydrogen atom, a C2-20 fluoroalkylene group containing at least one hydrogen atom and having an etheric oxygen atom between carbon-carbon atoms, etc., m is an integer of from 1 to 6, n is an integer of from 1 to 200, and A is a monovalent organic group having at least one (meth)acryloyl group), a hard coat layer-forming composition which contains such a fluorinated compound, and an article having a hard coat layer formed from such a composition.",
     "year": 2016,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.8945552110671997
@@ -1278,7 +1278,7 @@
     "score": 0.8882087469100952,
     "x": 0.4672328233718872,
     "y": 0.8987069725990295,
-    "abstract": "Patent ID 2662346_abstract_abstract from year 2013",
+    "abstract": "<IPC> ['C04B20/10', 'C04B28/02'] </IPC> Portland cement additives consisting of a reducing agent embedded in a polymer matrix A method is described for reducing hexavalent chromium in common cements and cement based materials comprising the addition, to said cements, of a suitable reducing agent embedded in a polymer matrix consisting of polyvinyl acetate (PVA), polyvinyl alcohol (PVOH), polyglycolic acid (PGA), polyglycolic acid/lactic acid copolymers (PGA/PLA), polyacrylic acid (PAA), maleic polyanhydride (PMA), acrylic or methacrylic acid/acrylic ester/styrene copolymers, acrylic or methacrylic acid/maleic anhydride copolymers, ethylene/maleic anhydride copolymers, polyester/maleic anhydride copolymers, ethylene oxide/polyethylene oxide copolymers.",
     "year": 2013,
     "bref_relevance": {
       "FMP:::8.9.4": 0.8882087469100952
@@ -1290,7 +1290,7 @@
     "score": 0.8867482542991638,
     "x": 0.39513322710990906,
     "y": 0.7717202305793762,
-    "abstract": "Patent ID 2497821_abstract_abstract from year 2012",
+    "abstract": "<IPC> ['C11D3/24', 'C11D7/50', 'C07C21/18', 'C10M107/38', 'C23G5/028'] </IPC> Solvent compositions comprising unsaturated fluorinated hydrocarbons This invention relates to cleaning compositions comprising unsaturated fluorinated hydrocarbons. The invention further relates to use of said cleaning compositions in methods to clean, degrease, deflux, dewater, and deposit fluorolubricant. The invention further relates to novel unsaturated fluorinated hydrocarbons and their use as cleaning compositions and in the methods listed above.",
     "year": 2012,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.8867482542991638
@@ -1302,7 +1302,7 @@
     "score": 0.8852744102478027,
     "x": 0.568152129650116,
     "y": 0.48679858446121216,
-    "abstract": "Patent ID 2508489_abstract_abstract from year 2012",
+    "abstract": "<IPC> ['C02F9/08', 'C02F1/58', 'C02F103/34'] </IPC> METHOD FOR TREATING WASTEWATER PRODUCED DURING THE MANUFACTURE OF NITRO COMPOUNDS This invention relates to a method of treating waste water produced during the nitration of compounds, which includes an appropriate pretreatment process and a vacuum evaporation process, so that acidic or alkaline aqueous waste water which is difficult to treat via conventional processes can be easily treated without performing microorganism treatment.",
     "year": 2012,
     "bref_relevance": {
       "CWW:::3.3.2.3.4.6": 0.8852744102478027
@@ -1314,7 +1314,7 @@
     "score": 0.88233882188797,
     "x": 0.2074461430311203,
     "y": 0.2944803833961487,
-    "abstract": "Patent ID 3495458_abstract_abstract from year 2019",
+    "abstract": "<IPC> ['C10L3/10', 'B01D53/047', 'B01D53/04', 'C10G5/02'] </IPC> HEAVY HYDROCARBON REMOVAL PROCESS The present invention relates to a process of removing heavy hydrocarbons from a gas stream containing methane and heavy hydrocarbons comprising: directing said gas stream to an adsorbent bed of a pressure swing adsorption (PSA) unit so as to adsorb C5+ hydrocarbons from said gas stream and yield a product gas stream having a higher concentration of methane and lower concentration of C5+ hydrocarbons than said gas stream; said PSA unit adsorbing at a temperature of at least 65\u00b0C and a pressure of at least 3447 kPa (500 psia); and regenerating said adsorbent bed in said PSA unit by lowering the pressure and forming a low pressure contamination gas stream containing C5+ hydrocarbons.",
     "year": 2019,
     "bref_relevance": {
       "STS:::7.4.3.2": 0.88233882188797
@@ -1326,7 +1326,7 @@
     "score": 0.8789224624633789,
     "x": 0.3655993342399597,
     "y": 0.4548977315425873,
-    "abstract": "Patent ID 2778213_abstract_abstract from year 2014",
+    "abstract": "<IPC> ['C10G1/00', 'C12P7/10', 'C10L1/02', 'C13K1/02'] </IPC> Systems and methods for treating biomass Embodiments of the present invention provide a system that uses a reversible acid to treat a biomass in a hydrolysis reaction, where the acid is revertible to components that can be recovered, reused, and/or recycled. In certain embodiments, such components of the reversible acid are neutral. In one embodiment, the acid is recovered in the presence of biomass. In another embodiment, the components of the reversible acid is recycled in the same reactor vessel where the pretreatment occurs. In yet another embodiment, the recycling is done in different reactor vessels. By reusing the reversible acid in the same reactor system, embodiments of the invention eliminates or minimizes subsequent processing steps of the components, such as removal from the pretreatment reactor, recovery, and recycling.",
     "year": 2014,
     "bref_relevance": {
       "CWW:::3.3.2.3.4.6": 0.8789224624633789
@@ -1338,7 +1338,7 @@
     "score": 0.8706275820732117,
     "x": 0.5791791677474976,
     "y": 0.48222023248672485,
-    "abstract": "Patent ID 2698353_abstract_abstract from year 2014",
+    "abstract": "<IPC> ['C02F3/34', 'C02F3/30', 'C02F103/28', 'C02F3/12'] </IPC> Wastewater treatment using microbial strains The present invention relates to wastewater treatment in general and to methods of controlling odors and degrading compounds contained in wastewater in particular.",
     "year": 2014,
     "bref_relevance": {
       "CWW:::3.3.2.3.4.6": 0.8706275820732117
@@ -1350,7 +1350,7 @@
     "score": 0.8686679005622864,
     "x": 0.5602467656135559,
     "y": 0.4916943311691284,
-    "abstract": "Patent ID 4223705_abstract_abstract from year 2023",
+    "abstract": "<IPC> ['C02F1/74', 'C02F11/08', 'C02F3/12', 'C02F1/44', 'C02F3/00', 'C02F101/32', 'C02F101/10', 'C02F103/36'] </IPC> SYSTEMS AND PROCESSES FOR TREATMENT OF HIGH TOTAL DISSOLVED SOLIDS WASTEWATER There are provided systems and processes which enable the efficient biological treatment of high salt concentration fluid streams, e.g., spent caustics, to reduce COD concentrations in the fluid streams.",
     "year": 2023,
     "bref_relevance": {
       "CWW:::3.3.2.3.4.6": 0.8686679005622864
@@ -1362,7 +1362,7 @@
     "score": 0.8608720302581787,
     "x": 0.3404798209667206,
     "y": 0.8776581883430481,
-    "abstract": "Patent ID 3715399_abstract_abstract from year 2020",
+    "abstract": "<IPC> ['C08G65/48', 'C08L71/00', 'C08L101/10', 'C09D171/02', 'C09D183/12', 'C09D183/14', 'C09K3/18', 'C09K3/00'] </IPC> FLUOROPOLYETHER-GROUP-CONTAINING POLYMER, SURFACE TREATMENT AGENT, AND ARTICLE Provided are: a fluoropolyether-group-containing polymer capable of forming cured coating films excellent in terms of water and oil repellency and wear resistance; a surface treatment agent comprising the polymer and/or a product of partial (hydrolytic) condensation of the polymer; and an article surface-treated with the treatment agent.The fluoropolyether-group-containing polymer is represented by formula (1) or (2).\n\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003Rf1-[N(V)\u03b2(E)\u03b3]\u03b1\u2003\u2003\u2003\u2003\u2003(1)\n\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003Rf1-[Q-(G)\u03b4-(E')\u03b5-B]\u03b1\u2003\u2003\u2003\u2003\u2003(2)\n(In formulae (1) and (2), Rf1 is a mono- or divalent residue of a fluorooxyalkylene-group-containing polymer; N is a tri- to octavalent organic group; V is a monovalent group containing a hydroxyl or hydrolyzable group; E is a monovalent group including an oxyalkylene group and a hydroxyl or hydrolyzable group; \u03b1 is 1 or 2; \u03b2 and \u03b3 are each 1-6, \u03b2 + \u03b3 being 2-7; Q is a single bond or a divalent organic group; G is a divalent group containing a hydroxyl or hydrolyzable group; E' is a divalent group including an oxyalkylene group and a hydroxyl or hydrolyzable group; B is H, an alkyl group, or a halogen atom; \u03b4 is 1-10; and \u03b5 is 1-10.)",
     "year": 2020,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.8608720302581787
@@ -1374,7 +1374,7 @@
     "score": 0.8594021797180176,
     "x": 0.6177776455879211,
     "y": 0.4579201340675354,
-    "abstract": "Patent ID 3348522_abstract_abstract from year 2018",
+    "abstract": "<IPC> ['C02F9/08', 'C02F9/14', 'C02F3/22'] </IPC> BIOLOGICAL AEROBIC ACTIVATED SLUDGE PROCESS WITH HYDRODYNAMIC SOLID SEPARATION, AND HYDRODYNAMIC SEPARATOR FOR USE IN AN EFFLUENT TREATMENT STATION Patent of invention of process and equipment used in the treatment of effluents by Aerobic Biological Process of Activated Sludge with Hydrodynamic Separation, operating with internal sludge collection and recirculation functions and dissolution of atmospheric air or oxygen, which are executed by equipment that shares the functions of retention of solids and dissolution of gas in the Biological Reactor increasing the hydraulic loading capacity of the secondary decanter, as well as the load absorption capacity of the Biological Reactor and thus almost doubling the treatment capacity in relation to a conventional activated sludge process.",
     "year": 2018,
     "bref_relevance": {
       "CWW:::3.3.2.3.4.6": 0.8594021797180176
@@ -1386,7 +1386,7 @@
     "score": 0.8574387431144714,
     "x": 0.1328459084033966,
     "y": 0.2574712932109833,
-    "abstract": "Patent ID 3199222_abstract_abstract from year 2017",
+    "abstract": "<IPC> ['B01D53/04', 'B01D53/047'] </IPC> HEATER ARRANGEMENT FOR TEPSA SYSTEM The present invention relates to a temperature enhanced pressure swing adsorption (TEPSA) process for removing at least two components including a less strongly adsorbed component and a more strongly adsorbed component from a gas mixture, said process comprising using one single heater and at least two adsorber vessels, in each of which repeated cycles comprising an adsorption phase and subsequent regeneration phases.",
     "year": 2017,
     "bref_relevance": {
       "STS:::7.4.3.2": 0.8574387431144714
@@ -1398,7 +1398,7 @@
     "score": 0.838899552822113,
     "x": 0.3310408592224121,
     "y": 0.8701027631759644,
-    "abstract": "Patent ID 3978546_abstract_abstract from year 2022",
+    "abstract": "<IPC> ['C08G65/336', 'C09D5/16', 'C09D171/00', 'C09K3/18', 'C09D7/61', 'C09D7/63'] </IPC> SURFACE TREATING AGENT 1. A surface-treating agent comprising at least one fluoropolyether group-containing compound of the following formula (1) or (2) a chlorine ion, wherein a chlorine ion concentration in the surface-treating agent is 0.1 ppm by mass or more and 1.0 ppm by mass or less.\n\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003RF1\u03b1 - XA - RSi\u03b2\u2003\u2003\u2003\u2003\u2003(1)\n\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003RSi\u03b3 - XA - RF2- XA - RSi\u03b3\u2003\u2003\u2003\u2003\u2003(2)",
     "year": 2022,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.838899552822113
@@ -1410,7 +1410,7 @@
     "score": 0.8261978030204773,
     "x": 0.2491002380847931,
     "y": 0.731274425983429,
-    "abstract": "Patent ID 2975159_abstract_abstract from year 2016",
+    "abstract": "<IPC> ['C23C18/40', 'H05K3/00'] </IPC> ELECTROLESS COPPER PLATING COMPOSITIONS Electroless copper plating baths include alternative reducing agents to the conventional reducing agents currently used in the electroless plating industry. Examples of the alternative reducing agents are 2,2-dimethoxyacetaldehyde, 2,2-diethoxyacetaldehyde, 2,2-dipropoxyacetaldehyde and 2,2-dibutoxyacetaldehyde. The electroless copper baths are stable and deposit a salmon bright copper deposit on substrates. Exclusion of many environmentally unfriendly conventional reducing agents enables environmentally friendly electroless copper plating baths.",
     "year": 2016,
     "bref_relevance": {
       "FMP:::8.9.4": 0.8261978030204773
@@ -1422,7 +1422,7 @@
     "score": 0.8125283718109131,
     "x": 0.17943379282951355,
     "y": 0.2126236855983734,
-    "abstract": "Patent ID 2535100_abstract_abstract from year 2012",
+    "abstract": "<IPC> ['B01D53/14', 'C02F1/70'] </IPC> Process for chemical destruction of compounds from amine-based carbon capture The present invention provides a liquid handling system comprising a reactor, wherein the reactor contains a gaseous phase and an aqueous phase, both phases being in contact with a heterogeneous hydrogenation catalyst immobilised or suspended within the aqueous phase, wherein the gaseous phase comprises hydrogen and wherein the aqueous phase comprises (i) a solution of amines; and (ii) nitrosamine and/or nitramine compounds resulting from amine-based gas sweetening processes. The invention further relates to a process for in-situ destruction of compounds in the aqueous phase from a scrubber system, wherein the process comprises contacting the aqueous phase with a gas phase and a heterogeneous hydrogenation catalyst, wherein the gas phase comprises hydrogen and wherein the aqueous phase comprises (i) a solution of amines; and (ii) nitrosamine and/or nitramine compounds resulting from amine-based gas sweetening.",
     "year": 2012,
     "bref_relevance": {
       "CWW:::3.3.2.3.4.6": 0.8125283718109131
@@ -1434,7 +1434,7 @@
     "score": 0.8027648329734802,
     "x": 0.42508241534233093,
     "y": 0.8003675937652588,
-    "abstract": "Patent ID 2821449_abstract_abstract from year 2015",
+    "abstract": "<IPC> ['C09D127/12', 'F01D5/28', 'C08K3/00'] </IPC> Fluorinated Polymer Based Coatings and Methods for Applying the Same Fluorinated polymer based coatings include 60 weight percent to 90 weight percent of one or more fluorinated polymers, 1 weight percent to 7 weight percent of one or more erosion resistant fillers, 3 weight percent to 9 weight percent of one or more anticorrosive pigments, 1 weight percent to 4 weight percent of one or more thixotropic agents, and 1 weight percent to 4 weight percent of one or more porosity reducing filler materials.",
     "year": 2015,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.8027648329734802
@@ -1446,7 +1446,7 @@
     "score": 0.8027632236480713,
     "x": 0.33376386761665344,
     "y": 0.8792267441749573,
-    "abstract": "Patent ID 4166580_abstract_abstract from year 2023",
+    "abstract": "<IPC> ['C08F20/28', 'C08F20/58', 'C09K3/18', 'C07C69/653'] </IPC> FLUORINE-CONTAINING COMPOUND There is provided a fluorine-containing compound by which high water-repellency can be obtained despite the small number of fluorine atoms. A compound represented by a general formula (1):\n\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003L-(R1-X-Rf-Y-R2)n ...\u2003\u2003\u2003\u2003\u2003(1)\nwherein L represents an n-valent organic group; n represents an integer of 1 or more; Rf represents a linear or branched fluoroalkylene group containing 1 to 4 of at least any of a CF2 unit, a CFH unit and a CFRf' unit, and optionally having an ether bond, wherein Rf' represents a fluoroalkyl group having 1 carbon atom; R1 represents a direct bond, or a linear or branched hydrocarbon group having 1 to 4 carbon atoms; R2 represents a linear or branched hydrocarbon group having 7 to 29 carbon atoms, containing no fluorine atoms, and optionally having an ether bond; and X and Y each independently represent a direct bond or a divalent linking group.",
     "year": 2023,
     "bref_relevance": {
       "TAN:::4.2.2.3": 0.8027632236480713
@@ -1458,7 +1458,7 @@
     "score": 0.802264392375946,
     "x": 0.21693997085094452,
     "y": 0.408822625875473,
-    "abstract": "Patent ID 2415716_abstract_abstract from year 2012",
+    "abstract": "<IPC> ['C02F1/28', 'B01J20/20', 'C07C41/36', 'C07C43/12'] </IPC> METHOD FOR ADSORBING FLUOROCARBOXYLIC ACID HAVING ETHER BOND AND METHOD FOR COLLECTING SAME Disclosed are an adsorption process whereby a fluorocarboxylic acid having an ether bond can be adsorbed to a high extent by using active carbon without changing the form thereof, and a desorption process whereby the adsorbed material can be desorbed from the active carbon to thereby enable the reuse of the active carbon and the adsorbed material. In the aforesaid processes, a solution containing a fluorocarboxylic acid having an ether bond is contacted with active carbon and thus the active carbon is allowed to adsorb the fluorocarboxylic acid, to thereby give a solution having a small fluorocarboxylic acid content. Then, the active carbon having adsorbed the fluorocarboxylic acid is heated to thereby desorbs the fluorocarboxylic acid from the active carbon.",
     "year": 2012,
     "bref_relevance": {
       "STS:::7.4.3.2": 0.802264392375946

@@ -529,36 +529,55 @@ def process_patent_data():
     scores_df = pd.DataFrame(patent_pollutant_scores)
     print(f"✅ Created {len(scores_df):,} patent-pollutant pairs")
     
-    return scores_df, unique_patents
+    return scores_df, unique_patents, patent_df
 
-def create_patent_chunks(scores_df, patent_coords):
+def create_patent_chunks(scores_df, patent_coords, patent_df=None):
     """Create patent chunks and index."""
     print("📦 Creating patent chunks and index...")
-    
+
     # Filter to only patents with coordinates
     valid_patents = []
     patent_index = {}
     chunk_id = 0
     current_chunk = []
-    
+
+    # Create a lookup for patent abstracts if patent_df is provided
+    patent_abstracts = {}
+    if patent_df is not None:
+        for _, row in patent_df.iterrows():
+            patent_id = row['APPLN_ID']
+            # Check for different possible text fields
+            abstract_text = ""
+            if 'Text' in row and pd.notna(row['Text']) and str(row['Text']).strip():
+                abstract_text = str(row['Text']).strip()
+            elif 'APPLN_ABSTR' in row and pd.notna(row['APPLN_ABSTR']) and str(row['APPLN_ABSTR']).strip():
+                abstract_text = str(row['APPLN_ABSTR']).strip()
+            else:
+                abstract_text = f"Patent ID {patent_id} from year {row.get('APPLN_YR', 'unknown')}"
+
+            patent_abstracts[patent_id] = abstract_text
+
     for _, patent in scores_df.iterrows():
         patent_id = patent['APPLN_ID']
-        
+
         if patent_id in patent_coords:
             coords = patent_coords[patent_id]
-            
+
+            # Get the actual abstract text if available
+            abstract_text = patent_abstracts.get(patent_id, f"Patent ID {patent_id}_abstract from year {patent['APPLN_YR']}")
+
             patent_data = {
                 "id": f"{patent_id}_abstract",
                 "title": str(patent['APPLN_TITLE'])[:100],
                 "score": float(patent['score']),
                 "x": float(coords[0]),
                 "y": float(coords[1]),
-                "abstract": f"Patent ID {patent_id}_abstract from year {patent['APPLN_YR']}",
+                "abstract": abstract_text,
                 "year": int(patent['APPLN_YR']),
                 "pollutant": patent['pollutant'],
                 "bref_relevance": patent['bref_relevance']
             }
-            
+
             current_chunk.append(patent_data)
             patent_index[f"{patent_id}_abstract"] = {
                 "chunk_id": chunk_id,
@@ -567,7 +586,7 @@ def create_patent_chunks(scores_df, patent_coords):
                 "y": float(coords[1]),
                 "title": str(patent['APPLN_TITLE'])[:100],
                 "year": int(patent['APPLN_YR']),
-                "abstract": f"Patent ID {patent_id}_abstract from year {patent['APPLN_YR']}"
+                "abstract": abstract_text
             }
             
             if len(current_chunk) >= CONFIG['chunk_size']:
@@ -711,44 +730,63 @@ def copy_sdg_data():
         else:
             print(f"   ⚠️  SDG file not found: {file_path}")
 
-def create_dashboard_files(scores_df, patent_coords, pollutant_filenames):
+def create_dashboard_files(scores_df, patent_coords, pollutant_filenames, patent_df=None):
     """Create main dashboard files."""
     print("🎯 Creating dashboard files...")
-    
+
+    # Create a lookup for patent abstracts if patent_df is provided
+    patent_abstracts = {}
+    if patent_df is not None:
+        for _, row in patent_df.iterrows():
+            patent_id = row['APPLN_ID']
+            # Check for different possible text fields
+            abstract_text = ""
+            if 'Text' in row and pd.notna(row['Text']) and str(row['Text']).strip():
+                abstract_text = str(row['Text']).strip()
+            elif 'APPLN_ABSTR' in row and pd.notna(row['APPLN_ABSTR']) and str(row['APPLN_ABSTR']).strip():
+                abstract_text = str(row['APPLN_ABSTR']).strip()
+            else:
+                abstract_text = f"Patent ID {patent_id} from year {row.get('APPLN_YR', 'unknown')}"
+
+            patent_abstracts[patent_id] = abstract_text
+
     # Get unique pollutants with coordinates
     valid_patents = set()
     for patent_id in scores_df['APPLN_ID'].unique():
         if patent_id in patent_coords:
             valid_patents.add(patent_id)
-    
+
     valid_scores_df = scores_df[scores_df['APPLN_ID'].isin(valid_patents)]
     unique_pollutants = valid_scores_df['pollutant'].unique()
-    
+
     # Create pollutant files
     patents_kept = 0
     for pollutant in tqdm(unique_pollutants, desc="Creating pollutant files"):
         filename = pollutant_filenames.get(pollutant, clean_filename(pollutant))
         pollutant_data = valid_scores_df[valid_scores_df['pollutant'] == pollutant]
-        
+
         # Sort by score and limit
         pollutant_data = pollutant_data.sort_values('score', ascending=False).head(CONFIG['max_patents_per_pollutant'])
-        
+
         top_patents = []
         scores_dict = {}
         bref_relevance_dict = {}
-        
+
         for _, patent in pollutant_data.iterrows():
             patent_id = patent['APPLN_ID']
             coords = patent_coords[patent_id]
             patents_kept += 1
-            
+
+            # Get the actual abstract text if available
+            abstract_text = patent_abstracts.get(patent_id, f"Patent ID {patent_id}_abstract from year {patent['APPLN_YR']}")
+
             patent_entry = {
                 "id": f"{patent_id}_abstract",
                 "title": str(patent['APPLN_TITLE'])[:100],
                 "score": float(patent['score']),
                 "x": float(coords[0]),
                 "y": float(coords[1]),
-                "abstract": f"Patent ID {patent_id}_abstract from year {patent['APPLN_YR']}",
+                "abstract": abstract_text,
                 "year": int(patent['APPLN_YR']),
                 "bref_relevance": patent['bref_relevance']
             }
@@ -836,14 +874,14 @@ def main():
         create_bref_text_csv(sections)
         
         # Process patent data
-        scores_df, unique_patents = process_patent_data()
-        
+        scores_df, unique_patents, patent_df = process_patent_data()
+
         # Generate coordinates
         print("🗺️  Generating coordinates...")
         patent_coords = generate_coordinates(unique_patents, embeddings_df)
-        
+
         # Create patent chunks and index
-        patent_index = create_patent_chunks(scores_df, patent_coords)
+        patent_index = create_patent_chunks(scores_df, patent_coords, patent_df)
         
         # Process pollutant-specific BREF hierarchies
         pollutant_filenames = process_pollutant_bref_hierarchies(scores_df, bref_hierarchy)
@@ -852,7 +890,7 @@ def main():
         copy_sdg_data()
         
         # Create dashboard files
-        create_dashboard_files(scores_df, patent_coords, pollutant_filenames)
+        create_dashboard_files(scores_df, patent_coords, pollutant_filenames, patent_df)
         
         # Create final package
         zip_path = create_package()
